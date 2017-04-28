@@ -7,7 +7,7 @@ IMAGE_FSTYPES_append_orange-pi-one = " resinos-img"
 # Customize resinos-img
 RESIN_IMAGE_BOOTLOADER_orange-pi-one = "u-boot"
 RESIN_BOOT_PARTITION_FILES_orange-pi-one = " \
-    ${KERNEL_IMAGETYPE}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
+    ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     uImage-sun8i-h3-orangepi-one.dtb:/sun8i-h3-orangepi-one.dtb \
     boot.scr:/boot.scr \
     "
