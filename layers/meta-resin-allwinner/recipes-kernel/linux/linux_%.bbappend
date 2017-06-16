@@ -8,8 +8,12 @@ PV = "4.10.0+git${SRCPV}"
 SRCREV_pn-${PN} = "e43efb1d77fddf5d472dca84c58e706d3f9d5499"
 SRC_URI_append = "git://github.com/megous/linux.git;protocol=git;branch=orange-pi-4.10 \
     file://add-thermal-otg-wireless-opi-lite.patch \
+    file://enable-1200mhz-on-small-orangepis.patch \
 "
 
 SRC_URI_append_orange-pi-lite = " \
     file://add-realtek-8189fs-driver.patch \
 "
+
+# Add these patches once moved to linux 4.11 or 4.12
+# file://fix-i2c2-reg-property.patch \
