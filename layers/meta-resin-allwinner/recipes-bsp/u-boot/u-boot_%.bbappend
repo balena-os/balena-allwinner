@@ -9,4 +9,5 @@ SRC_URI_append = " \
     file://h3-enable-power-led.patch \
     file://h3-set-safe-axi_apb-clock-dividers.patch \
     file://h3-adjust-dram-frequency.patch \
+    file://enable-DT-overlays-support.patch \
     "
