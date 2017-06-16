@@ -6,4 +6,6 @@ inherit resin-u-boot
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 SRC_URI_append = " \
     file://0001-sunxi-h3-Fix-PLL1-setup-to-never-use-dividers.patch \
+    file://h3-enable-power-led.patch \
+    file://h3-set-safe-axi_apb-clock-dividers.patch \
     "
