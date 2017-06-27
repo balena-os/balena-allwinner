@@ -10,4 +10,9 @@ SRC_URI_append = " \
     file://h3-set-safe-axi_apb-clock-dividers.patch \
     file://h3-adjust-dram-frequency.patch \
     file://enable-DT-overlays-support.patch \
+    file://armbianEnv.txt \
     "
+
+do_deploy_append() {
+    install -m 0644 ${WORKDIR}/armbianEnv.txt ${DEPLOYDIR}/armbianEnv.txt
+}
