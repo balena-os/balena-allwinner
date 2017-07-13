@@ -34,3 +34,11 @@ RESIN_CONFIGS[configfs] ?= " \
 RESIN_CONFIGS_DEPS[configfs] ?= " \
     CONFIG_OF_OVERLAY=y \
     "
+
+RESIN_CONFIGS_append_orange-pi-lite = " \
+    8189fs \
+    "
+
+RESIN_CONFIGS[8189fs] ?= " \
+    CONFIG_RTL8189FS=m \
+    "
