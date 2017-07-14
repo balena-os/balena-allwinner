@@ -1,0 +1,86 @@
+#  resin-allwinner repository
+
+This repo builds support for resinOS on the Allwinner SoCs.
+
+Currently Supported SoC versions:
+* H3
+
+Currently Supported Boards:
+* [Orange Pi Lite](http://www.orangepi.org/orangepilite/)
+
+## TODO:
+* currently waiting on overlay2 storage driver support in meta-resin, see PR (https://github.com/resin-os/meta-resin/pull/746)
+* BUG: on the OPi-lite docker0 bridge always ends up on 172.18.x.x and resinOS assumes it to be on 172.17.x.x, this means that containers are unable to resolve DNS. See related issue: https://github.com/resin-os/resinos/issues/229
+* add integration with resinHUP in u-boot
+* BUG: One of the DT overlays throws the following error: `libfdt fdt_path_offset() returned FDT_ERR_NOTFOUND`
+* extend to flasher type images, to allow boards to boot from internal eMMC.
+* support more boards:
+    * Orange pi plus 2e
+    * Nanopi air
+    * Nanopi m1
+    * Nanopi neo 2 plus (H5)
+
+## Clone/Initialize the repository
+
+There are two ways of initializing this repository:
+* Clone this repository with "git clone --recursive".
+
+or
+
+* Run "git clone" and then "git submodule update --init --recursive". This will
+bring in all the needed dependencies.
+
+## Build information
+
+### Build flags
+
+* Consult layers/meta-resin/README.md for info on various build flags (setting
+up serial console support for example) and build prerequisites. Build flags can
+be set by using the build script (barys) or by manually modifying `local.conf`.
+
+See below for using the build script.
+
+### Build this repository
+
+* Run the build script:
+  `./resin-yocto-scripts/build/barys`
+
+* You can also run barys with the -h switch to inspect the available options
+
+### Custom build using this repository
+
+* Run the build script in dry run mode to setup an empty `build` directory
+    `./resin-yocto-scripts/build/barys --remove-build --dry-run`
+
+* Edit the `local.conf` in the `build/conf` directory
+
+* Prepare build's shell environment
+    `source layers/poky/oe-init-build-env`
+
+* Run bitbake (see message outputted when you sourced above for examples)
+
+## Contributing
+
+### Issues
+
+For issues we use an aggregated github repository available [here](https://github.com/resin-os/resinos/issues). When you create issue make sure you select the right labels.
+
+### Pull requests
+
+To contribute send github pull requests targeting this repository.
+
+Please refer to: [Yocto Contribution Guidelines](https://wiki.yoctoproject.org/wiki/Contribution_Guidelines#General_Information) and try to use the commit log format as stated there. Example:
+```
+test.bb: I added a test
+
+[Issue #01]
+
+I'm going to explain here what my commit does in a way that history
+would be useful.
+
+Signed-off-by: Joe Developer <joe.developer@example.com>
+```
+
+Make sure you mention the issue addressed by a PR. See:
+* https://help.github.com/articles/autolinked-references-and-urls/#issues-and-pull-requests
+* https://help.github.com/articles/closing-issues-via-commit-messages/#closing-an-issue-in-a-different-repository
