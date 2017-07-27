@@ -1,12 +1,8 @@
 inherit kernel-resin
 
-SRC_URI_remove = "git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git;protocol=git;branch=master"
-
 FILESEXTRAPATHS_prepend := "${THISDIR}/linux-4.11.5:"
 
-PV = "4.11.0+git${SRCPV}"
-SRCREV_pn-${PN} = "22521549cdcd4d701cf3079c3a822bda5324df9c"
-SRC_URI_append = "git://github.com/megous/linux.git;protocol=git;branch=orange-pi-4.11 \
+SRC_URI_append = " \
     file://add-ad9834-dt-bindings.patch \
     file://add-BergMicro-SPI-flashes.patch \
     file://add-configfs-overlay-for-v4.11.x.patch \
@@ -30,6 +26,7 @@ SRC_URI_append = "git://github.com/megous/linux.git;protocol=git;branch=orange-p
     file://scripts-dtc-import-updates.patch \
     file://spidev-remove-warnings.patch \
     file://spi-sun6i-allow-large-transfers.patch \
+    file://defconfig \
 "
 
 SRC_URI_append_orange-pi-lite = " \
