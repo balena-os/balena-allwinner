@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+
+set -e
+
+# Enable bridge netfilter module
+modprobe br_netfilter
+
+# disable status heartbeat led
+echo none >/sys/class/leds/nanopi\:blue\:status/trigger 
+
+exit 0

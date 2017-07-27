@@ -14,7 +14,7 @@ module.exports =
 		windows: 'http://docs.resin.io/#/pages/installing/gettingStarted.md#windows'
 		osx: 'http://docs.resin.io/#/pages/installing/gettingStarted.md#on-mac-and-linux'
 		linux: 'http://docs.resin.io/#/pages/installing/gettingStarted.md#on-mac-and-linux'
-	supportsBlink: false
+	supportsBlink: true
 
 	options: [ networkOptions.group ]
 
