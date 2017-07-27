@@ -47,7 +47,7 @@ IMAGE_FSTYPES_append_nanopi-neo-air = " resinos-img"
 RESIN_IMAGE_BOOTLOADER_nanopi-neo-air = "u-boot"
 RESIN_BOOT_PARTITION_FILES_nanopi-neo-air = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
-    uImage-sun8i-h3-nanopi-neo.dtb:/dtb/sun8i-h3-nanopi-neo.dtb \
+    uImage-sun8i-h3-nanopi-neo-air.dtb:/dtb/sun8i-h3-nanopi-neo-air.dtb \
     uImage-sun8i-h3-fixup.scr:/dtb/overlay/sun8i-h3-fixup.scr \
     uImage-sun8i-h3-analog-codec.dtbo:/dtb/overlay/sun8i-h3-analog-codec.dtbo \
     uImage-sun8i-h3-cir.dtbo:/dtb/overlay/sun8i-h3-cir.dtbo \
