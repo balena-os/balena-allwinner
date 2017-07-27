@@ -6,7 +6,6 @@
 setenv load_addr "0x44000000"
 setenv overlay_error "false"
 # default values
-setenv rootdev "/dev/mmcblk0p2"
 setenv verbosity "1"
 setenv console "both"
 setenv disp_mem_reserves "off"
@@ -15,8 +14,8 @@ setenv rootfstype "ext4"
 setenv docker_optimizations "on"
 
 # Print boot source
-itest.b *0x28 == 0x00 && echo "U-boot loaded from SD"
-itest.b *0x28 == 0x02 && echo "U-boot loaded from eMMC or secondary SD"
+itest.b *0x28 == 0x00 && echo "U-boot loaded from SD" && setenv rootdev "/dev/mmcblk0p2"
+itest.b *0x28 == 0x02 && echo "U-boot loaded from eMMC or secondary SD" && setenv rootdev "/dev/mmcblk2p2"
 itest.b *0x28 == 0x03 && echo "U-boot loaded from SPI"
 
 echo "Boot script loaded from ${devtype}"
