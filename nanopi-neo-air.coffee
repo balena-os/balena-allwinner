@@ -4,8 +4,8 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 
 module.exports =
 	version: 1
-	slug: 'orange-pi-one'
-	name: 'orange pi one'
+	slug: 'nanopi-neo-air'
+	name: 'Nanopi Neo Air'
 	arch: 'armv7hf'
 	state: 'experimental'
 
@@ -19,11 +19,11 @@ module.exports =
 	options: [ networkOptions.group ]
 
 	yocto:
-		machine: 'orange-pi-one'
+		machine: 'nanopi-neo-air'
 		image: 'resin-image'
 		fstype: 'resinos-img'
 		version: 'yocto-morty'
-		deployArtifact: 'resin-image-orange-pi-one.resinos-img'
+		deployArtifact: 'resin-image-nanopi-neo-air.resinos-img'
 		compressed: true
 
 	configuration:

@@ -17,6 +17,8 @@ SRC_URI_append = "git://github.com/megous/linux.git;protocol=git;branch=orange-p
     file://411-add-overlay-compilation-support.patch \
     file://411-scripts-dtc-import-updates.patch \
     file://411-add-ad9834-dt-bindings.patch \
+    file://411-add-nanopi-neoair.patch \
+    file://411-add-dvfs-emac-nanopi.patch \
 "
 
 SRC_URI_append_orange-pi-lite = " \
@@ -91,6 +93,10 @@ RESIN_CONFIGS[sunxi] ?= " \
     CONFIG_PHY_SUN4I_USB=y \
     CONFIG_PHY_SUN9I_USB=y \
     CONFIG_CRYPTO_DEV_SUN4I_SS=m \
+    CONFIG_BRCMUTIL=m \
+    CONFIG_BRCMFMAC=m \
+    CONFIG_BRCMFMAC_PROTO_BCDC=y \
+    CONFIG_BRCMFMAC_SDIO=y \
     "
 
 RESIN_CONFIGS[audio] ?= " \
