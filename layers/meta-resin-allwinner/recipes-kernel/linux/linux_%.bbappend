@@ -5,7 +5,7 @@ SRC_URI_remove = "git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.g
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
 PV = "4.11.0+git${SRCPV}"
-SRCREV_pn-${PN} = "22521549cdcd4d701cf3079c3a822bda5324df9c"
+SRCREV_pn-${PN} = "e2f9fc4795ca9bf740822cad9e0e54ea33a060fb"
 SRC_URI_append = "git://github.com/megous/linux.git;protocol=git;branch=orange-pi-4.11 \
     file://411-fix-i2c2-reg-property.patch \
     file://411-add-thermal-otg-wireless-opi-lite.patch \
