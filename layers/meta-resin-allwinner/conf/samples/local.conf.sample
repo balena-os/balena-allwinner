@@ -1,5 +1,6 @@
 # Supported machines
 #MACHINE ?= "orange-pi-lite"
+#MACHINE ?= "nanopi-neo-air"
 
 # More info meta-resin/README.md
 #RESIN_CONNECTABLE ?= "1"

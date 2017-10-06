@@ -20,7 +20,7 @@ module.exports =
 
 	yocto:
 		machine: 'nanopi-neo-air'
-		image: 'resin-image-flasher'
+		image: 'resin-image'
 		fstype: 'resinos-img'
 		version: 'yocto-morty'
 		deployArtifact: 'resin-image-nanopi-neo-air.resinos-img'
