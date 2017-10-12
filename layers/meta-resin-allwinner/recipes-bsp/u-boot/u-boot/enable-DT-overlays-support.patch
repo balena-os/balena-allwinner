@@ -1,11 +1,11 @@
 diff --git a/arch/arm/Kconfig b/arch/arm/Kconfig
-index 0ed36cded..822ebb812 100644
+index d7a9b11..388d19b 100644
 --- a/arch/arm/Kconfig
 +++ b/arch/arm/Kconfig
-@@ -578,6 +578,7 @@ config ARCH_SUNXI
+@@ -562,6 +562,7 @@ config ARCH_SUNXI
  	select CMD_GPIO
  	select CMD_MMC if MMC
- 	select CMD_USB if DISTRO_DEFAULTS
+ 	select CMD_USB
 +	select OF_LIBFDT_OVERLAY
  	select DM
  	select DM_ETH
