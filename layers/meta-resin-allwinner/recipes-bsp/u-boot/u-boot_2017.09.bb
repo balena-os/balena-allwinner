@@ -4,7 +4,7 @@ require recipes-bsp/u-boot/u-boot.inc
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/u-boot_2017.09:"
 
-DEPENDS += "dtc-native"
+DEPENDS += " bc-native dtc-native swig-native python3-native "
 
 LICENSE = "GPLv2"
 
@@ -30,6 +30,7 @@ DEFAULT_PREFERENCE_sun8i="1"
 
 # These patches were fetched from the lovely guys at armbian
 SRC_URI = "git://git.denx.de/u-boot.git;branch=master \
+	    file://u-boot-pylibfdt-native-build.patch \
             file://0020-sunxi-call-fdt_fixup_ethernet-again-to-set-macaddr-f.patch  \
             file://4kfix-limit-screen-to-full-hd.patch \
             file://add-a20-olinuxino-micro-emmc-support.patch \
@@ -78,6 +79,8 @@ SPL_BINARY="u-boot-sunxi-with-spl.bin"
 
 UBOOT_ENV_SUFFIX = "scr"
 UBOOT_ENV = "boot"
+
+EXTRA_OEMAKE += ' HOSTLDSHARED="${BUILD_CC} -shared ${BUILD_LDFLAGS} ${BUILD_CFLAGS}" '
 
 do_compile_append() {
     ${B}/tools/mkimage -C none -A arm -T script -d ${WORKDIR}/boot.cmd ${WORKDIR}/${UBOOT_ENV_BINARY}
