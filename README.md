@@ -6,17 +6,14 @@ Currently Supported SoC versions:
 * H3
 
 Currently Supported Boards:
+* [NanoPi Neo Air](http://www.friendlyarm.com/index.php?route=product/product&product_id=151)
 * [Orange Pi Lite](http://www.orangepi.org/orangepilite/)
 
 ## TODO:
-* currently waiting on overlay2 storage driver support in meta-resin, see PR (https://github.com/resin-os/meta-resin/pull/746)
-* BUG: on the OPi-lite docker0 bridge always ends up on 172.18.x.x and resinOS assumes it to be on 172.17.x.x, this means that containers are unable to resolve DNS. See related issue: https://github.com/resin-os/resinos/issues/229
 * add integration with resinHUP in u-boot
 * BUG: One of the DT overlays throws the following error: `libfdt fdt_path_offset() returned FDT_ERR_NOTFOUND`
-* extend to flasher type images, to allow boards to boot from internal eMMC.
 * support more boards:
     * Orange pi plus 2e
-    * Nanopi air
     * Nanopi m1
     * Nanopi neo 2 plus (H5)
 
