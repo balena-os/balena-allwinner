@@ -26,8 +26,6 @@ SRC_URI_append = " \
     file://scripts-dtc-import-updates.patch \
     file://spidev-remove-warnings.patch \
     file://spi-sun6i-allow-large-transfers.patch \
-    file://defconfig \
-"
 
 SRC_URI_append_orange-pi-lite = " \
     file://add-realtek-8189fs-driver.patch \

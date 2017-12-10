@@ -3,7 +3,7 @@
 	url = https://github.com/resin-os/resin-yocto-scripts.git
 [submodule "layers/poky"]
 	path = layers/poky
-	url = http://git.yoctoproject.org/cgit/cgit.cgi/poky
+	url = https://git.yoctoproject.org/git/poky
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded
