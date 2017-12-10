@@ -11,6 +11,6 @@
 Resin specific targets are:
 	resin-image
 
+Nanopi Neo Air (EXPERIMENTAL)       : $ MACHINE=nanopi-neo-air bitbake resin-image
 Orange Pi Lite (EXPERIMENTAL)       : $ MACHINE=orange-pi-lite bitbake resin-image
-orange pi one (EXPERIMENTAL)        : $ MACHINE=orange-pi-one bitbake resin-image
 
