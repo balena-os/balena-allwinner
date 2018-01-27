@@ -7,7 +7,7 @@
 #RESIN_CONNECTABLE_ENABLE_SERVICES ?= "0"
 #TARGET_REPOSITORY ?= ""
 #TARGET_TAG ?= ""
-DOCKER_STORAGE = "overlay2"
+BALENA_STORAGE = "overlay2"
 
 # Set this to 1 if development image is desired
 #DEVELOPMENT_IMAGE = "1"
