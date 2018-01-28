@@ -22,7 +22,7 @@ module.exports =
 		machine: 'orange-pi-lite'
 		image: 'resin-image'
 		fstype: 'resinos-img'
-		version: 'yocto-morty'
+		version: 'yocto-pyro'
 		deployArtifact: 'resin-image-orange-pi-lite.resinos-img'
 		compressed: true
 
