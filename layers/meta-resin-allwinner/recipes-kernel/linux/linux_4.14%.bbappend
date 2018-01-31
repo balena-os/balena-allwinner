@@ -138,8 +138,25 @@ RESIN_CONFIGS_append_orange-pi-lite = " \
     8189fs \
     "
 
+RESIN_CONFIGS_append_orange-pi-plus2 = " \
+    8189es \
+    "
+
 RESIN_CONFIGS[8189fs] ?= " \
     CONFIG_RTL8189FS=m \
+    "
+
+RESIN_CONFIGS[8189es] ?= " \
+    CONFIG_BT_QCA=m \
+    CONFIG_BT_HCIUART_NOKIA=m \
+    CONFIG_BT_HCIUART_3WIRE=y \
+    CONFIG_BT_HCIUART_INTEL=y \
+    CONFIG_BT_HCIUART_BCM=y \
+    CONFIG_BT_HCIUART_QCA=y \
+    CONFIG_BT_HCIUART_AG6XX=y \
+    CONFIG_BT_HCIUART_MRVL=y \
+    CONFIG_BT_HCIVHCI=m \
+    CONFIG_RTL8189ES=m \
     "
 
 RESIN_CONFIGS[sunxi] ?= " \
@@ -192,6 +209,8 @@ RESIN_CONFIGS[sunxi] ?= " \
     CONFIG_BRCMFMAC=m \
     CONFIG_BRCMFMAC_PROTO_BCDC=y \
     CONFIG_BRCMFMAC_SDIO=y \
+    CONFIG_REGULATOR_PWM=m \
+    CONFIG_REGULATOR_SY8106A=m \
     "
 
 RESIN_CONFIGS[audio] ?= " \
