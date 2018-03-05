@@ -1,10 +1,22 @@
 #
+# banana-pi
+#
+
+IMAGE_FSTYPES_append_bananapi = " resinos-img"
+
+# Customize resinos-img
+RESIN_IMAGE_BOOTLOADER_bananapi = "u-boot"
+RESIN_BOOT_PARTITION_FILES_bananapi = " \
+    uImage-initramfs-bananapi.bin:/${KERNEL_IMAGETYPE} \
+    uImage-sun7i-a20-bananapi.dtb:/dtb/sun7i-a20-bananapi.dtb \
+"
+
+#
 # orange-pi-lite
 #
 
 IMAGE_FSTYPES_append_orange-pi-lite = " resinos-img"
 
-# Customize resinos-img
 RESIN_IMAGE_BOOTLOADER_orange-pi-lite = "u-boot"
 RESIN_BOOT_PARTITION_FILES_orange-pi-lite = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
