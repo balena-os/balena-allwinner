@@ -1,0 +1,35 @@
+From 38cf0c1e4a9c1e0f73740f6ba8dc7c39964a0288 Mon Sep 17 00:00:00 2001
+From: Sebastian Panceac <sebastian@resin.io>
+Date: Fri, 16 Mar 2018 15:35:32 +0100
+Subject: [PATCH] Add Resin specific boot command
+
+Upstream-Status: Inappropriate [Resin specific]
+
+Signed-off-by: Sebastian Panceac <sebastian@resin.io>
+---
+ include/configs/sunxi-common.h | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+diff --git a/include/configs/sunxi-common.h b/include/configs/sunxi-common.h
+index 4391a8c..2c82dda 100644
+--- a/include/configs/sunxi-common.h
++++ b/include/configs/sunxi-common.h
+@@ -454,6 +454,15 @@ extern int soft_i2c_gpio_scl;
+ #endif
+ 
+ #include <config_distro_bootcmd.h>
++#undef CONFIG_BOOTCOMMAND
++#define CONFIG_BOOTCOMMAND \
++	"setenv resin_kernel_load_addr ${kernel_addr_r};" \
++	"run resin_set_kernel_root;" \
++	"setenv bootargs ${resin_kernel_root} rootfstype=ext4 rootwait \
++console=$console;" \
++	"fatload ${resin_dev_type} ${resin_dev_index}:${resin_boot_part} ${resin_kernel_load_addr} uimage;" \
++	"fatload ${resin_dev_type} ${resin_dev_index}:${resin_boot_part} ${fdt_addr_r} dtb/${fdtfile};" \
++	"bootm ${resin_kernel_load_addr} - ${fdt_addr_r}"
+ 
+ #ifdef CONFIG_USB_KEYBOARD
+ #define CONSOLE_STDIN_SETTINGS \
+-- 
+2.7.4
+
