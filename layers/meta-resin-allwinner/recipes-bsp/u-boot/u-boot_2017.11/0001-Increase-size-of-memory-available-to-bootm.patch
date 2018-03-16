@@ -1,0 +1,30 @@
+From c83f4c2c732f8de2705da8d57595375f349268c2 Mon Sep 17 00:00:00 2001
+From: Sebastian Panceac <sebastian@resin.io>
+Date: Wed, 14 Mar 2018 16:55:42 +0100
+Subject: [PATCH] Increase size of memory available to bootm
+
+Upstream-Status: Pending
+
+Signed-off-by: Sebastian Panceac <sebastian@resin.io>
+---
+ common/bootm.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/common/bootm.c b/common/bootm.c
+index 9493a30..39e949d 100644
+--- a/common/bootm.c
++++ b/common/bootm.c
+@@ -31,8 +31,8 @@
+ #include <image.h>
+ 
+ #ifndef CONFIG_SYS_BOOTM_LEN
+-/* use 8MByte as default max gunzip size */
+-#define CONFIG_SYS_BOOTM_LEN	0x800000
++/* use 10MByte as default max gunzip size */
++#define CONFIG_SYS_BOOTM_LEN	0xA00000
+ #endif
+ 
+ #define IH_INITRD_ARCH IH_ARCH_DEFAULT
+-- 
+2.7.4
+
