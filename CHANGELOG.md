@@ -1,5 +1,9 @@
 Change log
 -----------
+# v2.12.5+rev3
+## (2018-03-30)
+
+* Remove oe-meta-go layer from .gitmodules [Sebastian]
 
 # v2.12.5+rev2
 ## (2018-03-30)

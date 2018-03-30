@@ -10,9 +10,6 @@
 [submodule "layers/meta-resin"]
 	path = layers/meta-resin
 	url = https://github.com/resin-os/meta-resin
-[submodule "layers/oe-meta-go"]
-	path = layers/oe-meta-go
-	url = https://github.com/mem/oe-meta-go
 [submodule "layers/meta-sunxi"]
 	path = layers/meta-sunxi
 	url = https://github.com/linux-sunxi/meta-sunxi.git
