@@ -1,7 +1,0 @@
-verbosity=1
-console=serial
-overlay_prefix=sun8i-h3
-rootfstype=ext4
-overlays=uart1 i2c0 spi-spidev analog-codec usbhost1 usbhost2
-param_uart1_rtscts=1
-param_spidev_spi_bus=0
