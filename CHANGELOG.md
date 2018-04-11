@@ -1,5 +1,7 @@
 Change log
 -----------
+* Update resin-yocto-scripts to f7718efbbf53369aaacb7eb54e707ee8a5d4fc4b [Sebastian]
+
 # v2.12.5+rev3
 ## (2018-03-30)
 
