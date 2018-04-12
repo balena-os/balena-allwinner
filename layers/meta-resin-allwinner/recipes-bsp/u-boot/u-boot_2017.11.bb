@@ -4,7 +4,7 @@ require recipes-bsp/u-boot/u-boot.inc
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/u-boot_2017.11:"
 
-DEPENDS += " bc-native dtc-native swig-native python3-native "
+DEPENDS += " bc-native dtc-native swig-native python-native "
 
 LICENSE = "GPLv2"
 
@@ -78,7 +78,9 @@ SPL_BINARY="u-boot-sunxi-with-spl.bin"
 UBOOT_ENV_SUFFIX = "scr"
 UBOOT_ENV = "boot"
 
-EXTRA_OEMAKE += ' HOSTLDSHARED="${BUILD_CC} -shared ${BUILD_LDFLAGS} ${BUILD_CFLAGS}" '
+EXTRA_OEMAKE += ' HOSTLDSHARED="${BUILD_CC} -shared ${BUILD_LDFLAGS} ${BUILD_CFLAGS}" \
+                  PYTHON=${STAGING_DIR_NATIVE}/usr/bin/python-native/python STAGING_INCDIR=${STAGING_INCDIR_NATIVE} \
+                  STAGING_LIBDIR=${STAGING_LIBDIR_NATIVE}'
 
 do_compile_append() {
     ${B}/tools/mkimage -C none -A arm -T script -d ${WORKDIR}/boot.cmd ${WORKDIR}/${UBOOT_ENV_BINARY}
