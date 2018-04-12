@@ -23,7 +23,7 @@ module.exports =
 		image: 'resin-image'
 		fstype: 'resinos-img'
 		version: 'yocto-rocko'
-		deployArtifact: 'resin-image-bananapi.resinos-img'
+		deployArtifact: 'resin-image-bananapi-m1-plus.resinos-img'
 		compressed: true
 
 	configuration:
