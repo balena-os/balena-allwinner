@@ -5,7 +5,7 @@ deviceTypesCommon = require '@resin.io/device-types/common'
 module.exports =
 	version: 1
 	slug: 'bananapi-m1-plus'
-	name: 'BananPi-M1+'
+	name: 'BananaPi-M1+'
 	arch: 'armv7hf'
 	state: 'experimental'
 
