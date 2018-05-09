@@ -12,3 +12,11 @@ RESIN_CONFIGS_DEPS[axp_power] = "\
 RESIN_CONFIGS[axp_power] ="\
     CONFIG_AXP20X_POWER=y \
 "
+
+RESIN_CONFIGS_append_orangepi-plus2 = " wifi"
+RESIN_CONFIGS[wifi] ="\
+    CONFIG_WIRELESS=y \
+    CONFIG_RFKILL=y \
+    CONFIG_CFG80211=m \
+    CONFIG_CFG80211_WEXT=y \
+"

@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Add support for the OrangePi Plus2 device [Sebastian]
+
 # v2.12.6+rev1
 ## (2018-05-02)
 
