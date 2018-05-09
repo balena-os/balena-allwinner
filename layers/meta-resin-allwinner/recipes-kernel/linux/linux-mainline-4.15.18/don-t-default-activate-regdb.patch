@@ -1,0 +1,33 @@
+From 1752aabbc60776b8ff887fe6049f0eaab8e57bff Mon Sep 17 00:00:00 2001
+From: Sebastian Panceac <sebastian@resin.io>
+Date: Fri, 4 May 2018 11:48:13 +0200
+Subject: [PATCH] Don't activate by default CFG80211_REQUIRE_SIGNED_REGDB
+
+This kernel configuartion option gets enabled by default when enabling CFG80211 and pulls many other unwanted
+configs.
+Because it cannot be deactivated through usual means, we make it's activation dependent to its parent config: CFG80211_CERTIFICATION_ONUS.
+
+Inspired by: https://patchwork.kernel.org/patch/10172165/
+
+Upstream-Status: Pending
+Signed-off-by: Sebastian Panceac <sebastian@resin.io>
+---
+ net/wireless/Kconfig | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/net/wireless/Kconfig b/net/wireless/Kconfig
+index 1abcc4f..11f270a 100644
+--- a/net/wireless/Kconfig
++++ b/net/wireless/Kconfig
+@@ -89,7 +89,7 @@ config CFG80211_CERTIFICATION_ONUS
+ 
+ config CFG80211_REQUIRE_SIGNED_REGDB
+ 	bool "require regdb signature" if CFG80211_CERTIFICATION_ONUS
+-	default y
++	default CFG80211_CERTIFICATION_ONUS
+ 	select SYSTEM_DATA_VERIFICATION
+ 	help
+ 	  Require that in addition to the "regulatory.db" file a
+-- 
+2.7.4
+

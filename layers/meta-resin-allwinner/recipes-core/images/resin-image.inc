@@ -1,4 +1,23 @@
 #
+# Orange Pi Plus2
+#
+
+IMAGE_FSTYPES_append_orangepi-plus2 = " resinos-img"
+
+# Customize resinos-img
+RESIN_IMAGE_BOOTLOADER_orangepi-plus2 = "u-boot"
+RESIN_BOOT_PARTITION_FILES_orangepi-plus2 = " \
+    ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
+    uImage-sun8i-h3-orangepi-plus.dtb:/dtb/sun8i-h3-orangepi-plus.dtb \
+    u-boot-sunxi-with-spl.bin: \
+"
+IMAGE_CMD_resinos-img_append_orangepi-plus2 () {
+    # Orange Pi Plus2 needs uboot written at a specific location
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+}
+
+
+#
 # bananapi-M1+
 #
 

@@ -11,7 +11,7 @@ uboot_file="u-boot-sunxi-with-spl.bin"
 uboot_block_size=1024
 uboot_seek_blocks=8
 
-device="/dev/mmcblk0"
+device="/dev/`$(findmnt --noheadings --canonicalize --output SOURCE /mnt/boot/ | xargs lsblk -no pkname)`"
 
 update_files="uboot"
 

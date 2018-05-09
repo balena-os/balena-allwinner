@@ -1,0 +1,29 @@
+From 8e13d9ad5e31ece37f281fa16801dda9d2ffb345 Mon Sep 17 00:00:00 2001
+From: Sebastian Panceac <sebastian@resin.io>
+Date: Wed, 2 May 2018 15:14:14 +0200
+Subject: [PATCH] Use modules_install as wanted by yocto
+
+Upstream-Status: Pending
+
+Signed-off-by: Sebastian Panceac <sebastian@resin.io>
+---
+ Makefile | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/Makefile b/Makefile
+index d44e822..8b24b3d 100755
+--- a/Makefile
++++ b/Makefile
+@@ -1639,6 +1639,9 @@ all: modules
+ modules:
+ 	$(MAKE) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) -C $(KSRC) M=$(shell pwd)  modules
+ 
++modules_install:
++	$(MAKE) ARCH=$(ARCH) CROSS_COMPILE=$(CROSS_COMPILE) -C $(KSRC) M=$(shell pwd)  modules_install
++
+ strip:
+ 	$(CROSS_COMPILE)strip $(MODULE_NAME).ko --strip-unneeded
+ 
+-- 
+2.7.4
+
