@@ -1,6 +1,10 @@
 Change log
 -----------
 
+# v2.12.7+rev1
+## (2018-05-11)
+
+* Update the meta-resin submodule to version v2.12.7 [Sebastian]
 * Add support for the OrangePi Plus2 device [Sebastian]
 
 # v2.12.6+rev1
