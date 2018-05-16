@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* hostapp-update-hooks: Fix bootloader update hook [Sebastian]
+
 # v2.12.7+rev1
 ## (2018-05-11)
 
