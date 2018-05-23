@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* packagegroup-resin-connectivity: Add necessary firmware for WiFi [Sebastian]
+
 # v2.12.7+rev2
 ## (2018-05-16)
 
