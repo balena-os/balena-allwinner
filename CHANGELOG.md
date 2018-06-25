@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* linux-mainline: Enable i2c0 in OrangePi-Plus2 device tree [Sebastian]
+
 # v2.12.7+rev3
 ## (2018-05-23)
 
