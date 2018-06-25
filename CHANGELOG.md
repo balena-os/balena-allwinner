@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* linux-mainline: Activate USB_SERIAL_PL2303 kernel module for OrangePi-Plus2 [Sebastian]
 * linux-mainline: Enable i2c0 in OrangePi-Plus2 device tree [Sebastian]
 
 # v2.12.7+rev3
