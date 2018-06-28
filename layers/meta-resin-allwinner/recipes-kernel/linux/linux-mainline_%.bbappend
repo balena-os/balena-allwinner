@@ -28,3 +28,11 @@ RESIN_CONFIGS_DEPS[pl2303] = "\
 RESIN_CONFIGS[pl2303] ="\
     CONFIG_USB_SERIAL_PL2303=m \
 "
+
+RESIN_CONFIGS_append_orangepi-plus2 = " hdmi"
+RESIN_CONFIGS_DEPS[hdmi] = "\
+    CONFIG_SUN8I_DE2_CCU=y \
+"
+RESIN_CONFIGS[hdmi] ="\
+    CONFIG_DRM_SUN8I_DW_HDMI=y \
+"
