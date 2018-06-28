@@ -1,0 +1,26 @@
+From cef44d8fd32cf32dc3760ba2cf520467df7585d6 Mon Sep 17 00:00:00 2001
+From: Sebastian Panceac <sebastian@resin.io>
+Date: Wed, 20 Jun 2018 11:15:30 +0200
+Subject: [PATCH] Enable i2c0 on OrangePi Plus2 board
+
+Upstream-Status: Inappropriate [configuration]
+Signed-off-by: Sebastian Panceac <sebastian@resin.io>
+---
+ arch/arm/boot/dts/sun8i-h3-orangepi-plus.dts | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/arch/arm/boot/dts/sun8i-h3-orangepi-plus.dts b/arch/arm/boot/dts/sun8i-h3-orangepi-plus.dts
+index b403e5d..781b6c4 100644
+--- a/arch/arm/boot/dts/sun8i-h3-orangepi-plus.dts
++++ b/arch/arm/boot/dts/sun8i-h3-orangepi-plus.dts
+@@ -122,3 +122,7 @@
+ &usbphy {
+ 	usb3_vbus-supply = <&reg_usb3_vbus>;
+ };
++
++&i2c0 {
++	status = "okay";
++};
+-- 
+2.7.4
+
