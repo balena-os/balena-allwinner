@@ -1,6 +1,10 @@
 Change log
 -----------
 
+# v2.13.3+rev1
+## (2018-07-04)
+
+* Update meta-resin submodule to version 2.13.3 [Sebastian]
 * linux-mainline: Update kernel to 4.17.3 version for OrangePi Plus2 [Sebastian]
 * linux-mainline: Activate USB_SERIAL_PL2303 kernel module for OrangePi-Plus2 [Sebastian]
 * linux-mainline: Enable i2c0 in OrangePi-Plus2 device tree [Sebastian]
