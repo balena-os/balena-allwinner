@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* linux-mainline: Revert "random: fix crng_ready() test" patch [Sebastian]
 * coffeescript: Add instructions for flashing OrangePi Plus2 [Thodoris]
 
 # v2.13.5+rev1
