@@ -23,4 +23,5 @@ SRC_URI = "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-${PV}.tar.xz \
 	   file://defconfig \
 	   file://don-t-default-activate-regdb.patch \
 	   file://0001-Enable-i2c0-on-OrangePi-Plus2-board.patch \
+	   file://0001-Revert-random-fix-crng_ready-test.patch \
 "
