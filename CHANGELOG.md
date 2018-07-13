@@ -1,6 +1,10 @@
 Change log
 -----------
 
+# v2.13.6+rev1
+## (2018-07-13)
+
+* Update the meta-resin submodule to version v2.13.6 [Sebastian]
 * linux-mainline: Revert "random: fix crng_ready() test" patch [Sebastian]
 * coffeescript: Add instructions for flashing OrangePi Plus2 [Thodoris]
 
