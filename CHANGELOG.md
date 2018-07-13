@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* coffeescript: Add instructions for flashing OrangePi Plus2 [Thodoris]
+
 # v2.13.5+rev1
 ## (2018-07-09)
 
