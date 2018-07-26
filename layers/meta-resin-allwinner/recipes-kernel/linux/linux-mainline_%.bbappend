@@ -44,3 +44,8 @@ RESIN_CONFIGS_DEPS[huawei_modems] = "\
 RESIN_CONFIGS[huawei_modems] ="\
     CONFIG_USB_NET_HUAWEI_CDC_NCM=m \
 "
+
+RESIN_CONFIGS_append = " cp210x"
+RESIN_CONFIGS[cp210x] ="\
+    CONFIG_USB_SERIAL_CP210X=m \
+"
