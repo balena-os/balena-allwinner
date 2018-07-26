@@ -36,3 +36,16 @@ RESIN_CONFIGS_DEPS[hdmi] = "\
 RESIN_CONFIGS[hdmi] ="\
     CONFIG_DRM_SUN8I_DW_HDMI=y \
 "
+
+RESIN_CONFIGS_append = " huawei_modems"
+RESIN_CONFIGS_DEPS[huawei_modems] = "\
+    CONFIG_USB_USBNET=m \
+"
+RESIN_CONFIGS[huawei_modems] ="\
+    CONFIG_USB_NET_HUAWEI_CDC_NCM=m \
+"
+
+RESIN_CONFIGS_append = " cp210x"
+RESIN_CONFIGS[cp210x] ="\
+    CONFIG_USB_SERIAL_CP210X=m \
+"
