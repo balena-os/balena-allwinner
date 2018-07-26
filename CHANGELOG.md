@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* linux-mainline: Enable drivers for Huawei modems [Sebastian]
 * Update the resin-yocto-scripts submodule to 8312741e13604a9d166370349061876afb22c0fa [Sebastian]
 
 # v2.14.0+rev1
