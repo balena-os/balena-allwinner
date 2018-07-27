@@ -1,6 +1,9 @@
 Change log
 -----------
 
+# v2.14.0+rev3
+## (2018-07-27)
+
 * linux-mainline: Enable CONFIG_USB_SERIAL_OPTION necessary for modems functionality [Sebastian]
 
 # v2.14.0+rev2
