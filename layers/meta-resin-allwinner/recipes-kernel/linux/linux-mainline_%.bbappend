@@ -39,6 +39,7 @@ RESIN_CONFIGS[hdmi] ="\
 
 RESIN_CONFIGS_append = " huawei_modems"
 RESIN_CONFIGS_DEPS[huawei_modems] = "\
+    CONFIG_USB_SERIAL_OPTION=m \
     CONFIG_USB_USBNET=m \
 "
 RESIN_CONFIGS[huawei_modems] ="\
