@@ -37,7 +37,7 @@ module.exports =
 		machine: 'orangepi-plus2'
 		image: 'resin-image-flasher'
 		fstype: 'resinos-img'
-		version: 'yocto-rocko'
+		version: 'yocto-sumo'
 		deployArtifact: 'resin-image-flasher-orangepi-plus2.resinos-img'
 		compressed: true
 

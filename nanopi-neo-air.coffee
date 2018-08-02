@@ -22,7 +22,7 @@ module.exports =
 		machine: 'nanopi-neo-air'
 		image: 'resin-image'
 		fstype: 'resinos-img'
-		version: 'yocto-morty'
+		version: 'yocto-sumo'
 		deployArtifact: 'resin-image-nanopi-neo-air.resinos-img'
 		compressed: true
 
