@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.14.3+rev1
+## (2018-08-14)
+
+* Update the meta-resin submodule to version v2.14.3 [Florin]
+* Switch to Yocto Sumo 19.0.0 [Florin]
+
 # v2.14.0+rev3
 ## (2018-07-27)
 
