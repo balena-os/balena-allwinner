@@ -6,7 +6,6 @@ COMPATIBLE_MACHINE = "(sun4i|sun5i|sun7i|sun8i)"
 
 inherit kernel
 
-require recipes-kernel/linux/linux-dtb.inc
 require recipes-kernel/linux/linux.inc
 
 # Pull in the devicetree files into the rootfs
@@ -17,8 +16,7 @@ RDEPENDS_kernel-base += "kernel-devicetree"
 DEFAULT_PREFERENCE = "-1" 
 
 KERNEL_EXTRA_ARGS += "LOADADDR=${UBOOT_ENTRYPOINT}"
-	
-# 4.13.12
+
 PV = "4.14.14+git${SRCPV}"
 SRCREV_pn-${PN} = "v4.14.14"
 
