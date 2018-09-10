@@ -1,6 +1,16 @@
 Change log
 -----------
 
+# v2.14.3+rev2
+## (2018-09-10)
+
+* Add new style docs links for NanoPi Neo Air [Florin Sarbu]
+* Use nanopi-neo-air.conf machine definition from the BSP layer [Florin Sarbu]
+* Set PREFERRED_VERSION linux-mainline to 4.17.3 for bananapi-m1-plus [Florin Sarbu]
+* Clean-up swap, conf-notes.txt and obsolete kernel recipes [Florin Sarbu]
+* Add LAYERSERIES_COMPAT to yocto in layer.conf [Florin Sarbu]
+* Add versionist support [Giovanni Garufi]
+
 # v2.14.3+rev1
 ## (2018-08-14)
 
