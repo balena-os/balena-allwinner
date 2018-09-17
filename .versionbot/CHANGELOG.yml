@@ -1,0 +1,115 @@
+- version: 2.14.3+rev3
+  date: 2018-09-25T22:00:00.000Z
+  commits:
+    - subject: >-
+        Update the poky submodule to sumo-19.0.1 [Florin Sarbu]
+- version: 2.14.3+rev2
+  date: 2018-09-09T22:00:00.000Z
+  commits:
+    - subject: 'Add new style docs links for NanoPi Neo Air [Florin Sarbu]'
+    - subject: >-
+        Use nanopi-neo-air.conf machine definition from the BSP layer [Florin
+        Sarbu]
+    - subject: >-
+        Set PREFERRED_VERSION linux-mainline to 4.17.3 for bananapi-m1-plus
+        [Florin Sarbu]
+    - subject: 'Clean-up swap, conf-notes.txt and obsolete kernel recipes [Florin Sarbu]'
+    - subject: 'Add LAYERSERIES_COMPAT to yocto in layer.conf [Florin Sarbu]'
+    - subject: 'Add versionist support [Giovanni Garufi]'
+- version: 2.14.3+rev1
+  date: 2018-08-13T22:00:00.000Z
+  commits:
+    - subject: 'Update the meta-resin submodule to version v2.14.3 [Florin]'
+    - subject: 'Switch to Yocto Sumo 19.0.0 [Florin]'
+- version: 2.14.0+rev3
+  date: 2018-07-26T22:00:00.000Z
+  commits:
+    - subject: >-
+        linux-mainline: Enable CONFIG_USB_SERIAL_OPTION necessary for modems
+        functionality [Sebastian]
+- version: 2.14.0+rev2
+  date: 2018-07-25T22:00:00.000Z
+  commits:
+    - subject: >-
+        linux-mainline: Enable drivers for CP210x usb-serial converters
+        [Sebastian]
+    - subject: 'linux-mainline: Enable drivers for Huawei modems [Sebastian]'
+    - subject: >-
+        Update the resin-yocto-scripts submodule to
+        8312741e13604a9d166370349061876afb22c0fa [Sebastian]
+- version: 2.14.0+rev1
+  date: 2018-07-17T22:00:00.000Z
+  commits:
+    - subject: 'Update the meta-resin submodule to version v2.14.0 [Florin]'
+- version: 2.13.6+rev1
+  date: 2018-07-12T22:00:00.000Z
+  commits:
+    - subject: 'Update the meta-resin submodule to version v2.13.6 [Sebastian]'
+    - subject: 'linux-mainline: Revert "random: fix crng_ready() test" patch [Sebastian]'
+    - subject: 'coffeescript: Add instructions for flashing OrangePi Plus2 [Thodoris]'
+- version: 2.13.5+rev1
+  date: 2018-07-08T22:00:00.000Z
+  commits:
+    - subject: 'Update the meta-resin submodule to version v2.13.5 [Sebastian]'
+    - subject: >-
+        Update the resin-yocto-scripts submodule to
+        59ccd8558435ff6424827fb36ccb43b14650f4d4 [Sebastian]
+- version: 2.13.3+rev1
+  date: 2018-07-03T22:00:00.000Z
+  commits:
+    - subject: 'Update meta-resin submodule to version 2.13.3 [Sebastian]'
+    - subject: >-
+        linux-mainline: Update kernel to 4.17.3 version for OrangePi Plus2
+        [Sebastian]
+    - subject: >-
+        linux-mainline: Activate USB_SERIAL_PL2303 kernel module for
+        OrangePi-Plus2 [Sebastian]
+    - subject: 'linux-mainline: Enable i2c0 in OrangePi-Plus2 device tree [Sebastian]'
+- version: 2.12.7+rev3
+  date: 2018-05-22T22:00:00.000Z
+  commits:
+    - subject: >-
+        packagegroup-resin-connectivity: Add necessary firmware for WiFi
+        [Sebastian]
+- version: 2.12.7+rev2
+  date: 2018-05-15T22:00:00.000Z
+  commits:
+    - subject: 'hostapp-update-hooks: Fix bootloader update hook [Sebastian]'
+- version: 2.12.7+rev1
+  date: 2018-05-10T22:00:00.000Z
+  commits:
+    - subject: 'Update the meta-resin submodule to version v2.12.7 [Sebastian]'
+    - subject: 'Add support for the OrangePi Plus2 device [Sebastian]'
+- version: 2.12.6+rev1
+  date: 2018-05-01T22:00:00.000Z
+  commits:
+    - subject: 'Update the meta-resin submodule to version v2.12.6 [Florin]'
+- version: 2.12.5+rev4
+  date: 2018-04-12T22:00:00.000Z
+  commits:
+    - subject: 'Use correct deploy artifact name in coffescript [Sebastian]'
+    - subject: 'Use native python as u-boot tool [Sebastian]'
+    - subject: >-
+        Update resin-yocto-scripts to f7718efbbf53369aaacb7eb54e707ee8a5d4fc4b
+        [Sebastian]
+- version: 2.12.5+rev3
+  date: 2018-03-29T22:00:00.000Z
+  commits:
+    - subject: 'Remove oe-meta-go layer from .gitmodules [Sebastian]'
+- version: 2.12.5+rev2
+  date: 2018-03-29T22:00:00.000Z
+  commits:
+    - subject: >-
+        Update resin-yocto-scripts to 9cecb1ca4d9d4713dd337148b7d04a17afdba772
+        [Sebastian]
+- version: 2.12.5+rev1
+  date: 2018-03-25T22:00:00.000Z
+  commits:
+    - subject: 'Update meta-resin submodule to version v2.12.5 [Sebastian]'
+    - subject: >-
+        Update resin-yocto-scripts to 51b8849e2a02d0d4e729bff24909d9746e0bf4c3
+        [Sebastian]
+- version: 2.12.3+rev1
+  date: 2018-03-20T23:00:00.000Z
+  commits:
+    - subject: 'Add support for BananaPi-M1+ boards [Sebastian]'
