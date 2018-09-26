@@ -1,8 +1,25 @@
+- commits:
+    - subject: Add a parsable representation of the changelog
+      hash: dd5f2da3d206c5ff56e51f7169af9a65d18b24a1
+      body: |
+        This file allows other components to uniquely parse the information that
+        is contained in the changelog. It will be automatically managed by
+        versionist by appending the new commits on top. This is needed to
+        provide nested-changelogs.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Giovanni Garufi <giovanni@resin.io>
+        signed-off-by: Giovanni Garufi <giovanni@resin.io>
+        Changelog-entry: Add a parsable representation of the changelog
+        changelog-entry: Add a parsable representation of the changelog
+      author: Giovanni Garufi
+  version: 2.14.3+rev4
+  date: 2018-09-25T16:17:03.382Z
 - version: 2.14.3+rev3
   date: 2018-09-25T22:00:00.000Z
   commits:
-    - subject: >-
-        Update the poky submodule to sumo-19.0.1 [Florin Sarbu]
+    - subject: 'Update the poky submodule to sumo-19.0.1 [Florin Sarbu]'
 - version: 2.14.3+rev2
   date: 2018-09-09T22:00:00.000Z
   commits:
