@@ -16,3 +16,6 @@
 [submodule "layers/meta-rust"]
 	path = layers/meta-rust
 	url = https://github.com/meta-rust/meta-rust.git
+[submodule "layers/meta-emlid-neutis"]
+	path = layers/meta-emlid-neutis
+	url = https://github.com/Neutis/meta-emlid-neutis.git

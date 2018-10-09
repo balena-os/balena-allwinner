@@ -93,3 +93,23 @@ IMAGE_CMD_resinos-img_append_nanopi-neo-air () {
     # nanopi-neo-air needs uboot written at a specific location
     dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
 }
+
+#
+# Emlid Neutis N5
+#
+
+IMAGE_FSTYPES_append_neutis-n5 = " resinos-img"
+
+# Customize resinos-img
+RESIN_IMAGE_BOOTLOADER_neutis-n5 = "u-boot"
+RESIN_BOOT_PARTITION_FILES_neutis-n5 = " \
+    ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
+    Image-sun50i-h5-emlid-neutis-n5-devboard.dtb:/allwinner/sun50i-h5-emlid-neutis-n5-devboard.dtb \
+    Image-sun50i-h5-emlid-neutis-n5.dtb:/allwinner/sun50i-h5-emlid-neutis-n5.dtb \
+    Env.txt:/Env.txt \
+    boot.scr:/boot.scr \
+    "
+
+IMAGE_CMD_resinos-img_append_neutis-n5 () {
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+}
