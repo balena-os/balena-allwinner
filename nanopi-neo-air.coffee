@@ -2,6 +2,12 @@
 deviceTypesCommon = require '@resin.io/device-types/common'
 { networkOptions, commonImg, instructions } = deviceTypesCommon
 
+postProvisioningInstructions = [
+	instructions.BOARD_SHUTDOWN
+	instructions.REMOVE_INSTALL_MEDIA
+	instructions.BOARD_REPOWER
+]
+
 module.exports =
 	version: 1
 	slug: 'nanopi-neo-air'
@@ -9,7 +15,16 @@ module.exports =
 	arch: 'armv7hf'
 	state: 'experimental'
 
-	instructions: commonImg.instructions
+	stateInstructions:
+		postProvisioning: postProvisioningInstructions
+
+	instructions: [
+		instructions.ETCHER_SD
+		instructions.EJECT_SD
+		instructions.FLASHER_WARNING
+		instructions.CONNECT_AND_BOOT
+	].concat(postProvisioningInstructions)
+
 	gettingStartedLink:
 		windows: 'https://docs.resin.io/nanopi-neo-air/nodejs/getting-started/#adding-your-first-device'
 		osx: 'https://docs.resin.io/nanopi-neo-air/nodejs/getting-started/#adding-your-first-device'
@@ -20,10 +35,10 @@ module.exports =
 
 	yocto:
 		machine: 'nanopi-neo-air'
-		image: 'resin-image'
+		image: 'resin-image-flasher'
 		fstype: 'resinos-img'
 		version: 'yocto-sumo'
-		deployArtifact: 'resin-image-nanopi-neo-air.resinos-img'
+		deployArtifact: 'resin-image-flasher-nanopi-neo-air.resinos-img'
 		compressed: true
 
 	configuration:
