@@ -7,6 +7,8 @@ SRC_URI_append = " \
     file://bcm43438-sdio.hcd \
     file://brcmfmac43430a0-sdio.bin \
     file://brcmfmac43430a0-sdio.txt \
+    file://brcmfmac43430a1-sdio.bin \
+    file://brcmfmac43430a1-sdio.txt \
     file://config.txt \
     file://brcmfmac43362-sdio.txt \
     file://brcmfmac43430-sdio.txt \
@@ -18,6 +20,8 @@ do_install_append() {
     cp ${WORKDIR}/bcm43438-sdio.hcd ${D}/lib/firmware/brcm/bcm43438-sdio.hcd
     cp ${WORKDIR}/brcmfmac43430a0-sdio.bin ${D}/lib/firmware/brcm/brcmfmac43430a0-sdio.bin
     cp ${WORKDIR}/brcmfmac43430a0-sdio.txt ${D}/lib/firmware/brcm/brcmfmac43430a0-sdio.txt
+    cp ${WORKDIR}/brcmfmac43430a1-sdio.bin ${D}/lib/firmware/brcm/brcmfmac43430-sdio.bin
+    cp ${WORKDIR}/brcmfmac43430a1-sdio.txt ${D}/lib/firmware/brcm/brcmfmac43430-sdio.txt
     cp ${WORKDIR}/config.txt ${D}/lib/firmware/brcm/config.txt
     cp ${S}/brcm/brcmfmac43362-sdio.bin ${D}/lib/firmware/brcm/
     cp ${WORKDIR}/brcmfmac43362-sdio.txt ${D}/lib/firmware/brcm/
@@ -36,6 +40,8 @@ FILES_${PN}-ap6212 = " \
   /lib/firmware/brcm/bcm43438-sdio.hcd \
   /lib/firmware/brcm/brcmfmac43430a0-sdio.bin \
   /lib/firmware/brcm/brcmfmac43430a0-sdio.txt \
+  /lib/firmware/brcm/brcmfmac43430-sdio.bin \
+  /lib/firmware/brcm/brcmfmac43430-sdio.txt \
   /lib/firmware/brcm/config.txt \
 "
 

@@ -106,6 +106,25 @@ RESIN_BOOT_PARTITION_FILES_neutis-n5 = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     Image-sun50i-h5-emlid-neutis-n5-devboard.dtb:/allwinner/sun50i-h5-emlid-neutis-n5-devboard.dtb \
     Image-sun50i-h5-emlid-neutis-n5.dtb:/allwinner/sun50i-h5-emlid-neutis-n5.dtb \
+    Image-sun50i-h5-analog-codec.dtbo:/allwinner/overlay/sun50i-h5-analog-codec.dtbo \
+    Image-sun50i-h5-cir.dtbo:/allwinner/overlay/sun50i-h5-cir.dtbo \
+    Image-sun50i-h5-ethernet-100.dtbo:/allwinner/overlay/sun50i-h5-ethernet-100.dtbo \
+    Image-sun50i-h5-spi0-status-okay.dtbo:/allwinner/overlay/sun50i-h5-spi0-status-okay.dtbo \
+    Image-sun50i-h5-spi1-status-okay.dtbo:/allwinner/overlay/sun50i-h5-spi1-status-okay.dtbo \
+    Image-sun50i-h5-uart1.dtbo:/allwinner/overlay/sun50i-h5-uart1.dtbo \
+    Image-sun50i-h5-uart2.dtbo:/allwinner/overlay/sun50i-h5-uart2.dtbo \
+    Image-sun50i-h5-uart3.dtbo:/allwinner/overlay/sun50i-h5-uart3.dtbo \
+    Image-sun50i-h5-r-uart.dtbo:/allwinner/overlay/sun50i-h5-r-uart.dtbo \
+    Image-sun50i-h5-i2c0.dtbo:/allwinner/overlay/sun50i-h5-i2c0.dtbo \
+    Image-sun50i-h5-i2c1.dtbo:/allwinner/overlay/sun50i-h5-i2c1.dtbo \
+    Image-sun50i-h5-i2c2.dtbo:/allwinner/overlay/sun50i-h5-i2c2.dtbo \
+    Image-sun50i-h5-r-i2c.dtbo:/allwinner/overlay/sun50i-h5-r-i2c.dtbo \
+    Image-sun50i-h5-usbhost0.dtbo:/allwinner/overlay/sun50i-h5-usbhost0.dtbo \
+    Image-sun50i-h5-usbhost1.dtbo:/allwinner/overlay/sun50i-h5-usbhost1.dtbo \
+    Image-sun50i-h5-usbhost2.dtbo:/allwinner/overlay/sun50i-h5-usbhost2.dtbo \
+    Image-sun50i-h5-usbhost3.dtbo:/allwinner/overlay/sun50i-h5-usbhost3.dtbo \
+    Image-sun50i-h5-hdmi.dtbo:/allwinner/overlay/sun50i-h5-hdmi.dtbo \
+    Image-sun50i-h5-camera-status-okay.dtbo:/allwinner/overlay/sun50i-h5-camera-status-okay.dtbo \
     Env.txt:/Env.txt \
     boot.scr:/boot.scr \
     "
