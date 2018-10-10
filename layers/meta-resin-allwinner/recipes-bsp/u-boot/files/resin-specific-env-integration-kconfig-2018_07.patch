@@ -1,0 +1,39 @@
+From e146913072472dfaa964f11a48a36b6e03709a43 Mon Sep 17 00:00:00 2001
+From: Aleksandr Aleksandrov <aleksandr.aleksandrov@emlid.com>
+Date: Thu, 11 Oct 2018 11:45:32 +0300
+Subject: [PATCH] Integrate machine independent resin environment configuration
+
+This patch integrates resin default environment configuration in an u-boot which
+has a version with Kconfig support.
+
+Copied from meta-resin/meta-resin-common/recipes-bsp/u-boot/patches/resin-specific-env-integration-kconfig.patch
+
+Signed-off-by: Aleksandr Aleksandrov <aleksandr.aleksandrov@emlid.com>
+---
+ include/env_default.h | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/include/env_default.h b/include/env_default.h
+index 54d8124..5632ec9 100644
+--- a/include/env_default.h
++++ b/include/env_default.h
+@@ -9,6 +9,8 @@
+ 
+ #include <env_callback.h>
+ 
++#include <env_resin.h>
++
+ #ifdef DEFAULT_ENV_INSTANCE_EMBEDDED
+ env_t environment __UBOOT_ENV_SECTION__(environment) = {
+ 	ENV_CRC,	/* CRC Sum */
+@@ -21,6 +23,7 @@ static char default_environment[] = {
+ #else
+ const uchar default_environment[] = {
+ #endif
++	RESIN_ENV
+ #ifndef CONFIG_USE_DEFAULT_ENV_FILE
+ #ifdef	CONFIG_ENV_CALLBACK_LIST_DEFAULT
+ 	ENV_CALLBACK_VAR "=" CONFIG_ENV_CALLBACK_LIST_DEFAULT "\0"
+-- 
+2.7.4
+
