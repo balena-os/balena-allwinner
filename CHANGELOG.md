@@ -1,6 +1,13 @@
 Change log
 -----------
 
+# v2.26.0+rev2
+## (2018-11-12)
+
+* Specify deps for kernel config task needed for newer (4.16+) kernels [Florin Sarbu]
+* Add icon for NanoPi NEO Air [Florin Sarbu]
+* Add icon for Orange Pi Plus2 [Florin Sarbu]
+
 # v2.26.0+rev1
 ## (2018-11-12)
 

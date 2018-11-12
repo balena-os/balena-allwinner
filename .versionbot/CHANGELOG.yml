@@ -1,4 +1,43 @@
 - commits:
+    - subject: Specify deps for kernel config task needed for newer (4.16+) kernels
+      hash: 92bc21430aba99e7743946e75c153aeff28f4974
+      body: |
+        We are using newer (4.16+) kernel. For these kernels, we need
+        to specify additional dependencies for the configme task.
+
+        This change can be removed when we update poky to a newer version
+        that includes 81e8a52e8e40e47c34f900db5d73e69ffc25f5d0.
+
+        This change fixes the error we get on the Nanopi NEO Air kernel when
+        our do kernel_resin_reconfigure task will recreate the .config with the
+        incorrect kernel config options.
+      footer:
+        Changelog-entry: Specify deps for kernel config task needed for newer (4.16+) kernels
+        changelog-entry: Specify deps for kernel config task needed for newer (4.16+) kernels
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+    - subject: Add icon for NanoPi NEO Air
+      hash: 5c39351e2e9a7a7c27bb2494cc9525b746c0f7f2
+      body: ''
+      footer:
+        Changelog-entry: Add icon for NanoPi NEO Air
+        changelog-entry: Add icon for NanoPi NEO Air
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+    - subject: Add icon for Orange Pi Plus2
+      hash: 4ce451bcee49479a98d179c459d713dbeff22b7a
+      body: ''
+      footer:
+        Changelog-entry: Add icon for Orange Pi Plus2
+        changelog-entry: Add icon for Orange Pi Plus2
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.26.0+rev2
+  date: 2018-11-12T13:31:17.132Z
+- commits:
     - subject: Update the meta-resin submodule from v2.19.0 to v2.26.0
       hash: d7a56e88032ca52e48d5c8f317a236e3f29bcbf7
       body: |
