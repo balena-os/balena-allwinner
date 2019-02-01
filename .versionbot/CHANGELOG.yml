@@ -1,3 +1,6 @@
+- commits: []
+  version: 2.27.0+rev2
+  date: 2019-02-01T10:40:15.040Z
 - commits:
     - subject: Update the meta-resin submodule from v2.26.0 to v2.27.0
       hash: 9b6121bb7bd45b89c27a4dc142fbc3f7b054d0c8
