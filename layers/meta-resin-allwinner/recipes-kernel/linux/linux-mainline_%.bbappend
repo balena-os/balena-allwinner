@@ -18,6 +18,7 @@ RESIN_CONFIGS[axp_power] ="\
 "
 
 RESIN_CONFIGS_append_orangepi-plus2 = " wifi"
+RESIN_CONFIGS_append_orange-pi-zero = " wifi"
 RESIN_CONFIGS[wifi] ="\
     CONFIG_WIRELESS=y \
     CONFIG_RFKILL=y \
