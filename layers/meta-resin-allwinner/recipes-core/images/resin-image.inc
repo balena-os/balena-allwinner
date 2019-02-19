@@ -74,6 +74,25 @@ IMAGE_CMD_resinos-img_append_orange-pi-lite () {
     dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
 }
 
+
+#
+# Orange Pi Zero
+#
+
+IMAGE_FSTYPES_append_orange-pi-zero = " resinos-img"
+
+#Customize resinos-img
+RESIN_IMAGE_BOOTLOADER_orange-pi-zero = "u-boot"
+RESIN_BOOT_PARTITION_FILES_orange-pi-zero = " \
+    ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
+    uImage-sun8i-h2-plus-orangepi-zero.dtb:/dtb/sun8i-h2-plus-orangepi-zero.dtb \
+    u-boot-sunxi-with-spl.bin: \
+"
+IMAGE_CMD_resinos-img_append_orange-pi-zero () {
+    # Orange Pi Zero needs uboot written at a specific location
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+}  
+
 #
 # nanopi-neo-air
 #
