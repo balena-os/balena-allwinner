@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.27.0+rev2
+## (2019-02-18)
+
+* Add support for XR819 Wifi on Orange Pi Zero board [Michel Wohlert]
+* Add support for Orange Pi Zero [Michel Wohlert]
+
 # v2.27.0+rev1
 ## (2018-12-05)
 

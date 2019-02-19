@@ -1,4 +1,25 @@
 - commits:
+    - subject: Add support for XR819 Wifi on Orange Pi Zero board
+      hash: 086c0520bbb0167454d34f113168210bb84c13cb
+      body: >
+        Only add xradio and xradio firmware for the Orange Pi Zero, since no
+        other device uses this chipset.
+      footer:
+        Changelog-entry: Add support for XR819 Wifi on Orange Pi Zero board
+        changelog-entry: Add support for XR819 Wifi on Orange Pi Zero board
+      author: Michel Wohlert
+    - subject: Add support for Orange Pi Zero
+      hash: 4c58be8dfa8e2286c66f591491b84fe60c6cd57d
+      body: >
+        This adds the possibility to build balenaOS for the Orange Pi Zero
+        device.
+      footer:
+        Changelog-entry: Add support for Orange Pi Zero
+        changelog-entry: Add support for Orange Pi Zero
+      author: Michel Wohlert
+  version: 2.27.0+rev2
+  date: 2019-02-18T12:06:03.903Z
+- commits:
     - subject: Update the meta-resin submodule from v2.26.0 to v2.27.0
       hash: 9b6121bb7bd45b89c27a4dc142fbc3f7b054d0c8
       body: |
