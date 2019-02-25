@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.27.0+rev3
+## (2019-02-25)
+
+* add support for Orange Pi One device [Stephen]
+* add support for Orange Pi One device [Stephen]
+
 # v2.27.0+rev2
 ## (2019-02-18)
 

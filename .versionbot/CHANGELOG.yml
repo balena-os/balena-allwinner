@@ -1,4 +1,29 @@
 - commits:
+    - subject: add support for Orange Pi One device
+      hash: e0a46306ead28ad834b81f61163f583442618eca
+      body: |
+        This adds the possibility to build balenaOS for the Orange Pi One
+        device.
+      footer:
+        Changelog-entry: add support for Orange Pi One device
+        changelog-entry: add support for Orange Pi One device
+        Signed-off-by: Stephen Sorriaux <stephen.sorriaux@gmail.com>
+        signed-off-by: Stephen Sorriaux <stephen.sorriaux@gmail.com>
+      author: Stephen
+    - subject: add support for Orange Pi One device
+      hash: 0dc7d45f11735f71c6f256078608ff2621956b43
+      body: |
+        This adds the possibility to build balenaOS for the Orange Pi One
+        device.
+      footer:
+        Changelog-entry: add support for Orange Pi One device
+        changelog-entry: add support for Orange Pi One device
+        Signed-off-by: Stephen Sorriaux <stephen.sorriaux@gmail.com>
+        signed-off-by: Stephen Sorriaux <stephen.sorriaux@gmail.com>
+      author: Stephen
+  version: 2.27.0+rev3
+  date: 2019-02-25T13:49:22.842Z
+- commits:
     - subject: Add support for XR819 Wifi on Orange Pi Zero board
       hash: 086c0520bbb0167454d34f113168210bb84c13cb
       body: >
