@@ -1,5 +1,10 @@
 inherit kernel-resin
 
+FILESEXTRAPATHS_prepend := "${THISDIR}/linux-mainline:"
+
+SRC_URI_append = " file://0001-Enable-uart3-for-NanoPi-Neo-Air-used-by-BT.patch \
+"
+
 do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}binutils:do_populate_sysroot"
 do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}gcc:do_populate_sysroot"
 do_kernel_configme[depends] += "bc-native:do_populate_sysroot bison-native:do_populate_sysroot"
