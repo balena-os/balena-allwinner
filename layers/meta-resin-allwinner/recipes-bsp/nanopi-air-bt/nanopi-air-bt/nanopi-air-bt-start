@@ -1,0 +1,17 @@
+#!/bin/sh
+
+if [ $# -lt 1 ]; then
+        echo "Interface argument missing ... /dev/ttyX"
+        exit 1
+fi
+
+echo 205 > /sys/class/gpio/export
+echo out > /sys/class/gpio/gpio205/direction
+
+# Reset BT
+echo "Resetting BT chip"
+echo 0 > /sys/class/gpio/gpio205/value
+echo 1 > /sys/class/gpio/gpio205/value
+
+/usr/bin/brcm_patchram_plus -d --patchram /lib/firmware/brcm/bcm43438a1.hcd --no2bytes --tosleep 5000 $1 > /tmp/brcm_log 2>&1
+hciattach -n $1 bcm43xx 115200 flow

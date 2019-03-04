@@ -1,0 +1,9 @@
+[Unit]
+Description=Ampak AP6212A Bluetooth HCI on Nanopi Neo Air
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/nanopi-air-bt-start %I
+
+[Install]
+WantedBy=multi-user.target
