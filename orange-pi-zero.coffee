@@ -8,6 +8,7 @@ module.exports =
 	name: 'Orange Pi Zero'
 	arch: 'armv7hf'
 	state: 'experimental'
+	community: true
 
 	instructions: commonImg.instructions
 	gettingStartedLink:
