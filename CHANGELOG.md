@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.27.0+rev4
+## (2019-03-07)
+
+* Mark orange-pi-zero as community in the .coffee file [Florin Sarbu]
+* Mark orange-pi-one as community in the .coffee file [Florin Sarbu]
+
 # v2.27.0+rev3
 ## (2019-02-25)
 

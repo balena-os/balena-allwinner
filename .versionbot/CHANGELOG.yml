@@ -1,4 +1,25 @@
 - commits:
+    - subject: Mark orange-pi-zero as community in the .coffee file
+      hash: 4b49b3d03d907bf544689aa30fc3378d0cc9c478
+      body: ''
+      footer:
+        Changelog-entry: Mark orange-pi-zero as community in the .coffee file
+        changelog-entry: Mark orange-pi-zero as community in the .coffee file
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+    - subject: Mark orange-pi-one as community in the .coffee file
+      hash: 33328a014e59d9e4600ccb99a64def416f82bb8a
+      body: ''
+      footer:
+        Changelog-entry: Mark orange-pi-one as community in the .coffee file
+        changelog-entry: Mark orange-pi-one as community in the .coffee file
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.27.0+rev4
+  date: 2019-03-07T15:38:40.851Z
+- commits:
     - subject: add support for Orange Pi One device
       hash: e0a46306ead28ad834b81f61163f583442618eca
       body: |
