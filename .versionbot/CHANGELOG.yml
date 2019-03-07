@@ -1,3 +1,6 @@
+- commits: []
+  version: 2.27.0+rev4
+  date: 2019-03-07T16:56:53.263Z
 - commits:
     - subject: add support for Orange Pi One device
       hash: e0a46306ead28ad834b81f61163f583442618eca
