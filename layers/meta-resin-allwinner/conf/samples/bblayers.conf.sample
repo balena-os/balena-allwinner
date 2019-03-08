@@ -17,4 +17,6 @@ BBLAYERS ?= " \
     ${TOPDIR}/../layers/meta-resin/meta-resin-sumo \
     ${TOPDIR}/../layers/meta-resin-allwinner \
     ${TOPDIR}/../layers/meta-rust \
+    ${TOPDIR}/../layers/meta-emlid-neutis/meta-neutis-bsp \
+    ${TOPDIR}/../layers/meta-emlid-neutis/meta-neutis-distro \
     "

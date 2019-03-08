@@ -130,3 +130,42 @@ IMAGE_CMD_resinos-img_append_nanopi-neo-air () {
     # nanopi-neo-air needs uboot written at a specific location
     dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
 }
+
+#
+# Emlid Neutis N5
+#
+
+IMAGE_FSTYPES_append_neutis-n5 = " resinos-img"
+
+# Customize resinos-img
+RESIN_IMAGE_BOOTLOADER_neutis-n5 = "u-boot"
+RESIN_BOOT_PARTITION_FILES_neutis-n5 = " \
+    ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
+    Image-sun50i-h5-emlid-neutis-n5-devboard.dtb:/dtb/allwinner/sun50i-h5-emlid-neutis-n5-devboard.dtb \
+    Image-sun50i-h5-emlid-neutis-n5.dtb:/dtb/allwinner/sun50i-h5-emlid-neutis-n5.dtb \
+    Image-sun50i-h5-analog-codec.dtbo:/dtb/allwinner/overlay/sun50i-h5-analog-codec.dtbo \
+    Image-sun50i-h5-cir.dtbo:/dtb/allwinner/overlay/sun50i-h5-cir.dtbo \
+    Image-sun50i-h5-ethernet-100.dtbo:/dtb/allwinner/overlay/sun50i-h5-ethernet-100.dtbo \
+    Image-sun50i-h5-spi0-status-okay.dtbo:/dtb/allwinner/overlay/sun50i-h5-spi0-status-okay.dtbo \
+    Image-sun50i-h5-spi1-status-okay.dtbo:/dtb/allwinner/overlay/sun50i-h5-spi1-status-okay.dtbo \
+    Image-sun50i-h5-uart1.dtbo:/dtb/allwinner/overlay/sun50i-h5-uart1.dtbo \
+    Image-sun50i-h5-uart2.dtbo:/dtb/allwinner/overlay/sun50i-h5-uart2.dtbo \
+    Image-sun50i-h5-uart3.dtbo:/dtb/allwinner/overlay/sun50i-h5-uart3.dtbo \
+    Image-sun50i-h5-r-uart.dtbo:/dtb/allwinner/overlay/sun50i-h5-r-uart.dtbo \
+    Image-sun50i-h5-i2c0.dtbo:/dtb/allwinner/overlay/sun50i-h5-i2c0.dtbo \
+    Image-sun50i-h5-i2c1.dtbo:/dtb/allwinner/overlay/sun50i-h5-i2c1.dtbo \
+    Image-sun50i-h5-i2c2.dtbo:/dtb/allwinner/overlay/sun50i-h5-i2c2.dtbo \
+    Image-sun50i-h5-r-i2c.dtbo:/dtb/allwinner/overlay/sun50i-h5-r-i2c.dtbo \
+    Image-sun50i-h5-usbhost0.dtbo:/dtb/allwinner/overlay/sun50i-h5-usbhost0.dtbo \
+    Image-sun50i-h5-usbhost1.dtbo:/dtb/allwinner/overlay/sun50i-h5-usbhost1.dtbo \
+    Image-sun50i-h5-usbhost2.dtbo:/dtb/allwinner/overlay/sun50i-h5-usbhost2.dtbo \
+    Image-sun50i-h5-usbhost3.dtbo:/dtb/allwinner/overlay/sun50i-h5-usbhost3.dtbo \
+    Image-sun50i-h5-hdmi.dtbo:/dtb/allwinner/overlay/sun50i-h5-hdmi.dtbo \
+    Image-sun50i-h5-camera-status-okay.dtbo:/dtb/allwinner/overlay/sun50i-h5-camera-status-okay.dtbo \
+    Env.txt:/Env.txt \
+    boot.scr:/boot.scr \
+    "
+
+IMAGE_CMD_resinos-img_append_neutis-n5 () {
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+}
