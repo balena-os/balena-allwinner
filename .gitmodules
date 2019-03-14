@@ -16,3 +16,6 @@
 [submodule "layers/meta-rust"]
 	path = layers/meta-rust
 	url = https://github.com/meta-rust/meta-rust.git
+[submodule "layers/meta-sunxi-contrib"]
+	path = layers/meta-sunxi-contrib
+	url = https://github.com/geomatsi/meta-sunxi-contrib.git
