@@ -1,6 +1,19 @@
 Change log
 -----------
 
+# v2.27.0+rev5
+## (2019-03-22)
+
+* Add OrangePi-Plus2E COFFEE file [Alex J Lennon]
+* Add OrangePi-Plus2E SVG image [Alex J Lennon]
+* Add OrangePi-Plus2E machine configuration for Bitbake [Alex J Lennon]
+* Configure OrangePi-Plus2E internal storage [Alex J Lennon]
+* Configure linux kernel for OrangePi-Plus2E [Alex J Lennon]
+* Add connectivity config. for OrangePi-Plus2E WiFi [Alex J Lennon]
+* Add config. for OrangePi-Plus2E image build [Alex J Lennon]
+* Add default dependency on meta-sunxi-contrib [Alex J Lennon]
+* Add meta-sunxi-contrib submodule layer [Alex J Lennon]
+
 # v2.27.0+rev4
 ## (2019-03-07)
 

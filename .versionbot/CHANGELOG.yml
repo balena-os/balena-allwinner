@@ -1,4 +1,103 @@
 - commits:
+    - subject: Add OrangePi-Plus2E COFFEE file
+      hash: 7d2237ecbbbefe40ecff30daf30f454cb5363ada
+      body: |
+        Add OrangePi-Plus2E COFFEE file for Belana.io barys build.
+      footer:
+        Changelog-entry: Add OrangePi-Plus2E COFFEE file
+        changelog-entry: Add OrangePi-Plus2E COFFEE file
+        Signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+        signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+      author: Alex J Lennon
+    - subject: Add OrangePi-Plus2E SVG image
+      hash: fa59303ea0170a3fb2ecd0755ed8e6596db64d5d
+      body: |
+        This is a straight copy of the OrangePi-Plus2 image
+        added as a placeholder (i.e. may need to be changed
+        in future).
+      footer:
+        Changelog-entry: Add OrangePi-Plus2E SVG image
+        changelog-entry: Add OrangePi-Plus2E SVG image
+        Signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+        signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+      author: Alex J Lennon
+    - subject: Add OrangePi-Plus2E machine configuration for Bitbake
+      hash: 7430ee2018bcd5251b02d7a38dccd16fd1fe65ed
+      body: |
+        Add OrangePi-Plus2E machine configuration for Bitbake.
+      footer:
+        Changelog-entry: Add OrangePi-Plus2E machine configuration for Bitbake
+        changelog-entry: Add OrangePi-Plus2E machine configuration for Bitbake
+        Signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+        signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+      author: Alex J Lennon
+    - subject: Configure OrangePi-Plus2E internal storage
+      hash: 29194494dbf92add2873ac42f36ba6e8799b0694
+      body: |
+        Configure internal storage device based on OrangePi-Plus2
+        i.e. 'emmc' is 'mmcblk2'
+      footer:
+        Changelog-entry: Configure OrangePi-Plus2E internal storage
+        changelog-entry: Configure OrangePi-Plus2E internal storage
+        Signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+        signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+      author: Alex J Lennon
+    - subject: Configure linux kernel for OrangePi-Plus2E
+      hash: b0ee148afbbd55e68a8c855f94fcfe9098090036
+      body: |
+        Copy configuration for 2E based on -Plus2 (i.e. pl2303, wifi, hdmi)
+      footer:
+        Changelog-entry: Configure linux kernel for OrangePi-Plus2E
+        changelog-entry: Configure linux kernel for OrangePi-Plus2E
+        Signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+        signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+      author: Alex J Lennon
+    - subject: Add connectivity config. for OrangePi-Plus2E WiFi
+      hash: ffb22b4fe21e93ede1b0896d76ab070b390a00b6
+      body: |
+        Provide WiFi driver specific connectivity configuration (rtl8189fs-mod)
+        for OrangePi-Plus-2E board.
+      footer:
+        Changelog-entry: Add connectivity config. for OrangePi-Plus2E WiFi
+        changelog-entry: Add connectivity config. for OrangePi-Plus2E WiFi
+        Signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+        signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+      author: Alex J Lennon
+    - subject: Add config. for OrangePi-Plus2E image build
+      hash: 42f02aeca388a929535517a9d60d9d423403b83e
+      body: |
+        Provide needed bitbake meta data to build OrangePi-Plus2E output
+        image.
+      footer:
+        Changelog-entry: Add config. for OrangePi-Plus2E image build
+        changelog-entry: Add config. for OrangePi-Plus2E image build
+        Signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+        signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+      author: Alex J Lennon
+    - subject: Add default dependency on meta-sunxi-contrib
+      hash: 0627dde14c8357bce855ffbbe824a8f0f40d5b5f
+      body: |
+        Add a default dependency to bblayers to provide access to WiFi
+        driver for OrangePi-Plus2E
+      footer:
+        Changelog-entry: Add default dependency on meta-sunxi-contrib
+        changelog-entry: Add default dependency on meta-sunxi-contrib
+        Signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+        signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+      author: Alex J Lennon
+    - subject: Add meta-sunxi-contrib submodule layer
+      hash: 2704282cf5443ac336c67e8f78eb2aa9a854e950
+      body: |
+        To support WiFi for OrangePi-Plus2E
+      footer:
+        Changelog-entry: Add meta-sunxi-contrib submodule layer
+        changelog-entry: Add meta-sunxi-contrib submodule layer
+        Signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+        signed-off-by: Alex J Lennon <ajlennon@dynamicdevices.co.uk>
+      author: Alex J Lennon
+  version: 2.27.0+rev5
+  date: 2019-03-22T08:36:45.861Z
+- commits:
     - subject: Mark orange-pi-zero as community in the .coffee file
       hash: 4b49b3d03d907bf544689aa30fc3378d0cc9c478
       body: ''
