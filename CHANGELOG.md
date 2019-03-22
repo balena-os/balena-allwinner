@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.27.0+rev5
+## (2019-03-22)
+
+* Add xradio firmware for XR819 Chipset [Michel Wohlert]
+* Add xradio out-of-tree kernel module [Michel Wohlert]
+
 # v2.27.0+rev4
 ## (2019-03-07)
 
