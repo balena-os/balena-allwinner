@@ -1,4 +1,21 @@
 - commits:
+    - subject: Add xradio firmware for XR819 Chipset
+      hash: 5fd7b1467e3588a87fb78518c6fef5b1b3703cc5
+      body: ''
+      footer:
+        Changelog-entry: Add xradio firmware for XR819 Chipset
+        changelog-entry: Add xradio firmware for XR819 Chipset
+      author: Michel Wohlert
+    - subject: Add xradio out-of-tree kernel module
+      hash: ad124c7a9e39a98862b33ef152019e4e0366528d
+      body: ''
+      footer:
+        Changelog-entry: Add xradio out-of-tree kernel module
+        changelog-entry: Add xradio out-of-tree kernel module
+      author: Michel Wohlert
+  version: 2.27.0+rev5
+  date: 2019-03-22T09:32:01.155Z
+- commits:
     - subject: Mark orange-pi-zero as community in the .coffee file
       hash: 4b49b3d03d907bf544689aa30fc3378d0cc9c478
       body: ''
