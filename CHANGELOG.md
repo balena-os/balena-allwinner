@@ -1,6 +1,24 @@
 Change log
 -----------
 
+# v2.27.0+rev4
+## (2019-03-07)
+
+* Mark orange-pi-zero as community in the .coffee file [Florin Sarbu]
+* Mark orange-pi-one as community in the .coffee file [Florin Sarbu]
+
+# v2.27.0+rev3
+## (2019-02-25)
+
+* add support for Orange Pi One device [Stephen]
+* add support for Orange Pi One device [Stephen]
+
+# v2.27.0+rev2
+## (2019-02-18)
+
+* Add support for XR819 Wifi on Orange Pi Zero board [Michel Wohlert]
+* Add support for Orange Pi Zero [Michel Wohlert]
+
 # v2.27.0+rev1
 ## (2018-12-05)
 
