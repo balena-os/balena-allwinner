@@ -10,6 +10,8 @@ SRC_URI_append = " \
     file://config.txt \
     file://brcmfmac43362-sdio.txt \
     file://brcmfmac43430-sdio.txt \
+    file://bcm43438a0.hcd \
+    file://bcm43438a1.hcd \
     "
 
 do_install_append() {
@@ -26,6 +28,8 @@ do_install_append() {
 do_install_append_nanopi-neo-air() {
     mkdir -p ${D}/${nonarch_base_libdir}/firmware/brcm
     install -m 0644 ${WORKDIR}/brcmfmac43430-sdio.txt ${D}${nonarch_base_libdir}/firmware/brcm
+    install -m 0644 ${WORKDIR}/bcm43438a0.hcd ${D}${nonarch_base_libdir}/firmware/brcm
+    install -m 0644 ${WORKDIR}/bcm43438a1.hcd ${D}${nonarch_base_libdir}/firmware/brcm
 }
 
 PACKAGES =+ "${PN}-ap6212 ${PN}-brcm43362"
@@ -37,6 +41,8 @@ FILES_${PN}-ap6212 = " \
   /lib/firmware/brcm/brcmfmac43430a0-sdio.bin \
   /lib/firmware/brcm/brcmfmac43430a0-sdio.txt \
   /lib/firmware/brcm/config.txt \
+  /lib/firmware/brcm/bcm43438a0.hcd \
+  /lib/firmware/brcm/bcm43438a1.hcd \
 "
 
 FILES_${PN}-brcm43362 = " \

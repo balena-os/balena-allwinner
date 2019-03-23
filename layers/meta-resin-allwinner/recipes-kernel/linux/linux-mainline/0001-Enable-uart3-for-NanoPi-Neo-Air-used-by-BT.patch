@@ -1,0 +1,31 @@
+From b093d275ba1bec4d8ee91f18609ef0266fa5cbbb Mon Sep 17 00:00:00 2001
+From: Sebastian Panceac <sebastian@balena.io>
+Date: Wed, 27 Feb 2019 10:13:31 +0100
+Subject: [PATCH] Enable uart3 for NanoPi Neo Air used by BT
+
+Upstream-status: Pending
+Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+---
+ arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+index a9331fe67..99e34f0a1 100644
+--- a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
++++ b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+@@ -124,6 +124,12 @@
+ 	status = "okay";
+ };
+ 
++&uart3 {
++	pinctrl-names = "default";
++	pinctrl-0 = <&uart3_pins>, <&uart3_rts_cts_pins>;
++	status = "okay";
++};
++
+ &usbphy {
+ 	/* USB VBUS is always on */
+ 	status = "okay";
+-- 
+2.17.1
+
