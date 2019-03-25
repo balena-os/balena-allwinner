@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.31.5+rev2
+## (2019-03-25)
+
+* nanopi-air-bt: Load BT firmware according to chip revision [Sebastian Panceac]
+
 # v2.31.5+rev1
 ## (2019-03-22)
 

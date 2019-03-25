@@ -1,4 +1,20 @@
 - commits:
+    - subject: 'nanopi-air-bt: Load BT firmware according to chip revision'
+      hash: 6b338fffb57b26e4b2788900b22e96795f89d7e3
+      body: |
+        NanoPi Neo Air commes with tho different BT/WiFi chip versions:
+        AP6212 or AP6212A.
+        This commit loads a different BT firmware based on the chip
+        revisions of this board.
+      footer:
+        Changelog-entry: 'nanopi-air-bt: Load BT firmware according to chip revision'
+        changelog-entry: 'nanopi-air-bt: Load BT firmware according to chip revision'
+        Signed-off-by: Sebastian Panceac <sebastian@balena.io>
+        signed-off-by: Sebastian Panceac <sebastian@balena.io>
+      author: Sebastian Panceac
+  version: 2.31.5+rev2
+  date: 2019-03-25T10:56:23.879Z
+- commits:
     - subject: Update meta-resin from v2.27.0 to v2.31.5
       hash: 6ac1533c1ac48379040ebc6e924846c2bbd8ca1b
       body: |
