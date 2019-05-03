@@ -1,0 +1,28 @@
+From f2513e71dffdb207a7d71f7c52bac0f67b9fbcb4 Mon Sep 17 00:00:00 2001
+From: Michel Wohlert <michel.wohlert@googlemail.com>
+Date: Mon, 4 Mar 2019 08:18:53 +0100
+Subject: [PATCH] Disable debug messages
+
+Upstream-Status: Pending
+
+Signed-off-by: Michel Wohlert <michel.wohlert@googlemail.com>
+---
+ include/autoconf.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/include/autoconf.h b/include/autoconf.h
+index 44efe42..6f40903 100644
+--- a/include/autoconf.h
++++ b/include/autoconf.h
+@@ -224,7 +224,7 @@
+ /*
+  * Debug Related Config
+  */
+-#define CONFIG_DEBUG /* DBG_871X, etc... */
++//#define CONFIG_DEBUG /* DBG_871X, etc... */
+ 
+ #ifdef CONFIG_DEBUG
+ #define DBG	1	// for ODM & BTCOEX debug
+-- 
+2.21.0
+
