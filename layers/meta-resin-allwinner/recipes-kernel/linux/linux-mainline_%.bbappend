@@ -23,6 +23,7 @@ RESIN_CONFIGS[axp_power] ="\
 "
 
 RESIN_CONFIGS_append_orangepi-plus2 = " wifi"
+RESIN_CONFIGS_append_orangepi-plus2e = " wifi"
 RESIN_CONFIGS_append_orange-pi-zero = " wifi"
 RESIN_CONFIGS[wifi] ="\
     CONFIG_WIRELESS=y \
@@ -32,6 +33,7 @@ RESIN_CONFIGS[wifi] ="\
 "
 
 RESIN_CONFIGS_append_orangepi-plus2 = " pl2303"
+RESIN_CONFIGS_append_orangepi-plus2e = " pl2303"
 RESIN_CONFIGS_DEPS[pl2303] = "\
     CONFIG_USB_SERIAL=m \
 "
@@ -40,6 +42,7 @@ RESIN_CONFIGS[pl2303] ="\
 "
 
 RESIN_CONFIGS_append_orangepi-plus2 = " hdmi"
+RESIN_CONFIGS_append_orangepi-plus2e = " hdmi"
 RESIN_CONFIGS_DEPS[hdmi] = "\
     CONFIG_SUN8I_DE2_CCU=y \
 "

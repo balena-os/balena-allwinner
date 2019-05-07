@@ -13,6 +13,7 @@ BBLAYERS ?= " \
     ${TOPDIR}/../layers/meta-openembedded/meta-networking \
     ${TOPDIR}/../layers/meta-openembedded/meta-python \
     ${TOPDIR}/../layers/meta-sunxi \
+    ${TOPDIR}/../layers/meta-sunxi-contrib \
     ${TOPDIR}/../layers/meta-resin/meta-resin-common \
     ${TOPDIR}/../layers/meta-resin/meta-resin-sumo \
     ${TOPDIR}/../layers/meta-resin-allwinner \
