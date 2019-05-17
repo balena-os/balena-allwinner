@@ -1,4 +1,21 @@
 - commits:
+    - subject: Update orangepi-lite to kernel 4.17
+      hash: 42a0ca2b63dd8f6ff02236a9d614c020311c415a
+      body: ''
+      footer:
+        Changelog-entry: Update orangepi-lite to kernel 4.17
+        changelog-entry: Update orangepi-lite to kernel 4.17
+      author: Michel Wohlert
+    - subject: Add rtl8189fs as a seperate bitbake file
+      hash: c86275930b880ca3a1bd7e6168d53b79925a6b50
+      body: ''
+      footer:
+        Changelog-entry: Add rtl8189fs as a seperate bitbake file
+        changelog-entry: Add rtl8189fs as a seperate bitbake file
+      author: Michel Wohlert
+  version: 2.33.0+rev2
+  date: 2019-05-17T04:07:49.885Z
+- commits:
     - subject: Update rust to 1.33
       hash: 1d223bb64d3668d9fcec6be2438d46acdabadc27
       body: >

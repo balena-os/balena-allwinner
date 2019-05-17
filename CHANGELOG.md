@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.33.0+rev2
+## (2019-05-17)
+
+* Update orangepi-lite to kernel 4.17 [Michel Wohlert]
+* Add rtl8189fs as a seperate bitbake file [Michel Wohlert]
+
 # v2.33.0+rev1
 ## (2019-05-05)
 
