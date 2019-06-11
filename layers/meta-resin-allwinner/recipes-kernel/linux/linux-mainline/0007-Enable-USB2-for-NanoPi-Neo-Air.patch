@@ -1,0 +1,30 @@
+From 37aeb44727241bce278facfae8c1850823aa21a0 Mon Sep 17 00:00:00 2001
+From: Andrew P <18005295+brdrcol@users.noreply.github.com>
+Date: Tue, 11 Jun 2019 00:18:56 +1000
+Subject: [PATCH] Enable USB2 for NanoPi Neo Air
+
+---
+ arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+diff --git a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+index b8d252b9d355..f6a211602767 100644
+--- a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
++++ b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+@@ -141,3 +141,13 @@
+ 	/* USB 1 */
+ 	status = "okay";
+ };
++
++&ehci3 {
++	/* USB 1 */
++	status = "okay";
++};
++
++&ohci3 {
++	/* USB 1 */
++	status = "okay";
++};
+-- 
+2.21.0
+

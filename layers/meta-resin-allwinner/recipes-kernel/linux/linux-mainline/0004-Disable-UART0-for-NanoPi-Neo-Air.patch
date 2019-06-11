@@ -1,0 +1,29 @@
+From 325993a152c7d1e2b21d0ebe57b66b087544b65d Mon Sep 17 00:00:00 2001
+From: Andrew P <18005295+brdrcol@users.noreply.github.com>
+Date: Mon, 10 Jun 2019 12:00:12 +1000
+Subject: [PATCH 1/1] Disable UART0 for NanoPi Neo Air
+
+---
+ arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts | 6 ------
+ 1 file changed, 6 deletions(-)
+
+diff --git a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+index 692e8679982b..bf83eef7ae26 100644
+--- a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
++++ b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+@@ -103,12 +103,6 @@
+ 	};
+ };
+ 
+-&uart0 {
+-	pinctrl-names = "default";
+-	pinctrl-0 = <&uart0_pins_a>;
+-	status = "okay";
+-};
+-
+ &uart1 {
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&uart1_pins>, <&uart1_rts_cts_pins>;
+-- 
+2.21.0
+

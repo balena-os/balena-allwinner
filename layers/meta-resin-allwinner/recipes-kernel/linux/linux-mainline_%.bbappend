@@ -2,8 +2,38 @@ inherit kernel-resin
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/linux-mainline:"
 
-SRC_URI_append = " file://0001-Enable-uart3-for-NanoPi-Neo-Air-used-by-BT.patch \
+# sunxi-next comes from Armbian: https://github.com/armbian/build/tree/master/patch/kernel/sunxi-next
+SRC_URI_append = " \
+	file://sunxi-next/0009-dt-bindings-update-the-Allwinner-GPADC-device-tree-b.patch \
+	file://sunxi-next/0011-iio-adc-sun4i-gpadc-iio-rename-A33-specified-registe.patch \
+	file://sunxi-next/0012-iio-adc-sun4i-gpadc-iio-rework-sampling-start-end-co.patch \
+	file://sunxi-next/0013-iio-adc-sun4i-gpadc-iio-rework-support-clocks-and-re.patch \
+	file://sunxi-next/0014-iio-adc-sun4i-gpadc-iio-rework-support-multible-sens.patch \
+	file://sunxi-next/0015-iio-adc-sun4i-gpadc-iio-rework-support-nvmem-calibra.patch \
+	file://sunxi-next/0016-iio-adc-sun4i-gpadc-iio-rework-add-interrupt-support.patch \
+	file://sunxi-next/0017-iio-adc-sun4i-gpadc-iio-add-support-for-H3-thermal-s.patch \
+	file://sunxi-next/0018-iio-adc-sun4i-gpadc-iio-add-support-for-A83T-thermal.patch \
+	file://sunxi-next/0019-arm-dts-sunxi-h3-h5-add-support-for-the-thermal-sens.patch \
+	file://sunxi-next/0020-arm-dts-sun8i-h3-add-support-for-the-thermal-sensor-.patch \
+	file://sunxi-next/0021-arm-dts-sun8i-h3-add-thermal-zone-to-H3.patch              \
+	file://sunxi-next/0026-iio-adc-Kconfig-enable-A80-A64-and-H5-for-THS.patch        \
+	file://sunxi-next/0027-iio-adc-sun4i-gpadc-iio-add-support-for-H5-thermal-s.patch \
+	file://sunxi-next/0028-iio-adc-sun4i-gpadc-iio-add-support-for-A80-thermal-.patch \
+	file://sunxi-next/0029-iio-adc-sun4i-gpadc-iio-add-support-for-A64-thermal-.patch \
+	file://sunxi-next/0030-arm64-dts-allwinner-h5-add-support-for-the-thermal-s.patch \
+	file://sunxi-next/0031-arm64-dts-allwinner-h5-add-termal-zone-to-H5.patch         \
+	file://sunxi-next/0032-arm-dts-sun9i-a80-add-support-for-the-thermal-sensor.patch \
+	file://sunxi-next/0033-arm-dts-sun9i-a80-add-thermal-zone-to-A80.patch            \
+	file://sunxi-next/0036-sun4i-gpadc-iio-ignore-zero-samples-to-avoid-force-p.patch \
+	file://0001-Enable-uart3-for-NanoPi-Neo-Air-used-by-BT.patch \
+	file://0002-Enable-UART1-for-NanoPi-Neo-Air.patch \
+	file://0003-Enable-UART2-for-NanoPi-Neo-Air.patch \
+	file://0006-Enable-USB1-for-NanoPi-Neo-Air.patch \
+	file://0007-Enable-USB2-for-NanoPi-Neo-Air.patch \
+	file://0009-sun8i-h3-add-more-CPU-OPPs.patch \
 "
+#	file://0004-Disable-UART0-for-NanoPi-Neo-Air.patch \
+#
 
 do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}binutils:do_populate_sysroot"
 do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}gcc:do_populate_sysroot"

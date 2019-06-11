@@ -1,0 +1,29 @@
+From 2ed6f2e38a6e08b5c6e5b3bb63d37fc0343d30fb Mon Sep 17 00:00:00 2001
+From: Andrew P <18005295+brdrcol@users.noreply.github.com>
+Date: Mon, 10 Jun 2019 22:03:51 +1000
+Subject: [PATCH] Enable UART2 for NanoPi Neo Air
+
+---
+ arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+index 8ae4ea7268dc..735a6db52cc9 100644
+--- a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
++++ b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+@@ -115,6 +115,12 @@
+ 	status = "okay";
+ };
+ 
++&uart2 {
++	pinctrl-names = "default";
++	pinctrl-0 = <&uart2_pins>;
++	status = "okay";
++};
++
+ &uart3 {
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&uart3_pins>, <&uart3_rts_cts_pins>;
+-- 
+2.21.0
+
