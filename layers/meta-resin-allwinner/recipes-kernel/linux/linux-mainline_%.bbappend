@@ -31,6 +31,7 @@ SRC_URI_append = " \
 	file://0006-Enable-USB1-for-NanoPi-Neo-Air.patch \
 	file://0007-Enable-USB2-for-NanoPi-Neo-Air.patch \
 	file://0009-sun8i-h3-add-more-CPU-OPPs.patch \
+	file://0012-Add-eMMC-to-NanoPi-Neo-Air.patch \
 "
 #	file://0004-Disable-UART0-for-NanoPi-Neo-Air.patch \
 #

@@ -1,0 +1,35 @@
+From e59b90a39a3b827484e25ade9d0bf64a98716696 Mon Sep 17 00:00:00 2001
+From: Andrew P <18005295+brdrcol@users.noreply.github.com>
+Date: Thu, 13 Jun 2019 15:19:01 +1000
+Subject: [PATCH] Add eMMC to NanoPi Neo Air
+
+Only half the original "nanopi-neo-air: Add WiFi / eMMC" patch made it into mainline 88c23c05ef18f543fad7b26c95a3acc0ffb378cc
+This adds the mmc2 block from Jelle van der Waa's https://patchwork.kernel.org/patch/9642071/
+---
+ arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+diff --git a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+index f6a211602767..ab935fdc446d 100644
+--- a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
++++ b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+@@ -103,6 +103,16 @@
+ 	};
+ };
+ 
++&mmc2 {
++	pinctrl-names = "default";
++	pinctrl-0 = <&mmc2_8bit_pins>;
++	vmmc-supply = <&reg_vcc3v3>;
++	vqmmc-supply = <&reg_vcc3v3>;
++	bus-width = <8>;
++	non-removable;
++	status = "okay";
++};
++
+ &uart0 {
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&uart0_pins_a>;
+-- 
+2.22.0
+
