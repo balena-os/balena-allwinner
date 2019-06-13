@@ -14,11 +14,11 @@ KBRANCH ?= "master"
 RDEPENDS_${KERNEL_PACKAGE_NAME}-base += "kernel-devicetree"
 
 KERNEL_EXTRA_ARGS += "LOADADDR=${UBOOT_ENTRYPOINT}"
-KERNEL_VERSION = "4.19.49"
+KERNEL_VERSION = "4.19.50"
 PV = "${KERNEL_VERSION}"
 S = "${WORKDIR}/linux-${PV}"
 SRCREV_pn-${PN} = "v${KERNEL_VERSION}"
-SRC_URI[sha256sum] = "92d920b3973c0dbca5516271afa405be6e5822a9b831df8c085f9c9eb838bbcd"
+SRC_URI[sha256sum] = "a9987423918abd20ee68d6e9b14b7225eaca8a586bf75fb56c49f6e1e47ce01e"
 SRC_URI = "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-${PV}.tar.xz \
 	   file://defconfig \
 "
