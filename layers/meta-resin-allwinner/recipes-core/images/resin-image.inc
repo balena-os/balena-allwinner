@@ -122,7 +122,6 @@ RESIN_IMAGE_BOOTLOADER_nanopi-neo-air = "u-boot"
 RESIN_BOOT_PARTITION_FILES_nanopi-neo-air = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     uImage-sun8i-h3-nanopi-neo-air.dtb:/dtb/sun8i-h3-nanopi-neo-air.dtb \
-    boot.scr:/boot.scr \
     u-boot-sunxi-with-spl.bin: \
     "
 
