@@ -7,9 +7,9 @@
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = https://github.com/openembedded/meta-openembedded
-[submodule "layers/meta-resin"]
-	path = layers/meta-resin
-	url = https://github.com/resin-os/meta-resin
+[submodule "layers/meta-balena"]
+	path = layers/meta-balena
+	url = https://github.com/balena-os/meta-balena.git
 [submodule "layers/meta-sunxi"]
 	path = layers/meta-sunxi
 	url = https://github.com/linux-sunxi/meta-sunxi.git
