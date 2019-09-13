@@ -2,6 +2,15 @@ inherit kernel-resin
 inherit kernel-devicetree
 
 PACKAGES =+ "${PN}-fixup-scr"
+FILESEXTRAPATHS_prepend := "${THISDIR}/linux-mainline:"
+
+SRC_URI_append = " file://0001-Enable-uart3-for-NanoPi-Neo-Air-used-by-BT.patch \
+		file://0002-NFLX-2019-001-SACK-Panic.patch \
+		file://0003-NFLX-2019-001-SACK-Panic-for-lteq-4.14.patch \
+		file://0004-NFLX-2019-001-SACK-Slowness.patch \
+		file://0005-NFLX-2019-001-Resour-Consump-Low-MSS.patch \
+		file://0006-NFLX-2019-001-Resour-Consump-Low-MSS.patch  \
+"
 
 do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}binutils:do_populate_sysroot"
 do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}gcc:do_populate_sysroot"
