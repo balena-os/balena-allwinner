@@ -23,7 +23,7 @@ module.exports =
 		machine: 'orange-pi-one'
 		image: 'resin-image'
 		fstype: 'resinos-img'
-		version: 'yocto-sumo'
+		version: 'yocto-warrior'
 		deployArtifact: 'resin-image-orange-pi-one.resinos-img'
 		compressed: true
 
