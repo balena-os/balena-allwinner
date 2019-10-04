@@ -1,5 +1,5 @@
 UBOOT_KCONFIG_SUPPORT = "1"
-inherit resin-u-boot
+inherit resin-u-boot pythonnative
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
