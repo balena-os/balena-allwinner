@@ -1,7 +1,13 @@
 inherit kernel-resin
 
 PACKAGES =+ "${PN}-fixup-scr"
-FILESEXTRAPATHS_prepend := "${THISDIR}/linux-4.19:"
+FILESEXTRAPATHS_prepend := "${THISDIR}/linux-mainline-4.19:"
+
+SRC_URI_remove = " file://0001-Enable-uart3-for-NanoPi-Neo-Air-used-by-BT.patch \
+"
+
+SRC_URI_append = " file://0001-Enable-uart3-for-NanoPi-Neo-Air-used-by-BT.patch \
+"
 
 # These patches were fetched from the lovely guys at armbian: https://github.com/armbian/build/tree/master/patch/kernel/sunxi-next
 SRC_URI_append = " \
