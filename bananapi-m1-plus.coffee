@@ -22,7 +22,7 @@ module.exports =
 		machine: 'bananapi-m1-plus'
 		image: 'resin-image'
 		fstype: 'resinos-img'
-		version: 'yocto-sumo'
+		version: 'yocto-warrior'
 		deployArtifact: 'resin-image-bananapi-m1-plus.resinos-img'
 		compressed: true
 

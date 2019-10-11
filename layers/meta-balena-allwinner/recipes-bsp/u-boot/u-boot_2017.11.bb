@@ -63,6 +63,7 @@ SRC_URI = "git://git.denx.de/u-boot.git;branch=master \
         file://boot.cmd \
         file://0001-Increase-size-of-memory-available-to-bootm.patch \
         file://0002-Add-Resin-specific-boot-command.patch \
+        file://0003-libftd_fix.patch \
 "
 
 SRCREV = "v2017.11"

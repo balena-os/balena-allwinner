@@ -1,5 +1,6 @@
 inherit kernel-resin
 
+PACKAGES =+ "${PN}-fixup-scr"
 FILESEXTRAPATHS_prepend := "${THISDIR}/linux-4.14:"
 
 # These patches were fetched from the lovely guys at armbian: https://github.com/armbian/build/tree/master/patch/kernel/sunxi-next
@@ -126,4 +127,8 @@ RESIN_CONFIGS_append_orange-pi-lite = " \
 
 RESIN_CONFIGS[8189fs] ?= " \
     CONFIG_RTL8189FS=m \
+"
+
+FILES_${PN}-fixup-scr = " \
+    /boot/sun8i-h3-fixup.scr \
 "
