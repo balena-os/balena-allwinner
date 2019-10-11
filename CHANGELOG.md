@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.41.1+rev5
+## (2019-10-11)
+
+* Remove linux-4.14 recipe [Vicentiu Galanopulo]
+* Remove linux-mainline-4.17.3 recipe [Vicentiu Galanopulo]
+
 # v2.41.1+rev4
 ## (2019-10-10)
 

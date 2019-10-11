@@ -1,4 +1,29 @@
 - commits:
+    - subject: Remove linux-4.14 recipe
+      hash: 72f50b158dd6c18620d08069088e3adafb649241
+      body: |
+        The linux-4.14 kernel is not built
+        anymore by any of the supported Balena machines.
+      footer:
+        Changelog-entry: Remove linux-4.14 recipe
+        changelog-entry: Remove linux-4.14 recipe
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+    - subject: Remove linux-mainline-4.17.3 recipe
+      hash: 73dda90587f11bf9a65649fc03857d092f2c927e
+      body: |
+        The linux-mainline-4.17.3 kernel is not built
+        anymore by any of the supported Balena machines.
+      footer:
+        Changelog-entry: Remove linux-mainline-4.17.3 recipe
+        changelog-entry: Remove linux-mainline-4.17.3 recipe
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.41.1+rev5
+  date: 2019-10-11T09:49:20.087Z
+- commits:
     - subject: Update yocto versions in coffee files
       hash: addff7a145c49992aadcb678ab3bd8f35a9ecc3b
       body: |
