@@ -1,4 +1,46 @@
 - commits:
+    - subject: Update yocto versions in coffee files
+      hash: addff7a145c49992aadcb678ab3bd8f35a9ecc3b
+      body: |
+        Update the yocto versions for all
+        supported machines.
+      footer:
+        Changelog-entry: Update yocto versions in coffee files
+        changelog-entry: Update yocto versions in coffee files
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+    - subject: Add orange-pi-lite svg icon
+      hash: 96f2c8717325089bd278e15e6ec31400ded8187b
+      body: |
+        Jenkins build fails if no svg icon is found
+      footer:
+        Changelog-entry: Add orange-pi-lite svg icon
+        changelog-entry: Add orange-pi-lite svg icon
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+    - subject: Update balena-allwiner config to using warrior
+      hash: 0fc579c4583c0385d75b7bbe76a7630b39a8e586
+      body: ''
+      footer:
+        Changelog-entry: Update balena-allwiner config to using warrior
+        changelog-entry: Update balena-allwiner config to using warrior
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+    - subject: Update the poky submodule to warrior
+      hash: 0d19af989db55e73eaf5fc7e4169a3acf50de342
+      body: ''
+      footer:
+        Changelog-entry: Update the poky submodule to warrior
+        changelog-entry: Update the poky submodule to warrior
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.41.1+rev4
+  date: 2019-10-10T09:55:11.507Z
+- commits:
     - subject: Update balena-yocto-scripts to v1.3.8
       hash: 4413dcf2d1b6a57a8d3a9d1d38baa5b2d615c196
       body: ''

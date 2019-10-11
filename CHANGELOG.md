@@ -1,6 +1,14 @@
 Change log
 -----------
 
+# v2.41.1+rev4
+## (2019-10-10)
+
+* Update yocto versions in coffee files [Vicentiu Galanopulo]
+* Add orange-pi-lite svg icon [Vicentiu Galanopulo]
+* Update balena-allwiner config to using warrior [Vicentiu Galanopulo]
+* Update the poky submodule to warrior [Vicentiu Galanopulo]
+
 # v2.41.1+rev3
 ## (2019-10-01)
 
