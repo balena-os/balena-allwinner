@@ -10,10 +10,10 @@ Signed-off-by: Sebastian Panceac <sebastian@balena.io>
  1 file changed, 6 insertions(+)
 
 diff --git a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
-index a9331fe67..99e34f0a1 100644
+index 6246d3eff39d..2fc601a0ec82 100644
 --- a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
 +++ b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
-@@ -124,6 +124,12 @@
+@@ -109,6 +109,12 @@
  	status = "okay";
  };
  

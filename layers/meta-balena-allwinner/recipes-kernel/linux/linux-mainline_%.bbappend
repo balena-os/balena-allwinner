@@ -1,9 +1,6 @@
 inherit kernel-resin
 
-FILESEXTRAPATHS_prepend := "${THISDIR}/linux-mainline:"
-
-SRC_URI_append = " file://0001-Enable-uart3-for-NanoPi-Neo-Air-used-by-BT.patch \
-"
+PACKAGES =+ "${PN}-fixup-scr"
 
 do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}binutils:do_populate_sysroot"
 do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}gcc:do_populate_sysroot"
@@ -59,4 +56,16 @@ RESIN_CONFIGS[huawei_modems] ="\
 RESIN_CONFIGS_append = " cp210x"
 RESIN_CONFIGS[cp210x] ="\
     CONFIG_USB_SERIAL_CP210X=m \
+"
+
+RESIN_CONFIGS_append_orange-pi-lite = " \
+    8189fs \
+    "
+
+RESIN_CONFIGS[8189fs] ?= " \
+    CONFIG_RTL8189FS=m \
+"
+
+FILES_${PN}-fixup-scr = " \
+    /boot/sun8i-h3-fixup.scr \
 "
