@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.41.1+rev6
+## (2019-10-14)
+
+* Remove unused patches and cleanup [Vicentiu Galanopulo]
+
 # v2.41.1+rev5
 ## (2019-10-11)
 

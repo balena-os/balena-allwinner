@@ -1,4 +1,39 @@
 - commits:
+    - subject: Remove unused patches and cleanup
+      hash: 7d5f1dbda1bba54af7446d5f7c18c55ad8098734
+      body: >
+        Some patches were part of other linux-mainline
+
+        kernel versions but are not anymore part of the
+
+        current 4.19.76.
+
+
+        Move 0001-Enable-uart3-for-NanoPi-Neo-Air-used-by-BT.patch
+
+        in linux-mainline_4.19.76.bbappend to avoid error
+
+        patching file arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+
+        Hunk #2 FAILED at 162.
+
+        1 out of 2 hunks FAILED -- rejects in file
+        arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+
+
+        Place all patches from Armbian in a separate directory and do all the
+        Balena specific
+
+        operations in linux-mainline_%.bbappend only.
+      footer:
+        Changelog-entry: Remove unused patches and cleanup
+        changelog-entry: Remove unused patches and cleanup
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.41.1+rev6
+  date: 2019-10-14T07:47:15.580Z
+- commits:
     - subject: Remove linux-4.14 recipe
       hash: 72f50b158dd6c18620d08069088e3adafb649241
       body: |
