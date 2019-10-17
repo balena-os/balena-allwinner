@@ -1,4 +1,18 @@
 - commits:
+    - subject: Checkout to warrior-21.0.1 tag
+      hash: 43735734e119924662378d434de0a1f84cca8e2a
+      body: |
+        The poky submodule was on the warrior branch
+        but not on the latest warrior tag
+      footer:
+        Changelog-entry: Checkout to warrior-21.0.1 tag
+        changelog-entry: Checkout to warrior-21.0.1 tag
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.41.1+rev7
+  date: 2019-10-17T09:32:41.275Z
+- commits:
     - subject: Remove unused patches and cleanup
       hash: 7d5f1dbda1bba54af7446d5f7c18c55ad8098734
       body: >

@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.41.1+rev7
+## (2019-10-17)
+
+* Checkout to warrior-21.0.1 tag [Vicentiu Galanopulo]
+
 # v2.41.1+rev6
 ## (2019-10-14)
 
