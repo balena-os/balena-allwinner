@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-yocto-scripts to v1.4.0
+      hash: 1a0a46bbaf58023ff1457bc0a5cdcc75bea76159
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.4.0
+        changelog-entry: Update balena-yocto-scripts to v1.4.0
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.41.1+rev8
+  date: 2019-10-21T18:53:57.639Z
+- commits:
     - subject: Checkout to warrior-21.0.1 tag
       hash: 43735734e119924662378d434de0a1f84cca8e2a
       body: |
