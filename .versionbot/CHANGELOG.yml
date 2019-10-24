@@ -1,4 +1,20 @@
 - commits:
+    - subject: Add overlays for orange-pi-zero
+      hash: e8b524b74d4eb5d68f9a037235ef8683126e1730
+      body: >
+        Update the RESIN_BOOT_PARTITION_FILES of resin-image.inc and
+        KERNEL_DEVICETREE
+
+        of linux-mainline_%.bbappend for the orange-pi-zero machine.
+      footer:
+        Changelog-entry: Add overlays for orange-pi-zero
+        changelog-entry: Add overlays for orange-pi-zero
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.41.1+rev9
+  date: 2019-10-24T18:04:03.282Z
+- commits:
     - subject: Update balena-yocto-scripts to v1.4.0
       hash: 1a0a46bbaf58023ff1457bc0a5cdcc75bea76159
       body: ''

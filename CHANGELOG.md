@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.41.1+rev9
+## (2019-10-24)
+
+* Add overlays for orange-pi-zero [Vicentiu Galanopulo]
+
 # v2.41.1+rev8
 ## (2019-10-21)
 
