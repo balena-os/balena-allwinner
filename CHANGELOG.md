@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.41.1+rev8
+## (2019-10-24)
+
+* Add rtl8189fs wifi driver for orange pi lite [Michel Wohlert]
+
 # v2.41.1+rev7
 ## (2019-10-17)
 

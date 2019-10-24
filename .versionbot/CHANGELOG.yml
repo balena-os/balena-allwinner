@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add rtl8189fs wifi driver for orange pi lite
+      hash: 1a4f4f0009d9ff7ec67f1f5038bd6036fd06a2b7
+      body: >
+        Add rtl8189fs wifi driver as a breakout to be reused by others than just
+        the orange pi lite
+      footer:
+        Changelog-entry: Add rtl8189fs wifi driver for orange pi lite
+        changelog-entry: Add rtl8189fs wifi driver for orange pi lite
+        Signed-off-by: Michel Wohlert <michel.wohlert@gmail.com>
+        signed-off-by: Michel Wohlert <michel.wohlert@gmail.com>
+      author: Michel Wohlert
+  version: 2.41.1+rev8
+  date: 2019-10-24T04:15:45.941Z
+- commits:
     - subject: Checkout to warrior-21.0.1 tag
       hash: 43735734e119924662378d434de0a1f84cca8e2a
       body: |
