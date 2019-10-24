@@ -1,6 +1,176 @@
 Change log
 -----------
 
+# v2.41.1+rev7
+## (2019-10-17)
+
+* Checkout to warrior-21.0.1 tag [Vicentiu Galanopulo]
+
+# v2.41.1+rev6
+## (2019-10-14)
+
+* Remove unused patches and cleanup [Vicentiu Galanopulo]
+
+# v2.41.1+rev5
+## (2019-10-11)
+
+* Remove linux-4.14 recipe [Vicentiu Galanopulo]
+* Remove linux-mainline-4.17.3 recipe [Vicentiu Galanopulo]
+
+# v2.41.1+rev4
+## (2019-10-10)
+
+* Update yocto versions in coffee files [Vicentiu Galanopulo]
+* Add orange-pi-lite svg icon [Vicentiu Galanopulo]
+* Update balena-allwiner config to using warrior [Vicentiu Galanopulo]
+* Update the poky submodule to warrior [Vicentiu Galanopulo]
+
+# v2.41.1+rev3
+## (2019-10-01)
+
+* Update balena-yocto-scripts to v1.3.8 [Zubair Lutfullah Kakakhel]
+
+# v2.41.1+rev2
+## (2019-09-13)
+
+* Update balena-yocto-scripts to v1.3.7 [Zubair Lutfullah Kakakhel]
+
+# v2.41.1+rev1
+## (2019-09-10)
+
+* Rename meta-resin to meta-balena in repository [Florin Sarbu]
+* Change the poky submodule to our github mirror [Florin Sarbu]
+* Update repo.yml to be able to trigger VersionBot with `meta-balena` [Florin Sarbu]
+* Update the balena-yocto-scripts submodule to v1.2.1 [Florin Sarbu]
+
+<details>
+<summary> Update the meta-balena submodule from v2.33.0 to v2.41.1 [Florin Sarbu] </summary>
+
+> ## meta-balena-2.41.1
+> ### (2019-09-03)
+> 
+> * Update ModemManager to version 1.10.4 [Florin Sarbu]
+> * Fix for some innocous systemd tmpfile warnings /var/run -> /run ones [Zubair Lutfullah Kakakhel]
+> * Fix for rollbacks where the inactive partition mount was unavailable when altboot triggered [Zubair Lutfullah Kakakhel]
+> * kernel-resin: Enable FTDI USB-serial convertors driver [Sebastian Panceac]
+
+> ## meta-balena-2.41.0
+> ### (2019-08-22)
+> 
+> * Fix a hang in initramfs for warrior production images [Zubair Lutfullah Kakakhel]
+> * Update balena-engine to 18.09.8 [Robert Günzler]
+> * Avoid overlayfs mounts in poky's volatile-binds [Andrei Gherzan]
+
+> ## meta-balena-2.40.0
+> ### (2019-08-14)
+> 
+> * Update balena-supervisor to v10.2.2 [Cameron Diver]
+> * Workaround for a cornercase bug in PersistentLogging where journalctl filled the state partition. Vacuum the journal on boot. [Zubair Lutfullah Kakakhel]
+
+> ## meta-balena-2.39.0
+> ### (2019-07-31)
+> 
+> * usb-modeswitch-data: Switch Huawei E3372 12d1:1f01 to mbim mode [Alexandru Costache]
+> * Fix rollback altboots to prevent good reboots by supervisor triggering rollback. [Zubair Lutfullah Kakakhel]
+> * Devices using u-boot. Remove any BOOTDELAY for production images. Add a 2 seconds delay for development images [Zubair Lutfullah Kakakhel]
+> * Devices using u-boot. Enable CONFIG_CMD_SETEXPR for all devices. Required for rollbacks to work [Zubair Lutfullah Kakakhel]
+> * Devices using u-boot. Enable rollback-altboot by handling bootcount via meta-balena. [Zubair Lutfullah Kakakhel]
+> * Production Devices using u-boot. Enable CONFIG_RESET_TO_RETRY to reset a device in case it drops into a u-boot shell [Zubair Lutfullah Kakakhel]
+> * Remove confusing networkmanager https connectivity warning [Zubair Lutfullah Kakakhel]
+> * Increase fs.inotify.max_user_instances to 512 [Zubair Lutfullah Kakakhel]
+> * Update balena-supervisor to v10.0.3 [Cameron Diver]
+> * Fix balena hello-world healthcheck [Zubair Lutfullah Kakakhel]
+> * Add nf_table kernel modules [Zubair Lutfullah Kakakhel]
+> * hostapp-update-hooks: Use correct source for inactive sysroot [Alexandru Costache]
+> * Add extra healthcheck to balena service. It will spin up a hello-world container as well [Zubair Lutfullah Kakakhel]
+> * Update balena-supervisor to v9.18.8 [Cameron Diver]
+> * image-resin.bbclass: fixed a typo [Kyle Harding]
+> * kernel-resin: Add support for CH340 family of usb-serial adapters [Sebastian Panceac]
+> * resin-proxy-config: add missing reserved ip ranges to default noproxy [Will Boyce]
+> * Reduce data partition size from 1G to 192M [Zubair Lutfullah Kakakhel]
+
+> ## meta-balena-2.38.3
+> ### (2019-07-10)
+> 
+> * resin-proxy-config: fix up incorrect bash subshell command [Matthew McGinn]
+
+> ## meta-balena-2.38.2
+> ### (2019-06-27)
+> 
+> * Update to kernel-modules-headers v0.0.20 to fix missing target modpost binary on kernel 5.0.3 [Florin Sarbu]
+> * Update to kernel-modules-headers v0.0.19 to fix target objtool compile issue on kernel 5.0.3 [Florin Sarbu]
+
+> ## meta-balena-2.38.1
+> ### (2019-06-20)
+> 
+> * Add warrior to compatible layers for meta-balena-common [Florin Sarbu]
+> * Fix image-resin.bbclass to be able to use deprecated layers [Andrei Gherzan]
+> * Fix kernel-devsrc on thud when kernel version < 4.10 [Andrei Gherzan]
+
+> ## meta-balena-2.38.0
+> ### (2019-06-14)
+> 
+> * Fix VERSION_ID os-release to be semver complient [Andrei Gherzan]
+> * Introduce META_BALENA_VERSION in os-release [Andrei Gherzan]
+> * Fix a case where changes to u-boot were not regenerating the config file at build time and using stale values. [Zubair Lutfullah Kakakhel]
+> * Use all.rp_filter=2 as the default value in balenaOS [Andrei Gherzan]
+> * Persist bluetooth storage data over reboots [Andrei Gherzan]
+> * Drop support for morty and krogoth Yocto versions [Andrei Gherzan]
+> * Add Yocto Warrior support [Zubair Lutfullah Kakakhel]
+> * Set both VERSION_ID and VERSION in os-release to host OS version [Andrei Gherzan]
+> * Bump balena-engine to 18.9.6 [Zubair Lutfullah Kakakhel]
+> * Downgrade balena-supervisor to v9.15.7 [Andrei Gherzan]
+> * Switch from dropbear to openSSH [Andrei Gherzan]
+> * Rename meta-resin-common to meta-balena-common [Andrei Gherzan]
+> * Add wifi firmware for rtl8192su [Zubair Lutfullah Kakakhel]
+
+> ## meta-balena-2.37.0
+> ### (2019-05-29)
+> 
+> * Update balena-supervisor to v9.15.8 [Cameron Diver]
+> * kernel-modules-headers: Update to v0.0.18 [Andrei Gherzan]
+> * os-config: Update to v1.1.1 to fix mDNS [Andrei Gherzan]
+> * Fix busybox nslookup mdns lookups [Andrei Gherzan]
+> * Update balena-supervisor to v9.15.4 [Cameron Diver]
+> * Improve logging and version comparison in linux-firmware cleanup class [Andrei Gherzan]
+> * Sync ModemManager recipe with upstream [Andrei Gherzan]
+> * Update NetworkManager to 1.18.0 [Andrei Gherzan]
+
+> ## meta-balena-2.36.0
+> ### (2019-05-20)
+> 
+> * Cleanup old versions of iwlwifi firmware files in Yocto Thud [Florin Sarbu]
+
+> ## meta-balena-2.35.0
+> ### (2019-05-18)
+> 
+> * Update kernel-module-headers to version v0.0.16 [Florin Sarbu]
+> * Add uboot support for unified kernel cmdline arguments [Andrei Gherzan]
+> * Switch flasher detection in initramfs to flasher boot parameter [Andrei Gherzan]
+> * Update balena-supervisor to v9.15.0 [Cameron Diver]
+> * Improve boot speed by only mounting the inactive partition when needed [Zubair Lutfullah Kakakhel]
+> * Fix openssl dependency of balena-unique-key [Andrei Gherzan]
+> * Do not spawn getty in production images [Florin Sarbu]
+
+> ## meta-balena-2.34.1
+> ### (2019-05-14)
+> 
+> * Update balena-supervisor to v9.14.10 [Cameron Diver]
+
+> ## meta-balena-2.34.0
+> ### (2019-05-10)
+> 
+> * Add support to update a connectivity section in NetworkManager via config.json [Zubair Lutfullah Kakakhel]
+> * systemd: Fix journald configuration file [Andrei Gherzan]
+> * Add --max-download-attempts=10 to balenaEngine service to improve performance on shaky networks [Zubair Lutfullah Kakakhel]
+> * Update balena-engine to 18.09.5 [Zubair Lutfullah Kakakhel]
+> * Log initramfs messages to kernel dmesg to capture fsck, partition expand etc. command output [Zubair Lutfullah Kakakhel]
+> * kernel-resin: Add FAT fs specific configs to RESIN_CONFIGS [Sebastian Panceac]
+> * Update balena-supervisor to v9.14.9 [Cameron Diver]
+> * Introduce meta-balena yocto thud support [Andrei Gherzan]
+> * Update os-config to 1.1.0 [Andrei Gherzan]
+</details>
+
 # v2.33.0+rev1
 ## (2019-05-05)
 
