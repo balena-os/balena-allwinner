@@ -67,6 +67,16 @@ RESIN_CONFIGS[8189fs] ?= " \
     CONFIG_RTL8189FS=m \
 "
 
+RESIN_CONFIGS_append = " \
+    configfs \
+"
+
+RESIN_CONFIGS[configfs] = " \
+    CONFIG_OF_CONFIGFS=y \
+    CONFIG_OF_OVERLAY=y \
+    CONFIG_CONFIGFS_FS=m \
+"
+
 FILES_${PN}-fixup-scr = " \
     /boot/sun8i-h3-fixup.scr \
 "

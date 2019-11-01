@@ -3,17 +3,15 @@ inherit resin-u-boot pythonnative
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
-#remove the resin-specific-env-integration-kconfig.patch patch from meta-resin
-#and the 0001-nanopi_neo_air_defconfig-Enable-eMMC-support.patch patch from
-#meta-sunxi because these fail to apply
-SRC_URI_remove = "file://0001-nanopi_neo_air_defconfig-Enable-eMMC-support.patch \
-                  file://resin-specific-env-integration-kconfig.patch"
+# remove the resin-specific-env-integration-kconfig.patch patch from meta-resin
+# because it fails to apply
+SRC_URI_remove = "file://resin-specific-env-integration-kconfig.patch"
 
-#Add updated patches for 0001-nanopi_neo_air_defconfig-Enable-eMMC-support.patch
-#and for 0001-nanopi_neo_air_defconfig-Enable-eMMC-support.patch
-SRC_URI += "file://0001-Add-Resin-specific-boot-command.patch \
-            file://resin-specific-env-integration-kconfig.patch \
-           "
+# Add re-worked patch which was previously removed
+SRC_URI_append = " \
+	file://0001-Add-Resin-specific-boot-command.patch \
+	file://resin-specific-env-integration-kconfig_reworked.patch \
+	"
 
 do_deploy_append() {
     install -m 0644 ${WORKDIR}/armbianEnv.txt ${DEPLOYDIR}/armbianEnv.txt
