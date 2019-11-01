@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.44.0+rev2
+## (2019-10-31)
+
+* U-boot patches fixup [Vicentiu Galanopulo]
+* Add configs in the kernel to enable configfs [Vicentiu Galanopulo]
+
 # v2.44.0+rev1
 ## (2019-10-29)
 

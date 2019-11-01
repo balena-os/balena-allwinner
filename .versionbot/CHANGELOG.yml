@@ -1,4 +1,35 @@
 - commits:
+    - subject: U-boot patches fixup
+      hash: e32f34f65ba46888c6cd8cc0a22c6b87040e8cda
+      body: |
+        The eMMC patch has been removed because it applies
+        from meta-sunxi.
+        The resin-kconfig-integration patch has been removed
+        and a re-worked version of it has been applied.
+      footer:
+        Changelog-entry: U-boot patches fixup
+        changelog-entry: U-boot patches fixup
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+    - subject: Add configs in the kernel to enable configfs
+      hash: 7954383391a8c6d3befc53ed6a1f483a69d8c73b
+      body: |
+        Customer requested i2c and UART enabled on the orange pi
+        zero. The directory /sys/kernel/config/device-tree
+        which is used to add overlays at runtime is not present
+        in the file system.
+        This patch enables configfs and generation of the needed
+        directory.
+      footer:
+        Changelog-entry: Add configs in the kernel to enable configfs
+        changelog-entry: Add configs in the kernel to enable configfs
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.44.0+rev2
+  date: 2019-10-31T12:28:24.480Z
+- commits:
     - subject: Rename re-worked patch to have it applied
       hash: bd839185ede9d71eb7cc439361fa3c6736a7a47b
       body: |
