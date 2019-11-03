@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.44.0+rev3
+## (2019-11-03)
+
+* Fix orange-pi-lite image for hostapp updates [Michel Wohlert]
+
 # v2.44.0+rev2
 ## (2019-10-31)
 

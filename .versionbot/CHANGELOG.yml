@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix orange-pi-lite image for hostapp updates
+      hash: 2cd9057d0b1439ab9a38b21a508db3a06488546f
+      body: >
+        Include u-boot-sunxi-with-spl.bin in orange-pi-lite partition files to
+        prevent hostapp updates from failing
+      footer:
+        Changelog-Entry: Fix orange-pi-lite image for hostapp updates
+        changelog-entry: Fix orange-pi-lite image for hostapp updates
+        Signed-off-by: Michel Wohlert <michel.wohlert@googlemail.com>
+        signed-off-by: Michel Wohlert <michel.wohlert@googlemail.com>
+      author: Michel Wohlert
+  version: 2.44.0+rev3
+  date: 2019-11-03T09:53:14.674Z
+- commits:
     - subject: U-boot patches fixup
       hash: e32f34f65ba46888c6cd8cc0a22c6b87040e8cda
       body: |
