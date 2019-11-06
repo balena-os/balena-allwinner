@@ -27,11 +27,17 @@ RESIN_CONFIGS[axp_power] ="\
 
 RESIN_CONFIGS_append_orangepi-plus2 = " wifi"
 RESIN_CONFIGS_append_orange-pi-zero = " wifi"
+RESIN_CONFIGS_append_orange-pi-lite = " wifi"
+RESIN_CONFIGS_append_nanopi-neo-air = " wifi"
+RESIN_CONFIGS_append_bananapi-m1-plus = " wifi"
+
 RESIN_CONFIGS[wifi] ="\
     CONFIG_WIRELESS=y \
     CONFIG_RFKILL=y \
     CONFIG_CFG80211=m \
     CONFIG_CFG80211_WEXT=y \
+    CONFIG_WLAN=y \
+    CONFIG_WLAN_VENDOR_REALTEK=y \
 "
 
 RESIN_CONFIGS_append_orangepi-plus2 = " pl2303"
