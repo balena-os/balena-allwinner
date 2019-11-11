@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add orange-pi-pc-plus to balena-allwiner
+      hash: 99c1b68f495b48f3649104f282d542496efe8b44
+      body: ''
+      footer:
+        Changelog-entry: Add orange-pi-pc-plus to balena-allwiner
+        changelog-entry: Add orange-pi-pc-plus to balena-allwiner
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.44.0+rev3
+  date: 2019-11-11T08:51:55.152Z
+- commits:
     - subject: U-boot patches fixup
       hash: e32f34f65ba46888c6cd8cc0a22c6b87040e8cda
       body: |

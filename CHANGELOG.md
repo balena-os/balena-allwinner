@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.44.0+rev3
+## (2019-11-11)
+
+* Add orange-pi-pc-plus to balena-allwiner [Vicentiu Galanopulo]
+
 # v2.44.0+rev2
 ## (2019-10-31)
 
