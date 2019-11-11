@@ -1,6 +1,7 @@
 # Supported machines
 #MACHINE ?= "orange-pi-lite"
 #MACHINE ?= "nanopi-neo-air"
+#MACHINE ?= "orange-pi-pc-plus"
 
 # More info meta-resin/README.md
 #TARGET_REPOSITORY ?= ""

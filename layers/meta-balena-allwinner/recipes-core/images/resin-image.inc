@@ -150,3 +150,40 @@ IMAGE_CMD_resinos-img_append_nanopi-neo-air () {
     # nanopi-neo-air needs uboot written at a specific location
     dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
 }
+
+# Orange Pi PC Plus
+#
+
+IMAGE_FSTYPES_append_orange-pi-pc-plus = " resinos-img"
+
+# Customize resinos-img
+RESIN_IMAGE_BOOTLOADER_orange-pi-pc-plus = "u-boot"
+RESIN_BOOT_PARTITION_FILES_orange-pi-pc-plus = " \
+    ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
+    sun8i-h3-orangepi-pc-plus.dtb:/dtb/sun8i-h3-orangepi-pc-plus.dtb \
+    sun8i-h3-fixup.scr:/dtb/overlay/sun8i-h3-fixup.scr \
+    sun8i-h3-analog-codec.dtbo:/dtb/overlay/sun8i-h3-analog-codec.dtbo \
+    sun8i-h3-cir.dtbo:/dtb/overlay/sun8i-h3-cir.dtbo \
+    sun8i-h3-i2c0.dtbo:/dtb/overlay/sun8i-h3-i2c0.dtbo \
+    sun8i-h3-i2c1.dtbo:/dtb/overlay/sun8i-h3-i2c1.dtbo \
+    sun8i-h3-i2c2.dtbo:/dtb/overlay/sun8i-h3-i2c2.dtbo \
+    sun8i-h3-pps-gpio.dtbo:/dtb/overlay/sun8i-h3-pps-gpio.dtbo \
+    sun8i-h3-pwm.dtbo:/dtb/overlay/sun8i-h3-pwm.dtbo \
+    sun8i-h3-spdif-out.dtbo:/dtb/overlay/sun8i-h3-spdif-out.dtbo \
+    sun8i-h3-spi-add-cs1.dtbo:/dtb/overlay/sun8i-h3-spi-add-cs1.dtbo \
+    sun8i-h3-spi-jedec-nor.dtbo:/dtb/overlay/sun8i-h3-spi-jedec-nor.dtbo \
+    sun8i-h3-spi-spidev.dtbo:/dtb/overlay/sun8i-h3-spi-spidev.dtbo \
+    sun8i-h3-uart1.dtbo:/dtb/overlay/sun8i-h3-uart1.dtbo \
+    sun8i-h3-uart2.dtbo:/dtb/overlay/sun8i-h3-uart2.dtbo \
+    sun8i-h3-uart3.dtbo:/dtb/overlay/sun8i-h3-uart3.dtbo \
+    sun8i-h3-usbhost0.dtbo:/dtb/overlay/sun8i-h3-usbhost0.dtbo \
+    sun8i-h3-usbhost2.dtbo:/dtb/overlay/sun8i-h3-usbhost1.dtbo \
+    sun8i-h3-usbhost3.dtbo:/dtb/overlay/sun8i-h3-usbhost2.dtbo \
+    sun8i-h3-w1-gpio.dtbo:/dtb/overlay/sun8i-h3-w1-gpio.dtbo \
+    boot.scr:/boot.scr \
+    u-boot-sunxi-with-spl.bin: \
+"
+IMAGE_CMD_resinos-img_append_orange-pi-pc-plus () {
+    # Orange Pi Plus2 needs uboot written at a specific location
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+}
