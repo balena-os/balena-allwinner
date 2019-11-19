@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-yocto-scripts to v1.5.2
+      hash: 0b2e0ec97bb8bf02964f6445b4f945ce9ba0b778
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.5.2
+        changelog-entry: Update balena-yocto-scripts to v1.5.2
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.44.0+rev3
+  date: 2019-11-19T14:27:25.546Z
+- commits:
     - subject: U-boot patches fixup
       hash: e32f34f65ba46888c6cd8cc0a22c6b87040e8cda
       body: |
