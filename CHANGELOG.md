@@ -1,6 +1,32 @@
 Change log
 -----------
 
+# v2.45.1+rev1
+## (2019-12-17)
+
+
+<details>
+<summary> Update meta-balena from v2.44.0 to v2.45.1 [Alexandru Costache] </summary>
+
+> ## meta-balena-2.45.1
+> ### (2019-11-21)
+> 
+> * Fix for a race condition where occasionally the supervisor might not be able to come up during boot. Also can be caused by using io.balena.features.balena-socket and app container restart always policy. Affects meta-balena 2.44.0 and 2.45.0. To be fixed in 2.44.1 and 2.46.0 [Zubair Lutfullah Kakakhel]
+> * Rename resin to balena where possible [Pagan Gazzard]
+> * Add leading new line for PACKAGE_INSTALL variable [Vicentiu Galanopulo]
+> * Set `net.ipv4.ip_local_port_range` to recommended range (49152-65535) [Will Boyce]
+> * No user impact, subtle fix in rollback version checks [Zubair Lutfullah Kakakhel]
+
+> ## meta-balena-2.45.0
+> ### (2019-10-30)
+> 
+> * Increase persistent journal size to 32M [Will Boyce]
+> * Move persistent logs from state to data partition [Will Boyce]
+> * Add wpa-supplicant recipe and update to v2.9 [Will Boyce]
+> * Improve robustness by making variou services restart if they stop for some reason [Zubair Lutfullah Kakakhel]
+> * Build net/dummy as module [Alexandru Costache]
+</details>
+
 # v2.44.0+rev3
 ## (2019-11-19)
 
