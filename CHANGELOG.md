@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.45.1+rev2
+## (2019-12-17)
+
+* Ensure license is present repo root [Alexandru Costache]
+
 # v2.45.1+rev1
 ## (2019-12-17)
 
