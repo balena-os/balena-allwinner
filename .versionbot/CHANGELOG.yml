@@ -1,4 +1,25 @@
 - commits:
+    - subject: Add remaining Netflix patches
+      hash: 73f0a8828e259476a030c2f3ae041894a089e32e
+      body: >
+        Add remaining patches for multiple TCP-based remote denial
+
+        of service vulnerabilities identified by Netflix.
+
+        Patch source:
+
+        https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: Add remaining Netflix patches
+        changelog-entry: Add remaining Netflix patches
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.45.1+rev3
+  date: 2020-01-08T10:22:55.237Z
+- commits:
     - subject: Ensure license is present repo root
       hash: 4af3865e286243bf0ab42274d537c0f1fe70ec24
       body: |

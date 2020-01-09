@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.45.1+rev3
+## (2020-01-08)
+
+* Add remaining Netflix patches [Vicentiu Galanopulo]
+
 # v2.45.1+rev2
 ## (2019-12-17)
 
