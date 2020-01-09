@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update meta-balena from 2.45.1 to 2.46.1
+      hash: 8c494f8aee1f3b5e9291248284650ced3e18d147
+      body: |
+        Update the meta-balena submodule from
+        v2.45.1 to v2.46.1
+      footer:
+        Changelog-entry: Update meta-balena from 2.45.1 to 2.46.1
+        changelog-entry: Update meta-balena from 2.45.1 to 2.46.1
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.46.1+rev1
+  date: 2020-01-09T21:54:08.752Z
+- commits:
     - subject: Add remaining Netflix patches
       hash: 73f0a8828e259476a030c2f3ae041894a089e32e
       body: >

@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.46.1+rev1
+## (2020-01-09)
+
+* Update meta-balena from 2.45.1 to 2.46.1 [Vicentiu Galanopulo]
+
 # v2.45.1+rev3
 ## (2020-01-08)
 
