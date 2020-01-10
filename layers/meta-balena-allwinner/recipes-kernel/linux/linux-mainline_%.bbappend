@@ -27,6 +27,8 @@ RESIN_CONFIGS[axp_power] ="\
 
 RESIN_CONFIGS_append_orangepi-plus2 = " wifi"
 RESIN_CONFIGS_append_orange-pi-zero = " wifi"
+RESIN_CONFIGS_append_orange-pi-pc-plus = " wifi"
+RESIN_CONFIGS_append_orange-pi-lite = " wifi"
 RESIN_CONFIGS[wifi] ="\
     CONFIG_WIRELESS=y \
     CONFIG_RFKILL=y \
@@ -68,6 +70,10 @@ RESIN_CONFIGS_append_orange-pi-lite = " \
     8189fs \
     "
 
+RESIN_CONFIGS_append_orange-pi-pc-plus = " \
+    8189fs \
+    "
+
 RESIN_CONFIGS[8189fs] ?= " \
     CONFIG_RTL8189FS=m \
 "
@@ -87,6 +93,29 @@ FILES_${PN}-fixup-scr = " \
 "
 KERNEL_DEVICETREE_orange-pi-zero_append = " \
     sun8i-h2-plus-orangepi-zero.dtb \
+    overlay/sun8i-h3-analog-codec.dtbo \
+    overlay/sun8i-h3-cir.dtbo \
+    overlay/sun8i-h3-fixup.scr \
+    overlay/sun8i-h3-i2c0.dtbo \
+    overlay/sun8i-h3-i2c1.dtbo \
+    overlay/sun8i-h3-i2c2.dtbo \
+    overlay/sun8i-h3-pps-gpio.dtbo \
+    overlay/sun8i-h3-pwm.dtbo \
+    overlay/sun8i-h3-spdif-out.dtbo \
+    overlay/sun8i-h3-spi-add-cs1.dtbo \
+    overlay/sun8i-h3-spi-jedec-nor.dtbo \
+    overlay/sun8i-h3-spi-spidev.dtbo \
+    overlay/sun8i-h3-uart1.dtbo \
+    overlay/sun8i-h3-uart2.dtbo \
+    overlay/sun8i-h3-uart3.dtbo \
+    overlay/sun8i-h3-usbhost0.dtbo \
+    overlay/sun8i-h3-usbhost2.dtbo \
+    overlay/sun8i-h3-usbhost3.dtbo \
+    overlay/sun8i-h3-w1-gpio.dtbo \
+    "
+
+KERNEL_DEVICETREE_orange-pi-pc-plus_append = " \
+    sun8i-h3-orangepi-pc-plus.dtb \
     overlay/sun8i-h3-analog-codec.dtbo \
     overlay/sun8i-h3-cir.dtbo \
     overlay/sun8i-h3-fixup.scr \
