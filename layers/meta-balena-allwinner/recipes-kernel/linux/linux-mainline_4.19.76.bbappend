@@ -326,11 +326,9 @@ SRC_URI_append = " \
     file://armbian/wifi-4002-add-realtek-8723cs.patch \
     file://armbian/wifi-8723bs-AP-bugfix.patch \
     file://armbian/wifi-add-realtek-8189fs.patch \
-    file://armbian/wifi-add-xradio.patch \
     file://armbian/wifi-bt-bananapi-m2-plus.patch \
     file://armbian/wifi-orangepi-pc-plus-pwrseq.patch \
     file://armbian/wifi-orangepi-prime.patch \
-    file://armbian/wifi-orangepi-zero-fix-xradio-interrupt.patch \
     file://armbian/xxx-0001-network-audio-orangepiwin-dts.patch \
     file://armbian/xxx-0002-enable_usb_uart1-orangepiwin-dts.patch \
     file://armbian/xxx-a64-olinuxino-eth.patch \
