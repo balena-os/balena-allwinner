@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add wifi kernel configs in linux-mainline_%bbappend
+      hash: 9dd20d1c02da420891e6c45e0560b42616efb1c3
+      body: |
+        Add the wifi kernel config values to
+        have the wlan0 interface created
+      footer:
+        Changelog-entry: Add wifi kernel configs in linux-mainline_%bbappend
+        changelog-entry: Add wifi kernel configs in linux-mainline_%bbappend
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.46.1+rev2
+  date: 2020-01-13T09:52:34.751Z
+- commits:
     - subject: Update meta-balena from 2.45.1 to 2.46.1
       hash: 8c494f8aee1f3b5e9291248284650ced3e18d147
       body: |
