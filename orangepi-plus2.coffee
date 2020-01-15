@@ -13,7 +13,7 @@ module.exports =
 	slug: 'orangepi-plus2'
 	name: 'Orange Pi Plus2'
 	arch: 'armv7hf'
-	state: 'experimental'
+	state: 'released'
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions
