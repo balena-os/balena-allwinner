@@ -7,7 +7,7 @@ module.exports =
 	slug: 'orange-pi-lite'
 	name: 'Orange Pi Lite'
 	arch: 'armv7hf'
-	state: 'experimental'
+	state: 'released'
 
 	instructions: commonImg.instructions
 	gettingStartedLink:

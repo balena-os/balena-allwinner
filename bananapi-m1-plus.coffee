@@ -7,7 +7,7 @@ module.exports =
 	slug: 'bananapi-m1-plus'
 	name: 'BananaPi-M1+'
 	arch: 'armv7hf'
-	state: 'experimental'
+	state: 'released'
 
 	instructions: commonImg.instructions
 	gettingStartedLink:

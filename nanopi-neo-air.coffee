@@ -13,7 +13,7 @@ module.exports =
 	slug: 'nanopi-neo-air'
 	name: 'Nanopi Neo Air'
 	arch: 'armv7hf'
-	state: 'experimental'
+	state: 'released'
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions
