@@ -1,4 +1,19 @@
 - commits:
+    - subject: Change the state to 'released' in the coffee file
+      hash: c092d9dcc0559fb9fc90a7ce80e4cf3205a02cc7
+      body: |
+        Change the state field to 'released'
+        instead of 'experimental' for all the
+        non-community boards
+      footer:
+        Changelog-entry: Change the state to 'released' in the coffee file
+        changelog-entry: Change the state to 'released' in the coffee file
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+  version: 2.46.1+rev3
+  date: 2020-01-15T14:23:30.336Z
+- commits:
     - subject: Add wifi kernel configs in linux-mainline_%bbappend
       hash: 9dd20d1c02da420891e6c45e0560b42616efb1c3
       body: |
