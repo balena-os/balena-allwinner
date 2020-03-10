@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.46.1+rev4
+## (2020-03-10)
+
+* Update meta-rust to include 1.36 [Zubair Lutfullah Kakakhel]
+
 # v2.46.1+rev3
 ## (2020-01-15)
 

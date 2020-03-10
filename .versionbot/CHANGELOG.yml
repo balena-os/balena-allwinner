@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update meta-rust to include 1.36
+      hash: afb93d116db0fb8eb05486acdef2e18ede2bad67
+      body: ''
+      footer:
+        Changelog-entry: Update meta-rust to include 1.36
+        changelog-entry: Update meta-rust to include 1.36
+        Signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+        signed-off-by: Zubair Lutfullah Kakakhel <zubair@balena.io>
+      author: Zubair Lutfullah Kakakhel
+  version: 2.46.1+rev4
+  date: 2020-03-10T13:51:23.727Z
+- commits:
     - subject: Change the state to 'released' in the coffee file
       hash: c092d9dcc0559fb9fc90a7ce80e4cf3205a02cc7
       body: |
