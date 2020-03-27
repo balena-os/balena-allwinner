@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update balena-yocto-scripts to v1.5.6
+      hash: c81973e54ab243681a112d5e407d8fbd63030703
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.5.6
+        changelog-entry: Update balena-yocto-scripts to v1.5.6
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+    - subject: Update meta-balena from v2.46.1 to v2.48.0
+      hash: d445a0e8fd019eda987f911e7dfe935d7e3548dd
+      body: |
+        Update the meta-balena submodule from 2.46.1 to 2.48.0
+      footer:
+        Changelog-entry: Update meta-balena from v2.46.1 to v2.48.0
+        changelog-entry: Update meta-balena from v2.46.1 to v2.48.0
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+  version: 2.48.0+rev1
+  date: 2020-03-27T15:50:06.334Z
+- commits:
     - subject: Remove unnecessary override of IMAGE_ROOTFS_MAXSIZE
       hash: 2a951de1058546dc119b9ae8c64bdc9a61ed7a55
       body: |

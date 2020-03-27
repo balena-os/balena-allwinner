@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v2.48.0+rev1
+## (2020-03-27)
+
+* Update balena-yocto-scripts to v1.5.6 [Alexandru Costache]
+* Update meta-balena from v2.46.1 to v2.48.0 [Alexandru Costache]
+
 # v2.46.1+rev5
 ## (2020-03-27)
 
