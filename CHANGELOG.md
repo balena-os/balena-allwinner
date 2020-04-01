@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.48.0+rev2
+## (2020-04-01)
+
+* Enable bluetooth on NanoPi Neo Air [Florin Sarbu]
+
 # v2.48.0+rev1
 ## (2020-03-27)
 

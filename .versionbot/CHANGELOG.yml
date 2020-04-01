@@ -1,4 +1,18 @@
 - commits:
+    - subject: Enable bluetooth on NanoPi Neo Air
+      hash: 82b17bc6bf1d36c675e14cc5be45b4b063f07d45
+      body: |
+        Also we delete since the changes there are already added by
+        board-nanopiair-h3-camera-wifi-bluetooth-otg.patch
+      footer:
+        Changelog-entry: Enable bluetooth on NanoPi Neo Air
+        changelog-entry: Enable bluetooth on NanoPi Neo Air
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.48.0+rev2
+  date: 2020-04-01T11:26:57.056Z
+- commits:
     - subject: Update balena-yocto-scripts to v1.5.6
       hash: c81973e54ab243681a112d5e407d8fbd63030703
       body: ''
