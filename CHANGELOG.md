@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.48.0+rev3
+## (2020-04-01)
+
+* Add missing kernel module bluetooth dependency for NanoPi Neo Air [Florin Sarbu]
+
 # v2.48.0+rev2
 ## (2020-04-01)
 

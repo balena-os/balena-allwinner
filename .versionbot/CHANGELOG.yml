@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add missing kernel module bluetooth dependency for NanoPi Neo Air
+      hash: 7be1daa647b3b39197a7326984feaa0c8b1d06ee
+      body: ''
+      footer:
+        Changelog-entry: Add missing kernel module bluetooth dependency for NanoPi Neo Air
+        changelog-entry: Add missing kernel module bluetooth dependency for NanoPi Neo Air
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.48.0+rev3
+  date: 2020-04-01T15:50:26.228Z
+- commits:
     - subject: Enable bluetooth on NanoPi Neo Air
       hash: 82b17bc6bf1d36c675e14cc5be45b4b063f07d45
       body: |
