@@ -89,6 +89,9 @@ RESIN_CONFIGS[configfs] = " \
 "
 
 RESIN_CONFIGS_append_nanopi-neo-air = " hciuart"
+RESIN_CONFIGS_DEPS[hciuart] = " \
+    CONFIG_BT=m \
+"
 RESIN_CONFIGS[hciuart] = " \
     CONFIG_BT_HCIUART=m \
     CONFIG_BT_HCIUART_H4=y \
