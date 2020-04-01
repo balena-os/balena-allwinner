@@ -16,7 +16,7 @@ echo 1 > /sys/class/gpio/gpio205/value
 CHIP_REV=`dmesg | grep brcmfm | grep "chip 0x00a9a6" | awk '{print $11}'`
 BT_FIRMWARE="bcm43438a0.hcd" # AP6212 chip
 
-if [ "$CHIP_REV" = "0x000001" ]; then
+if dmesg | grep -q "chip BCM43430/1"; then
     BT_FIRMWARE="bcm43438a1.hcd" # AP6212A chip
 fi
 

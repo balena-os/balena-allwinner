@@ -88,6 +88,12 @@ RESIN_CONFIGS[configfs] = " \
     CONFIG_CONFIGFS_FS=m \
 "
 
+RESIN_CONFIGS_append_nanopi-neo-air = " hciuart"
+RESIN_CONFIGS[hciuart] = " \
+    CONFIG_BT_HCIUART=m \
+    CONFIG_BT_HCIUART_H4=y \
+"
+
 FILES_${PN}-fixup-scr = " \
     /boot/sun8i-h3-fixup.scr \
 "

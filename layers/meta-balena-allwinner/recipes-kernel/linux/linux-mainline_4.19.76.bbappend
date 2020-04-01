@@ -264,7 +264,6 @@ SRC_URI_append = " \
     file://armbian/board-h6-clock-higher.patch \
     file://armbian/board-nanopi-adjust-defaults.patch \
     file://armbian/board-nanopiair-h3-camera-wifi-bluetooth-otg.patch \
-    file://0001-Enable-uart3-for-NanoPi-Neo-Air-used-by-BT.patch \
     file://armbian/board-olinuxino-A64-add-eMMC.patch \
     file://armbian/board-orangepizeroplus2-missing-otg-bits.patch \
     file://armbian/board-pine-h6-pine-h6-0008-arm64-allwinner-h6-add-missing-mmc-pins.patch \
