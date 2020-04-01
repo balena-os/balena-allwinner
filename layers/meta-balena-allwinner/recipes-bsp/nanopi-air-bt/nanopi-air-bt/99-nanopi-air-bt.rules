@@ -1,1 +1,1 @@
-ACTION=="add", SUBSYSTEM=="tty", ATTR{iomem_base}=="0x1C28C00", TAG+="systemd", ENV{SYSTEMD_WANTS}="nanopi-air-bt@'%E{DEVNAME}'.service"
+ACTION=="add", SUBSYSTEM=="tty", ATTR{iomem_base}=="0x1C28C00", TAG+="systemd", ENV{SYSTEMD_WANTS}="nanopi-air-bt@%k.service"
