@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update to warrior-21.0.3
+      hash: 35f9c31fae74c463cff23d137e3bd383bc997d60
+      body: |
+        Amongst other things this fixes slow shutdown/reboot due to
+        misconfiguration of the rngd systemd service.
+      footer:
+        Changelog-entry: Update to warrior-21.0.3
+        changelog-entry: Update to warrior-21.0.3
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.48.0+rev4
+  date: 2020-04-02T09:46:44.035Z
+- commits:
     - subject: Add missing kernel module bluetooth dependency for NanoPi Neo Air
       hash: 7be1daa647b3b39197a7326984feaa0c8b1d06ee
       body: ''

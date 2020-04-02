@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.48.0+rev4
+## (2020-04-02)
+
+* Update to warrior-21.0.3 [Florin Sarbu]
+
 # v2.48.0+rev3
 ## (2020-04-01)
 
