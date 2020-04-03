@@ -1,0 +1,35 @@
+From 7b55d5f6bf7674e237aae44b7c34f34e5e2d9df5 Mon Sep 17 00:00:00 2001
+From: Florin Sarbu <florin@balena.io>
+Date: Fri, 3 Apr 2020 16:26:49 +0200
+Subject: [PATCH] linux-mainline: Add back eMMC support for Nanopi Neo Air
+
+Upstream-Status: Pending
+Signed-off-by: Florin Sarbu <florin@balena.io>
+---
+ arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+diff --git a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+index 07867a0..4d5f615 100644
+--- a/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
++++ b/arch/arm/boot/dts/sun8i-h3-nanopi-neo-air.dts
+@@ -103,6 +103,16 @@
+ 	};
+ };
+ 
++&mmc2 {
++	pinctrl-names = "default";
++	pinctrl-0 = <&mmc2_8bit_pins>;
++	vmmc-supply = <&reg_vcc3v3>;
++	vqmmc-supply = <&reg_vcc3v3>;
++	bus-width = <8>;
++	non-removable;
++	status = "okay";
++};
++
+ &uart0 {
+ 	pinctrl-names = "default";
+ 	pinctrl-0 = <&uart0_pa_pins>;
+-- 
+2.7.4
+

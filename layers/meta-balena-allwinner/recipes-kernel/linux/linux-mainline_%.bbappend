@@ -3,6 +3,12 @@ inherit kernel-devicetree
 
 PACKAGES =+ "${PN}-fixup-scr"
 
+SRC_URI_remove = "file://0003-ARM-dts-nanopi-neo-air-Add-WiFi-eMMC.patch"
+
+FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
+
+SRC_URI_append_nanopi-neo-air = " file://0001-linux-mainline-Add-back-eMMC-support-for-Nanopi-Neo-.patch"
+
 RESIN_CONFIGS_append = " axp_power"
 RESIN_CONFIGS_DEPS[axp_power] = "\
     CONFIG_TOUCHSCREEN_SUN4I=n \
