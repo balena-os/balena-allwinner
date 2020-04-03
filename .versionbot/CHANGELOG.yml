@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update to kernel version 5.4.20
+      hash: 4cf005c89b1698c348eda060e618105b5e23c7da
+      body: |
+        We also apply on top the patches from armbian:
+        https://github.com/armbian/build/tree/sunxi-5.5/patch/kernel/
+        sunxi-current
+
+        The defconfig is taken from armbian too:
+        https://github.com/armbian/build/blob/sunxi-5.5/config/kernel/
+        linux-sunxi-current.config
+
+        Also we remove the netflix vulnerabilities patches since they are
+        upstreamed in the 5.4.20 kernel version we are now using.
+      footer:
+        Changelog-entry: Update to kernel version 5.4.20
+        changelog-entry: Update to kernel version 5.4.20
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.48.0+rev5
+  date: 2020-04-03T09:52:30.197Z
+- commits:
     - subject: Update to warrior-21.0.3
       hash: 35f9c31fae74c463cff23d137e3bd383bc997d60
       body: |
