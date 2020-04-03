@@ -1,0 +1,32 @@
+From a64fcc3db9dbd63a0276581d49183be98d728e35 Mon Sep 17 00:00:00 2001
+From: Florin Sarbu <florin@balena.io>
+Date: Fri, 3 Apr 2020 08:51:10 +0200
+Subject: [PATCH] sunxi: Allow to load kernel with size up to 16MB
+
+Otherwise the boot fails complaining about kernel being too large:
+
+	Loading Kernel Image ... Image too large: increase CONFIG_SYS_BOOTM_LEN
+	Must RESET board to recover
+
+Upstream-Status: Inappropriate [configuration]
+Signed-off-by: Florin Sarbu <florin@balena.io>
+---
+ include/configs/sunxi-common.h | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/include/configs/sunxi-common.h b/include/configs/sunxi-common.h
+index a5f5811..94caedf 100644
+--- a/include/configs/sunxi-common.h
++++ b/include/configs/sunxi-common.h
+@@ -31,6 +31,8 @@
+ # define CONFIG_MACH_TYPE_COMPAT_REV	1
+ #endif
+ 
++#define CONFIG_SYS_BOOTM_LEN		(16 << 20) /* increase to 16MB because our new 5.4.20 kernel is bigger than 8MB, it gets to around 10 */
++
+ #ifdef CONFIG_ARM64
+ #define CONFIG_BUILD_TARGET "u-boot.itb"
+ #define CONFIG_SYS_BOOTM_LEN		(32 << 20)
+-- 
+2.7.4
+

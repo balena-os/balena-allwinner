@@ -10,4 +10,5 @@ SRC_URI_remove = "file://resin-specific-env-integration-kconfig.patch"
 SRC_URI_append = " \
 		file://0001-Add-Resin-specific-boot-command.patch \
 		file://resin-specific-env-integration-kconfig_reworked.patch \
+		file://0001-sunxi-Allow-to-load-kernel-with-size-up-to-16MB.patch \
 		"
