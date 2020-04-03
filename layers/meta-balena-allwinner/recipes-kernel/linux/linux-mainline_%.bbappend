@@ -3,15 +3,6 @@ inherit kernel-devicetree
 
 PACKAGES =+ "${PN}-fixup-scr"
 
-FILESEXTRAPATHS_prepend := "${THISDIR}/linux-mainline:"
-
-SRC_URI_append = " file://0003-NFLX-2019-001-SACK-Panic-for-lteq-4.14.patch \
-	file://0004-NFLX-2019-001-SACK-Slowness.patch"
-
-do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}binutils:do_populate_sysroot"
-do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}gcc:do_populate_sysroot"
-do_kernel_configme[depends] += "bc-native:do_populate_sysroot bison-native:do_populate_sysroot"
-
 RESIN_CONFIGS_append = " axp_power"
 RESIN_CONFIGS_DEPS[axp_power] = "\
     CONFIG_TOUCHSCREEN_SUN4I=n \
