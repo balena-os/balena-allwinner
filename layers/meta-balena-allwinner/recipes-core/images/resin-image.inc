@@ -84,7 +84,6 @@ RESIN_BOOT_PARTITION_FILES_orange-pi-lite = " \
     sun8i-h3-usbhost3.dtbo:/dtb/overlay/sun8i-h3-usbhost2.dtbo \
     sun8i-h3-w1-gpio.dtbo:/dtb/overlay/sun8i-h3-w1-gpio.dtbo \
     boot.scr:/boot.scr \
-    armbianEnv.txt:/ \
     "
 
 IMAGE_CMD_resinos-img_append_orange-pi-lite () {
