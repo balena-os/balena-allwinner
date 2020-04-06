@@ -16,6 +16,7 @@ SRC_URI_append = " \
     file://general-add-configfs-overlay.patch \
     file://general-add-overlay-compilation-support.patch \
     file://general-sunxi-overlays.patch \
+    file://0001-arch-arm-Makefile-Partial-revert-of-https-github.com.patch \
 "
 
 RESIN_CONFIGS_append = " axp_power"

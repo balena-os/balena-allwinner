@@ -1,0 +1,45 @@
+From c76cd7f6e1e5dc204fcdbfc181857783b6a9e202 Mon Sep 17 00:00:00 2001
+From: Florin Sarbu <florin@balena.io>
+Date: Mon, 6 Apr 2020 17:16:12 +0200
+Subject: [PATCH] arch/arm/Makefile: Partial revert of
+ https://github.com/torvalds/linux/commit/37c8a5fafa3bb7dcdd51774be353be6cb2912b86
+
+We do this partial revert so that we can still build the dtb overlays in the same way from yocto as before this upstream commit.
+
+Upstream-Status: Inappropriate [configuration]
+Signed-off-by: Florin Sarbu <florin@balena.io>
+---
+ arch/arm/Makefile | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+
+diff --git a/arch/arm/Makefile b/arch/arm/Makefile
+index db857d0..b8dedc7 100644
+--- a/arch/arm/Makefile
++++ b/arch/arm/Makefile
+@@ -343,6 +343,23 @@ $(BOOT_TARGETS): vmlinux
+ $(INSTALL_TARGETS):
+ 	$(Q)$(MAKE) $(build)=$(boot) MACHINE=$(MACHINE) $@
+ 
++%.dtb: | scripts
++	$(Q)$(MAKE) $(build)=$(boot)/dts MACHINE=$(MACHINE) $(boot)/dts/$@
++
++%.dtbo: | scripts
++	$(Q)$(MAKE) $(build)=$(boot)/dts MACHINE=$(MACHINE) $(boot)/dts/$@
++
++%.scr: | scripts
++	$(Q)$(MAKE) $(build)=$(boot)/dts ARCH=$(ARCH) $(boot)/dts/$@
++
++PHONY += dtbs dtbs_install
++
++dtbs: prepare scripts
++	$(Q)$(MAKE) $(build)=$(boot)/dts
++
++dtbs_install:
++	$(Q)$(MAKE) $(dtbinst)=$(boot)/dts
++
+ PHONY += vdso_install
+ vdso_install:
+ ifeq ($(CONFIG_VDSO),y)
+-- 
+2.7.4
+
