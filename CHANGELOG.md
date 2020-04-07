@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.48.0+rev5
+## (2020-04-06)
+
+* Switch the BSP layer to master branch so we have kernel 5.4.18 [Florin Sarbu]
+
 # v2.48.0+rev4
 ## (2020-04-02)
 

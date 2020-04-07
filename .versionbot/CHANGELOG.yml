@@ -1,4 +1,17 @@
 - commits:
+    - subject: Switch the BSP layer to master branch so we have kernel 5.4.18
+      hash: f10a986eea7932097c1998e522da52a2bb97427b
+      body: |
+        We switch to this branch so that we have kernel version 5.4.18
+      footer:
+        Changelog-entry: Switch the BSP layer to master branch so we have kernel 5.4.18
+        changelog-entry: Switch the BSP layer to master branch so we have kernel 5.4.18
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.48.0+rev5
+  date: 2020-04-06T18:57:25.066Z
+- commits:
     - subject: Update to warrior-21.0.3
       hash: 35f9c31fae74c463cff23d137e3bd383bc997d60
       body: |
