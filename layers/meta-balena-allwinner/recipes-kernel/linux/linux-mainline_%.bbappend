@@ -3,14 +3,21 @@ inherit kernel-devicetree
 
 PACKAGES =+ "${PN}-fixup-scr"
 
-FILESEXTRAPATHS_prepend := "${THISDIR}/linux-mainline:"
+SRC_URI_remove = "file://0003-ARM-dts-nanopi-neo-air-Add-WiFi-eMMC.patch"
 
-SRC_URI_append = " file://0003-NFLX-2019-001-SACK-Panic-for-lteq-4.14.patch \
-	file://0004-NFLX-2019-001-SACK-Slowness.patch"
+FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
-do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}binutils:do_populate_sysroot"
-do_kernel_configme[depends] += "virtual/${TARGET_PREFIX}gcc:do_populate_sysroot"
-do_kernel_configme[depends] += "bc-native:do_populate_sysroot bison-native:do_populate_sysroot"
+SRC_URI_append_nanopi-neo-air = " \
+    file://nanopi-neo-air/0001-linux-mainline-Add-back-eMMC-support-for-Nanopi-Neo-.patch \
+    file://nanopi-neo-air/board-nanopiair-h3-camera-wifi-bluetooth-otg.patch \
+"
+
+SRC_URI_append = " \
+    file://general-add-configfs-overlay.patch \
+    file://general-add-overlay-compilation-support.patch \
+    file://general-sunxi-overlays.patch \
+    file://0001-arch-arm-Makefile-Partial-revert-of-https-github.com.patch \
+"
 
 RESIN_CONFIGS_append = " axp_power"
 RESIN_CONFIGS_DEPS[axp_power] = "\
