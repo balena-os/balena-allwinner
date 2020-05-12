@@ -14,6 +14,7 @@ module.exports =
 	name: 'Nanopi Neo Air'
 	arch: 'armv7hf'
 	state: 'released'
+	private: false
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions

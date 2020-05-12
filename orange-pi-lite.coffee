@@ -8,6 +8,7 @@ module.exports =
 	name: 'Orange Pi Lite'
 	arch: 'armv7hf'
 	state: 'released'
+	private: false
 
 	instructions: commonImg.instructions
 	gettingStartedLink:

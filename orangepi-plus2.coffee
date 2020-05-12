@@ -14,6 +14,7 @@ module.exports =
 	name: 'Orange Pi Plus2'
 	arch: 'armv7hf'
 	state: 'released'
+	private: false
 
 	stateInstructions:
 		postProvisioning: postProvisioningInstructions
