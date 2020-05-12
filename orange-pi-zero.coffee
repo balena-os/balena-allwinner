@@ -7,7 +7,7 @@ module.exports =
 	slug: 'orange-pi-zero'
 	name: 'Orange Pi Zero'
 	arch: 'armv7hf'
-	state: 'experimental'
+	state: 'new'
 	community: true
 	private: false
 
