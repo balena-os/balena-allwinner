@@ -1,4 +1,16 @@
 - commits:
+    - subject: Set private to false in .coffee files for the public device types
+      hash: 34ea42d1cf8675a06dbef9ca72c272e621ce58b9
+      body: ''
+      footer:
+        Changelog-entry: Set private to false in .coffee files for the public device types
+        changelog-entry: Set private to false in .coffee files for the public device types
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.48.0+rev6
+  date: 2020-05-12T08:02:17.446Z
+- commits:
     - subject: Switch the BSP layer to master branch so we have kernel 5.4.18
       hash: f10a986eea7932097c1998e522da52a2bb97427b
       body: |

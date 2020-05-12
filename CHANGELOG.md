@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.48.0+rev6
+## (2020-05-12)
+
+* Set private to false in .coffee files for the public device types [Florin Sarbu]
+
 # v2.48.0+rev5
 ## (2020-04-06)
 
