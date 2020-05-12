@@ -9,6 +9,7 @@ module.exports =
 	arch: 'armv7hf'
 	state: 'experimental'
 	community: true
+	private: false
 
 	instructions: commonImg.instructions
 	gettingStartedLink:
