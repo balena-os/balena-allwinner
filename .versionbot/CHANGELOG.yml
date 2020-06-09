@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update meta-balena from v2.48.0 to v2.51.2
+      hash: be800d28bf5940b5c7d0e66a25f834ae31bcb6ec
+      body: |
+        Update the meta-balena submodule from 2.48.0 to 2.51.2
+      footer:
+        Changelog-entry: Update meta-balena from v2.48.0 to v2.51.2
+        changelog-entry: Update meta-balena from v2.48.0 to v2.51.2
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+    - subject: Update balena-yocto-scripts to v1.7.2
+      hash: 3972dcc52e4f751da0431fed82b2114a032334a5
+      body: ''
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to v1.7.2
+        changelog-entry: Update balena-yocto-scripts to v1.7.2
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+  version: 2.51.2+rev1
+  date: 2020-06-09T08:08:56.343Z
+- commits:
     - subject: Set private to false in .coffee files for the public device types
       hash: 34ea42d1cf8675a06dbef9ca72c272e621ce58b9
       body: ''
