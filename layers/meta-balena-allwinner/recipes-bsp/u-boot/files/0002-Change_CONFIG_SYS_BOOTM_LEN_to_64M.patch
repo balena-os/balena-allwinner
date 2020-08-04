@@ -1,0 +1,33 @@
+From 7357ca0c303cc6986273470a550b5c37116e7f21 Mon Sep 17 00:00:00 2001
+From: Vicentiu Galanopulo <vicentiu@balena.io>
+Date: Tue, 4 Aug 2020 16:06:23 +0200
+Subject: [PATCH] Update CONFIG_SYS_BOOTM_LEN to 64M
+
+When booting the Nano PI Neo Air we got
+Loading Kernel Image ... Image too large: increase CONFIG_SYS_BOOTM_LEN
+Must RESET board to recover
+
+Updated CONFIG_SYS_BOOTM_LEN to 64M to fix the error
+
+Upstream-Status: Inappropriate [configuration]
+Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+---
+ include/configs/sunxi-common.h | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/include/configs/sunxi-common.h b/include/configs/sunxi-common.h
+index a5f5811275..97af50bafc 100644
+--- a/include/configs/sunxi-common.h
++++ b/include/configs/sunxi-common.h
+@@ -34,6 +34,8 @@
+ #ifdef CONFIG_ARM64
+ #define CONFIG_BUILD_TARGET "u-boot.itb"
+ #define CONFIG_SYS_BOOTM_LEN		(32 << 20)
++#else
++#define CONFIG_SYS_BOOTM_LEN   (64 << 20)      /* Increase max gunzip size 64M */
+ #endif
+ 
+ /* Serial & console */
+-- 
+2.17.1
+
