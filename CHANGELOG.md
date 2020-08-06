@@ -1,6 +1,598 @@
 Change log
 -----------
 
+# v2.53.9+rev1
+## (2020-08-05)
+
+
+<details>
+<summary> Update meta-balena from v2.51.2 to v2.53.9 [Vicentiu Galanopulo] </summary>
+
+> ## meta-balena-2.53.9
+> ### (2020-07-23)
+> 
+> 
+> <details>
+> <summary> balena-supervisor: Update to v11.9.9 [Rich Bayliss] </summary>
+> 
+>> ### balena-supervisor-11.9.9
+>> #### (2020-07-23)
+>> 
+>> * common: Fix bug where aliases might be undefined [Rich Bayliss]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.53.8
+> ### (2020-07-23)
+> 
+> * resin-supervisor: Create required directories before launch [Alex Gonzalez]
+> 
+> ## meta-balena-2.53.7
+> ### (2020-07-23)
+> 
+> 
+> <details>
+> <summary> balena-supervisor: Update to v11.9.8 [Florin Sarbu] </summary>
+> 
+>> ### balena-supervisor-11.9.8
+>> #### (2020-07-22)
+>> 
+>> * Bump lodash from 4.17.15 to 4.17.19 [dependabot[bot]]
+>> 
+>> ### balena-supervisor-11.9.7
+>> #### (2020-07-22)
+>> 
+>> * docker-utils: Test network gateway determination logic [Rich Bayliss]
+>> * Fix docker-util using incorrect reference for function [Miguel Casqueira]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.53.6
+> ### (2020-07-21)
+> 
+> * recipes-containers/balena: Use separate service for loading healthcheck image [Alexandru Costache]
+> 
+> ## meta-balena-2.53.5
+> ### (2020-07-21)
+> 
+> 
+> <details>
+> <summary> balena-supervisor: Update to v11.9.6 [Rich Bayliss] </summary>
+> 
+>> ### balena-supervisor-11.9.6
+>> #### (2020-07-20)
+>> 
+>> * Fix purge and restart invocations by providing instanced apps [Cameron Diver]
+>> * Fix purge invocations of new singletons [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.9.5
+>> #### (2020-07-14)
+>> 
+>> * Update ESR version information [Cameron Diver]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.53.4
+> ### (2020-07-21)
+> 
+> * Add support for aufs5 on kernel 5.x variants [Florin Sarbu]
+> * Force choosing busybox-hwclock over util-linux-hwclock [Alex Gonzalez]
+> 
+> ## meta-balena-2.53.3
+> ### (2020-07-16)
+> 
+> * provisioning: provide base supervisor_version during provision [Matthew McGinn]
+> 
+> ## meta-balena-2.53.2
+> ### (2020-07-16)
+> 
+> * Add LZ4 support config for older kernels [Alexandru Costache]
+> 
+> ## meta-balena-2.53.1
+> ### (2020-07-14)
+> 
+> * Remove unnecessary config.json keys [Pagan Gazzard]
+> 
+> ## meta-balena-2.53.0
+> ### (2020-07-14)
+> 
+> * resin-supervisor: Create required directories before launch [Alex Gonzalez]
+> * Rebrand custom resin logos [Alex Gonzalez]
+> * plymouth: Remove patch that sets plymouth resin theme [Alex Gonzalez]
+> * docker-disk: Update dind container to v19.03.10 [Michal Toman]
+> * docker-disk: Update to still supported dind container [Gergely Imreh]
+> * Use udev for setting up wlan power management [Michal Toman]
+> * Use --mount instead of --volume for bind mounts to the supervisor container. [Robert Günzler]
+> 
+> ## meta-balena-2.52.7
+> ### (2020-07-13)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor from v11.9.3 to v11.9.4 [Rich Bayliss] </summary>
+> 
+>> ### balena-supervisor-11.9.4
+>> #### (2020-07-13)
+>> 
+>> * bug: Fix unhandled promise rejection [Rich Bayliss]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.52.6
+> ### (2020-07-13)
+> 
+> * Update to use api v6 and fix a quoting bug [Pagan Gazzard]
+> 
+> ## meta-balena-2.52.5
+> ### (2020-07-10)
+> 
+> * Allow comments in iptables ruleset [Alex Gonzalez]
+> 
+> ## meta-balena-2.52.4
+> ### (2020-07-09)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor from v11.4.10 to v11.9.3 [Cameron Diver] </summary>
+> 
+>> ### balena-supervisor-11.9.3
+>> #### (2020-07-08)
+>> 
+>> * Fix bug where a promise was not resolved in db-format [Cameron Diver]
+>> * Convert deviceConfig module to a singleton [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.9.2
+>> #### (2020-07-06)
+>> 
+>> * avahi: Control with HOST_DISCOVERABILITY [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.9.1
+>> #### (2020-07-01)
+>> 
+>> * firewall: Add Host Firewall functionality [Rich Bayliss]
+>> 
+>> ### balena-supervisor-11.9.0
+>> #### (2020-06-23)
+>> 
+>> * Added support for configuring FDT directive in extlinux.conf [Miguel Casqueira]
+>> 
+>> ### balena-supervisor-11.8.4
+>> #### (2020-06-22)
+>> 
+>> * state: Report device MAC address to the API [Rich Bayliss]
+>> 
+>> ### balena-supervisor-11.8.3
+>> #### (2020-06-18)
+>> 
+>> 
+>> <details>
+>> <summary> Update pinejs-client-request to 7.x [Pagan Gazzard] </summary>
+>> 
+>>> #### pinejs-client-request-7.0.0
+>>> ##### (2020-06-16)
+>>> 
+>>> * Empty commit to attempt republish [Pagan Gazzard]
+>>> * Switch from bluebird-lru-cache to lru-cache for caching [Pagan Gazzard]
+>>> * Update target to es2018 [Pagan Gazzard]
+>>> * Remove bluebird dependency [Pagan Gazzard]
+>>> * Convert to async/await [Pagan Gazzard]
+>>> 
+>>> <details>
+>>> <summary> Update to pinejs-client-core 6.x [Pagan Gazzard] </summary>
+>>> 
+>>>> ##### pinejs-client-js-6.0.0
+>>>> ###### (2020-06-04)
+>>>> 
+>>>> * Increase minimum es version to es2015 [Pagan Gazzard]
+>>>> * Convert to async/await [Pagan Gazzard]
+>>>> * Remove now unnecessary PinejsClientCoreFactory [Pagan Gazzard]
+>>>> * Switch to using native promises [Pagan Gazzard]
+>>>> * Drop support for deprecated request overrides [Pagan Gazzard]
+>>>> * Drop support for deprecated `query` method [Pagan Gazzard]
+>>>> * Drop support for deprecated string based requests [Pagan Gazzard]
+>>>> * Use `;` for expand options instead of `&` [Pagan Gazzard]
+>>>> 
+>>> </details>
+>>> 
+>>> 
+>>> #### pinejs-client-request-6.2.0
+>>> ##### (2020-06-08)
+>>> 
+>>> * Lazy load bluebird-lru-cache and lodash [Pagan Gazzard]
+>>> 
+>>> #### pinejs-client-request-6.1.4
+>>> ##### (2020-06-08)
+>>> 
+>>> * Convert some lodash usage to native versions [Pagan Gazzard]
+>>> 
+>>> #### pinejs-client-request-6.1.3
+>>> ##### (2020-06-04)
+>>> 
+>>> * Remove unused dependencies [Pagan Gazzard]
+>>> 
+>>> #### pinejs-client-request-6.1.2
+>>> ##### (2020-06-02)
+>>> 
+>>> 
+>>> <details>
+>>> <summary> Update dependencies [Pagan Gazzard] </summary>
+>>> 
+>>>> ##### pinejs-client-js-5.8.0
+>>>> ###### (2020-05-29)
+>>>> 
+>>>> * Generate optional builds for es2015/es2018 as well as the default es5 [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.7.1
+>>>> ###### (2020-05-25)
+>>>> 
+>>>> * Update dependencies [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.7.0
+>>>> ###### (2020-04-15)
+>>>> 
+>>>> * Make transformGetResult a method , to ease overriding the get method [Thodoris Greasidis]
+>>>> 
+>>> </details>
+>>> 
+>>> 
+>>> #### pinejs-client-request-6.1.1
+>>> ##### (2020-03-19)
+>>> 
+>>> * Add linting [Pagan Gazzard]
+>>> 
+>>> #### pinejs-client-request-6.1.0
+>>> ##### (2020-03-19)
+>>> 
+>>> * Move require-npm4-to-publish to dev dependencies [Pagan Gazzard]
+>>> 
+>>> <details>
+>>> <summary> Update dependencies [Pagan Gazzard] </summary>
+>>> 
+>>>> ##### typed-error-3.2.0
+>>>> ###### (2019-11-20)
+>>>> 
+>>>> * update deps and specify minimum engine requirements [Will Boyce]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.11
+>>>> ###### (2020-02-21)
+>>>> 
+>>>> * 🐛: Fix missing `deprecated.getStringParams` function [Andreas Fitzek]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.10
+>>>> ###### (2020-02-14)
+>>>> 
+>>>> * Update to resin-lint 3.x [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.9
+>>>> ###### (2020-02-14)
+>>>> 
+>>>> * CircleCI: Remove deploy job as it's handled by balenaCI [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.8
+>>>> ###### (2020-02-14)
+>>>> 
+>>>> * Add the missing `method` on the post method [Thodoris Greasidis]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.7
+>>>> ###### (2020-02-14)
+>>>> 
+>>>> * Deprecate request overrides [Pagan Gazzard]
+>>>> * Deprecate queries using a string url [Pagan Gazzard]
+>>>> * Deprecate `query` in favor of `get` [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.6
+>>>> ###### (2020-02-14)
+>>>> 
+>>>> * Allow resource/$count in $filter [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.5
+>>>> ###### (2020-01-30)
+>>>> 
+>>>> * Remove `defaults` helper in favour of `??` [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.4
+>>>> ###### (2020-01-30)
+>>>> 
+>>>> * Avoid allocations when destroying a poll [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.3
+>>>> ###### (2020-01-30)
+>>>> 
+>>>> * Improve `RawFilter` typing [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.2
+>>>> ###### (2020-01-29)
+>>>> 
+>>>> * Update dependencies [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.1
+>>>> ###### (2020-01-22)
+>>>> 
+>>>> * Switch most CODEOWNERS entries to a team [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.6.0
+>>>> ###### (2019-07-12)
+>>>> 
+>>>> * Add 'upsert' method supporting natural keys, requires Pinejs ^10.19.1 [Thodoris Greasidis]
+>>>> 
+>>>> ##### pinejs-client-js-5.5.4
+>>>> ###### (2019-06-18)
+>>>> 
+>>>> * Remove unnecessary `string` type that is handled by the `Params` type [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.5.3
+>>>> ###### (2019-06-18)
+>>>> 
+>>>> * Use an .npmrc to prevent creating a package-lock on each install [Thodoris Greasidis]
+>>>> 
+>>>> ##### pinejs-client-js-5.5.2
+>>>> ###### (2019-06-10)
+>>>> 
+>>>> * Add some type casting so that it compiles on TypeScript 3.5 [Thodoris Greasidis]
+>>>> 
+>>>> ##### pinejs-client-js-5.5.1
+>>>> ###### (2019-05-15)
+>>>> 
+>>>> * Fix downstream declaration creation errors due to `Dictionary` [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.5.0
+>>>> ###### (2019-05-15)
+>>>> 
+>>>> * Add a prepare method that prepares a query into a function [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.4.1
+>>>> ###### (2019-05-10)
+>>>> 
+>>>> * Add CODEOWNERS [Gergely Imreh]
+>>>> 
+>>>> ##### pinejs-client-js-5.4.0
+>>>> ###### (2019-05-10)
+>>>> 
+>>>> * Add support for parameter aliases in resource ids [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.3.10
+>>>> ###### (2019-05-10)
+>>>> 
+>>>> * Deduplicate transformation of GET results [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.3.9
+>>>> ###### (2019-05-10)
+>>>> 
+>>>> * Simplify how we expose types, which means `subscribe` is now exposed [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.3.8
+>>>> ###### (2019-05-09)
+>>>> 
+>>>> * Add automatic formatting via prettier [Pagan Gazzard]
+>>>> 
+>>>> ##### pinejs-client-js-5.3.7
+>>>> ###### (2019-05-08)
+>>>> 
+>>>> * Remove node 4 build, add node 12 [Pagan Gazzard]
+>>>> * Add .versionbot/CHANGELOG.yml for downstream changelogs [Pagan Gazzard]
+>>>> 
+>>> </details>
+>>> 
+>>> 
+>>> #### pinejs-client-request-6.0.3
+>>> ##### (2020-01-22)
+>>> 
+>>> * Add CODEOWNERS [Pagan Gazzard]
+>>> 
+>>> #### pinejs-client-request-6.0.2
+>>> ##### (2019-05-08)
+>>> 
+>>> * Add node 12 tests [Pagan Gazzard]
+>>> * Add upstream for pinejs-client-core [Pagan Gazzard]
+>>> 
+>>> #### pinejs-client-request-6.0.1
+>>> ##### (2019-04-23)
+>>> 
+>>> * Update target to es2016, part of/fixing the typed-error bump [Pagan Gazzard]
+>>> 
+>>> #### pinejs-client-request-6.0.0
+>>> ##### (2019-04-17)
+>>> 
+>>> * typed-error: Update to v3.1.0 [Will Boyce]
+>>> 
+>> </details>
+>> 
+>> 
+>> ### balena-supervisor-11.8.2
+>> #### (2020-06-17)
+>> 
+>> * Make service-manager module a singleton [Cameron Diver]
+>> * Make volume-manager module a singleton [Cameron Diver]
+>> * Make network-manager module a singleton [Cameron Diver]
+>> * Add supervisor upgrade document [Hugh Brown]
+>> 
+>> ### balena-supervisor-11.8.1
+>> #### (2020-06-16)
+>> 
+>> * Update webpack dependencies [Pagan Gazzard]
+>> 
+>> ### balena-supervisor-11.8.0
+>> #### (2020-06-16)
+>> 
+>> * Use API v6 [Akis Kesoglou]
+>> 
+>> ### balena-supervisor-11.7.3
+>> #### (2020-06-15)
+>> 
+>> * Db-format module code fixups [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.7.2
+>> #### (2020-06-11)
+>> 
+>> * Add label to expose gpu to container [Robert Günzler]
+>> 
+>> ### balena-supervisor-11.7.1
+>> #### (2020-06-11)
+>> 
+>> * Move database app processing out to its own module [Cameron Diver]
+>> * Make target-state-cache a singleton [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.7.0
+>> #### (2020-06-10)
+>> 
+>> * Respect an initialDeviceName field in the config.json [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.6.6
+>> #### (2020-06-10)
+>> 
+>> * Make images module a singleton [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.6.5
+>> #### (2020-06-09)
+>> 
+>> * fix: API auth missing on state GET/PATCH [Rich Bayliss]
+>> 
+>> ### balena-supervisor-11.6.4
+>> #### (2020-06-08)
+>> 
+>> * Refactored @ts-ignore to @ts-expect-error in test file [Miguel Casqueira]
+>> 
+>> ### balena-supervisor-11.6.3
+>> #### (2020-06-08)
+>> 
+>> * Make logger module a singleton [Cameron Diver]
+>> * Fix exponential backoff for state polling [Pagan Gazzard]
+>> 
+>> ### balena-supervisor-11.6.2
+>> #### (2020-06-08)
+>> 
+>> * Make the event-tracker module a singleton [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.6.1
+>> #### (2020-06-05)
+>> 
+>> * Convert all test files to TS and add .spec to all filenames [Miguel Casqueira]
+>> * fix: Pin alpine python version [Rich Bayliss]
+>> 
+>> ### balena-supervisor-11.6.0
+>> #### (2020-06-03)
+>> 
+>> * Isolate target state fetching to its own module which emits on update [Pagan Gazzard]
+>> 
+>> ### balena-supervisor-11.5.3
+>> #### (2020-06-02)
+>> 
+>> * Make docker module a singleton [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.5.2
+>> #### (2020-06-02)
+>> 
+>> * Make the config module a singleton [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.5.1
+>> #### (2020-06-01)
+>> 
+>> * Remove unused dependencies and dedupe [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.5.0
+>> #### (2020-05-29)
+>> 
+>> * Refactor device-state healthchecks to log reason for failure [Miguel Casqueira]
+>> 
+>> ### balena-supervisor-11.4.17
+>> #### (2020-05-29)
+>> 
+>> * Update dependencies [Pagan Gazzard]
+>> 
+>> ### balena-supervisor-11.4.16
+>> #### (2020-05-29)
+>> 
+>> * Make the db module a singleton [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.4.15
+>> #### (2020-05-26)
+>> 
+>> * Check for ApiError before using it as such [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.4.14
+>> #### (2020-05-21)
+>> 
+>> * check for 409 status code, rather than string matching uuid conflicts [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.4.13
+>> #### (2020-05-21)
+>> 
+>> * Use safeStateClone to avoid call-stack exceeding errors [Cameron Diver]
+>> 
+>> ### balena-supervisor-11.4.12
+>> #### (2020-05-19)
+>> 
+>> * Improved handling of invalid appId in V2 state endpoint [Miguel Casqueira]
+>> 
+>> ### balena-supervisor-11.4.11
+>> #### (2020-05-18)
+>> 
+>> * Switch to balenaApi for the state patch as patching cannot be cached [Pagan Gazzard]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.52.3
+> ### (2020-07-09)
+> 
+> * systemd: Simplify zram swap unit dependencies to avoid ordering cycle [Alex Gonzalez]
+> 
+> ## meta-balena-2.52.2
+> ### (2020-07-06)
+> 
+> * kernel-resin: Make USB_SERIAL and USB_SERIAL_GENERIC built-ins [Alex Gonzalez]
+> * kernel-resin: Fix configuration warnings from newer kernels [Alex Gonzalez]
+> * kernel-resin: Update balena kernel configuration for updated engine [Alex Gonzalez]
+> 
+> ## meta-balena-2.52.1
+> ### (2020-07-02)
+> 
+> * Fix up UUID variable when communicating with API [Matthew McGinn]
+> 
+> ## meta-balena-2.52.0
+> ### (2020-06-30)
+> 
+> * Add compressed memory swap support [Alex Gonzalez]
+> * systemd-zram-swap: Add compressed memory swap support [Alex Gonzalez]
+> * kernel-resin: Built-in zram configuration [Alex Gonzalez]
+> 
+> ## meta-balena-2.51.8
+> ### (2020-06-30)
+> 
+> * resin-ntp-config: merge 'burst' command with 'add server' line [Mark Corbin]
+> 
+> ## meta-balena-2.51.7
+> ### (2020-06-25)
+> 
+> * resin-image: Install extra_uEnv.txt in boot partition [Alexandru Costache]
+> 
+> ## meta-balena-2.51.6
+> ### (2020-06-25)
+> 
+> * initrdscripts: rootfs: Fix comparison to account for empty variable [Alex Gonzalez]
+> * Use UUID rather than ID when communicating with API [Matthew McGinn]
+> 
+> ## meta-balena-2.51.5
+> ### (2020-06-18)
+> 
+> * Set chrony default servers as pools [Matthew McGinn]
+> 
+> ## meta-balena-2.51.4
+> ### (2020-06-15)
+> 
+> * Generate nested changelogs for balena-engine [Robert Günzler]
+> 
+> ## meta-balena-2.51.3
+> ### (2020-06-10)
+> 
+> * Revert allowing local resin-supervisor image updates [Alex Gonzalez]
+> 
+</details>
+
 # v2.51.2+rev1
 ## (2020-06-09)
 
