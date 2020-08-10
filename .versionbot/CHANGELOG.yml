@@ -1,4 +1,19 @@
 - commits:
+    - subject: Enable kernel config CONFIG_MODULE_UNLOAD
+      hash: 956ffff737b017a74b8c69b5f54414e1e2c971e9
+      body: |
+        Add this kernel configuration option to
+        be able to unload any modules
+      footer:
+        Changelog-entry: Enable kernel config CONFIG_MODULE_UNLOAD
+        changelog-entry: Enable kernel config CONFIG_MODULE_UNLOAD
+        Signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+        signed-off-by: Vicentiu Galanopulo <vicentiu@balena.io>
+      author: Vicentiu Galanopulo
+      nested: []
+  version: 2.53.9+rev2
+  date: 2020-08-10T14:46:25.406Z
+- commits:
     - subject: Update meta-balena from v2.51.2 to v2.53.9
       hash: 1c5ba05985ee71d937cadd5b0d577de38c3a0c06
       body: |
