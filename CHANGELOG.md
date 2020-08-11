@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.53.9+rev2
+## (2020-08-11)
+
+* Update balena-yocto-scripts to v1.8.0 [Alexandru Costache]
+
 # v2.53.9+rev1
 ## (2020-08-05)
 
