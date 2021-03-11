@@ -19,8 +19,8 @@ SRC_URI_append = " \
     file://0001-arch-arm-Makefile-Partial-revert-of-https-github.com.patch \
 "
 
-RESIN_CONFIGS_append = " axp_power"
-RESIN_CONFIGS_DEPS[axp_power] = "\
+BALENA_CONFIGS_append = " axp_power"
+BALENA_CONFIGS_DEPS[axp_power] = "\
     CONFIG_TOUCHSCREEN_SUN4I=n \
     CONFIG_IIO=y \
     CONFIG_REGMAP_IRQ=y \
@@ -28,17 +28,17 @@ RESIN_CONFIGS_DEPS[axp_power] = "\
     CONFIG_MFD_AXP20X=y \
     CONFIG_MFD_AXP20X_I2C=y \
 "
-RESIN_CONFIGS[axp_power] ="\
+BALENA_CONFIGS[axp_power] ="\
     CONFIG_AXP20X_POWER=y \
 "
 
-RESIN_CONFIGS_append_orangepi-plus2 = " wifi"
-RESIN_CONFIGS_append_orange-pi-zero = " wifi"
-RESIN_CONFIGS_append_orange-pi-lite = " wifi"
-RESIN_CONFIGS_append_nanopi-neo-air = " wifi"
-RESIN_CONFIGS_append_bananapi-m1-plus = " wifi"
+BALENA_CONFIGS_append_orangepi-plus2 = " wifi"
+BALENA_CONFIGS_append_orange-pi-zero = " wifi"
+BALENA_CONFIGS_append_orange-pi-lite = " wifi"
+BALENA_CONFIGS_append_nanopi-neo-air = " wifi"
+BALENA_CONFIGS_append_bananapi-m1-plus = " wifi"
 
-RESIN_CONFIGS[wifi] ="\
+BALENA_CONFIGS[wifi] ="\
     CONFIG_WIRELESS=y \
     CONFIG_RFKILL=y \
     CONFIG_CFG80211=m \
@@ -47,59 +47,59 @@ RESIN_CONFIGS[wifi] ="\
     CONFIG_WLAN_VENDOR_REALTEK=y \
 "
 
-RESIN_CONFIGS_append_orangepi-plus2 = " pl2303"
-RESIN_CONFIGS_DEPS[pl2303] = "\
+BALENA_CONFIGS_append_orangepi-plus2 = " pl2303"
+BALENA_CONFIGS_DEPS[pl2303] = "\
     CONFIG_USB_SERIAL=m \
 "
-RESIN_CONFIGS[pl2303] ="\
+BALENA_CONFIGS[pl2303] ="\
     CONFIG_USB_SERIAL_PL2303=m \
 "
 
-RESIN_CONFIGS_append_orangepi-plus2 = " hdmi"
-RESIN_CONFIGS_DEPS[hdmi] = "\
+BALENA_CONFIGS_append_orangepi-plus2 = " hdmi"
+BALENA_CONFIGS_DEPS[hdmi] = "\
     CONFIG_SUN8I_DE2_CCU=y \
 "
-RESIN_CONFIGS[hdmi] ="\
+BALENA_CONFIGS[hdmi] ="\
     CONFIG_DRM_SUN8I_DW_HDMI=y \
 "
 
-RESIN_CONFIGS_append = " huawei_modems"
-RESIN_CONFIGS_DEPS[huawei_modems] = "\
+BALENA_CONFIGS_append = " huawei_modems"
+BALENA_CONFIGS_DEPS[huawei_modems] = "\
     CONFIG_USB_SERIAL_OPTION=m \
     CONFIG_USB_USBNET=m \
 "
-RESIN_CONFIGS[huawei_modems] ="\
+BALENA_CONFIGS[huawei_modems] ="\
     CONFIG_USB_NET_HUAWEI_CDC_NCM=m \
 "
 
-RESIN_CONFIGS_append = " cp210x"
-RESIN_CONFIGS[cp210x] ="\
+BALENA_CONFIGS_append = " cp210x"
+BALENA_CONFIGS[cp210x] ="\
     CONFIG_USB_SERIAL_CP210X=m \
 "
 
-RESIN_CONFIGS_append_orange-pi-lite = " \
+BALENA_CONFIGS_append_orange-pi-lite = " \
     8189fs \
     "
 
-RESIN_CONFIGS[8189fs] ?= " \
+BALENA_CONFIGS[8189fs] ?= " \
     CONFIG_RTL8189FS=m \
 "
 
-RESIN_CONFIGS_append = " \
+BALENA_CONFIGS_append = " \
     configfs \
 "
 
-RESIN_CONFIGS[configfs] = " \
+BALENA_CONFIGS[configfs] = " \
     CONFIG_OF_CONFIGFS=y \
     CONFIG_OF_OVERLAY=y \
     CONFIG_CONFIGFS_FS=m \
 "
 
-RESIN_CONFIGS_append_nanopi-neo-air = " hciuart"
-RESIN_CONFIGS_DEPS[hciuart] = " \
+BALENA_CONFIGS_append_nanopi-neo-air = " hciuart"
+BALENA_CONFIGS_DEPS[hciuart] = " \
     CONFIG_BT=m \
 "
-RESIN_CONFIGS[hciuart] = " \
+BALENA_CONFIGS[hciuart] = " \
     CONFIG_BT_HCIUART=m \
     CONFIG_BT_HCIUART_H4=y \
 "

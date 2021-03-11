@@ -22,10 +22,10 @@ module.exports =
 
 	yocto:
 		machine: 'orange-pi-zero'
-		image: 'resin-image'
-		fstype: 'resinos-img'
+		image: 'balena-image'
+		fstype: 'balenaos-img'
 		version: 'yocto-warrior'
-		deployArtifact: 'resin-image-orange-pi-zero.resinos-img'
+		deployArtifact: 'balena-image-orange-pi-zero.balenaos-img'
 		compressed: true
 
 	configuration:
