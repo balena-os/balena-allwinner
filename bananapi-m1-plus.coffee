@@ -21,10 +21,10 @@ module.exports =
 
 	yocto:
 		machine: 'bananapi-m1-plus'
-		image: 'resin-image'
-		fstype: 'resinos-img'
+		image: 'balena-image'
+		fstype: 'balenaos-img'
 		version: 'yocto-warrior'
-		deployArtifact: 'resin-image-bananapi-m1-plus.resinos-img'
+		deployArtifact: 'balena-image-bananapi-m1-plus.balenaos-img'
 		compressed: true
 
 	configuration:

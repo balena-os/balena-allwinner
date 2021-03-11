@@ -1,7 +1,7 @@
 SUMMARY = "Enable bluetooth on Nanopi Neo Air boards"
 
 LICENSE="Apache-2.0"
-LIC_FILES_CHKSUM = "file://${RESIN_COREBASE}/COPYING.Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
+LIC_FILES_CHKSUM = "file://${BALENA_COREBASE}/COPYING.Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
 DESCRIPTION = "Package contains udev rule, systemd service and a script to init the Ampak 6212A \
 bluetooth chip for the Nanopi Neo Air board"

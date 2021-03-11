@@ -36,10 +36,10 @@ module.exports =
 
 	yocto:
 		machine: 'nanopi-neo-air'
-		image: 'resin-image-flasher'
-		fstype: 'resinos-img'
+		image: 'balena-image-flasher'
+		fstype: 'balenaos-img'
 		version: 'yocto-warrior'
-		deployArtifact: 'resin-image-flasher-nanopi-neo-air.resinos-img'
+		deployArtifact: 'balena-image-flasher-nanopi-neo-air.balenaos-img'
 		compressed: true
 
 	configuration:

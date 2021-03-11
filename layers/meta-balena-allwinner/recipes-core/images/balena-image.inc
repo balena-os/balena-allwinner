@@ -2,36 +2,36 @@
 # Orange Pi Plus2
 #
 
-IMAGE_FSTYPES_append_orangepi-plus2 = " resinos-img"
+IMAGE_FSTYPES_append_orangepi-plus2 = " balenaos-img"
 
-# Customize resinos-img
-RESIN_IMAGE_BOOTLOADER_orangepi-plus2 = "u-boot"
-RESIN_BOOT_PARTITION_FILES_orangepi-plus2 = " \
+# Customize balenaos-img
+BALENA_IMAGE_BOOTLOADER_orangepi-plus2 = "u-boot"
+BALENA_BOOT_PARTITION_FILES_orangepi-plus2 = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     sun8i-h3-orangepi-plus.dtb:/dtb/sun8i-h3-orangepi-plus.dtb \
     u-boot-sunxi-with-spl.bin: \
 "
-IMAGE_CMD_resinos-img_append_orangepi-plus2 () {
+IMAGE_CMD_balenaos-img_append_orangepi-plus2 () {
     # Orange Pi Plus2 needs uboot written at a specific location
-    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${BALENA_RAW_IMG} conv=notrunc seek=8 bs=1024
 }
 
 #
 # Orange Pi One
 #
 
-IMAGE_FSTYPES_append_orange-pi-one = " resinos-img"
+IMAGE_FSTYPES_append_orange-pi-one = " balenaos-img"
 
-# Customize resinos-img
-RESIN_IMAGE_BOOTLOADER_orange-pi-one = "u-boot"
-RESIN_BOOT_PARTITION_FILES_orange-pi-one = " \
+# Customize balenaos-img
+BALENA_IMAGE_BOOTLOADER_orange-pi-one = "u-boot"
+BALENA_BOOT_PARTITION_FILES_orange-pi-one = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     sun8i-h3-orangepi-one.dtb:/dtb/sun8i-h3-orangepi-one.dtb \
     u-boot-sunxi-with-spl.bin: \
 "
-IMAGE_CMD_resinos-img_append_orange-pi-one () {
+IMAGE_CMD_balenaos-img_append_orange-pi-one () {
     # Orange Pi One needs uboot written at a specific location
-    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${BALENA_RAW_IMG} conv=notrunc seek=8 bs=1024
 }
 
 
@@ -39,29 +39,29 @@ IMAGE_CMD_resinos-img_append_orange-pi-one () {
 # bananapi-M1+
 #
 
-IMAGE_FSTYPES_append_bananapi-m1-plus = " resinos-img"
+IMAGE_FSTYPES_append_bananapi-m1-plus = " balenaos-img"
 
-# Customize resinos-img
-RESIN_IMAGE_BOOTLOADER_bananapi-m1-plus = "u-boot"
-RESIN_BOOT_PARTITION_FILES_bananapi-m1-plus = " \
+# Customize balenaos-img
+BALENA_IMAGE_BOOTLOADER_bananapi-m1-plus = "u-boot"
+BALENA_BOOT_PARTITION_FILES_bananapi-m1-plus = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     sun7i-a20-bananapi-m1-plus.dtb:/dtb/sun7i-a20-bananapi-m1-plus.dtb\
     u-boot-sunxi-with-spl.bin: \
 "
-IMAGE_CMD_resinos-img_append_bananapi-m1-plus () {
+IMAGE_CMD_balenaos-img_append_bananapi-m1-plus () {
     # bananapi-M1+ needs uboot written at a specific location
-    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${BALENA_RAW_IMG} conv=notrunc seek=8 bs=1024
 }
 
 #
 # orange-pi-lite
 #
 
-IMAGE_FSTYPES_append_orange-pi-lite = " resinos-img"
+IMAGE_FSTYPES_append_orange-pi-lite = " balenaos-img"
 
-# Customize resinos-img
-RESIN_IMAGE_BOOTLOADER_orange-pi-lite = "u-boot"
-RESIN_BOOT_PARTITION_FILES_orange-pi-lite = " \
+# Customize balenaos-img
+BALENA_IMAGE_BOOTLOADER_orange-pi-lite = "u-boot"
+BALENA_BOOT_PARTITION_FILES_orange-pi-lite = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     sun8i-h3-orangepi-lite.dtb:/dtb/sun8i-h3-orangepi-lite.dtb \
     sun8i-h3-fixup.scr:/dtb/overlay/sun8i-h3-fixup.scr \
@@ -86,9 +86,9 @@ RESIN_BOOT_PARTITION_FILES_orange-pi-lite = " \
     boot.scr:/boot.scr \
     "
 
-IMAGE_CMD_resinos-img_append_orange-pi-lite () {
+IMAGE_CMD_balenaos-img_append_orange-pi-lite () {
     # orange-pi-lite needs uboot written at a specific location
-    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${BALENA_RAW_IMG} conv=notrunc seek=8 bs=1024
 }
 
 
@@ -96,11 +96,11 @@ IMAGE_CMD_resinos-img_append_orange-pi-lite () {
 # Orange Pi Zero
 #
 
-IMAGE_FSTYPES_append_orange-pi-zero = " resinos-img"
+IMAGE_FSTYPES_append_orange-pi-zero = " balenaos-img"
 
-#Customize resinos-img
-RESIN_IMAGE_BOOTLOADER_orange-pi-zero = "u-boot"
-RESIN_BOOT_PARTITION_FILES_orange-pi-zero = " \
+#Customize balenaos-img
+BALENA_IMAGE_BOOTLOADER_orange-pi-zero = "u-boot"
+BALENA_BOOT_PARTITION_FILES_orange-pi-zero = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     sun8i-h2-plus-orangepi-zero.dtb:/dtb/sun8i-h2-plus-orangepi-zero.dtb \
     sun8i-h3-fixup.scr:/dtb/overlay/sun8i-h3-fixup.scr \
@@ -125,27 +125,27 @@ RESIN_BOOT_PARTITION_FILES_orange-pi-zero = " \
     boot.scr:/boot.scr \
     u-boot-sunxi-with-spl.bin: \
 "
-IMAGE_CMD_resinos-img_append_orange-pi-zero () {
+IMAGE_CMD_balenaos-img_append_orange-pi-zero () {
     # Orange Pi Zero needs uboot written at a specific location
-    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${BALENA_RAW_IMG} conv=notrunc seek=8 bs=1024
 }
 
 #
 # nanopi-neo-air
 #
 
-IMAGE_FSTYPES_append_nanopi-neo-air = " resinos-img"
+IMAGE_FSTYPES_append_nanopi-neo-air = " balenaos-img"
 
-# Customize resinos-img
-RESIN_IMAGE_BOOTLOADER_nanopi-neo-air = "u-boot"
-RESIN_BOOT_PARTITION_FILES_nanopi-neo-air = " \
+# Customize balenaos-img
+BALENA_IMAGE_BOOTLOADER_nanopi-neo-air = "u-boot"
+BALENA_BOOT_PARTITION_FILES_nanopi-neo-air = " \
     ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
     sun8i-h3-nanopi-neo-air.dtb:/dtb/sun8i-h3-nanopi-neo-air.dtb \
     u-boot-sunxi-with-spl.bin: \
     boot.scr:/boot.scr \
     "
 
-IMAGE_CMD_resinos-img_append_nanopi-neo-air () {
+IMAGE_CMD_balenaos-img_append_nanopi-neo-air () {
     # nanopi-neo-air needs uboot written at a specific location
-    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${RESIN_RAW_IMG} conv=notrunc seek=8 bs=1024
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${BALENA_RAW_IMG} conv=notrunc seek=8 bs=1024
 }

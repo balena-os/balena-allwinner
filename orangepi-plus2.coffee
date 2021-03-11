@@ -36,10 +36,10 @@ module.exports =
 
 	yocto:
 		machine: 'orangepi-plus2'
-		image: 'resin-image-flasher'
-		fstype: 'resinos-img'
+		image: 'balena-image-flasher'
+		fstype: 'balenaos-img'
 		version: 'yocto-warrior'
-		deployArtifact: 'resin-image-flasher-orangepi-plus2.resinos-img'
+		deployArtifact: 'balena-image-flasher-orangepi-plus2.balenaos-img'
 		compressed: true
 
 	configuration:
