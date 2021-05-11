@@ -1,4 +1,1095 @@
 - commits:
+    - subject: Rename resin-supervisor to balena-supervisor
+      hash: fbb788a292a17f46452790011a88fcce07a0a167
+      body: ''
+      footer:
+        Changelog-entry: Rename resin-supervisor to balena-supervisor
+        changelog-entry: Rename resin-supervisor to balena-supervisor
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+    - subject: Update meta-balena from v2.72.0 to v2.78.0
+      hash: 1f34ddbc5c681cbe4074399a0752e3e57e8176cb
+      body: |
+        Update meta-balena from 2.72.0 to 2.78.0
+      footer:
+        Changelog-entry: Update meta-balena from v2.72.0 to v2.78.0
+        changelog-entry: Update meta-balena from v2.72.0 to v2.78.0
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested:
+        - commits:
+            - subject: Add symlinks and aliases for legacy resin namespaces
+              hash: 16f5437233e88af276d9cce7bc99dd1230f6f10d
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Rename resin-supervisor to balena-supervisor
+              hash: 8c0b17bc3dbcf0674c7083d5a8dacff64cca48c1
+              body: ''
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.78.0
+          date: 2021-05-10T21:41:51.607Z
+        - commits:
+            - subject: Update balena-supservisor from v12.5.10 to v12.7.0
+              hash: d2e3f092a213b8810e4bb922ad3f2a08135129c5
+              body: |
+                Update balena-supervisor from 12.5.10 to 12.7.0
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: Update balena-supservisor from v12.5.10 to v12.7.0
+                changelog-entry: Update balena-supservisor from v12.5.10 to v12.7.0
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested:
+                - commits:
+                    - subject: Backwards compatility changes for old resin namespaces
+                      hash: 301aa52f032fecd29495894e828f21a93df60caa
+                      body: ''
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Kyle Harding <kyle@balena.io>
+                        signed-off-by: Kyle Harding <kyle@balena.io>
+                      author: Kyle Harding
+                      nested: []
+                    - subject: Change container name to balena_supervisor
+                      hash: 09615c9d8254d3f62ef1088d0da35485b0c18734
+                      body: ''
+                      footer:
+                        Change-type: minor
+                        change-type: minor
+                        Signed-off-by: Kyle Harding <kyle@balena.io>
+                        signed-off-by: Kyle Harding <kyle@balena.io>
+                      author: Kyle Harding
+                      nested: []
+                    - subject: Rename resin-supervisor to balena-supervisor
+                      hash: 5faf9d7686d7f03b5bb73ef9a234038e7e61037c
+                      body: ''
+                      footer:
+                        Change-type: minor
+                        change-type: minor
+                        Signed-off-by: Kyle Harding <kyle@balena.io>
+                        signed-off-by: Kyle Harding <kyle@balena.io>
+                      author: Kyle Harding
+                      nested: []
+                  version: balena-supervisor-12.7.0
+                  date: 2021-05-07T12:05:43.135Z
+                - commits:
+                    - subject: >-
+                        Show warning instead of exception for invalid network
+                        config
+                      hash: 5197a1330d69cbff97f3c53a77f640638e074b8a
+                      body: >
+                        A previous PR (#1656) fixed validation for network ipam
+                        config,
+
+                        checking that both network and subnet are defined for
+                        each ipam config entry
+
+                        (as described in the docker documentation).
+
+
+                        After that PR, the validations throws an exception if
+                        the network target state is incorrect,
+
+                        but this turns out to be the wrong approach, because
+                        that exception is also triggered
+
+                        when querying target state.
+
+
+                        This isn't a problem in normal operation, but it is in
+                        local mode, because local
+
+                        mode queries the old target state before sending a new
+                        one. Since the query fails,
+
+                        the CLI can never push the new target state.
+
+
+                        This PR replaces the exception with a warning on the
+                        logs, since a
+
+                        misconfigured network won't cause any engine failures,
+                        it will just
+
+                        prevent containers to communicate through the provided
+                        network.
+
+
+                        A future improvement should move this validation to an
+                        earlier point in the process,
+
+                        so the target state can get rejected before it even gets
+                        to a point it
+
+                        can be used.
+                      footer:
+                        Relates-to: '#1693'
+                        relates-to: '#1693'
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-12.6.8
+                  date: 2021-05-06T20:30:52.075Z
+                - commits:
+                    - subject: >-
+                        Patch awaiting response when checking if supervisor0
+                        network exists
+                      hash: 8b0c2347d8d04d3c7101016f6c885f31d9b3dc6a
+                      body: ''
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Miguel Casqueira <miguel@balena.io>
+                        signed-off-by: Miguel Casqueira <miguel@balena.io>
+                      author: Miguel Casqueira
+                      nested: []
+                  version: balena-supervisor-12.6.7
+                  date: 2021-05-06T15:58:02.661Z
+                - commits:
+                    - subject: >-
+                        Fix parsing driver_opts from compose to docker network
+                        creation
+                      hash: 1408fd7bcb5f25b75679b7ce0e509adc7f8f6004
+                      body: ''
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: quentinGllmt <quentin@quentingllmt.fr>
+                        signed-off-by: quentinGllmt <quentin@quentingllmt.fr>
+                      author: quentinGllmt
+                      nested: []
+                  version: balena-supervisor-12.6.6
+                  date: 2021-05-06T14:52:59.431Z
+                - commits:
+                    - subject: >-
+                        Update balena-register-device and send extra info at
+                        provision time
+                      hash: 9e52bb33ac931a035b4cd0fd80173bf10db771c0
+                      body: >
+                        This extra info will mean the API is able to immediately
+                        set default
+
+                        config vars based on the os/supervisor version so that
+                        they are
+
+                        available on the first target state fetch rather than
+                        having a delay
+
+                        whilst waiting for the supervisor to report them as part
+                        of a state
+
+                        patch
+
+
+                        Update balena-register-device from 6.1.6 to 7.2.0
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Pagan Gazzard
+                      nested:
+                        - commits:
+                            - subject: >-
+                                Support
+                                `supervisorVersion`/`osVersion`/`osVariant`/`macAddress`
+                                fields
+                              hash: 6f10fe77ba11ec57bb012777975423dda498a8bd
+                              body: ''
+                              footer:
+                                Change-type: minor
+                                change-type: minor
+                              author: Pagan Gazzard
+                          version: balena-register-device-7.2.0
+                          date: 2021-04-29T12:35:30.543Z
+                        - commits:
+                            - subject: Update dependencies
+                              hash: 8d78459d6cf6e0dcaa4721c38898eeb2d25c5674
+                              body: ''
+                              footer:
+                                Change-type: patch
+                                change-type: patch
+                              author: Pagan Gazzard
+                          version: balena-register-device-7.1.1
+                          date: 2021-04-29T12:23:50.655Z
+                        - commits:
+                            - subject: >-
+                                Switch from randomstring to uuid for generating
+                                device uuids
+                              hash: 596a76abcf0a76aef93d191e4c59b939701c80b8
+                              body: ''
+                              footer:
+                                Change-type: minor
+                                change-type: minor
+                              author: Pagan Gazzard
+                          version: balena-register-device-7.1.0
+                          date: 2020-07-13T14:38:52.915Z
+                        - commits:
+                            - subject: >-
+                                Add .versionbot/CHANGELOG.yml for nested
+                                changelogs
+                              hash: 7444f4ba2538180a5c75fa5f62de6f395ae28ba7
+                              body: ''
+                              footer:
+                                Change-type: patch
+                                change-type: patch
+                              author: Pagan Gazzard
+                          version: balena-register-device-7.0.1
+                          date: 2020-07-13T13:03:45.818Z
+                        - commits:
+                            - author: Pagan Gazzard
+                              body: ''
+                              hash: 8cfa23ebbe2915b2f37730972cf104cb47f68c65
+                              subject: Convert to type checked javascript
+                            - author: Pagan Gazzard
+                              body: ''
+                              footers:
+                                change-type: major
+                              hash: 0f3e9d26f375554f793dd632b94f33e3ee88933b
+                              subject: >-
+                                Drop callback interface in favor of promise
+                                interface
+                            - author: Pagan Gazzard
+                              body: ''
+                              footers:
+                                change-type: major
+                              hash: 67d46678e910c2c8b11f417fa40d00781a1a3905
+                              subject: Switch to a named export
+                            - author: Pagan Gazzard
+                              body: ''
+                              footers:
+                                change-type: major
+                              hash: faa9edc73cf243acd2abe1532e64aab8303031b5
+                              subject: Convert to typescript
+                            - author: Pagan Gazzard
+                              body: ''
+                              footers:
+                                change-type: major
+                              hash: 9e5bdbeaee325c8a523c8498ef023baeb49ef7c1
+                              subject: Update to typed-error 3.x
+                            - author: Pagan Gazzard
+                              body: ''
+                              footers:
+                                change-type: major
+                              hash: 27e78f2ea3f1a059a9fb2ba43dff55f32b0b2b4a
+                              subject: Switch to returning native promises
+                            - author: Pagan Gazzard
+                              body: ''
+                              footers:
+                                change-type: major
+                              hash: dc21eb20dba1a977e74ffadbece66720ced4c529
+                              subject: Update to balena-request 11.x
+                            - author: Pagan Gazzard
+                              body: ''
+                              hash: f4008dad3de415cc25987268b387848fc3ed1200
+                              subject: Use typescript import helpers
+                          date: '2020-07-06T18:11:23Z'
+                          version: balena-register-device-7.0.0
+                  version: balena-supervisor-12.6.5
+                  date: 2021-05-06T10:19:39.399Z
+                - commits:
+                    - subject: Log error responses from API when reporting state
+                      hash: 2203f78d517a9edf75a261dd3c77cdf5b609548c
+                      body: >
+                        This adds the error message from the API to journal logs
+                        to better
+
+                        identify those cases where patching to the API fails.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Relates-to: '#1680'
+                        relates-to: '#1680'
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-12.6.4
+                  date: 2021-05-05T19:06:49.805Z
+                - commits:
+                    - subject: >-
+                        Added configurations.md to document all configurable
+                        vars
+                      hash: 07a0344dc6ac15a67513080c63dffe0d6b811ebf
+                      body: ''
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Closes: '#1646'
+                        closes: '#1646'
+                        Signed-off-by: Miguel Casqueira <miguel@balena.io>
+                        signed-off-by: Miguel Casqueira <miguel@balena.io>
+                      author: Miguel Casqueira
+                      nested: []
+                  version: balena-supervisor-12.6.3
+                  date: 2021-05-04T02:10:52.553Z
+                - commits:
+                    - subject: Remove version tag from livepush generated image
+                      hash: 9c1d10dc318bb7c207608ed197c5713960642af3
+                      body: >
+                        The `start-resin-supervisor` script in newer OS version
+                        no longer uses the
+
+                        SUPERVISOR_TAG environment variable setup on
+                        supervisor.conf and
+
+                        update-supervisor.conf.
+
+
+                        This change removes the need for that variable with
+                        livepush supervisor
+
+                        to make it compatible with older and newer OS versions
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-12.6.2
+                  date: 2021-04-30T19:54:33.136Z
+                - commits:
+                    - subject: 'Remove mz, mkdirp, body-parser dependencies'
+                      hash: 4a2ac557ef11d334154bafa0cab4e7272cbed749
+                      body: |
+                        'mz' can be safely replaced with fs.promises
+                        and util.promisify for faster native methods.
+                        'mkdirp' after Node v8 uses native fs.mkdir, thus
+                        is redundant. 'body-parser' is deprecated and
+                        contained within express v4.x.
+                      footer:
+                        Closes: '#1567'
+                        closes: '#1567'
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Christina Wang <christina@balena.io>
+                        signed-off-by: Christina Wang <christina@balena.io>
+                      author: Christina Wang
+                      nested: []
+                  version: balena-supervisor-12.6.1
+                  date: 2021-04-27T22:23:07.811Z
+                - commits:
+                    - subject: Bump dockerode types to 2.5.34
+                      hash: 95fb568aaeb0d5a0fa8b4b88f650b51d3b96786d
+                      body: >
+                        This commit updates dockerode types to the latest 2.x
+                        version, removing the need
+
+                        for custom composer types for network.
+
+
+                        This commit also modifies network tests to use the new
+                        types
+                      footer:
+                        Change-type: minor
+                        change-type: minor
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-12.6.0
+                  date: 2021-04-27T17:10:23.382Z
+                - commits:
+                    - subject: Enable docker layer caching on CircleCI
+                      hash: dd2df215f0c62459f3e26c56efdfce26edbcc229
+                      body: ''
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Miguel Casqueira <miguel@balena.io>
+                        signed-off-by: Miguel Casqueira <miguel@balena.io>
+                      author: Miguel Casqueira
+                      nested: []
+                  version: balena-supervisor-12.5.16
+                  date: 2021-04-27T16:42:23.485Z
+                - commits:
+                    - subject: >-
+                        Added clean step to remove previous builds before
+                        running tests
+                      hash: 6f4030634ad05f29f72cea11456a252570c470d7
+                      body: ''
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Miguel Casqueira <miguel@balena.io>
+                        signed-off-by: Miguel Casqueira <miguel@balena.io>
+                      author: Miguel Casqueira
+                      nested: []
+                  version: balena-supervisor-12.5.15
+                  date: 2021-04-26T19:55:49.189Z
+                - commits:
+                    - subject: 'balena-supervisor: replace references to resin-vars'
+                      hash: 6ca9507beb616c4b344e4927cb5db01534c8ae4b
+                      body: >
+                        Replace all references to the 'resin-vars' script with
+
+                        'balena-config-vars' as it has been renamed. Add a
+                        conditional
+
+                        test for compatibility with legacy systems.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Changelog-entry: 'balena-supervisor: replace references to resin-vars'
+                        changelog-entry: 'balena-supervisor: replace references to resin-vars'
+                        Signed-off-by: Mark Corbin <mark@balena.io>
+                        signed-off-by: Mark Corbin <mark@balena.io>
+                      author: Mark Corbin
+                      nested: []
+                  version: balena-supervisor-12.5.14
+                  date: 2021-04-26T18:12:32.752Z
+                - commits:
+                    - subject: Update supervisor to typescript 4
+                      hash: fd06c06092b61d349e8b40f66f847065368810e3
+                      body: ''
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-12.5.13
+                  date: 2021-04-25T23:09:44.241Z
+                - commits:
+                    - subject: Bump ssri from 6.0.1 to 6.0.2
+                      hash: ae8dc8ff227237444ae532cf7e817bfc463fbac5
+                      body: >
+                        Bumps [ssri](https://github.com/npm/ssri) from 6.0.1 to
+                        6.0.2.
+
+                        - [Release notes](https://github.com/npm/ssri/releases)
+
+                        -
+                        [Changelog](https://github.com/npm/ssri/blob/v6.0.2/CHANGELOG.md)
+
+                        -
+                        [Commits](https://github.com/npm/ssri/compare/v6.0.1...v6.0.2)
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: 'dependabot[bot] <support@github.com>'
+                        signed-off-by: 'dependabot[bot] <support@github.com>'
+                      author: 'dependabot[bot]'
+                      nested: []
+                  version: balena-supervisor-12.5.12
+                  date: 2021-04-20T22:52:22.531Z
+                - commits:
+                    - subject: Refactor extra_uEnv to not match with intel nuc
+                      hash: e6eda0fca7b280aa5453972a26c36ab6895c227a
+                      body: ''
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Miguel Casqueira <miguel@balena.io>
+                        signed-off-by: Miguel Casqueira <miguel@balena.io>
+                      author: Miguel Casqueira
+                      nested: []
+                  version: balena-supervisor-12.5.11
+                  date: 2021-04-14T05:27:23.056Z
+          version: meta-balena-2.77.2
+          date: 2021-05-10T17:33:42.866Z
+        - commits:
+            - subject: Update os-config from v1.2.0 to v1.2.1
+              hash: 028486aa61680bdc09068fdb07f3a61edfb96a5d
+              body: |
+                Includes rename of resin-supervisor to balena-supervisor.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.77.1
+          date: 2021-05-10T13:48:11.472Z
+        - commits:
+            - subject: 'grub update hook: move variables from grub.cfg to grubenv'
+              hash: 76c82dd987215982dbfcbdf950588dafdc4c129e
+              body: >
+                In order to verify GPG signature of grub.cfg it must be
+                immutable.
+
+                All the variables should be stored in grubenv file. This means
+
+                bootcount, resin_root_part and upgrade_available variables need
+
+                to be moved to grubenv.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.77.0
+          date: 2021-05-05T15:18:01.595Z
+        - commits:
+            - subject: 'kernel: Always include overlayfs support'
+              hash: ddb5dff6b146dfc252aeecede59ad3acc79683f7
+              body: >
+                This is needed in preparation for storage migration from aufs to
+                overlayfs.
+
+                When running hostapp-update, we need to create the target
+                hostapp on
+
+                overlayfs, which implies the OS we update from can support both
+                drivers
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Robert Günzler <robertg@balena.io>
+                signed-off-by: Robert Günzler <robertg@balena.io>
+              author: Robert Günzler
+              nested: []
+          version: meta-balena-2.76.0
+          date: 2021-04-30T16:01:42.415Z
+        - commits:
+            - subject: 'grub: grub-efi: buildin gzio for gz compressed kernels'
+              hash: 6e0dd4407077d66fa9a0ac16b38a83f6cd46e9b2
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph.kogut@gmail.com>
+                signed-off-by: Joseph Kogut <joseph.kogut@gmail.com>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.75.1
+          date: 2021-04-29T19:31:21.361Z
+        - commits:
+            - subject: Update mobynit to the new multi-container hostOS specification
+              hash: 93335381320815dbe7b2d21233106910a200e2f5
+              body: >
+                Update mobynit to use the new multi-container hostOS
+                specification
+              footer:
+                Change-type: minor
+                change-type: minor
+                Changelog-entry: Update mobynit to the new multi-container hostOS specification
+                changelog-entry: Update mobynit to the new multi-container hostOS specification
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.75.0
+          date: 2021-04-22T12:36:31.239Z
+        - commits:
+            - subject: 'balena-engine: Update to 19.03.18'
+              hash: 32705abbf93971bdddb980fe0c7a01b40d229560
+              body: >
+                This brings in the aufs-to-overlay migrator. Which won't run
+                until we
+
+                configure the engine service to include an
+                `BALENA_MIGRATE_OVERLAY=1`
+
+                env var.
+
+
+                The other notable change is the fix for
+
+                https://github.com/balena-os/balena-engine/issues/236 which
+                allows
+
+                `balena top` to work as expected on balenaOS
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Robert Günzler <robertg@balena.io>
+                signed-off-by: Robert Günzler <robertg@balena.io>
+              author: Robert Günzler
+              nested: []
+          version: meta-balena-2.74.0
+          date: 2021-04-20T20:48:58.556Z
+        - commits:
+            - subject: >-
+                modemmanager:u-blox-switch: Rework the u-blox modem switch to
+                ECM mode
+              hash: 9de54188ea47e121a7f408ae1c65f70f53d3a634
+              body: >
+                We need to make sure the modem is completely initialized before
+                sending
+
+                the AT commands that do the switch to ECM mode. To achieve this
+                we
+
+                change the systemd service dependency to depend on
+                ModemManager.service
+
+                and then we determine the modem state by using mmcli and
+                querying the
+
+                modem power-state property.
+
+
+                This procedure will only be done once. After the modem is placed
+                in ECM
+
+                mode, it will stay in this mode for future reboots so there will
+                be no
+
+                other delays in bringing up the modem connection.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-2.73.15
+          date: 2021-04-20T09:21:07.975Z
+        - commits:
+            - subject: 'device-progress: do not force an exit code'
+              hash: f080936299781d121866de112e6930fa2f261fac
+              body: >
+                this script is only used during provisioning and HUP. in
+                provisioning we `|| true` anyway, and
+
+                in HUP we would like to use the exit code for retrying
+              footer:
+                Signed-off-by: Matthew McGinn <matthew@balena.io>
+                signed-off-by: Matthew McGinn <matthew@balena.io>
+                Change-type: patch
+                change-type: patch
+              author: Matthew McGinn
+              nested: []
+          version: meta-balena-2.73.14
+          date: 2021-04-19T14:59:22.521Z
+        - commits:
+            - subject: add retries to status check
+              hash: 73e7cae10974974eeb180fd18551f6da67432101
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-2.73.13
+          date: 2021-04-19T10:30:12.192Z
+        - commits:
+            - subject: 'meta-balena: rename resin-vars to balena-config-vars'
+              hash: 7d019abde039a469212c59bcf6e1b7a94ed365d6
+              body: >
+                Rename the 'resin-vars' script to 'balena-config-vars' and
+                update all
+
+                references.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: 'meta-balena: rename resin-vars to balena-config-vars'
+                changelog-entry: 'meta-balena: rename resin-vars to balena-config-vars'
+                Signed-off-by: Mark Corbin <mark@balena.io>
+                signed-off-by: Mark Corbin <mark@balena.io>
+              author: Mark Corbin
+              nested: []
+          version: meta-balena-2.73.12
+          date: 2021-04-16T12:31:11.982Z
+        - commits:
+            - subject: 'patch: Add strict bootcount count condition'
+              hash: a340d4ddd09515eedb125cbc57d39531ade2566a
+              body: ''
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+              author: Vipul Gupta (@vipulgupta2048)
+              nested: []
+            - subject: 'patch: Reactivate Persistent Logging test'
+              hash: 572e287bb93deae01786b025ad116d4d78a6b918
+              body: ''
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+              author: Vipul Gupta (@vipulgupta2048)
+              nested: []
+          version: meta-balena-2.73.11
+          date: 2021-04-16T07:39:41.833Z
+        - commits:
+            - subject: 'repo.yml: Move balena-supervisor reference to balena-os'
+              hash: 7d9433e3c41c37ba3d9cea51d894b520be81d899
+              body: >
+                The balena-supervisor repository has been moved to balena-os so
+                the
+
+                repo.yml file needs to be corrected for nested changelogs to
+                work again.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.73.10
+          date: 2021-04-14T14:10:09.817Z
+        - commits:
+            - subject: Update balena-supervisor from v12.5.6 to v12.5.10
+              hash: 36a1b1e9808db5d2c70f06209f868b24bd8643b1
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: Update balena-supervisor from v12.5.6 to v12.5.10
+                changelog-entry: Update balena-supervisor from v12.5.6 to v12.5.10
+                Signed-off-by: Christina Wang <christina@balena.io>
+                signed-off-by: Christina Wang <christina@balena.io>
+              author: Christina Wang
+              nested: []
+          version: meta-balena-2.73.9
+          date: 2021-04-14T11:26:13.292Z
+        - commits:
+            - subject: >-
+                resin-mounts/etc-fake-hwclock: add dependency on resin-state
+                services
+              hash: 2b07011844a2738aec033d88af29e3f6e0dd28a2
+              body: >
+                Added a dependency on resin-state.service and
+                resin-state-reset.service
+
+                to etc-fake-hwclock.mount.
+
+
+                On initial boot after flashing a device the
+                resin-state-reset.service
+
+                was running after etc-fake-hwclock.mount causing the bind mount
+                point
+
+                /mnt/state/root-overlay/etc/fake-hwclock to be deleted after it
+                had
+
+                been mounted. This resulted in a failure to save the date/time
+                at
+
+                shutdown which caused problems with persistent logging at next
+                boot.
+
+                Subsequent boots are unaffected as resin-state-reset does not
+                run.
+
+                Adding a dependency on the resin-state services ensures that the
+
+                bind mount point is created after the state reset has been
+                performed.
+
+
+                This issue was noticed when running the testbot unmanaged OS
+                image
+
+                persistent logging test. When running a managed OS image the
+                device
+
+                normally reboots fairly immediately after connecting to the
+
+                balena-cloud host and receiving parameter updates, so this issue
+                is
+
+                not usually noticeable.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Connects-to: '#2146 #2143'
+                connects-to: '#2146 #2143'
+                Changelog-entry: >-
+                  resin-mounts/etc-fake-hwclock: add dependency on resin-state
+                  services
+                changelog-entry: >-
+                  resin-mounts/etc-fake-hwclock: add dependency on resin-state
+                  services
+                Signed-off-by: Mark Corbin <mark@balena.io>
+                signed-off-by: Mark Corbin <mark@balena.io>
+              author: Mark Corbin
+              nested: []
+          version: meta-balena-2.73.8
+          date: 2021-04-13T14:21:01.455Z
+        - commits:
+            - subject: fix udev test indentation
+              hash: dedfa47ca1fbae4cd8b96eb05cf093ae3f9432d9
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+            - subject: Added comments for easier debugging
+              hash: c3085492fe85b314e1644870e614531fa6bde6a8
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+            - subject: Fix old tests + add new tests based on testlodge
+              hash: 2c8ab0f0962cca1b6fecb25b9a2dbe62acf4cf6a
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-2.73.7
+          date: 2021-04-13T10:43:37.477Z
+        - commits:
+            - subject: >-
+                Add automated test checking for udev/resin_update_state_probe
+                warnings
+              hash: e6bcff01fcf520756b140ad3b4352583f4bc825e
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+            - subject: 'udev: Silence warnings from resin_update_state_probe'
+              hash: 5a0bed933fd9730e507305c6098698c4a1970c6e
+              body: >
+                At this moment resin_update_state_probe is scanning pretty much
+                every
+
+                block device for rootfs. This include ramdisks, zram and loop
+                devices
+
+                which, when scanned, even spam warnings in logs. This patch
+                updates
+
+                the udev rule to skip such devices and only trigger on add or
+                change
+
+                events.
+              footer:
+                Relates-to: '#1989'
+                relates-to: '#1989'
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.73.6
+          date: 2021-04-12T12:17:29.995Z
+        - commits:
+            - subject: Update balena-supervisor from v12.4.6 to v12.5.6
+              hash: 6852b3704575ce5535082e2c02a7f2c6f57e1df4
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: Update balena-supervisor from v12.4.6 to v12.5.6
+                changelog-entry: Update balena-supervisor from v12.4.6 to v12.5.6
+                Signed-off-by: Christina Wang <christina@balena.io>
+                signed-off-by: Christina Wang <christina@balena.io>
+              author: Christina Wang
+              nested: []
+          version: meta-balena-2.73.5
+          date: 2021-04-06T02:41:31.071Z
+        - commits:
+            - subject: Add to persistent logging defn
+              hash: a763533ee5d589394584e5990bd89ca6d18365c5
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Andrew Nhem <andrew@balena.io>
+                signed-off-by: Andrew Nhem <andrew@balena.io>
+              author: Andrew Nhem
+              nested: []
+          version: meta-balena-2.73.4
+          date: 2021-03-20T00:50:55.294Z
+        - commits:
+            - subject: 'wifi: remove listed example as it''s discontinued'
+              hash: c539b4c6c671fca2cd0fabc7416e2bbd0b20ee44
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Tomás Migone <tomas@balena.io>
+                signed-off-by: Tomás Migone <tomas@balena.io>
+              author: Tomás Migone
+              nested: []
+          version: meta-balena-2.73.3
+          date: 2021-03-19T19:05:13.959Z
+        - commits:
+            - subject: 'hostapp-update: convert absolute symlinks to relative'
+              hash: fa8b5a4d2836510c5257d75c65542d374f628407
+              body: >
+                Symlinks to /boot and /sbin/init are absolute, which breaks them
+                when
+
+                the sysroot is mounted under another system.
+
+
+                Convert them to relative links, so they work in all cases.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.73.2
+          date: 2021-03-17T18:30:51.715Z
+        - commits:
+            - subject: Update balena-supervisor from v12.3.5 to v12.4.6
+              hash: 8399bdf47ded925e74e48b128b4f7b2452008dd5
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: Update balena-supervisor from v12.3.5 to v12.4.6
+                changelog-entry: Update balena-supervisor from v12.3.5 to v12.4.6
+                Signed-off-by: Felipe Lalanne <felipe@balena.io>
+                signed-off-by: Felipe Lalanne <felipe@balena.io>
+              author: Felipe Lalanne
+              nested: []
+          version: meta-balena-2.73.1
+          date: 2021-03-16T13:08:50.984Z
+        - commits:
+            - subject: 'image_types_balena: make rootfs labeling generic'
+              hash: 924bb046c94ea9a6db516733f727c18bc47fc0e7
+              body: ''
+              footer:
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+                Change-type: patch
+                change-type: patch
+              author: Joseph Kogut
+              nested: []
+            - subject: 'image_types_balena: make agnostic to root fstype'
+              hash: 71553d47174d8dc28777b0d0a6723418192ad8e4
+              body: >
+                Build BALENA_HOSTAPP_IMG path using BALENA_ROOT_FSTYPE instead
+                of assuming
+
+                the root is ext4.
+              footer:
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+                Change-type: patch
+                change-type: patch
+              author: Joseph Kogut
+              nested: []
+            - subject: 'mkfs-hostapp-native: make agnostic to fstype'
+              hash: 295976261f44650bd108eafcb53b3d24f6a28671
+              body: >
+                Remove assumptions about root fstype. Rename create to
+                create.ext4,
+
+                mkfs.hostapp-ext4 to mkfs.hostapp, and add an argument to
+                mkfs.hostapp
+
+                for fstype. Remove CMD from Dockerfile in favor of passing it as
+                an
+
+                argument to docker run.
+              footer:
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+                Change-type: minor
+                change-type: minor
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.73.0
+          date: 2021-03-15T20:56:51.275Z
+        - commits:
+            - subject: 'balena: dissolve healthcheck-image-load into healthcheck script'
+              hash: 7983e9bfd716aaedad1ef5f1468b2771e1f5a71c
+              body: >
+                Previously we were loading the healthcheck image from it's own
+                service
+
+                that was previously made `PartOf=` the balena.service.
+
+                This was done in an attempt to help get the system unstuck when
+                the
+
+                image is removed (like through manual pruning), which would
+                cause the
+
+                healthcheck to trigger the engine to reboot until the load
+                service was
+
+                restarted by hand.
+
+
+                Further investigation found a race between the first execution
+                of the
+
+                engine healthcheck script (which needs the image to be loaded)
+                and the
+
+                loader service itself, which would lead to a similar state,
+                requireing
+
+                manual intervention.
+
+
+                This change moves the loading into the healthcheck script
+                itself,
+
+                allowing us to remove the loader script and service entirely,
+                skipping
+
+                the whole service ordering issue.
+              footer:
+                Backport-to: next
+                backport-to: next
+                Connects-to: '#2122'
+                connects-to: '#2122'
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Robert Günzler <robertg@balena.io>
+                signed-off-by: Robert Günzler <robertg@balena.io>
+              author: Robert Günzler
+              nested: []
+          version: meta-balena-2.72.2
+          date: 2021-03-15T13:36:10.137Z
+        - commits:
+            - subject: Fix disablement of userspace firmware loading requests
+              hash: 98fad0bbfd179f16c5985a3281af25b4801af6e9
+              body: >
+                This option depends on FW_LOADER_USER_HELPER which will be
+                enabled if
+
+                _FALLBACK is set to 'y', which is the default in the arm64
+                defconfig
+
+                since Linux 5.4+.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: Fix disablement of userspace firmware loading requests
+                changelog-entry: Fix disablement of userspace firmware loading requests
+                Signed-off-by: Pelle van Gils <pelle@vangils.xyz>
+                signed-off-by: Pelle van Gils <pelle@vangils.xyz>
+              author: Pelle van Gils
+              nested: []
+          version: meta-balena-2.72.1
+          date: 2021-03-11T09:52:01.508Z
+  version: 2.78.0+rev1
+  date: 2021-05-11T11:19:29.022Z
+- commits:
     - subject: Rename resin image types to balena
       hash: fdfce1de2db2301b51f6ee9a9ba9bf858c745f85
       body: |
