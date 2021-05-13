@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update host tools to replace docker with balena-engine in build process
+      hash: 9f5e938c44ee251da82e96b9f0c7c46131dce0e8
+      body: >
+        For overlay based device types, remove docker and add a set of host
+        tools
+
+        dependencies to use rootless balena-engine instead. For aufs based
+        devices,
+
+        we leave docker as rootless is not supported over aufs
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: >-
+          Update host tools to replace docker with balena-engine in build
+          process
+        changelog-entry: >-
+          Update host tools to replace docker with balena-engine in build
+          process
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.78.0+rev2
+  date: 2021-05-13T18:47:59.159Z
+- commits:
     - subject: Rename resin-supervisor to balena-supervisor
       hash: fbb788a292a17f46452790011a88fcce07a0a167
       body: ''
