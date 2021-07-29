@@ -1,4 +1,19 @@
 - commits:
+    - subject: Add Pine A64+ support
+      hash: 0d4e7f39758fb75781b377c5a68c8de75f5f55c3
+      body: ''
+      footer:
+        Changelog-entry: Add Pine A64+ support
+        changelog-entry: Add Pine A64+ support
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.79.7+rev2
+  date: 2021-07-29T07:37:38.110Z
+- commits:
     - subject: Update meta-balena from v2.78.0 to v2.79.7
       hash: 5ac7f89f2312543ae90cbaf945d5d220a30c830a
       body: |
