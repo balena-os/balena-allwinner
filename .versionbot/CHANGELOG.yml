@@ -1,4 +1,23 @@
 - commits:
+    - subject: Add balena-yocto-scripts upstream source
+      hash: 657e2f45e7b3fccb6c8c149638cd5e59202069d1
+      body: >
+        This allows to add nested changelogs from the balena-yocto-scripts
+        repository
+
+        from version >= 1.14.1
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: Add balena-yocto-scripts upstream source
+        changelog-entry: Add balena-yocto-scripts upstream source
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.79.7+rev2
+  date: 2021-08-26T17:16:09.460Z
+- commits:
     - subject: Update meta-balena from v2.78.0 to v2.79.7
       hash: 5ac7f89f2312543ae90cbaf945d5d220a30c830a
       body: |
