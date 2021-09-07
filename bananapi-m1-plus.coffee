@@ -23,7 +23,7 @@ module.exports =
 		machine: 'bananapi-m1-plus'
 		image: 'balena-image'
 		fstype: 'balenaos-img'
-		version: 'yocto-warrior'
+		version: 'yocto-dunfell'
 		deployArtifact: 'balena-image-bananapi-m1-plus.balenaos-img'
 		compressed: true
 

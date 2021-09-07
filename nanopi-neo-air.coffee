@@ -38,7 +38,7 @@ module.exports =
 		machine: 'nanopi-neo-air'
 		image: 'balena-image-flasher'
 		fstype: 'balenaos-img'
-		version: 'yocto-warrior'
+		version: 'yocto-dunfell'
 		deployArtifact: 'balena-image-flasher-nanopi-neo-air.balenaos-img'
 		compressed: true
 
