@@ -38,7 +38,7 @@ module.exports =
 		machine: 'orangepi-plus2'
 		image: 'balena-image-flasher'
 		fstype: 'balenaos-img'
-		version: 'yocto-warrior'
+		version: 'yocto-dunfell'
 		deployArtifact: 'balena-image-flasher-orangepi-plus2.balenaos-img'
 		compressed: true
 
