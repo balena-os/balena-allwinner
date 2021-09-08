@@ -21,7 +21,7 @@ do_install_append() {
     cp ${WORKDIR}/brcmfmac43430a0-sdio.bin ${D}/lib/firmware/brcm/brcmfmac43430a0-sdio.bin
     cp ${WORKDIR}/brcmfmac43430a0-sdio.txt ${D}/lib/firmware/brcm/brcmfmac43430a0-sdio.txt
     cp ${WORKDIR}/config.txt ${D}/lib/firmware/brcm/config.txt
-    cp ${S}/brcm/brcmfmac43362-sdio.bin ${D}/lib/firmware/brcm/
+    cp ${S}/cypress/cyfmac43362-sdio.bin ${D}/lib/firmware/brcm/brcmfmac43362-sdio.bin
     cp ${WORKDIR}/brcmfmac43362-sdio.txt ${D}/lib/firmware/brcm/
 }
 
