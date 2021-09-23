@@ -47,16 +47,10 @@ BALENA_CONFIGS[wifi] ="\
     CONFIG_WLAN_VENDOR_REALTEK=y \
 "
 
-BALENA_CONFIGS_append_orangepi-plus2 = " pl2303"
-BALENA_CONFIGS_DEPS[pl2303] = "\
-    CONFIG_USB_SERIAL=m \
-"
-BALENA_CONFIGS[pl2303] ="\
-    CONFIG_USB_SERIAL_PL2303=m \
-"
-
 BALENA_CONFIGS_append_orangepi-plus2 = " hdmi"
 BALENA_CONFIGS_DEPS[hdmi] = "\
+    CONFIG_DRM=y \
+    CONFIG_DRM_SUN4I=y \
     CONFIG_SUN8I_DE2_CCU=y \
 "
 BALENA_CONFIGS[hdmi] ="\
@@ -92,7 +86,7 @@ BALENA_CONFIGS_append = " \
 BALENA_CONFIGS[configfs] = " \
     CONFIG_OF_CONFIGFS=y \
     CONFIG_OF_OVERLAY=y \
-    CONFIG_CONFIGFS_FS=m \
+    CONFIG_CONFIGFS_FS=y \
 "
 
 BALENA_CONFIGS_append_nanopi-neo-air = " hciuart"
