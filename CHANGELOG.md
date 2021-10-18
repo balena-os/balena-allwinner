@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.85.4+rev2
+## (2021-10-18)
+
+* meta-balena-allwinner: update local.conf.sample [Mark Corbin]
+
 # v2.85.4+rev1
 ## (2021-09-23)
 

@@ -1,4 +1,21 @@
 - commits:
+    - subject: 'meta-balena-allwinner: update local.conf.sample'
+      hash: b981ddbb27769988243a74d23431556ef043d7aa
+      body: |
+        Update the sample configuration file to use OS_DEVELOPMENT instead of
+        DEVELOPMENT_IMAGE.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Changelog-entry: 'meta-balena-allwinner: update local.conf.sample'
+        changelog-entry: 'meta-balena-allwinner: update local.conf.sample'
+        Signed-off-by: Mark Corbin <mark@balena.io>
+        signed-off-by: Mark Corbin <mark@balena.io>
+      author: Mark Corbin
+      nested: []
+  version: 2.85.4+rev2
+  date: 2021-10-18T13:37:18.630Z
+- commits:
     - subject: 'linux-mainline: Remove config check warnings'
       hash: 5ad052f26292c1ffd30841b5345b1759e0db4a88
       body: >
