@@ -24,7 +24,7 @@ module.exports =
 		machine: 'orange-pi-one'
 		image: 'balena-image'
 		fstype: 'balenaos-img'
-		version: 'yocto-warrior'
+		version: 'yocto-dunfell'
 		deployArtifact: 'balena-image-orange-pi-one.balenaos-img'
 		compressed: true
 
