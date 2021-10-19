@@ -1,6 +1,47 @@
 Change log
 -----------
 
+# v2.85.10+rev1
+## (2021-10-18)
+
+
+<details>
+<summary> Update balena-yocto-scripts from v1.14.9 to v1.15.2 [Florin Sarbu] </summary>
+
+> ## balena-yocto-scripts-1.15.2
+> ### (2021-10-01)
+> 
+> * balena-generate-ami.sh: correctly mount boot partition when injecting SSH key [Michal Toman]
+> 
+> ## balena-yocto-scripts-1.15.1
+> ### (2021-10-01)
+> 
+> * Update balena-cli to 12.50.1 [Michal Toman]
+> 
+> ## balena-yocto-scripts-1.15.0
+> ### (2021-10-01)
+> 
+> * jenkins_generate_ami.sh: Use lib function to get arch from config.json [Michal Toman]
+> * balena-generate-ami.sh: Look for boot partition by label rather than hardcoding p1 [Michal Toman]
+> * balena-generate-ami.sh: Fail if AMI already exists [Michal Toman]
+> * balena-generate-ami.sh: sync after writing config.json [Michal Toman]
+> * balena-generate-ami.sh: Stick to POSIX-compliant [ instead of [[ [Michal Toman]
+> * balena-generate-ami.sh: Remove useless statements [Michal Toman]
+> * jenkins_generate_ami.sh: Use architecture as suffix instead of machine name [Michal Toman]
+> * jenkins_build.sh: pass MACHINE to jenkins_generate_ami.sh [Michal Toman]
+> * AMI automation: Adjust AMI names to be compatible with AWS API [ab77]
+> * AMI automation: Correct S3 bucket name and key [ab77]
+> * AMI automation: Add a separate container for generaing AMI [Michal Toman]
+> * AMI automation: shellcheck and resolve violations [ab77]
+> * AMI automation: Use staging env by default [Tomás Tormo]
+> * AMI automation: Simplify public ssh addition. Do not use sudo [Tomás Tormo]
+> * automation: Generate and publish AMI from the raw balenaOS image [Tomás Tormo]
+> 
+</details>
+
+* Update meta-balena from v2.85.4 to v2.85.10 [Florin Sarbu]
+* Update poky to dunfell-23.0.6 [Florin Sarbu]
+
 # v2.85.4+rev2
 ## (2021-10-18)
 
