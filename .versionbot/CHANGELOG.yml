@@ -1,4 +1,153 @@
 - commits:
+    - subject: Update balena-yocto-scripts from v1.15.2 to v1.15.8
+      hash: 231c130a864e2d04b2db496d420875cccb9e9be8
+      body: |
+        Update balena-yocto-scripts from 1.15.2 to 1.15.8
+      footer:
+        Changelog-entry: Update balena-yocto-scripts from v1.15.2 to v1.15.8
+        changelog-entry: Update balena-yocto-scripts from v1.15.2 to v1.15.8
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested:
+        - commits:
+            - subject: 'Dockerfile_yocto-build-env: Install Honister host deps'
+              hash: efc069c609431965394912d3ffd34362a1108852
+              body: >
+                See
+                http://docs.yoctoproject.org/next/migration-guides/migration-3.4.html#new-host-dependencies
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: balena-yocto-scripts-1.15.8
+          date: 2021-11-03T10:01:44.980Z
+        - commits:
+            - subject: 'jenkins_build.sh: Fix deployment for discontinued device types'
+              hash: 84e65e937fef38625277fb8330ebd3179c466d04
+              body: >
+                Do not deploy dockerhub or hostapp images for discontinued
+                device types.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: 'jenkins_build.sh: Remove PRIVATE_DT as it is unused'
+              hash: 35fd54620ff5eb487b1323a1ead5fef9c157e385
+              body: >
+                The private device types status is checked with the API when
+                required.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: 'jenkins_build.sh: Fix lint warnings'
+              hash: 068a4197101a2db4aba60793e01564b67d14f820
+              body: |
+                Fix some minor lint warnings.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.15.7
+          date: 2021-10-25T16:57:03.955Z
+        - commits:
+            - subject: >-
+                balena-generate-ami.sh: wait for boot partition when preloading
+                AMI
+              hash: d2ea170a86810a782eeb241e178d4ad72c4939b0
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: balena-yocto-scripts-1.15.6
+          date: 2021-10-21T15:04:37.774Z
+        - commits:
+            - subject: >-
+                jenkins_generate_ami.sh: Use a shared directory for preloaded
+                image
+              hash: 9b032f2fddc970db13147b4e637abd1bada1f234
+              body: >
+                The previous commit moved the preloaded image out of yocto
+                cache, which
+
+                made it unreachable from the balena-generate-ami-env container.
+
+
+                This patch makes mktemp create the file back within yocto cache
+                to ensure
+
+                this is shared yet still each concurrent process can safely have
+                its own copy.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: balena-yocto-scripts-1.15.5
+          date: 2021-10-21T04:50:17.146Z
+        - commits:
+            - subject: 'barys: update development image variables'
+              hash: 427510332026ca8636dedb6630632a740b481374
+              body: |
+                Update the DEVELOPMENT_IMAGE references to use OS_DEVELOPMENT
+                following the changes to the handling of OS variants.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: 'barys: update development image variables'
+                changelog-entry: 'barys: update development image variables'
+                Signed-off-by: Mark Corbin mark@balena.io
+                signed-off-by: Mark Corbin mark@balena.io
+              author: Mark Corbin
+              nested: []
+          version: balena-yocto-scripts-1.15.4
+          date: 2021-10-20T09:40:14.890Z
+        - commits:
+            - subject: 'jenkins_generate_ami.sh: Preload outside of yocto cache'
+              hash: fb1763984d76218adc2510da6cb673fbad7197be
+              body: >
+                Since the file name is hardcoded at this moment, this fails when
+                two
+
+                builds are running in parallel (e.g. dev and prod variants
+                during deploy)
+
+                because they try to preload the same file at pretty much the
+                same moment.
+
+                Having a separate copy for each outside of yocto cache should
+                fix the issue.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: balena-yocto-scripts-1.15.3
+          date: 2021-10-20T05:12:57.093Z
+  version: 2.85.10+rev2
+  date: 2021-11-04T16:49:30.715Z
+- commits:
     - subject: Update balena-yocto-scripts from v1.14.9 to v1.15.2
       hash: 2d550c5b18879c182e6ffce7049c30c4e62ffc1a
       body: |
