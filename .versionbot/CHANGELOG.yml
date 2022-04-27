@@ -1,4 +1,268 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 13da1d2fd4483ba9a2cf9d3d7146985bbd720c6b
+      hash: 6338bc343d9b556f515f53aa34d008e441a5c252
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 13da1d2fd4483ba9a2cf9d3d7146985bbd720c6b
+        changelog-entry: Update balena-yocto-scripts to 13da1d2fd4483ba9a2cf9d3d7146985bbd720c6b
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "balena-lib: fix 445d6d1fcfce97f85ffcfedc0083eb658a734321"
+              hash: d8a3a47e87dc65b81451e5dd07213577cc9fe82b
+              body: |
+                Commit 445d6d1fcfce97f85ffcfedc0083eb658a734321 does not fix
+                the issue because it is missing the --global arg without which
+                the git config command fails.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: balena-yocto-scripts-1.19.3
+          title: "'balena-lib: fix 445d6d1fcfce97f85ffcfedc0083eb658a734321'"
+          date: 2022-04-26T08:40:52.078Z
+        - commits:
+            - subject: "balena-lib: fix 'fatal: unsafe repository'"
+              hash: 445d6d1fcfce97f85ffcfedc0083eb658a734321
+              body: |
+                Git 2.35.2 was released to fix a security issue with multi-user
+                machines. Add `device_dir` to the whitelist to avoid this error.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: balena-yocto-scripts-1.19.2
+          title: "'balena-lib: fix 'fatal: unsafe repository''"
+          date: 2022-04-21T23:56:18.934Z
+        - commits:
+            - subject: "deploy: ensure deployRawArtifact is empty instead of null"
+              hash: 56edfe62d6ecede3e07b0b51653ca605a2e4ba83
+              body: >
+                jq returns null by default when a given key isn't found, ensure
+                that
+
+                when getting the value of deployRawArtifact, we get an empty variable
+
+                instead, which is checked later on to determine if that file should be
+
+                deployed
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: balena-yocto-scripts-1.19.1
+          title: "'deploy: ensure deployRawArtifact is empty instead of null'"
+          date: 2022-04-14T16:02:35.647Z
+        - commits:
+            - subject: "deploy: push image variant artifacts"
+              hash: f5b7ae35f2f2996d93ba572919e26e1487a79f79
+              body: ""
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: balena-yocto-scripts-1.19.0
+          title: "'deploy: push image variant artifacts'"
+          date: 2022-04-13T14:36:11.268Z
+        - commits:
+            - subject: Bump balena-cli to v.Latest
+              hash: 6aec14bf20674e62822ba41f56ef2763c4036b6d
+              body: |
+                * remove SSH key injection
+              footer:
+                Change-type: minor
+                change-type: minor
+              author: ab77
+              nested: []
+          version: balena-yocto-scripts-1.18.0
+          title: "'Bump balena-cli to v.Latest'"
+          date: 2022-03-31T20:52:47.275Z
+        - commits:
+            - subject: Remove superfluous preload flag
+              hash: a124b525ca058ead27eb43c0a799eb692c79fa80
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: ab77
+              nested: []
+          version: balena-yocto-scripts-1.17.12
+          title: "'Remove superfluous preload flag'"
+          date: 2022-03-29T17:38:21.495Z
+        - commits:
+            - subject: Unattended preload operation
+              hash: 1fecbb4d000b1a403f192a63d5e2921ded56647c
+              body: >
+                * the CLI prompts for input during preload
+
+
+                Alternatively, the --pin-device-to-release flag may be used to pin only the
+
+                preloaded device to the selected release.
+
+
+                Would you like to disable automatic updates for this fleet now? No
+
+
+                * we do not want to set the suggested flag and we do not want to touch the fleet release policy for this use case
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: ab77
+              nested: []
+          version: balena-yocto-scripts-1.17.11
+          title: "'Unattended preload operation'"
+          date: 2022-03-29T14:36:18.054Z
+        - commits:
+            - subject: Pass environment to docker
+              hash: ac8be68fb073aed53b21b2e66df4fb54adb64e22
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: ab77
+              nested: []
+          version: balena-yocto-scripts-1.17.10
+          title: "'Pass environment to docker'"
+          date: 2022-03-28T17:26:04.107Z
+        - commits:
+            - subject: "automation: ami: make BALENA_PRELOAD_COMMIT optional"
+              hash: b365cb9ba359637a3a6a8451b8d83142bb167571
+              body: >
+                Remove BALENA_PRELOAD_COMMIT from required env vars, as we have
+                a
+
+                default if it's not specified.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: balena-yocto-scripts-1.17.9
+          title: "'automation: ami: make BALENA_PRELOAD_COMMIT optional'"
+          date: 2022-03-25T23:25:09.583Z
+        - commits:
+            - subject: "balena-deploy: s/resin-flasher/balena-flasher"
+              hash: abdae4c86ed213a64bb1fa7498f4837f53d95448
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: balena-yocto-scripts-1.17.8
+          title: "'balena-deploy: s/resin-flasher/balena-flasher'"
+          date: 2022-03-15T20:11:21.544Z
+        - commits:
+            - subject: "jenkins_generate_ami: surface preload app commit as variable"
+              hash: 7248b344198ba09a219ee227ffea4b6f0a4850d7
+              body: >
+                Surface the preloaded app commit as a variable that can be
+                overridden in
+
+                the build job. Default to "current" to maintain existing behavior when
+
+                the variable isn't set.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: balena-yocto-scripts-1.17.7
+          title: "'jenkins_generate_ami: surface preload app commit as variable'"
+          date: 2022-03-15T16:36:33.654Z
+        - commits:
+            - subject: "barys: Remove RESINHUP setting"
+              hash: 367f153009928f36de8edcd97a56d6f58b5d6773
+              body: |
+                This has now been removed from meta-balena.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.17.6
+          title: "'barys: Remove RESINHUP setting'"
+          date: 2022-03-08T19:00:31.730Z
+        - commits:
+            - subject: "balena-deploy: Avoid patching test suites config.js during deploy"
+              hash: 21c27cd41cda7ee7f5041752cca1f79280c51a7e
+              body: >
+                This will allow us to make changes to config.js in meta-balena
+                without
+
+                breaking the deploy steps. If additional changes are needed at runtime
+
+                the substitutions can be made by the leviathan Jenkins job.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.17.5
+          title: "'balena-deploy: Avoid patching test suites config.js during deploy'"
+          date: 2022-03-08T13:38:17.771Z
+        - commits:
+            - subject: Init and update submodules when switching meta-balena branches
+              hash: 5162e7c9fa39498488303caab7d746456fc9abd4
+              body: >
+                If the submodule was recently added to meta-balena, the checkout
+
+                command will not initialize it without a separate submodule update
+
+                command.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.17.4
+          title: "'Init and update submodules when switching meta-balena branches'"
+          date: 2022-03-03T16:46:17.542Z
+        - commits:
+            - subject: "jenkins_build: Use recurse-submodules when checking out meta-balena"
+              hash: 00fb29b9a7a00dc1209be497ef171736e6229954
+              body: >
+                If meta-balena has submodule updates we want to make sure to use
+                them.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.17.3
+          title: "'jenkins_build: Use recurse-submodules when checking out meta-balena'"
+          date: 2022-03-02T17:17:21.631Z
+  version: 2.85.10+rev9
+  title: "'Update balena-yocto-scripts digest to 13da1d2'"
+  date: 2022-04-26T10:12:24.919Z
+- commits:
     - subject: Specify full path in repo.yml upstreams
       hash: d32d8dc04885b8ebcbeb21862e0c2a20596dad72
       body: |
