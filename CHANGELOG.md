@@ -1,6 +1,31 @@
 Change log
 -----------
 
+# v2.98.12
+## (2022-05-03)
+
+
+<details>
+<summary> Update layers/meta-balena to 0c96705ba26cda1062eff0b128eccb4f9388f9cc [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.12
+> ### (2022-05-02)
+> 
+> * tests/hup: Test hostapp-update from current release [Kyle Harding]
+> 
+</details>
+
+
+<details>
+<summary> Update layers/meta-balena to e13f4afb2c6311450db3fc4e9cb74ef31132e8d6 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.12
+> ### (2022-05-02)
+> 
+> * tests/hup: Test hostapp-update from current release [Kyle Harding]
+> 
+</details>
+
 # v2.98.10
 ## (2022-04-29)
 
