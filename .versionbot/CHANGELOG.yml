@@ -1,4 +1,54 @@
 - commits:
+    - subject: Update layers/meta-balena to 23c6581bee55a61231cdc61e108418e743b7df3e
+      hash: 6cb85b18bdf638cf5ac9dd60952eaeb688803bb2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 23c6581bee55a61231cdc61e108418e743b7df3e
+        changelog-entry: Update layers/meta-balena to 23c6581bee55a61231cdc61e108418e743b7df3e
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "renovate: Replace tests with tests/suites in default ignorePaths"
+              hash: c354fded7c56960b69ae9c0ede362e90e0d71a46
+              body: |
+                This way renovate can operate on tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.98.16
+          title: "'renovate: Replace tests with tests/suites in default ignorePaths'"
+          date: 2022-05-05T16:33:33.391Z
+    - subject: Update layers/meta-balena to 9685efd5bf2ae5b12d307b2f879c51bd6dbab82e
+      hash: 2d32ec4b0ec5d39ce2770b97532e601f26c29b6e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9685efd5bf2ae5b12d307b2f879c51bd6dbab82e
+        changelog-entry: Update layers/meta-balena to 9685efd5bf2ae5b12d307b2f879c51bd6dbab82e
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "renovate: Replace tests with tests/suites in default ignorePaths"
+              hash: c354fded7c56960b69ae9c0ede362e90e0d71a46
+              body: |
+                This way renovate can operate on tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.98.16
+          title: "'renovate: Replace tests with tests/suites in default ignorePaths'"
+          date: 2022-05-05T16:33:33.391Z
+  version: 2.98.16
+  title: "'Update layers/meta-balena digest to 23c6581'"
+  date: 2022-05-06T01:10:58.385Z
+- commits:
     - subject: Update layers/meta-balena to 2e10b2d1990f200f5854b2317a71c2272e755df1
       hash: 316bab2f613fee3a328828d7720aa7c8c3e7d375
       body: Update layers/meta-balena
