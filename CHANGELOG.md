@@ -1,6 +1,35 @@
 Change log
 -----------
 
+# v2.98.18
+## (2022-05-10)
+
+
+<details>
+<summary> Update layers/meta-balena to c46ab989cf8c688714bd7d3b7961e9d779cb7566 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.18
+> ### (2022-05-10)
+> 
+> 
+> <details>
+> <summary> supervisor: Update balena-supervisor to v13.1.6 [Alex Gonzalez] </summary>
+> 
+>> ### balena-supervisor-13.1.6
+>> #### (2022-05-06)
+>> 
+>> * Avoid splash image failures if image is corrupt [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-13.1.5
+>> #### (2022-05-03)
+>> 
+>> * Use write + sync when writing configs to /mnt/boot [Felipe Lalanne]
+>> 
+> </details>
+> 
+> 
+</details>
+
 # v2.98.17
 ## (2022-05-06)
 
