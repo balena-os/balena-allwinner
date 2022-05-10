@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141
+      hash: 52a87f773a9dea0bbf847a292a17d198842cbe8b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141
+        changelog-entry: Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests/connectivity: Force proxy tests to use IPv4"
+              hash: df6db848d3729b2200200ce3fcb493b3381deca0
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: "tests/connectivity: Fix compose warnings for expected string"
+              hash: d6882eeb070686642b0fd685257fce109f50297c
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.98.19
+          title: "'tests/connectivity: Force proxy tests to use IPv4'"
+          date: 2022-05-10T19:34:34.822Z
+  version: 2.98.19
+  title: "'Update layers/meta-balena digest to 3018f1d'"
+  date: 2022-05-10T23:37:00.878Z
+- commits:
     - subject: Update layers/meta-balena to c46ab989cf8c688714bd7d3b7961e9d779cb7566
       hash: 207c1734525d56c4bb368990860e37201476f7c0
       body: Update layers/meta-balena

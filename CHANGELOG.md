@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v2.98.19
+## (2022-05-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 3018f1d96726d219723697d0ed3ce266fbff0141 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.19
+> ### (2022-05-10)
+> 
+> * tests/connectivity: Force proxy tests to use IPv4 [Kyle Harding]
+> * tests/connectivity: Fix compose warnings for expected string [Kyle Harding]
+> 
+</details>
+
 # v2.98.18
 ## (2022-05-10)
 
