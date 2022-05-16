@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to 5804aabaac3d665b39d0da3e02d8f20c5d6d5db4
+      hash: 02e3fe852954e26a39013023b7ab81194e70e05b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5804aabaac3d665b39d0da3e02d8f20c5d6d5db4
+        changelog-entry: Update layers/meta-balena to 5804aabaac3d665b39d0da3e02d8f20c5d6d5db4
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "os-config: Randomize the timer period"
+              hash: 6a9a456869ac37367058ea56bbf24d33a2cf42f2
+              body: >
+                To avoid all devices fetching configuration settings at the same
+                time,
+
+                distribute the timer adding a random time between 0 and 6 hours.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.98.24
+          title: "'Randomize os-config timer service'"
+          date: 2022-05-15T17:05:46.782Z
+  version: 2.98.24
+  title: "'Update layers/meta-balena digest to 5804aab'"
+  date: 2022-05-16T05:27:52.160Z
+- commits:
     - subject: Update layers/meta-balena to 5e9ec7690114640a5a7c3f6c94bb7e3ed37977ab
       hash: 1eae074bb21b9c7fb13e1f87b4e4392e8547a659
       body: Update layers/meta-balena
