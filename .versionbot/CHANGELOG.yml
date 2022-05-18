@@ -1,4 +1,44 @@
 - commits:
+    - subject: Update layers/meta-balena to 7ca0039a8faf417f55cbd72b85a346e6407da04f
+      hash: 0f5c0ff563c8453eea5e3b7a1059408d4763fcea
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7ca0039a8faf417f55cbd72b85a346e6407da04f
+        changelog-entry: Update layers/meta-balena to 7ca0039a8faf417f55cbd72b85a346e6407da04f
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "patch: Fix heading anchor links in CDS doc index"
+              hash: 0886fe3323fa2431a780fc701d45ac601b5b0980
+              body: ""
+              footer: {}
+              author: Vipul Gupta
+              nested: []
+          version: meta-balena-2.98.27
+          title: "'patch: Fix heading anchor links in CDS doc index'"
+          date: 2022-05-18T12:53:30.139Z
+        - commits:
+            - subject: "balena-supervisor: Randomize the updater timer period"
+              hash: 5c402bc9a449c4f6d6cefe9aa44b7cdacb8ae4c8
+              body: |
+                To avoid fleets updating the supervisor at the same time,
+                distribute the timer adding a random time between 0 and 1 hour.
+
+                Fixes #2631
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.98.26
+          title: "'balena-supervisor: Randomize the updater timer period'"
+          date: 2022-05-17T16:20:39.324Z
+  version: 2.98.27
+  title: "'Update layers/meta-balena digest to 7ca0039'"
+  date: 2022-05-18T17:12:10.379Z
+- commits:
     - subject: Update layers/meta-balena to b6e9352e8784e433c647811d532d7ab3e2ee05e2
       hash: 7f074a1dd20e3ba8537da9d2fd3da60ee476de85
       body: Update layers/meta-balena
