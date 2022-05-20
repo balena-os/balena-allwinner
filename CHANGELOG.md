@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.98.27+rev2
+## (2022-05-20)
+
+
+<details>
+<summary> Update contracts to 6a236f469fbc796adc3c5f63031466fc1dbab013 [Renovate Bot] </summary>
+
+> ## contracts-1.13.74
+> ### (2022-05-20)
+> 
+> * hw.device-type: Add Topic tdpzu9 device [Francois]
+> 
+</details>
+
 # v2.98.27+rev1
 ## (2022-05-20)
 

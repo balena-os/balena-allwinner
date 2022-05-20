@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 6a236f469fbc796adc3c5f63031466fc1dbab013
+      hash: 17d14b8f857d4a396ee71d2199319e5e3ddfccc7
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 6a236f469fbc796adc3c5f63031466fc1dbab013
+        changelog-entry: Update contracts to 6a236f469fbc796adc3c5f63031466fc1dbab013
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "hw.device-type: Add Topic tdpzu9 device"
+              hash: 2ae943a46316f71da324dbfaa8c855cafc8eb0ae
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+                signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+              author: Francois
+          version: contracts-1.13.74
+          title: "'hw.device-type: Add Topic tdpzu9 device'"
+          date: 2022-05-20T14:27:05.871Z
+  version: 2.98.27+rev2
+  title: "'Update contracts digest to 6a236f4'"
+  date: 2022-05-20T14:34:47.362Z
+- commits:
     - subject: Add contracts submodule
       hash: 95c7780cb14f5de01680927e40f6f1bf7f83f606
       body: |
