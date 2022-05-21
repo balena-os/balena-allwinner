@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v2.98.28+rev1
+## (2022-05-21)
+
+
+<details>
+<summary> Update contracts to 6ffb1c8d87c8d0940405cbbc954aa625b4b1f94a [Renovate Bot] </summary>
+
+> ## contracts-1.13.75
+> ### (2022-05-21)
+> 
+> * jetson-xavier-agx: Update L4T in base images [Alexandru Costache]
+> 
+</details>
+
+* Update balena-yocto-scripts to ae2cc2c2a69beec1c39333dd08624e4fec02c6e4 [Renovate Bot]
+
 # v2.98.28
 ## (2022-05-20)
 
