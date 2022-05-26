@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.98.30
+## (2022-05-26)
+
+
+<details>
+<summary> Update layers/meta-balena to 55903947dc4dbbf7a0a1c5626ba6c8eaa1b09f67 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.30
+> ### (2022-05-24)
+> 
+> * Remove localMode setting from standalone image configuration [Alex Gonzalez]
+> 
+</details>
+
 # v2.98.29+rev1
 ## (2022-05-24)
 
