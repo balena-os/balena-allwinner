@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 35dea15031cf273d469171f81ed24c394332caf5
+      hash: b5c0c92b5a3be6bf825f0340b36c161bdc6cdd06
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 35dea15031cf273d469171f81ed24c394332caf5
+        changelog-entry: Update contracts to 35dea15031cf273d469171f81ed24c394332caf5
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Clean up installation method and add instruction partials
+              hash: 62794cb042ab3dc70628d81fca0b1903b78c1f06
+              body: ""
+              footer:
+                Change-type: major
+                change-type: major
+                Signed-off-by: Micah Halter <micah@balena.io>
+                signed-off-by: Micah Halter <micah@balena.io>
+              author: Micah Halter
+          version: contracts-2.0.0
+          title: "'Add instruction partials to etcher supported device types'"
+          date: 2022-05-27T15:01:39.154Z
+  version: 2.98.31+rev1
+  title: "'Update contracts digest to 35dea15'"
+  date: 2022-05-27T15:52:58.964Z
+- commits:
     - subject: Update layers/meta-balena to 7ae427858052ddad086a32a7458e301103d02013
       hash: c8e70197317f50fed55b7dc4750e58b157053e70
       body: Update layers/meta-balena
