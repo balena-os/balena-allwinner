@@ -1,6 +1,26 @@
 Change log
 -----------
 
+# v2.98.35
+## (2022-06-03)
+
+
+<details>
+<summary> Update contracts to bba65f2a1904e5ccc61e25793c8b4be1f02f3942 [Renovate Bot] </summary>
+
+> ## contracts-2.0.1
+> ### (2022-06-03)
+> 
+> * Update QEMU to v7.0.0+balena1 [Trong Nghia Nguyen]
+> * Remove the wrapper shim that base images have around sh on first run [Trong Nghia Nguyen]
+> * Add golang v1.18.3 and v1.17.11 [Trong Nghia Nguyen]
+> * Add node v18.3.0 v17.9.1 and v16.15.1 [Trong Nghia Nguyen]
+> 
+</details>
+
+* Update layers/meta-balena to ff147b2a19933df0c16fb37cb7bb294e77caa985 [Renovate Bot]
+* Update layers/meta-balena to 5bd9f32d3ac9eb7eafb6eca9dd7ccc700fdacea3 [Renovate Bot]
+
 # v2.98.33+rev2
 ## (2022-06-01)
 
