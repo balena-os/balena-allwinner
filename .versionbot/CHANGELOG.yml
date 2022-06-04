@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 653c85c0b332b740100c527667df6e184a1482c5
+      hash: 3773a35b2fbcacd604719a3b333ad0737f72da08
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 653c85c0b332b740100c527667df6e184a1482c5
+        changelog-entry: Update layers/meta-balena to 653c85c0b332b740100c527667df6e184a1482c5
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Added all device support options
+              hash: 5d29b6d1e0808d87103897f8210a75342f7f898f
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Hampton (@rhampt) rhampt@balena.io
+                signed-off-by: Ryan Hampton (@rhampt) rhampt@balena.io
+              author: Ryan H
+              nested: []
+          version: meta-balena-2.98.38
+          title: "'Added all device support options'"
+          date: 2022-06-03T22:19:04.182Z
+  version: 2.98.38
+  title: "'Update layers/meta-balena digest to 653c85c'"
+  date: 2022-06-04T13:19:15.923Z
+- commits:
     - subject: Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7
       hash: 68386988caf739358bc37e320aa863d6d0c6ee48
       body: Update layers/meta-balena

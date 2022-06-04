@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.98.38
+## (2022-06-04)
+
+
+<details>
+<summary> Update layers/meta-balena to 653c85c0b332b740100c527667df6e184a1482c5 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.38
+> ### (2022-06-03)
+> 
+> * Added all device support options [Ryan H]
+> 
+</details>
+
 # v2.98.37
 ## (2022-06-04)
 
