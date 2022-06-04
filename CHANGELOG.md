@@ -1,6 +1,40 @@
 Change log
 -----------
 
+# v2.98.37
+## (2022-06-04)
+
+
+<details>
+<summary> Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.37
+> ### (2022-06-03)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 8976bdb [Renovate Bot] </summary>
+> 
+>> ### leviathan-2.3.9
+>> #### (2022-06-02)
+>> 
+>> * core: bump node 12 -> 14 [Joseph Kogut]
+>> 
+>> ### leviathan-2.3.8
+>> #### (2022-06-02)
+>> 
+>> * core: suiteSubprocess: replace this.state.log w/ console.log [Joseph Kogut]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.98.36
+> ### (2022-06-03)
+> 
+> * os: waitForServiceState: fix missing rejectionFail [Joseph Kogut]
+> 
+</details>
+
 # v2.98.35
 ## (2022-06-03)
 

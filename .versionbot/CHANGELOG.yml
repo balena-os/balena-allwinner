@@ -1,4 +1,77 @@
 - commits:
+    - subject: Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7
+      hash: 68386988caf739358bc37e320aa863d6d0c6ee48
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7
+        changelog-entry: Update layers/meta-balena to bef2872f224d9483910a5cc58110f269faf483c7
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 8976bdb
+              hash: de94a30c1fb3b82ab45da049870c21abd48067c0
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Renovate Bot
+              nested:
+                - commits:
+                    - subject: "core: bump node 12 -> 14"
+                      hash: e40a9484c760fb0292da80c6fe6da46eb4373eec
+                      body: |
+                        Bump Node 12.19.1 to 14.19.3 in core
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Joseph Kogut <joseph@balena.io>
+                        signed-off-by: Joseph Kogut <joseph@balena.io>
+                      author: Joseph Kogut
+                      nested: []
+                  version: leviathan-2.3.9
+                  title: "'core: bump node 12 -> 14'"
+                  date: 2022-06-02T19:29:24.315Z
+                - commits:
+                    - subject: "core: suiteSubprocess: replace this.state.log w/ console.log"
+                      hash: c5fd5673c41b9ad48c818a4895712d8ee6c22729
+                      body: |
+                        This fixes the error:
+                          TypeError: Cannot read property 'state' of undefined
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Joseph Kogut <joseph@balena.io>
+                        signed-off-by: Joseph Kogut <joseph@balena.io>
+                      author: Joseph Kogut
+                      nested: []
+                  version: leviathan-2.3.8
+                  title: "'core: suiteSubprocess: replace this.state.log w/ console.log'"
+                  date: 2022-06-02T16:35:18.359Z
+          version: meta-balena-2.98.37
+          title: "'Update tests/leviathan digest to 8976bdb'"
+          date: 2022-06-03T18:25:50.520Z
+        - commits:
+            - subject: "os: waitForServiceState: fix missing rejectionFail"
+              hash: 6bd43901e2d460c4e3df2a83734213ab62523689
+              body: >
+                utils.waitUntil expects rejectionFail before _times and _delay,
+                include
+
+                this argument to ensure the later arguments have the intended effect
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.98.36
+          title: "'os: waitForServiceState: fix missing rejectionFail'"
+          date: 2022-06-03T13:24:28.082Z
+  version: 2.98.37
+  title: "'Update layers/meta-balena digest to bef2872'"
+  date: 2022-06-04T01:10:19.902Z
+- commits:
     - subject: Update contracts to bba65f2a1904e5ccc61e25793c8b4be1f02f3942
       hash: 2e13d0e35d91c41c407818e1af30d3efccb5adea
       body: Update contracts
