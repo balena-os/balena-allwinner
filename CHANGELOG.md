@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v2.98.45
+## (2022-06-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 466c0e3a56da6605f033d8fd1b37c301c96af979 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.45
+> ### (2022-06-09)
+> 
+> * tests: os: chrony: fix formatting of this.worker [Joseph Kogut]
+> * tests: os: chrony: reduce delays and retries [Joseph Kogut]
+> 
+</details>
+
 # v2.98.44
 ## (2022-06-09)
 

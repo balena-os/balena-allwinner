@@ -1,4 +1,49 @@
 - commits:
+    - subject: Update layers/meta-balena to 466c0e3a56da6605f033d8fd1b37c301c96af979
+      hash: e73adcf5bc28dcd191debb696adbe19d37cad8f9
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 466c0e3a56da6605f033d8fd1b37c301c96af979
+        changelog-entry: Update layers/meta-balena to 466c0e3a56da6605f033d8fd1b37c301c96af979
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: os: chrony: fix formatting of this.worker"
+              hash: c79e4b2b470f726e8099702cfeaea6da18e7e286
+              body: >
+                Test context is now accessible from self, remove verbose
+
+                this.context.get() syntax when calling worker.executeCommandInHostOS.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "tests: os: chrony: reduce delays and retries"
+              hash: 1064fd20a474af3aac8253f34cf543fb78725f9f
+              body: >
+                When calling waitUntil(), reduce calling intervals and the total
+                number
+
+                of retries. This effectively halves the runtime for these tests, as the
+
+                latency for detecting success is much lower.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.98.45
+          title: "'Reduce chrony timeouts'"
+          date: 2022-06-09T23:03:44.828Z
+  version: 2.98.45
+  title: "'Update layers/meta-balena digest to 466c0e3'"
+  date: 2022-06-10T06:03:53.890Z
+- commits:
     - subject: Update layers/meta-balena to 5dcea5e5b39876e832538800441f494ce884e8f9
       hash: dd0e0e2cc1ebe5e338f8c324877233075162df53
       body: Update layers/meta-balena
