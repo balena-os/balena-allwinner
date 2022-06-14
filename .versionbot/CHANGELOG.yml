@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a
+      hash: cc8061bfd721f2c0b58ca9c90c0166addad54667
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a
+        changelog-entry: Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: os: chrony: reduce retry interval"
+              hash: 99ef89af348902008fd3370c968013afc0990f15
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.99.2
+          title: "'tests: os: chrony: reduce retry interval'"
+          date: 2022-06-13T22:56:55.782Z
+  version: 2.99.2
+  title: "'Update layers/meta-balena digest to ee8110b'"
+  date: 2022-06-14T22:08:41.796Z
+- commits:
     - subject: Update contracts to b2bddbdc896e6c628231512b363e5c93d16f5b15
       hash: 6095a6b9b630d9ebe267e3c2951c8a4fa304beca
       body: Update contracts

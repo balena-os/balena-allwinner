@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.99.2
+## (2022-06-14)
+
+
+<details>
+<summary> Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a [Renovate Bot] </summary>
+
+> ## meta-balena-2.99.2
+> ### (2022-06-13)
+> 
+> * tests: os: chrony: reduce retry interval [Joseph Kogut]
+> 
+</details>
+
 # v2.99.1
 ## (2022-06-13)
 
