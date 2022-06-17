@@ -1,6 +1,50 @@
 Change log
 -----------
 
+# v2.99.4
+## (2022-06-17)
+
+
+<details>
+<summary> Update layers/meta-balena to c1656294fcae050821257383049e4b608765516e [Renovate Bot] </summary>
+
+> ## meta-balena-2.99.4
+> ### (2022-06-16)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 6934150 [Renovate Bot] </summary>
+> 
+>> ### leviathan-2.5.3
+>> #### (2022-06-16)
+>> 
+>> * patch: Fix failFast options [Vipul Gupta (@vipulgupta2048)]
+>> 
+>> ### leviathan-2.5.2
+>> #### (2022-06-15)
+>> 
+>> * core: worker: handle all local connections the same [Joseph Kogut]
+>> 
+>> ### leviathan-2.5.1
+>> #### (2022-06-14)
+>> 
+>> * core: catch ssh errors correctly [rcooke-warwick]
+>> 
+>> ### leviathan-2.5.0
+>> #### (2022-06-13)
+>> 
+>> * make: Disable buildkit and add --pull to worker flags [Kyle Harding]
+>> * patch: Replace worker Dockerfile with bh.cr reference [Kyle Harding]
+>> * patch: Remove testbot worker compose file [Kyle Harding]
+>> * patch: Remove balena-ci workflow for deploying to rigs [Kyle Harding]
+>> * Remove worker references from package.json [Kyle Harding]
+>> * Remove worker source files [Kyle Harding]
+>> 
+> </details>
+> 
+> 
+</details>
+
 # v2.99.3
 ## (2022-06-16)
 
