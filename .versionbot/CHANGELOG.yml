@@ -1,4 +1,57 @@
 - commits:
+    - subject: Update layers/meta-balena to 6db02b204e1a33c90fa6f2e8f81f5f45eb9359ca
+      hash: f1f0c6ce1652ea900cd12919c7ed679f5f8401de
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6db02b204e1a33c90fa6f2e8f81f5f45eb9359ca
+        changelog-entry: Update layers/meta-balena to 6db02b204e1a33c90fa6f2e8f81f5f45eb9359ca
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: os: Run os suite before hup and cloud"
+              hash: 279dea44014c2e649c2c8de8571276b29f532a31
+              body: |
+                Unmanaged os suites are the most critical and usually
+                the fastest to complete, so run them first.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: "tests: os: Refactor config-json tests to wait for passing results"
+              hash: 3ee1951ecfff92d3176f64a484f307b976784d96
+              body: |
+                To avoid race conditions with services restarting automatically
+                this commit wraps the individual test results with waitUntil and
+                moves the common jq logic to a shared function.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: "tests: os: chrony: Avoid conflicts with supervisor firewall"
+              hash: ec7dcabd2e47ae9f7641388296c5c3c6e668c8bf
+              body: |
+                Flushing the iptables can leave the engine and supervisor
+                in a bad state. Instead just add and delete the NTP rules.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.99.3
+          title: "'Fix race conditions in os-config and chrony tests'"
+          date: 2022-06-16T21:10:23.417Z
+  version: 2.99.3
+  title: "'Update layers/meta-balena digest to 6db02b2'"
+  date: 2022-06-16T22:54:44.930Z
+- commits:
     - subject: Update layers/meta-balena to ee8110bd257ff145acba793720ea739f14f2429a
       hash: cc8061bfd721f2c0b58ca9c90c0166addad54667
       body: Update layers/meta-balena
