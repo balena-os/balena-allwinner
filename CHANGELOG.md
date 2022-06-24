@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.99.19
+## (2022-06-24)
+
+
+<details>
+<summary> Update layers/meta-balena to 85c5bf992befbdd5b4f88978aeb7acd1a206bf9b [renovate[bot]] </summary>
+
+> ## meta-balena-2.99.19
+> ### (2022-06-24)
+> 
+> * tests: os: purge-data: reduce intervals in waitUntil [Joseph Kogut]
+> 
+</details>
+
 # v2.99.18+rev1
 ## (2022-06-24)
 
