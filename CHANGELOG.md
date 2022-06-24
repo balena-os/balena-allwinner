@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.99.18+rev1
+## (2022-06-24)
+
+
+<details>
+<summary> Update contracts to 98c8c8ef3039bb927ce39f77eed4479f12c77fac [renovate[bot]] </summary>
+
+> ## contracts-2.0.4
+> ### (2022-06-21)
+> 
+> * Add libffi3.4 linked python binaries [Trong Nghia Nguyen]
+> 
+</details>
+
 # v2.99.18
 ## (2022-06-24)
 

@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 98c8c8ef3039bb927ce39f77eed4479f12c77fac
+      hash: 94e0bf575317a099837824b0084169aa4271eae6
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 98c8c8ef3039bb927ce39f77eed4479f12c77fac
+        changelog-entry: Update contracts to 98c8c8ef3039bb927ce39f77eed4479f12c77fac
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Add libffi3.4 linked python binaries
+              hash: 29fc985046aa9aeca97be260d09e026ad1319da1
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+          version: contracts-2.0.4
+          title: "'Add libffi3.4 linked python binaries'"
+          date: 2022-06-21T18:55:56.538Z
+  version: 2.99.18+rev1
+  title: "'Update contracts digest to 98c8c8e'"
+  date: 2022-06-24T06:05:37.650Z
+- commits:
     - subject: Update layers/meta-balena to 16898dbf4b204482fc0018bef3d823599a504c36
       hash: 188af70a6867ed41b0b7b6d2fe91985bd6f6eda4
       body: Update layers/meta-balena
