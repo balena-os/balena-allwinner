@@ -1,6 +1,99 @@
 Change log
 -----------
 
+# v2.99.18
+## (2022-06-24)
+
+
+<details>
+<summary> Update layers/meta-balena to 16898dbf4b204482fc0018bef3d823599a504c36 [renovate[bot]] </summary>
+
+> ## meta-balena-2.99.18
+> ### (2022-06-23)
+> 
+> * tests: os: config-json: fix race in udevRules test [Joseph Kogut]
+> 
+> ## meta-balena-2.99.17
+> ### (2022-06-22)
+> 
+> * Update balena-io/balena-supervisor to v14.0.7 [renovate[bot]]
+> 
+> ## meta-balena-2.99.16
+> ### (2022-06-22)
+> 
+> * tests: os: modem: reduce time taken scanning for modems [Joseph Kogut]
+> 
+> ## meta-balena-2.99.15
+> ### (2022-06-21)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 9e0ab34 [renovate[bot]] </summary>
+> 
+>> ### leviathan-2.5.4
+>> #### (2022-06-17)
+>> 
+>> * core: worker: simplify rebootDut [Joseph Kogut]
+>> * core: worker: reduce interval in executeCommandInHostOS [Joseph Kogut]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.99.14
+> ### (2022-06-21)
+> 
+> * tests: os: chrony: simplify error handling [Joseph Kogut]
+> * tests: os: chrony: use waitForServiceState [Joseph Kogut]
+> * tests: os: chrony: block NTP by disabling DNS resolution [Joseph Kogut]
+> 
+> ## meta-balena-2.99.13
+> ### (2022-06-21)
+> 
+> * Update balena-io/balena-supervisor to v14 [renovate[bot]]
+> 
+> ## meta-balena-2.99.12
+> ### (2022-06-20)
+> 
+> * renovate: Add regex manager for balena-supervisor [Kyle Harding]
+> 
+> ## meta-balena-2.99.11
+> ### (2022-06-20)
+> 
+> * tests: cloud: check preloaded app starts w/o api [rcooke-warwick]
+> 
+> ## meta-balena-2.99.10
+> ### (2022-06-18)
+> 
+> * Update backport for current being 2.88.x [Alex Gonzalez]
+> 
+> ## meta-balena-2.99.9
+> ### (2022-06-17)
+> 
+> * hostapp-update-hooks: Rework bootfiles blacklist [Florin Sarbu]
+> 
+> ## meta-balena-2.99.8
+> ### (2022-06-17)
+> 
+> * base-files: Fix syntax in mdns.allow addition [Alex Gonzalez]
+> * efitools: Fix append syntax [Alex Gonzalez]
+> 
+> ## meta-balena-2.99.7
+> ### (2022-06-17)
+> 
+> * resindataexpander: Move get_part_table_type to os-helpers-fs [Michal Toman]
+> 
+> ## meta-balena-2.99.6
+> ### (2022-06-17)
+> 
+> * balena-efi.service: Mount if /mnt/boot/EFI is a symlink [Michal Toman]
+> 
+> ## meta-balena-2.99.5
+> ### (2022-06-17)
+> 
+> * grub-efi: disable shim_lock when in secure boot mode [Michal Toman]
+> 
+</details>
+
 # v2.99.4
 ## (2022-06-17)
 

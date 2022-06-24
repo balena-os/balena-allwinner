@@ -1,4 +1,346 @@
 - commits:
+    - subject: Update layers/meta-balena to 16898dbf4b204482fc0018bef3d823599a504c36
+      hash: 188af70a6867ed41b0b7b6d2fe91985bd6f6eda4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 16898dbf4b204482fc0018bef3d823599a504c36
+        changelog-entry: Update layers/meta-balena to 16898dbf4b204482fc0018bef3d823599a504c36
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: os: config-json: fix race in udevRules test"
+              hash: 8825d721ca64d523dc6faf8c317f4a09796457b6
+              body: >
+                Readlink can fail when the path is non-existent, raising an
+                error and
+
+                making the udevRules test fail. Test that the link exists before
+
+                attempting to use readlink.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.99.18
+          title: "'tests: os: config-json: fix race in udevRules test'"
+          date: 2022-06-23T22:09:44.331Z
+        - commits:
+            - subject: Update balena-io/balena-supervisor to v14.0.7
+              hash: 81c901c7a5c4636a4c19ee411b2c6137ac926ea2
+              body: Update balena-io/balena-supervisor
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested: []
+          version: meta-balena-2.99.17
+          title: "'Update balena-io/balena-supervisor to v14.0.7'"
+          date: 2022-06-22T23:30:36.614Z
+        - commits:
+            - subject: "tests: os: modem: reduce time taken scanning for modems"
+              hash: 7cb747bfadba14447cb682cfd15e0a15df0e3545
+              body: >
+                Reduce the interval between scans as well as the maximum number
+                of scans
+
+                for modems, reducing the time spent waiting when no modem is present
+
+                from ~50s to ~5s.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.99.16
+          title: "'tests: os: modem: reduce time taken scanning for modems'"
+          date: 2022-06-22T15:50:28.606Z
+        - commits:
+            - subject: Update tests/leviathan digest to 9e0ab34
+              hash: 5a828ca31e722a76a8f3fa869354fcf39dae0e8b
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested:
+                - commits:
+                    - subject: "core: worker: simplify rebootDut"
+                      hash: 55981700fb4c90a1f81192a44725f2c2d49e6135
+                      body: >
+                        worker.rebootDut() contains retry logic using
+                        utils.waitUntil() wrapping
+
+                        this.executeCommandInHostOS(). The latter contains its own retry logic,
+
+                        which will try to execute a given command for up to five minutes before
+
+                        timing out. Remove the retry logic from worker.rebootDut(), as it's
+
+                        redundant and adds latency.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Joseph Kogut <joseph@balena.io>
+                        signed-off-by: Joseph Kogut <joseph@balena.io>
+                      author: Joseph Kogut
+                      nested: []
+                    - subject: "core: worker: reduce interval in executeCommandInHostOS"
+                      hash: 7f8b371b3035eed2b32011295768d5bec19ba1ba
+                      body: >
+                        The default interval for retrying this command is 5s,
+                        with a total
+
+                        timeout of 2m30s. Reduce the timeout to 1s to reduce latency for the
+
+                        successful case, while increasing the total timeout to 5m.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Joseph Kogut <joseph@balena.io>
+                        signed-off-by: Joseph Kogut <joseph@balena.io>
+                      author: Joseph Kogut
+                      nested: []
+                  version: leviathan-2.5.4
+                  title: "'Simplify reboot'"
+                  date: 2022-06-17T19:55:24.238Z
+          version: meta-balena-2.99.15
+          title: "'Update tests/leviathan digest to 9e0ab34'"
+          date: 2022-06-21T19:54:36.661Z
+        - commits:
+            - subject: "tests: os: chrony: simplify error handling"
+              hash: b72b370d456ef99b910b9c860bb686cbbe3312d8
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "tests: os: chrony: use waitForServiceState"
+              hash: 596fed9a703f6f8c938f6d4dc23236c5ecb2fbfc
+              body: |
+                Use waitForServiceState() to ensure chronyd is active
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "tests: os: chrony: block NTP by disabling DNS resolution"
+              hash: 78b393841a787f4ead18e9850488a23a4779cfd7
+              body: >
+                Certain chrony tests require the ability to block NTP requests.
+                Switch
+
+                from blocking these requests using iptables rules to simply stopping the
+
+                local DNS server, which is faster and simpler, and doesn't conflict with
+
+                the supervisor firewall.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.99.14
+          title: "'Cleanup chrony tests'"
+          date: 2022-06-21T06:07:38.125Z
+        - commits:
+            - subject: Update balena-io/balena-supervisor to v14
+              hash: 5d78b0536398fa27c60353d0c0d894dfdbfff3b6
+              body: Update balena-io/balena-supervisor
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested: []
+          version: meta-balena-2.99.13
+          title: "'Update balena-io/balena-supervisor to v14'"
+          date: 2022-06-21T01:20:23.966Z
+        - commits:
+            - subject: "renovate: Add regex manager for balena-supervisor"
+              hash: 9820c61551a099b273f014f87cd4bf4a1b00d952
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.99.12
+          title: "'renovate: Add regex manager for balena-supervisor'"
+          date: 2022-06-20T17:07:21.269Z
+        - commits:
+            - subject: "tests: cloud: check preloaded app starts w/o api"
+              hash: 64b52e08dd761a7d796df204561dfb3329b16311
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-2.99.11
+          title: "'tests: cloud: check preloaded app starts w/o api'"
+          date: 2022-06-20T15:04:24.223Z
+        - commits:
+            - subject: Update backport for current being 2.88.x
+              hash: 80b729bbf2a2f161d2812645ac82fa9cbdcc349f
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.99.10
+          title: "'Update backport for current being 2.88.x'"
+          date: 2022-06-18T19:57:24.112Z
+        - commits:
+            - subject: "hostapp-update-hooks: Rework bootfiles blacklist"
+              hash: 7b523caa0099530c45b4d9981d31ca6c72a76262
+              body: >
+                We may have cases when for some boards we do not want
+
+                to have all these files blacklisted. See for example
+
+                https://github.com/balena-os/balena-rockpi/commit/b5eadcfb3a296eea2554dc0cbdd16002d51c5169
+
+
+                In conclusion, we rework how the blacklist is constructed
+
+                so that users of meta-balena can alter this list as they see fit.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-2.99.9
+          title: "'hostapp-update-hooks: Rework bootfiles blacklist'"
+          date: 2022-06-17T20:21:57.823Z
+        - commits:
+            - subject: "base-files: Fix syntax in mdns.allow addition"
+              hash: 144bfbf7c0426440351802d52183c3eeefcd060f
+              body: >
+                The mdns.allow overwrite was not being properly applied on newer
+                Yocto
+
+                versions.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "efitools: Fix append syntax"
+              hash: 30053e1c43d8adba236e52a33416e601cdcfd9f8
+              body: >
+                The efitools package was already correctly build for x86_64, so
+                this
+
+                flag is most likely a noop.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.99.8
+          title: "'Fix append syntax'"
+          date: 2022-06-17T13:09:54.918Z
+        - commits:
+            - subject: "resindataexpander: Move get_part_table_type to os-helpers-fs"
+              hash: 7fc9af86c8b994ac61fe376ec8e63d6095dda3de
+              body: >
+                This is useful outside of the expander script, specifically in
+                the init-board
+
+                script in device repos.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.99.7
+          title: "'resindataexpander: Move get_part_table_type to os-helpers-fs'"
+          date: 2022-06-17T10:47:48.847Z
+        - commits:
+            - subject: "balena-efi.service: Mount if /mnt/boot/EFI is a symlink"
+              hash: 9a873418d094b8b951535c52154be71f8b295c31
+              body: >
+                This changes the condition in the unit file from checking
+                whether
+
+                /dev/disk/by-state/balena-efi exists to checking whether /mnt/boot/EFI
+
+                is a symlink. The original approach has a race condition populating
+
+                the by-state symlink - it is depending on udev and if the link is
+
+                not present when the service is started (after the boot partition is mounted),
+
+                the service fails and the EFI partition is never mounted.
+
+
+                The new approach does the trick pretty well - /mnt/boot/EFI is a symlink
+
+                if the EFI partition is split and a regular directory in case there is a single
+
+                boot partition. That said the service is only started when necessary
+
+                and the waiting for udev is implemented as a part of the mount script.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.99.6
+          title: "'balena-efi.service: Mount if /mnt/boot/EFI is a symlink'"
+          date: 2022-06-17T08:41:59.334Z
+        - commits:
+            - subject: "grub-efi: disable shim_lock when in secure boot mode"
+              hash: dd0c128664a4b5cb004cd154f4dabc627d1f6e77
+              body: >
+                Recent versions of GRUB default to use shim_lock when in secure
+                boot mode.
+
+                We do not use shim and do not build the shim_lock module into GRUB EFI binary
+
+                therefore this needs to be disabled.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.99.5
+          title: "'grub-efi: disable shim_lock when in secure boot mode'"
+          date: 2022-06-17T04:45:40.248Z
+  version: 2.99.18
+  title: "'Update layers/meta-balena digest to 16898db'"
+  date: 2022-06-24T03:44:12.787Z
+- commits:
     - subject: Update layers/meta-balena to c1656294fcae050821257383049e4b608765516e
       hash: b66940e59e2eb9495b3ec435454b707aaf495c3e
       body: Update layers/meta-balena
