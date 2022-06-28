@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v2.99.22
+## (2022-06-28)
+
+
+<details>
+<summary> Update layers/meta-balena to ecbbdd001ec3b7a052d170a5592ea8bfc43477f0 [renovate[bot]] </summary>
+
+> ## meta-balena-2.99.22
+> ### (2022-06-27)
+> 
+> * balena-supervisor: Replace BOOT_MOUNTPOINT with BALENA_BOOT_MOUNTPOINT [Alex Gonzalez]
+> * balena-config-vars: Remove BOOT_MOUNTPOINT from configuration environment [Alex Gonzalez]
+> 
+</details>
+
 # v2.99.21
 ## (2022-06-27)
 
