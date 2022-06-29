@@ -1,4 +1,43 @@
 - commits:
+    - subject: Update layers/meta-balena to 48847f04f125fe90cd0c385fcbb617210233571e
+      hash: f6b8c8f52dbd4160d3a8ffe79169da6c9ce52d92
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 48847f04f125fe90cd0c385fcbb617210233571e
+        changelog-entry: Update layers/meta-balena to 48847f04f125fe90cd0c385fcbb617210233571e
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: Increase delay when testing randomized timers"
+              hash: 0163f4b3df5fbe2e49e56b45f5f200b18128417b
+              body: |
+                This should prevent failed tests on slower devices.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.99.24
+          title: "'tests: Increase delay when testing randomized timers'"
+          date: 2022-06-28T14:53:51.098Z
+        - commits:
+            - subject: "Update: update balena-io/balena-supervisor to v14.0.8"
+              hash: 87b9883c5cef60d2e00d566cc3bc83ac18bb737d
+              body: Update balena-io/balena-supervisor
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested: []
+          version: meta-balena-2.99.23
+          title: "'Update: update balena-io/balena-supervisor to v14.0.8'"
+          date: 2022-06-27T23:40:10.965Z
+  version: 2.99.24
+  title: "'Update layers/meta-balena digest to 48847f0'"
+  date: 2022-06-28T22:25:39.525Z
+- commits:
     - subject: Update layers/meta-balena to ecbbdd001ec3b7a052d170a5592ea8bfc43477f0
       hash: ee4e5ddacdf4d88520f0d91f1ac0817a24ff5920
       body: Update layers/meta-balena
