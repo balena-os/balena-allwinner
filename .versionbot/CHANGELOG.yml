@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update contracts to 9db49d2fbb34542f53bf496135c32cccf5df487c
+      hash: 4e5f9d5697269ebad9eb1db05d12c831dd84443e
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 9db49d2fbb34542f53bf496135c32cccf5df487c
+        changelog-entry: Update contracts to 9db49d2fbb34542f53bf496135c32cccf5df487c
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: fix tdpzu9 device name"
+              hash: acb15b0bc5d545447881d327977d7901e88a8dea
+              body: |
+                Remove "V1R2" version from Topic Device Name
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+                signed-off-by: Francois Loubser <francois.loubser@topic.nl>
+              author: Francois
+          version: contracts-2.0.7
+          title: "'hw.device-type: fix tdpzu9 device name'"
+          date: 2022-07-19T11:11:57.633Z
+  version: 2.99.26+rev3
+  title: "'Update contracts digest to 9db49d2'"
+  date: 2022-07-27T11:48:58.994Z
+- commits:
     - subject: Update balena-yocto-scripts to 09e4514953fed499a69c224b47969fd2c3fb7ab8
       hash: bf008c6a63c457f48feaa2a80944b7bde377a58f
       body: Update balena-yocto-scripts
