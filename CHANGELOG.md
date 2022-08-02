@@ -1,6 +1,199 @@
 Change log
 -----------
 
+# v2.101.0
+## (2022-07-30)
+
+
+<details>
+<summary> Update layers/meta-balena to c233b4107fc25b08e963e2419b40263409d2de9e [renovate[bot]] </summary>
+
+> ## meta-balena-2.101.0
+> ### (2022-07-29)
+> 
+> * resin-device-register: Use fatrw to access the boot partition [Alex Gonzalez]
+> * hostapp-update-hooks: Use fatrw to access the boot partition [Alex Gonzalez]
+> * balena-unique-key: Use fatrw to access the boot partition [Alex Gonzalez]
+> * balena-rollback: Use fatrw if available [Alex Gonzalez]
+> * update-hostapp-extensions: Use fatrw if available [Alex Gonzalez]
+> * balena-config-vars: Provide FAT safe filesystem access alternatives [Alex Gonzalez]
+> * fatrw: Add recipe [Alex Gonzalez]
+> 
+> ## meta-balena-2.100.11
+> ### (2022-07-25)
+> 
+> * test: os: chrony: Double the wait for time skew test [Kyle Harding]
+> * os: tests: chrony: Wrap disable/enable NTP in test conditions [Kyle Harding]
+> * tests: os: Add helper to write or remove properties in config.json [Kyle Harding]
+> 
+> ## meta-balena-2.100.10
+> ### (2022-07-24)
+> 
+> * tests: cloud: preload: fix no-return-await [Joseph Kogut]
+> * tests: cloud: preload: reduce waitUntil interval [Joseph Kogut]
+> * tests: cloud: multicontainer: reduce waitUntil interval [Joseph Kogut]
+> 
+> ## meta-balena-2.100.9
+> ### (2022-07-22)
+> 
+> * tests: os: engine-socket - wait for response [rcooke-warwick]
+> 
+> ## meta-balena-2.100.8
+> ### (2022-07-21)
+> 
+> * tests/os: Add 243390 unmanged Wifi HATs tests from testLodge [Alexandru Costache]
+> 
+> ## meta-balena-2.100.7
+> ### (2022-07-21)
+> 
+> * tests: hup: Clear inactive storage partition before HUP [Kyle Harding]
+> * tests: hup: Add root partition tests [Kyle Harding]
+> * tests: hup: Replace custom steps with tests and verify exit code [Kyle Harding]
+> * tests: hup: Wait for rollback files to be removed or created [Kyle Harding]
+> 
+> ## meta-balena-2.100.6
+> ### (2022-07-21)
+> 
+> * balena-config-vars: Do not use cache in flasher images [Alex Gonzalez]
+> 
+> ## meta-balena-2.100.5
+> ### (2022-07-21)
+> 
+> * Update balena-io/balena-supervisor to v14.0.12 [renovate[bot]]
+> 
+> ## meta-balena-2.100.4
+> ### (2022-07-20)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to d3c6489 [renovate[bot]] </summary>
+> 
+>> ### leviathan-2.6.8
+>> #### (2022-07-20)
+>> 
+>> * core: Reduce logging in failed SSH attempts [Kyle Harding]
+>> 
+>> ### leviathan-2.6.7
+>> #### (2022-07-18)
+>> 
+>> * Revert "patch: Increase timeout for worker connections" [Kyle Harding]
+>> * core: Update node-tap to 14.10.8 [Kyle Harding]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.100.3
+> ### (2022-07-20)
+> 
+> * tests: ssh-auth: Rework to prevent race conditions [Kyle Harding]
+> 
+> ## meta-balena-2.100.2
+> ### (2022-07-15)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to c2755a1 [renovate[bot]] </summary>
+> 
+>> ### leviathan-2.6.6
+>> #### (2022-07-15)
+>> 
+>> * core: worker: add retryOptions to executeCommand methods [Joseph Kogut]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.100.1
+> ### (2022-07-15)
+> 
+> * tests: cloud: fix production mode ssh test [Joseph Kogut]
+> 
+> ## meta-balena-2.100.0
+> ### (2022-07-14)
+> 
+> * docs: Add configuration overview [Alex Gonzalez]
+> * Create empty configuration units [Alex Gonzalez]
+> * Make configuration units storage path a distro setting [Alex Gonzalez]
+> * balena-configurable: Generate initial unit configuration file [Alex Gonzalez]
+> * balena-units-conf: Add script to generate configuration units [Alex Gonzalez]
+> * balena-units-conf: Rename configuration directory [Alex Gonzalez]
+> * balena-units-conf: Process static configuration unit files at build time [Alex Gonzalez]
+> * os-helpers-config: Extract functions from os-config-json to helper file [Alex Gonzalez]
+> * os-helpers: Rename os-helpers-devmode to os-helpers-config [Alex Gonzalez]
+> * balena-config-vars: Split static defaults into a different file [Alex Gonzalez]
+> * os-config-json: Log configuration changes [Alex Gonzalez]
+> * os-config-json: Recreate environment cache file [Alex Gonzalez]
+> * balena-config-vars: Cache environment in memory file [Alex Gonzalez]
+> 
+> ## meta-balena-2.99.30
+> ### (2022-07-14)
+> 
+> * Update backport for current being 2.98.x [Alex Gonzalez]
+> 
+> ## meta-balena-2.99.29
+> ### (2022-07-14)
+> 
+> * Update balena-io/balena-supervisor to v14.0.10 [renovate[bot]]
+> 
+> ## meta-balena-2.99.28
+> ### (2022-07-13)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to d57299a [renovate[bot]] </summary>
+> 
+>> ### leviathan-2.6.5
+>> #### (2022-07-12)
+>> 
+>> * core: Reduce the interval for sdk.executeCommandInHostOS [Kyle Harding]
+>> * Revert "reduce ssh retries" [Kyle Harding]
+>> 
+>> ### leviathan-2.6.4
+>> #### (2022-07-07)
+>> 
+>> * remove parallel suites across multiple workers [rcooke-warwick]
+>> 
+>> ### leviathan-2.6.3
+>> #### (2022-07-06)
+>> 
+>> * reduce ssh retries [rcooke-warwick]
+>> 
+>> ### leviathan-2.6.2
+>> #### (2022-07-04)
+>> 
+>> * Makefile: Fix unique container names when running on Jenkins [Kyle Harding]
+>> * Makefile: Ignore failures when cleaning up [Kyle Harding]
+>> 
+>> ### leviathan-2.6.1
+>> #### (2022-07-01)
+>> 
+>> * patch: Remove testing step of purging old volumes [Kyle Harding]
+>> * patch: Increase timeout for worker connections [Kyle Harding]
+>> 
+>> ### leviathan-2.6.0
+>> #### (Invalid date)
+>> 
+>> * minor: Improve e2e serial test for Leviathan v2 [Vipul Gupta (@vipulgupta2048)]
+>> 
+>> ### leviathan-2.5.7
+>> #### (Invalid date)
+>> 
+>> * patch: Limit e2e execution time to 2 hours [Kyle Harding]
+>> 
+>> ### leviathan-2.5.6
+>> #### (Invalid date)
+>> 
+>> * patch: Use ubuntu-latest GH runners for e2e [Kyle Harding]
+>> 
+> </details>
+> 
+> 
+> ## meta-balena-2.99.27
+> ### (Invalid date)
+> 
+> * tests: os: fingerprint: fix errant promise [Joseph Kogut]
+> 
+</details>
+
 # v2.99.26+rev3
 ## (2022-07-27)
 
