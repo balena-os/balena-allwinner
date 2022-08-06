@@ -1,4 +1,48 @@
 - commits:
+    - subject: Update layers/meta-balena to afcbee0c5dad04f02ba2a3ecb5d6d7db21f7ebe4
+      hash: 57152d9da3bbde964ba2913638af45d1879855a5
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to afcbee0c5dad04f02ba2a3ecb5d6d7db21f7ebe4
+        changelog-entry: Update layers/meta-balena to afcbee0c5dad04f02ba2a3ecb5d6d7db21f7ebe4
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-io/balena-supervisor to v14.0.13
+              hash: 86f7f397f711093dcf71a86c349f3adc29bd17ac
+              body: Update balena-io/balena-supervisor
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested: []
+          version: meta-balena-2.101.3
+          title: "'Update balena-io/balena-supervisor to v14.0.13'"
+          date: 2022-08-05T17:03:57.877Z
+    - subject: Update layers/meta-balena to 3c505918b2cbf72f607a3ccc65cc3853fd3a636e
+      hash: 07b1b0f98ebea8316cf155b8670f115ae2194076
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3c505918b2cbf72f607a3ccc65cc3853fd3a636e
+        changelog-entry: Update layers/meta-balena to 3c505918b2cbf72f607a3ccc65cc3853fd3a636e
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-io/balena-supervisor to v14.0.13
+              hash: 86f7f397f711093dcf71a86c349f3adc29bd17ac
+              body: Update balena-io/balena-supervisor
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested: []
+          version: meta-balena-2.101.3
+          title: "'Update balena-io/balena-supervisor to v14.0.13'"
+          date: 2022-08-05T17:03:57.877Z
+  version: 2.101.3
+  title: "'Update layers/meta-balena digest to afcbee0'"
+  date: 2022-08-06T09:59:19.437Z
+- commits:
     - subject: Update contracts to 3d133659481f38ee1bba63d3835a231c70c11eec
       hash: 06cdf3b2a812dcd05d67696b765b7ca2d07b473e
       body: Update contracts
