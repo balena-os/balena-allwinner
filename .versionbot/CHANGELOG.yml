@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to 7dfa6d2abc3795d47a8a6cdb30bc540ee110e7ee
+      hash: 474392b39a32f4637d7b38de891165f55d0a4d81
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7dfa6d2abc3795d47a8a6cdb30bc540ee110e7ee
+        changelog-entry: Update layers/meta-balena to 7dfa6d2abc3795d47a8a6cdb30bc540ee110e7ee
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests/cloud: fix ssh prod test for physical duts"
+              hash: abbb8233f803fd4216fe27bb8a9c28f96d30085e
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-2.101.6
+          title: "'tests/cloud: fix ssh prod test for physical duts'"
+          date: 2022-08-15T12:33:41.204Z
+    - subject: Modify layer ordering
+      hash: d8cba50778531af1c615e7918d2ce4246e397ddd
+      body: |
+        Yocto classes and conf files ignore layer priorities and are parsed
+        in order instead.
+      footer:
+        Changelog-entry: Modify layer ordering
+        changelog-entry: Modify layer ordering
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.101.6
+  title: "'Update layers/meta-balena digest to 7dfa6d2'"
+  date: 2022-08-16T11:37:10.133Z
+- commits:
     - subject: Update balena-yocto-scripts to 99807501efffc8c5034c88361049650a02511a78
       hash: a15b7896917dec28a66c9d44be6e80f1ff11fccf
       body: Update balena-yocto-scripts
