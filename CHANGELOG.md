@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.101.5+rev2
+## (2022-08-16)
+
+* Modify layer ordering [Alex Gonzalez]
+
 # v2.101.5+rev1
 ## (2022-08-15)
 
