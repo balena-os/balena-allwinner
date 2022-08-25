@@ -1,4 +1,91 @@
 - commits:
+    - subject: Update layers/meta-balena to 094cc1766365844e9e4dcf46f4f247cad0231715
+      hash: ce971b4a966c1585fed4cafeeb0ca97d13c495de
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 094cc1766365844e9e4dcf46f4f247cad0231715
+        changelog-entry: Update layers/meta-balena to 094cc1766365844e9e4dcf46f4f247cad0231715
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "renovate: Fix nested changelogs and change-type for SV updates"
+              hash: 516432877cf9fda8b65cae1b3cddcd8bd8cc249d
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.101.11
+          title: "'renovate: Fix nested changelogs and change-type for SV updates'"
+          date: 2022-08-24T12:22:37.592Z
+        - commits:
+            - subject: "meta-resin-sumo: linux-firmware: Move to a location included in
+                BBPATH"
+              hash: 148fcadbb792bdbabdbc152b886125415b3e4838
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "meta-resin-sumo: use v1.14.2"
+              hash: 5bb3a29c1c5dfa0f02da47e48f3b64d3d3f9cd08
+              body: |
+                Newer versions are not compatible with the libc version in sumo.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "meta-resin-sumo: libqmi: Use v1.26.0"
+              hash: 1c25bb333c6cb458af955274c82f164a83a2b914
+              body: |
+                Newer versions are incompatible with the libc available in sumo.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "meta-resin-sumo: libmbim: use v 1.24.2"
+              hash: 1fe708b4bf84e60032c4e7f52316632a49ecc490
+              body: >
+                The current meta-balena libmbim is not compatible with sumo's
+                libc
+
+                version.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "balena: Disable GOCACHE"
+              hash: 2e79582c81a6f0f5ff42ed01bdc69ba06550e63a
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.101.10
+          title: "'Update sumo compatibility layer'"
+          date: 2022-08-23T08:15:40.582Z
+  version: 2.101.11
+  title: "'Update layers/meta-balena digest to 094cc17'"
+  date: 2022-08-25T06:53:36.281Z
+- commits:
     - subject: Update layers/meta-balena to f2de8e3d438671ac740bfa2119ab881afc5d2101
       hash: 4f242b819050ef3a993d3edd1d765a49163db9a4
       body: Update layers/meta-balena

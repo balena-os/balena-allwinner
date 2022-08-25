@@ -1,6 +1,29 @@
 Change log
 -----------
 
+# v2.101.11
+## (2022-08-25)
+
+
+<details>
+<summary> Update layers/meta-balena to 094cc1766365844e9e4dcf46f4f247cad0231715 [renovate[bot]] </summary>
+
+> ## meta-balena-2.101.11
+> ### (2022-08-24)
+> 
+> * renovate: Fix nested changelogs and change-type for SV updates [Kyle Harding]
+> 
+> ## meta-balena-2.101.10
+> ### (2022-08-23)
+> 
+> * meta-resin-sumo: linux-firmware: Move to a location included in BBPATH [Alex Gonzalez]
+> * meta-resin-sumo: use v1.14.2 [Alex Gonzalez]
+> * meta-resin-sumo: libqmi: Use v1.26.0 [Alex Gonzalez]
+> * meta-resin-sumo: libmbim: use v 1.24.2 [Alex Gonzalez]
+> * balena: Disable GOCACHE [Alex Gonzalez]
+> 
+</details>
+
 # v2.101.9
 ## (2022-08-23)
 
