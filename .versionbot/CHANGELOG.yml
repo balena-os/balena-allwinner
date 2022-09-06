@@ -1,4 +1,28 @@
 - commits:
+    - subject: Update layers/meta-balena to 827a6fc341fc806ff065bbe1940c9a0f046cc373
+      hash: c1dd865539792d398fe2754e5b9d3848b52759d6
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 827a6fc341fc806ff065bbe1940c9a0f046cc373
+        changelog-entry: Update layers/meta-balena to 827a6fc341fc806ff065bbe1940c9a0f046cc373
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "patch: Add package-lock.json files for tests"
+              hash: 89ce7a08596ba0fd3402910f224c21de49201f9f
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+              author: Vipul Gupta (@vipulgupta2048)
+              nested: []
+          version: meta-balena-2.102.5
+          title: "'patch: Add package-lock.json files for tests'"
+          date: 2022-09-06T08:15:14.569Z
+  version: 2.102.5
+  title: "'Update layers/meta-balena digest to 827a6fc'"
+  date: 2022-09-06T15:09:32.949Z
+- commits:
     - subject: Update contracts to e7520599758cae5f507d7189a3415e95e2ff0309
       hash: 8c528276752c04cb16ad7714ca3d21c81f099c4f
       body: Update contracts

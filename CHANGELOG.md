@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.102.5
+## (2022-09-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 827a6fc341fc806ff065bbe1940c9a0f046cc373 [renovate[bot]] </summary>
+
+> ## meta-balena-2.102.5
+> ### (2022-09-06)
+> 
+> * patch: Add package-lock.json files for tests [Vipul Gupta (@vipulgupta2048)]
+> 
+</details>
+
 # v2.102.4+rev1
 ## (2022-09-06)
 
