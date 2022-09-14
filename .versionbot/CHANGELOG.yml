@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update contracts to 7ea918011dc38f509a7ae3bce30c3391bc839dd9
+      hash: 0f8658e906485777e0bc22b2f0cff1323ccbb088
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 7ea918011dc38f509a7ae3bce30c3391bc839dd9
+        changelog-entry: Update contracts to 7ea918011dc38f509a7ae3bce30c3391bc839dd9
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: Set LED to false for rockpi-4b"
+              hash: a3ba8781439427390d2dbd21d01b66cc6f33c027
+              body: |
+                LED is not supported for this DT in the device
+                repository, let's set it to false here so that
+                the tests are aware of this being unsupported.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.15
+          title: "'hw.device-type: Set LED to false for rockpi-4b'"
+          date: 2022-09-14T14:17:49.155Z
+  version: 2.103.0+rev1
+  title: "'Update contracts digest to 7ea9180'"
+  date: 2022-09-14T15:10:51.616Z
+- commits:
     - subject: Update layers/meta-balena to d9b45ab299777f08e8384a1e4b29c7ee4ef7822c
       hash: dccf05eae5be7988b2962c2c22b27bb2c43d20f4
       body: Update layers/meta-balena
