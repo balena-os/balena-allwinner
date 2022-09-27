@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update contracts to 766eb7591fe2b2f2cbc36af68d58627057f38193
+      hash: 1c2352e20d0952e07adb790c38b1bc12079aa078
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 766eb7591fe2b2f2cbc36af68d58627057f38193
+        changelog-entry: Update contracts to 766eb7591fe2b2f2cbc36af68d58627057f38193
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Add node v18.9.1, v16.17.1 and v14.20.1
+              hash: 3d17a04da87495bc26f6aaabb4e90baaa8f0a349
+              body: ""
+              footer:
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+            - subject: Add Golang v1.19.1 and v1.18.6
+              hash: 1f985fb82514dbeb8c9cddaa66efc8eb31ab9a30
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+          version: contracts-2.0.17
+          title: "'Few base images updates'"
+          date: 2022-09-27T20:03:39.091Z
+  version: 2.105.2+rev1
+  title: "'Update contracts digest to 766eb75'"
+  date: 2022-09-27T21:11:11.077Z
+- commits:
     - subject: Update layers/meta-balena to d17b08668a56aa67c7b55594c3c910e66fbd4baf
       hash: 371d3e8340e75c956014afb500cd85d551d1baa5
       body: Update layers/meta-balena
