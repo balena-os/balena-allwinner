@@ -1,4 +1,48 @@
 - commits:
+    - subject: Update layers/meta-balena to 433b72275aa61da736904aa3f55c7b987824d523
+      hash: 1e51797e61302a5a246566a95227ffa97f2db57c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 433b72275aa61da736904aa3f55c7b987824d523
+        changelog-entry: Update layers/meta-balena to 433b72275aa61da736904aa3f55c7b987824d523
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-os/balena-supervisor to v14.2.10
+              hash: e6a6abbb3994937bbb5e5d2e1479e97a76faec88
+              body: Update balena-supervisor
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested: []
+          version: meta-balena-2.105.11
+          title: ""
+          date: 2022-10-13T20:48:28.279Z
+    - subject: Update layers/meta-balena to 0bc9280eb23161e5897260dc4555062789540b81
+      hash: ccc91328035a6a2caeb37fc4f71bec66fdc738a4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 0bc9280eb23161e5897260dc4555062789540b81
+        changelog-entry: Update layers/meta-balena to 0bc9280eb23161e5897260dc4555062789540b81
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-os/balena-supervisor to v14.2.10
+              hash: e6a6abbb3994937bbb5e5d2e1479e97a76faec88
+              body: Update balena-supervisor
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested: []
+          version: meta-balena-2.105.11
+          title: ""
+          date: 2022-10-13T20:48:28.279Z
+  version: 2.105.11
+  title: "'Update layers/meta-balena digest to 433b722'"
+  date: 2022-10-13T21:29:25.737Z
+- commits:
     - subject: Update contracts to 766eb7591fe2b2f2cbc36af68d58627057f38193
       hash: 1c2352e20d0952e07adb790c38b1bc12079aa078
       body: Update contracts
