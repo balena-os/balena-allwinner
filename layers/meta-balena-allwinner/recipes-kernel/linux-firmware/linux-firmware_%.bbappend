@@ -11,6 +11,7 @@ SRC_URI_append = " \
     file://brcmfmac43430-sdio.txt \
     file://bcm43438a0.hcd \
     file://bcm43438a1.hcd \
+    file://brcmfmac43362-sdio.txt \
     "
 
 do_install_append() {
@@ -20,6 +21,7 @@ do_install_append() {
     cp ${WORKDIR}/brcmfmac43430a0-sdio.bin ${D}/lib/firmware/brcm/brcmfmac43430a0-sdio.bin
     cp ${WORKDIR}/brcmfmac43430a0-sdio.txt ${D}/lib/firmware/brcm/brcmfmac43430a0-sdio.txt
     cp ${WORKDIR}/config.txt ${D}/lib/firmware/brcm/config.txt
+    cp ${WORKDIR}/brcmfmac43362-sdio.txt ${D}/lib/firmware/brcm/brcmfmac43362-sdio.txt
 }
 
 do_install_append_nanopi-neo-air() {
