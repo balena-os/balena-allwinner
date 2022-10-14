@@ -1,4 +1,25 @@
 - commits:
+    - subject: "linux-firmware: Fix wifi for BananaPi M1+"
+      hash: b62f5c95ebefc40edec0b50848353b5d491e2c39
+      body: |
+        Wifi did not work on the BananaPi M1+ before this
+        commit, so we have to install the specific bcm43362-sdio file
+        for this device type.
+
+        This firmware configuration file is specific to the M1+ and comes from
+        https://github.com/armbian/firmware/blob/master/ap6210/nvram_ap6210.txt
+        and has the checksum fb1ab0d5148e3f58ce94598665828713.
+      footer:
+        Changelog-entry: "linux-firmware: Fix wifi for BananaPi M1+"
+        changelog-entry: "linux-firmware: Fix wifi for BananaPi M1+"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+  version: 2.105.11+rev1
+  title: "'linux-firmware: Fix wifi for BananaPi M1+'"
+  date: 2022-10-14T10:09:36.065Z
+- commits:
     - subject: Update layers/meta-balena to 433b72275aa61da736904aa3f55c7b987824d523
       hash: 1e51797e61302a5a246566a95227ffa97f2db57c
       body: Update layers/meta-balena

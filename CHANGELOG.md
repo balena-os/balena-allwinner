@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.105.11+rev1
+## (2022-10-14)
+
+* linux-firmware: Fix wifi for BananaPi M1+ [Alexandru Costache]
+
 # v2.105.11
 ## (2022-10-13)
 
