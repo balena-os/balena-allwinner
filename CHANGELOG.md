@@ -1,6 +1,32 @@
 Change log
 -----------
 
+# v2.105.11+rev3
+## (2022-10-15)
+
+
+<details>
+<summary> Update contracts to f9e017074a7d7e26f5b56642fa86d2533f349f33 [renovate[bot]] </summary>
+
+> ## contracts-2.0.20
+> ### (2022-10-14)
+> 
+> * Add Golang v1.19.2 and v1.18.7 [Trong Nghia Nguyen]
+> * Add node v18.11.0 and v16.18.0 [Trong Nghia Nguyen]
+> 
+> ## contracts-2.0.19
+> ### (2022-10-05)
+> 
+> * Update dotnet 6.0 and 3.1 to latest version [Trong Nghia Nguyen]
+> * Add Python v3.10.7 v3.9.14 v3.8.14 and v3.7.14 [Trong Nghia Nguyen]
+> 
+> ## contracts-2.0.18
+> ### (2022-10-05)
+> 
+> * Switch from balenaCI to flowzone [Trong Nghia Nguyen]
+> 
+</details>
+
 # v2.105.11+rev2
 ## (2022-10-15)
 
