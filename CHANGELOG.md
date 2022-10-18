@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.105.13
+## (2022-10-18)
+
+
+<details>
+<summary> Update layers/meta-balena to b33d3aa9a17eabe4f88f6086fce008862ad43ba1 [renovate[bot]] </summary>
+
+> ## meta-balena-2.105.13
+> ### (2022-10-18)
+> 
+> * ntp: Remove race condition from directory creation [Alex Gonzalez]
+> 
+</details>
+
 # v2.105.12
 ## (2022-10-17)
 
