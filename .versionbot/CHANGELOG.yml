@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update layers/meta-balena to ec41853b477877d096d2eff72db59668f58b684b
+      hash: 4f0aa25ebb984ae4ad43fbe06c834ab319cb6a18
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ec41853b477877d096d2eff72db59668f58b684b
+        changelog-entry: Update layers/meta-balena to ec41853b477877d096d2eff72db59668f58b684b
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "Revert \"chrony: update to version 4.1 to match kirkstone's version\""
+              hash: 3ea5184c30f3051d58f1a1befd19c76c17ee4334
+              body: >
+                With the updated version the systemd watchdog events are not received.
+
+
+                Fixes #2823
+
+
+                This reverts commit 5049451b32d2d2c59f2aeb4713b2e6539bffeb49.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.105.15
+          title: ""
+          date: 2022-10-19T16:58:50.881Z
+  version: 2.105.15
+  title: ""
+  date: 2022-10-19T19:57:46.510Z
+- commits:
     - subject: Update layers/meta-balena to 85705947f289798d36c534aae5dc3582627e2a99
       hash: ff3fae094b317bba761829bdf1ba7fd14fb9e5f7
       body: Update layers/meta-balena
