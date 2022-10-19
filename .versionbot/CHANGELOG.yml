@@ -1,4 +1,28 @@
 - commits:
+    - subject: Update layers/meta-balena to 85705947f289798d36c534aae5dc3582627e2a99
+      hash: ff3fae094b317bba761829bdf1ba7fd14fb9e5f7
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 85705947f289798d36c534aae5dc3582627e2a99
+        changelog-entry: Update layers/meta-balena to 85705947f289798d36c534aae5dc3582627e2a99
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "patch: Enable RPi3-64 for Device tree tests"
+              hash: 55ac90b20dabbd8efe54f6e84d6c9e8c0d8166e9
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+              author: Vipul Gupta (@vipulgupta2048)
+              nested: []
+          version: meta-balena-2.105.14
+          title: ""
+          date: 2022-10-18T16:04:41.810Z
+  version: 2.105.14
+  title: ""
+  date: 2022-10-19T00:54:26.729Z
+- commits:
     - subject: Update layers/meta-balena to b33d3aa9a17eabe4f88f6086fce008862ad43ba1
       hash: b1df40db7bb84cd17d8657c62a5f26c758319735
       body: Update layers/meta-balena

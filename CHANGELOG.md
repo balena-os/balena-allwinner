@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.105.14
+## (2022-10-19)
+
+
+<details>
+<summary> Update layers/meta-balena to 85705947f289798d36c534aae5dc3582627e2a99 [renovate[bot]] </summary>
+
+> ## meta-balena-2.105.14
+> ### (2022-10-18)
+> 
+> * patch: Enable RPi3-64 for Device tree tests [Vipul Gupta (@vipulgupta2048)]
+> 
+</details>
+
 # v2.105.13
 ## (2022-10-18)
 
