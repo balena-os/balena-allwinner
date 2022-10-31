@@ -1,4 +1,56 @@
 - commits:
+    - subject: Update contracts to edff7336f8c7fd074aed1fd087a595ee2ca05651
+      hash: 289bdb538efe13273c44b24e8e67e1f480b2a5e8
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to edff7336f8c7fd074aed1fd087a595ee2ca05651
+        changelog-entry: Update contracts to edff7336f8c7fd074aed1fd087a595ee2ca05651
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Add Python v3.11.0 v3.10.8 v3.9.15 v3.8.15 and v3.7.15
+              hash: fbabb315a61ab269458acd051d91e848e2e81cc3
+              body: |
+                Update pip to v22.3 and setuptools to v65.5.0.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+          version: contracts-2.0.26
+          title: ""
+          date: 2022-10-31T01:49:50.638Z
+        - commits:
+            - subject: Fix incorrect partials in device type contracts
+              hash: 23b23bf963943277e5d5c02bc78d2fb52b4ba7fd
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Micah Halter <micah@balena.io>
+                signed-off-by: Micah Halter <micah@balena.io>
+              author: Micah Halter
+          version: contracts-2.0.25
+          title: ""
+          date: 2022-10-27T16:05:36.897Z
+        - commits:
+            - subject: Add node v18.12.0
+              hash: 76cc4e57fb052486256f3b8f2c2b0239b11c2856
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+          version: contracts-2.0.24
+          title: ""
+          date: 2022-10-27T11:18:14.564Z
+  version: 2.105.21+rev1
+  title: ""
+  date: 2022-10-31T08:42:37.411Z
+- commits:
     - subject: Update layers/meta-balena to 2e9f69012d326b5925304c9d25427c5cc46dfbd4
       hash: a1ede5986898d25346cc2de5e4b6a0f40f1b339d
       body: Update layers/meta-balena
