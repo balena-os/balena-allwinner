@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.105.26
+## (2022-11-04)
+
+
+<details>
+<summary> Update layers/meta-balena to 397943469235f9eb67a55ce5c98e01e8afbc641e [renovate[bot]] </summary>
+
+> ## meta-balena-2.105.26
+> ### (2022-11-04)
+> 
+> * patch: Skip HUP suite if no releases found [Vipul Gupta (@vipulgupta2048)]
+> 
+</details>
+
 # v2.105.25
 ## (2022-11-04)
 
