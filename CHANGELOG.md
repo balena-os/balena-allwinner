@@ -1,6 +1,20 @@
 Change log
 -----------
 
+# v2.105.27
+## (2022-11-04)
+
+
+<details>
+<summary> Update layers/meta-balena to 4f26a52c25bd3b246cc623b271873891da2fd737 [renovate[bot]] </summary>
+
+> ## meta-balena-2.105.27
+> ### (2022-11-04)
+> 
+> * wpa-supplicant: Sync with v2.10 from upstream [Zahari Petkov]
+> 
+</details>
+
 # v2.105.26
 ## (2022-11-04)
 
