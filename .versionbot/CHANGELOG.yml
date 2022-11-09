@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update layers/meta-balena to 072a02ba1b9b2f5cb4f1a520c7d321e17dca1eb5
+      hash: de8ace8c2b32dec3aa17b3a6529236e5698cba25
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 072a02ba1b9b2f5cb4f1a520c7d321e17dca1eb5
+        changelog-entry: Update layers/meta-balena to 072a02ba1b9b2f5cb4f1a520c7d321e17dca1eb5
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Add meta-balena-esr workflow
+              hash: bcaddc164814569a9971c728bfbae316bbae88b3
+              body: >
+                This workflow will create an ESR branch from the latest patch of the
+
+                previous minor version the first day of each quarter.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.105.31
+          title: ""
+          date: 2022-11-08T20:30:19.317Z
+  version: 2.105.31
+  title: ""
+  date: 2022-11-09T02:14:58.074Z
+- commits:
     - subject: Update layers/meta-balena to 0d399dcb9ac7ece013f76a119e8643228eb114b7
       hash: 24850a85a92bdccf107a62c6ed29682308282991
       body: Update layers/meta-balena
