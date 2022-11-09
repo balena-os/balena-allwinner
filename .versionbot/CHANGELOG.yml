@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update layers/meta-balena to b6e5de2abcadd369a37891b17494048d6a82b1cc
+      hash: b0e128d2a85eab3b88ef081ac921a44f938be7fb
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b6e5de2abcadd369a37891b17494048d6a82b1cc
+        changelog-entry: Update layers/meta-balena to b6e5de2abcadd369a37891b17494048d6a82b1cc
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Enable network access for tasks talking to the signing service
+              hash: ab1d75a0db11cde16d93cb7b3ebe734f61583e28
+              body: >
+                Since kirkstone tasks have network access disabled by default so we need
+
+                to enable it explicitly for tasks that talk to the signing service.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.105.32
+          title: ""
+          date: 2022-11-09T15:15:46.084Z
+  version: 2.105.32
+  title: ""
+  date: 2022-11-09T20:17:19.899Z
+- commits:
     - subject: Update contracts to b20827d63cbe7b1168f2b63b3bde216231e1b4ba
       hash: 725861ddbfa79b76e27cc5c97028e46090dae5cc
       body: Update contracts
