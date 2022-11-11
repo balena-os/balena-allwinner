@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v2.106.2
+## (2022-11-11)
+
+
+<details>
+<summary> Update layers/meta-balena to 301f76a3232fb25463f89f6382eb0e14189dcc0e [renovate[bot]] </summary>
+
+> ## meta-balena-2.106.2
+> ### (2022-11-10)
+> 
+> * flasher: minor formatting [Joseph Kogut]
+> * flasher: fix detection and exclusion of installation media [Joseph Kogut]
+> * flasher: properly expand device_pattern globs [Joseph Kogut]
+> 
+</details>
+
 # v2.106.1
 ## (2022-11-10)
 

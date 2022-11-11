@@ -1,4 +1,70 @@
 - commits:
+    - subject: Update layers/meta-balena to 301f76a3232fb25463f89f6382eb0e14189dcc0e
+      hash: 871f336071d945fc6dda28ee4fdc3b620450114f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 301f76a3232fb25463f89f6382eb0e14189dcc0e
+        changelog-entry: Update layers/meta-balena to 301f76a3232fb25463f89f6382eb0e14189dcc0e
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "flasher: minor formatting"
+              hash: b92ade134716ea122949a0d5adf7238f274acc96
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "flasher: fix detection and exclusion of installation media"
+              hash: 02ba95a7f2b3889443f8fc2857723898140ff05e
+              body: >
+                The old test no longer matches on full disk paths including /dev, which
+
+                can potentially result in the installation disk not being excluded from
+
+                the pool of installation targets.
+
+
+                Fix the comparison so that the installation disk will not be
+
+                overwritten.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "flasher: properly expand device_pattern globs"
+              hash: 1b8059cf553b99de9a854dbbc7d81d7c079fe2a5
+              body: >
+                Previously, globs such as 'md/balena{,_*}' and 'mmcblk?' weren't being
+
+                properly expanded, resulting in the old behavior of explicit lists of
+
+                disks continuing to work, but consolidated globs matching multiple disks
+
+                would not.
+
+
+                Fix glob expansion to enable this feature to work properly.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.106.2
+          title: ""
+          date: 2022-11-10T21:20:24.210Z
+  version: 2.106.2
+  title: ""
+  date: 2022-11-11T05:22:10.420Z
+- commits:
     - subject: Update layers/meta-balena to bf237c4f76c4026ed3aea2f30edc7c6a484fcef6
       hash: b27e83122a29a1649fca3b982078f1cf9748c1ed
       body: Update layers/meta-balena
