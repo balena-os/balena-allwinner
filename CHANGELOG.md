@@ -1,6 +1,24 @@
 Change log
 -----------
 
+# v2.106.7+rev2
+## (2022-12-09)
+
+
+<details>
+<summary> Update contracts to 7038b0ce71daa96a832540d24fcad5bc5142ff13 [renovate[bot]] </summary>
+
+> ## contracts-2.0.30
+> ### (2022-12-09)
+> 
+> * Add support for Alpine Linux v3.17 [Trong Nghia Nguyen]
+> * Add dotnet v7, update v6.x and v3.x to latest versions [Trong Nghia Nguyen]
+> * Add Python v3.11.1 v3.10.9 v3.9.16 v3.8.16 and v3.7.16 [Trong Nghia Nguyen]
+> * Add Golang v1.19.4 and v1.18.9 [Trong Nghia Nguyen]
+> 
+
+</details>
+
 # v2.106.7+rev1
 ## (2022-11-30)
 

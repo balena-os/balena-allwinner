@@ -1,4 +1,57 @@
 - commits:
+    - subject: Update contracts to 7038b0ce71daa96a832540d24fcad5bc5142ff13
+      hash: 7bbb9847042eb3d8455904a654356094724526a7
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 7038b0ce71daa96a832540d24fcad5bc5142ff13
+        changelog-entry: Update contracts to 7038b0ce71daa96a832540d24fcad5bc5142ff13
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Add support for Alpine Linux v3.17
+              hash: 245c201a06d03eb89210654d1d44f0f156ccb790
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+            - subject: Add dotnet v7, update v6.x and v3.x to latest versions
+              hash: 2e5771eb99ce3b032e4ba955b12a9bdd95d14408
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+            - subject: Add Python v3.11.1 v3.10.9 v3.9.16 v3.8.16 and v3.7.16
+              hash: b22e097bdf0e3b314f8d715c41bb4bbe1efa2570
+              body: |
+                Update pip to v22.3.1 and setuptools to v65.6.3
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+            - subject: Add Golang v1.19.4 and v1.18.9
+              hash: 01dc72fe1e17aa5d90b4dc65c03150379811665f
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+          version: contracts-2.0.30
+          title: ""
+          date: 2022-12-09T18:39:08.906Z
+  version: 2.106.7+rev2
+  title: ""
+  date: 2022-12-09T21:45:56.436Z
+- commits:
     - subject: Update contracts to 5d83fa7ad3a0c95db49ee465c9a77845611f3a3b
       hash: 2f2d8bf42862616a4b063ecc22c170c59826af78
       body: Update contracts
