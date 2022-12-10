@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v2.106.7+rev3
+## (2022-12-10)
+
+
+<details>
+<summary> Update contracts to 0357433005e9ea7ace7876530d910eeb8386c980 [renovate[bot]] </summary>
+
+> ## contracts-2.0.31
+> ### (2022-12-10)
+> 
+> * Add partials for dotnet v7 [Trong Nghia Nguyen]
+> 
+
+</details>
+
 # v2.106.7+rev2
 ## (2022-12-09)
 
