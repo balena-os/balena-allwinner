@@ -1,4 +1,43 @@
 - commits:
+    - subject: Update contracts to b6bdc537c9f9d224301152a0291682172320bf6a
+      hash: 01a83148096b0cb629b2b75dd3419032e191745f
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to b6bdc537c9f9d224301152a0291682172320bf6a
+        changelog-entry: Update contracts to b6bdc537c9f9d224301152a0291682172320bf6a
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "Flowzone: Allow external contributions"
+              hash: bb2226cc9e36d056d33c70cb3926ce58b9e47e28
+              body: |
+                Update the flowzone workflow to allow external PRs from forks
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+          version: contracts-2.0.34
+          title: ""
+          date: 2022-12-16T15:12:18.550Z
+        - commits:
+            - subject: "Flowzone: Use inherited secrets"
+              hash: 8d5f9d9f28de663b32b58999f076dd7932dbaa3b
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+          version: contracts-2.0.33
+          title: ""
+          date: 2022-12-16T14:46:36.924Z
+  version: 2.106.7+rev6
+  title: ""
+  date: 2022-12-16T19:11:08.080Z
+- commits:
     - subject: Update balena-yocto-scripts to 67cb61f9209482ddd22b3f98ebf6cb3609f0acb7
       hash: e69abef091625012da9682a0043e8c46db4bdc19
       body: Update balena-yocto-scripts
