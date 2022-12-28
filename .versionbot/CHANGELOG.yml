@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to e45cf66e8d8f7145127614153a2694c9a9850ed7
+      hash: b4dcf99ed483553dc356e7e59bbe2cbf238ca4f0
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e45cf66e8d8f7145127614153a2694c9a9850ed7
+        changelog-entry: Update layers/meta-balena to e45cf66e8d8f7145127614153a2694c9a9850ed7
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to e09fae4
+              hash: 49c24a43ede0371c2c5a992e9197124492b55808
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested:
+                - commits:
+                    - subject: "renovate: Remove v prefix from leviathan-worker github-tags"
+                      hash: 80778c4b2ea6f2e225b903b6d0a43000a492701e
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Kyle Harding <kyle@balena.io>
+                        signed-off-by: Kyle Harding <kyle@balena.io>
+                      author: Kyle Harding
+                      nested: []
+                  version: leviathan-2.11.7
+                  title: ""
+                  date: 2022-12-28T16:49:10.897Z
+          version: meta-balena-2.108.8
+          title: ""
+          date: 2022-12-28T21:07:27.490Z
+  version: 2.108.8
+  title: ""
+  date: 2022-12-28T22:58:37.362Z
+- commits:
     - subject: Update layers/meta-balena to 68ec8ca1388c8e442acf1235dc573aeb12ff385a
       hash: c574f4ab4e1ede00ce3288fff9ec313639ec47d2
       body: Update layers/meta-balena
