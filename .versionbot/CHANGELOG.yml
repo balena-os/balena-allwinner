@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 68ec8ca1388c8e442acf1235dc573aeb12ff385a
+      hash: c574f4ab4e1ede00ce3288fff9ec313639ec47d2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 68ec8ca1388c8e442acf1235dc573aeb12ff385a
+        changelog-entry: Update layers/meta-balena to 68ec8ca1388c8e442acf1235dc573aeb12ff385a
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: os: fix modem test teardown"
+              hash: e5f9b72eae7bcc88cb28d99f8b1bf7f2c1b65789
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-2.108.7
+          title: ""
+          date: 2022-12-28T16:06:50.921Z
+  version: 2.108.7
+  title: ""
+  date: 2022-12-28T18:58:15.607Z
+- commits:
     - subject: Update balena-yocto-scripts to 0f1d0265bbabdb2b869f6cf9363d418b52681ffc
       hash: 703d64b1c0d2a7cb6efcf35cef5ae98a541615c5
       body: Update balena-yocto-scripts

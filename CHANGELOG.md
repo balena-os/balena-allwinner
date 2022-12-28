@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v2.108.7
+## (2022-12-28)
+
+
+<details>
+<summary> Update layers/meta-balena to 68ec8ca1388c8e442acf1235dc573aeb12ff385a [renovate[bot]] </summary>
+
+> ## meta-balena-2.108.7
+> ### (2022-12-28)
+> 
+> * tests: os: fix modem test teardown [rcooke-warwick]
+> 
+
+</details>
+
 # v2.108.6
 ## (2022-12-28)
 
