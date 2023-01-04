@@ -1,6 +1,73 @@
 Change log
 -----------
 
+# v2.108.11
+## (2023-01-04)
+
+
+<details>
+<summary> Update layers/meta-balena to df321d4ad4831d27188ac9bf538600ccaaabc9b3 [renovate[bot]] </summary>
+
+> ## meta-balena-2.108.11
+> ### (2023-01-03)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to d3485ab [renovate[bot]] </summary>
+> 
+>> ### leviathan-2.13.0
+>> #### (2023-01-03)
+>> 
+>> * Revert "minor: Add @balena/leviathan-test-helpers package" [Kyle Harding]
+>> 
+>> ### leviathan-2.12.4
+>> #### (Invalid date)
+>> 
+>> * chore(deps): update dependency eslint-plugin-standard to 4.1.0 [renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-2.108.10
+> ### (Invalid date)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 7d6326d [renovate[bot]] </summary>
+> 
+>> ### leviathan-2.12.3
+>> #### (Invalid date)
+>> 
+>> * chore(deps): update dependency eslint-plugin-node to 11.1.0 [renovate[bot]]
+>> 
+>> ### leviathan-2.12.2
+>> #### (2022-12-29)
+>> 
+>> * Run out-of-band e2e tests after Flowzone passes [Kyle Harding]
+>> 
+>> ### leviathan-2.12.1
+>> #### (2022-12-29)
+>> 
+>> * chore(deps): update dependency eslint-plugin-jsdoc to 39.6.4 [renovate[bot]]
+>> 
+>> ### leviathan-2.12.0
+>> #### (2022-12-29)
+>> 
+>> * chore(deps): update core/contracts digest to 4698e4e [renovate[bot]]
+>> 
+>> ### leviathan-2.11.9
+>> #### (2022-12-29)
+>> 
+>> * chore(deps): update dependency balena-os/leviathan-worker to 2.6.13 [renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v2.108.9
 ## (2022-12-29)
 
