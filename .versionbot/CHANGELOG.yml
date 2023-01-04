@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to 91b8ee4980b559c90ae3330bf8ebe1c526b26728
+      hash: a77cab29083352a5a0ed435e750d52c8ed0d0684
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 91b8ee4980b559c90ae3330bf8ebe1c526b26728
+        changelog-entry: Update layers/meta-balena to 91b8ee4980b559c90ae3330bf8ebe1c526b26728
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: os: chrony: disable NTP w/ dnsmasq dbus API"
+              hash: 743e49deef0b99bff17b55510c69c359810892b2
+              body: >
+                The previous method of disabling NTP by stopping the nameserver
+
+                (dnsmasq) relied on the dnsmasq unit not being reactivated before the
+
+                test completed.
+
+
+                Instead, disable NTP by blocking ntp.org in the local dnsmasq instance
+
+                using a dbus method call. NTP is re-enabled as before, by restarting
+
+                dnsmasq.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.108.14
+          title: ""
+          date: 2023-01-04T18:26:07.691Z
+  version: 2.108.14
+  title: ""
+  date: 2023-01-04T22:25:57.085Z
+- commits:
     - subject: Update layers/meta-balena to 7aaa2abec902574d9e777a88464eda5be2810666
       hash: 3fdb46b49cf42564cd82ff5fe6486cabdd224c74
       body: Update layers/meta-balena
