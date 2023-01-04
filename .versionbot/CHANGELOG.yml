@@ -1,4 +1,66 @@
 - commits:
+    - subject: Update layers/meta-balena to 7aaa2abec902574d9e777a88464eda5be2810666
+      hash: 3fdb46b49cf42564cd82ff5fe6486cabdd224c74
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7aaa2abec902574d9e777a88464eda5be2810666
+        changelog-entry: Update layers/meta-balena to 7aaa2abec902574d9e777a88464eda5be2810666
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 44dceb4
+              hash: 4180a3d2e17df753171d562017e1c7982d518e1b
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested:
+                - commits:
+                    - subject: "chore(deps): update dependency eslint to 8.31.0"
+                      hash: 3da50c4a3faee39dfb7c816bcdce97a03cd60b89
+                      body: |
+                        Update eslint to 8.31.0
+
+                        Update eslint from 4.19.1 to 8.31.0
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: renovate[bot]
+                      nested: []
+                  version: leviathan-2.14.3
+                  title: ""
+                  date: 2023-01-04T07:22:54.604Z
+            - subject: Update tests/leviathan digest to 4383482
+              hash: 05c137b17bf8afdc819cee71bb99cd3178106f8b
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: renovate[bot]
+              nested:
+                - commits:
+                    - subject: "chore(deps): update dependency eslint to 8.31.0"
+                      hash: 3da50c4a3faee39dfb7c816bcdce97a03cd60b89
+                      body: |
+                        Update eslint to 8.31.0
+
+                        Update eslint from 4.19.1 to 8.31.0
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: renovate[bot]
+                      nested: []
+                  version: leviathan-2.14.3
+                  title: ""
+                  date: 2023-01-04T07:22:54.604Z
+          version: meta-balena-2.108.13
+          title: ""
+          date: 2023-01-04T11:31:31.771Z
+  version: 2.108.13
+  title: ""
+  date: 2023-01-04T14:24:36.363Z
+- commits:
     - subject: Update layers/meta-balena to 576d3f249fbab16bf93a4dd5d158bae6f2ad9f9b
       hash: 8781a46d93f874bc96eae6f49d8c1b02600a3433
       body: Update layers/meta-balena
