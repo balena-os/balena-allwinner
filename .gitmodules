@@ -13,9 +13,6 @@
 [submodule "layers/meta-sunxi"]
 	path = layers/meta-sunxi
 	url = https://github.com/linux-sunxi/meta-sunxi.git
-[submodule "layers/meta-rust"]
-	path = layers/meta-rust
-	url = https://github.com/meta-rust/meta-rust.git
 [submodule "contracts"]
 	path = contracts
 	url = https://github.com/balena-io/contracts.git
