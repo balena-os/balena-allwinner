@@ -1,4 +1,19 @@
 - commits:
+    - subject: "layers/meta-rust: Remove layer"
+      hash: 0461129889eba5c06b6a70361277ff981aea6838
+      body: |
+        rust is now provided by meta-balena
+      footer:
+        Changelog-entry: "layers/meta-rust: Remove layer"
+        changelog-entry: "layers/meta-rust: Remove layer"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+  version: 2.108.14+rev1
+  title: ""
+  date: 2023-01-05T08:53:24.324Z
+- commits:
     - subject: Update layers/meta-balena to 91b8ee4980b559c90ae3330bf8ebe1c526b26728
       hash: a77cab29083352a5a0ed435e750d52c8ed0d0684
       body: Update layers/meta-balena

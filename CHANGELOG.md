@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.108.14+rev1
+## (2023-01-05)
+
+* layers/meta-rust: Remove layer [Alexandru Costache]
+
 # v2.108.14
 ## (2023-01-04)
 
