@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update layers/meta-balena to 7b8d9a8b591487aefcdcd522d385ec14abaa1be6
+      hash: 1b3ae10728ea8ac9d90fed5df4fbc9268cb6fa52
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7b8d9a8b591487aefcdcd522d385ec14abaa1be6
+        changelog-entry: Update layers/meta-balena to 7b8d9a8b591487aefcdcd522d385ec14abaa1be6
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: 'Revert "flasher: output logs to serial console"'
+              hash: 406317b15726798d0c11928851897a530c980170
+              body: >
+                In development mode, the flasher service is killed by getty. Revert this
+
+                change to unbreak the flasher when OS development is enabled.
+
+
+                This reverts commit 131893e433ef64a1f3b05dfcd44b0e022f13646d.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.108.18
+          title: ""
+          date: 2023-01-09T22:49:31.599Z
+  version: 2.108.18
+  title: ""
+  date: 2023-01-10T02:46:34.927Z
+- commits:
     - subject: Update balena-yocto-scripts to 56bb055d91481023a6b6cff92d61ebfffa884139
       hash: 8e9554dc701dc5eb1ed7919dba17d6bb5ccc0d41
       body: Update balena-yocto-scripts
