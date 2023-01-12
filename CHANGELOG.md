@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v2.108.20
+## (2023-01-12)
+
+
+<details>
+<summary> Update layers/meta-balena to a51263dd4f93063f67ba4402db483f0b09a83a53 [renovate[bot]] </summary>
+
+> ## meta-balena-2.108.20
+> ### (2023-01-12)
+> 
+> * workflows: meta-balena-esr: Fix version calculation [Alex Gonzalez]
+> 
+
+</details>
+
 # v2.108.19+rev1
 ## (2023-01-12)
 

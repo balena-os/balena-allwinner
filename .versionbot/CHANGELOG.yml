@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to a51263dd4f93063f67ba4402db483f0b09a83a53
+      hash: ef97f0b3b531ff5f12247b131773ededf2fecdd1
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to a51263dd4f93063f67ba4402db483f0b09a83a53
+        changelog-entry: Update layers/meta-balena to a51263dd4f93063f67ba4402db483f0b09a83a53
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "workflows: meta-balena-esr: Fix version calculation"
+              hash: b56da33230839f4af74bac954cf834c2116e6209
+              body: >
+                Correct the calculation of the version to include in the yml file.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.108.20
+          title: ""
+          date: 2023-01-12T14:06:53.452Z
+  version: 2.108.20
+  title: ""
+  date: 2023-01-12T15:16:11.143Z
+- commits:
     - subject: Add ESR workflow
       hash: 31d91f1295ffea80c0b9eecc1c03c253b37e8a80
       body: |
