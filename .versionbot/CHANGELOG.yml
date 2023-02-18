@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 103037ca9624070c01ed388e8fd425bef609e924
+      hash: c9c6f480d9e754b5a5dbd79fd61586492f784d32
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 103037ca9624070c01ed388e8fd425bef609e924
+        changelog-entry: Update contracts to 103037ca9624070c01ed388e8fd425bef609e924
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Add node v19.6.1 v18.14.1 v16.19.1 and v14.21.3
+              hash: 9672d0c0833fa46ad78dd10924733f515ae8a6c8
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+          version: contracts-2.0.45
+          title: ""
+          date: 2023-02-18T12:11:03.237Z
+  version: 2.112.8+rev1
+  title: ""
+  date: 2023-02-18T14:08:34.488Z
+- commits:
     - subject: Update layers/meta-balena to 70d37200e8af95b6a784ead0682708c7e7f3acfb
       hash: 2a5692c1dc159a67078738980c98ffb9afd5c3f9
       body: Update layers/meta-balena
