@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update contracts to 7e5420c232e35b678f2138d9878f1d1fc921b1cf
+      hash: 5c26c442366a85e7247010f7872f556f8fce833a
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 7e5420c232e35b678f2138d9878f1d1fc921b1cf
+        changelog-entry: Update contracts to 7e5420c232e35b678f2138d9878f1d1fc921b1cf
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "hw.device-type: Rename radxaFlash protocol to usbMassStorage"
+              hash: bcc0d053a941add7e64b5f8628e3ad7c33eedd6a
+              body: |
+                becase the devices need to be put in USB MASS STORAGE
+                mode prior to flashing of the eMMC, and the Radxa
+                flashing tools are actually included in the contract
+                partials.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.50
+          title: ""
+          date: 2023-02-22T14:53:31.323Z
+  version: 2.112.13+rev2
+  title: ""
+  date: 2023-02-22T16:09:30.016Z
+- commits:
     - subject: Update contracts to 6acab7c69f61f6660fe5fa41ccfd617281442fb3
       hash: 567549b05cfef0412865987ed4764c3bdc3936d1
       body: Update contracts
