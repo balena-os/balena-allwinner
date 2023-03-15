@@ -1,6 +1,28 @@
 Change log
 -----------
 
+# v2.112.14+rev1
+## (2023-03-15)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 93f94ff88593966c1f417861b235e729d5192ba6 [Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.19.25
+> ### (2023-03-01)
+> 
+> * Dockerfile: yocto-build-env: update balenaCLI to 14.5.15 [Alex Gonzalez]
+> 
+> ## balena-yocto-scripts-1.19.24
+> ### (2023-02-28)
+> 
+> * balena-api: ignore quotes from API replies [Alex Gonzalez]
+> 
+
+</details>
+
+* trigger deploy builds on multi-digit revisions too [Alex Gonzalez]
+
 # v2.112.14
 ## (2023-02-22)
 

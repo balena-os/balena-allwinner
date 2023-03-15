@@ -1,4 +1,70 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 93f94ff88593966c1f417861b235e729d5192ba6
+      hash: 09a04307c6f76a56c12869610f6cfb2c05ae2861
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 93f94ff88593966c1f417861b235e729d5192ba6
+        changelog-entry: Update balena-yocto-scripts to 93f94ff88593966c1f417861b235e729d5192ba6
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "Dockerfile: yocto-build-env: update balenaCLI to 14.5.15"
+              hash: 5fe3f9a353668d9197d7f32c0f7cd3789606202b
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.19.25
+          title: ""
+          date: 2023-03-01T10:00:57.712Z
+        - commits:
+            - subject: "balena-api: ignore quotes from API replies"
+              hash: ad7065112eee4e6e3865ef5581e4c53676536459
+              body: >
+                The balenaAPI has replied both `OK` and `"OK"` to patch requests. Accept
+
+                any of them as long as they contain OK.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.19.24
+          title: ""
+          date: 2023-02-28T18:19:17.093Z
+    - subject: trigger deploy builds on multi-digit revisions too
+      hash: 3c8d45dfce759103e012aba32f9cda940d666f98
+      body: >
+        According to github action syntax [1], there is no special character
+
+        to denote a match on zero or more of the preceding character, so
+
+        replace `[0-9]?` which only matches zero or one of the preceding
+
+        characters with a `*`.
+
+
+        [1] https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
+
+
+        [skip ci]
+      footer:
+        Changelog-entry: trigger deploy builds on multi-digit revisions too
+        changelog-entry: trigger deploy builds on multi-digit revisions too
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.112.14+rev1
+  title: ""
+  date: 2023-03-15T21:09:42.425Z
+- commits:
     - subject: Update layers/meta-balena to 80ca81f9e4ec9d4b2e4d21bc1cf12bd59220be5a
       hash: 5b29d41ac3def9a54e55ff01930c88a08c9b6eed
       body: Update layers/meta-balena
