@@ -1,6 +1,149 @@
 Change log
 -----------
 
+# v2.113.18
+## (2023-03-17)
+
+
+<details>
+<summary> Update layers/meta-balena to 47781bdd7184f17c83523e961c7039d50e5e8775 [Renovate Bot] </summary>
+
+> ## meta-balena-2.113.18
+> ### (2023-03-16)
+> 
+> * Enable CI for external contributions from forks [Kyle Harding]
+> 
+> ## meta-balena-2.113.17
+> ### (2023-03-16)
+> 
+> * Removed links to hub [Ryan H]
+> 
+> ## meta-balena-2.113.16
+> ### (2023-03-16)
+> 
+> * balena-image-flasher: Default image type to balenaos-img [Florin Sarbu]
+> 
+> ## meta-balena-2.113.15
+> ### (2023-03-16)
+> 
+> * resin-u-boot.bbclass: Replace static patch resin-specific-env-integration-kconfig.patch [Florin Sarbu]
+> 
+> ## meta-balena-2.113.14
+> ### (2023-03-15)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v14.9.4 [Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-14.9.4
+>> #### (2023-03-13)
+>> 
+>> * Skip pin device step if release was deleted [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-14.9.3
+>> #### (2023-03-10)
+>> 
+>> * Use single-arch in dockerfile [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-14.9.2
+>> #### (2023-03-02)
+>> 
+>> * Replace BALENA-FIREWALL rule in INPUT chain instead of flushing [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-2.113.13
+> ### (2023-03-15)
+> 
+> * update-balena-supervisor: use API request helper [Alex Gonzalez]
+> * os-helpers: add test for os-helpers-api [Alex Gonzalez]
+> * os-helpers: add os-helpers-api [Alex Gonzalez]
+> 
+> ## meta-balena-2.113.12
+> ### (2023-03-14)
+> 
+> * Remove a bad check in Internet connection sharing test [Zahari Petkov]
+> 
+> ## meta-balena-2.113.11
+> ### (2023-03-14)
+> 
+> * peak: Ship signed module when signing is enabled [Michal Toman]
+> 
+> ## meta-balena-2.113.10
+> ### (2023-03-09)
+> 
+> * patch: Add balenaOS debugging docs [Vipul Gupta (@vipulgupta2048)]
+> 
+> ## meta-balena-2.113.9
+> ### (2023-03-09)
+> 
+> * flasher: fix installation when in user mode w/ sb disabled [Joseph Kogut]
+> 
+> ## meta-balena-2.113.8
+> ### (2023-03-08)
+> 
+> * fix ip for dummy interface to avoid ip conflicts [rcooke-warwick]
+> * tests: os: NetworkManager iptables rules test for Internet sharing [Zahari Petkov]
+> 
+> ## meta-balena-2.113.7
+> ### (2023-03-07)
+> 
+> * conf: distro: balena-os: use lower case for signing key names [Alex Gonzalez]
+> 
+> ## meta-balena-2.113.6
+> ### (2023-03-07)
+> 
+> * recipes-core/images: Ensure redsocks sample files are deployed [Alexandru Costache]
+> 
+> ## meta-balena-2.113.5
+> ### (2023-03-07)
+> 
+> * image-balena.bbclass: deploy grub-conf before building the boot partition [Michal Toman]
+> 
+> ## meta-balena-2.113.4
+> ### (2023-03-03)
+> 
+> * balena-keys: do not ship certificates in DER format [Michal Toman]
+> 
+> ## meta-balena-2.113.3
+> ### (2023-03-02)
+> 
+> * balena-units-conf: launch os-config on config changes [Alex Gonzalez]
+> 
+> ## meta-balena-2.113.2
+> ### (2023-03-02)
+> 
+> * Refer to balenaEngine by its full name [Leandro Motta Barros]
+> 
+> ## meta-balena-2.113.1
+> ### (2023-02-28)
+> 
+> * os-helpers-fs: formatting and fixing lint warning [Alex Gonzalez]
+> * os-helpers-fs: fix check for media attached [Alex Gonzalez]
+> * initrdscripts: migrate: use du instead of wc to calculate byte sizes [Alex Gonzalez]
+> 
+> ## meta-balena-2.113.0
+> ### (2023-02-25)
+> 
+> * resin-init-flasher: use logging helper [Alex Gonzalez]
+> * resin-init-flasher: replace shutdown for reboot in case of migration [Alex Gonzalez]
+> * README: add installer section [Alex Gonzalez]
+> * initrdscripts: Add migration module [Alex Gonzalez]
+> * integration layers: use `android-tools` from Yocto Dunfell and before [Alex Gonzalez]
+> * resin-init-flasher: comply with recovery mode [Alex Gonzalez]
+> * initrdscritps: Move moving /run mountpoint from rootfs to migrate module [Alex Gonzalez]
+> * initrdscripts: add recovery module [Alex Gonzalez]
+> 
+> ## meta-balena-2.112.15
+> ### (2023-02-24)
+> 
+> * os-helpers-fs: add dependency on util-linux fdisk [Alex Gonzalez]
+> 
+
+</details>
+
 # v2.112.14+rev3
 ## (2023-03-16)
 

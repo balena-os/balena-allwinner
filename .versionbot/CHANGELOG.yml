@@ -1,4 +1,688 @@
 - commits:
+    - subject: Update layers/meta-balena to 47781bdd7184f17c83523e961c7039d50e5e8775
+      hash: c12a543daf65128edde7af8bacc2e917682c4b1d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 47781bdd7184f17c83523e961c7039d50e5e8775
+        changelog-entry: Update layers/meta-balena to 47781bdd7184f17c83523e961c7039d50e5e8775
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Enable CI for external contributions from forks
+              hash: abb948565781160616f7b3982d066dd1cd8bbb22
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-2.113.18
+          title: ""
+          date: 2023-03-16T15:40:01.689Z
+        - commits:
+            - subject: Removed links to hub
+              hash: 09b8567c43f9e3aff55d2c162c5ea35080bc55bc
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Hampton (@rhampt) <rhampt@balena.io>
+                signed-off-by: Ryan Hampton (@rhampt) <rhampt@balena.io>
+              author: Ryan H
+              nested: []
+          version: meta-balena-2.113.17
+          title: ""
+          date: 2023-03-16T14:08:01.614Z
+        - commits:
+            - subject: "balena-image-flasher: Default image type to balenaos-img"
+              hash: 36750c1d0e75d82ec096faeff6d61579c075e0c4
+              body: >
+                This avoids device repositories having to specify it, and it can always
+
+                be overwritten in append files.
+
+
+                This change is an extension of https://github.com/balena-os/meta-balena/commit/a3c276a1058d05e66991871bf167079fc2824843
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-2.113.16
+          title: ""
+          date: 2023-03-16T10:00:27.471Z
+        - commits:
+            - subject: "resin-u-boot.bbclass: Replace static patch
+                resin-specific-env-integration-kconfig.patch"
+              hash: 281a2c8bd47bb77ccf1974ae05b9c42129094911
+              body: >
+                Because we use this patch with various u-boot versions it often happens
+                that this patch
+
+                does not apply so we then need to rework it in the device integration layer. Instead it
+
+                would be better to have some code at configure time parsing the same file and inserting
+
+                the balena env dynamically, so regardless of u-boot versions we use.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-2.113.15
+          title: ""
+          date: 2023-03-16T01:58:53.905Z
+        - commits:
+            - subject: Update balena-supervisor to v14.9.4
+              hash: 1220917cd334560a48faf580479e216b536dac42
+              body: |
+                Update balena-supervisor from 14.9.1 to 14.9.4
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Renovate Bot
+              nested:
+                - commits:
+                    - subject: Skip pin device step if release was deleted
+                      hash: f6435814cd86380dd3b02416f6f2199b483bb33c
+                      body: >
+                        Preloaded devices can require that the device is pinned to the preloaded
+
+                        release on provisioning. However if the provisioned release gets
+
+                        released in the future, that would lead to the device remaining in "VPN
+
+                        only" state forever as the provisioning process could not finish due to
+
+                        pinning failure.
+
+
+                        This commit changes the behavior so if the release does not exist, the
+
+                        pinning step is skipped and the device follows the fleet pinning state.
+                      footer:
+                        Closes: "#2133"
+                        closes: "#2133"
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-14.9.4
+                  title: ""
+                  date: 2023-03-13T20:49:30.509Z
+                - commits:
+                    - subject: Use single-arch in dockerfile
+                      hash: 17aa625d3b115103efa30bb98b83ee1fc54230c4
+                      body: >
+                        This is necessary since the builder no longer passes the platform flag
+
+                        to the build. This would lead to dockerfiles that are mixing multi and single
+
+                        arch stages to pull the wrong architecture images, particularly when
+
+                        trying to build images in emulated builds (e.g. armv7hf built on aarch64).
+
+
+                        Moving the full build to single-arch solves this as the docker engine is
+
+                        capable of chosing the right architecture from the manifest. Once some
+
+                        of the builder issues are fixed, we should move to #2141
+                      footer:
+                        Relates-to: balena-io/balena-builder#1010
+                        relates-to: balena-io/balena-builder#1010
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-14.9.3
+                  title: ""
+                  date: 2023-03-10T22:26:07.185Z
+                - commits:
+                    - subject: Replace BALENA-FIREWALL rule in INPUT chain instead of flushing
+                      hash: 84a9e7e9acd803b6b49d58ae3040694a5e2f823d
+                      body: >
+                        The issue with the original Supervisor implementation of the firewall is
+                        that
+
+                        on Supervisor start, the Supervisor flushes the INPUT chain of the filter table.
+
+                        This doesn't play well with services that add to the INPUT chain on startup that
+
+                        may start up before the Supervisor, such as certain NetworkManager connection
+
+                        profiles. This change only replaces the BALENA-FIREWALL rule in the INPUT chain,
+
+                        preserving the other rules as well as their order.
+                      footer:
+                        Closes: "#1482"
+                        closes: "#1482"
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Christina Ying Wang <christina@balena.io>
+                        signed-off-by: Christina Ying Wang <christina@balena.io>
+                      author: Christina Ying Wang
+                      nested: []
+                  version: balena-supervisor-14.9.2
+                  title: ""
+                  date: 2023-03-02T21:48:06.727Z
+          version: meta-balena-2.113.14
+          title: ""
+          date: 2023-03-15T17:11:34.345Z
+        - commits:
+            - subject: "update-balena-supervisor: use API request helper"
+              hash: 91f8f7b6d77085614dace780997ff792c88b6ab2
+              body: >
+                Use an API request helper that checks the status code response before
+
+                trying to use the response itself.
+
+
+                Fixes #3052
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "os-helpers: add test for os-helpers-api"
+              hash: 9c8612027020ba14fd0f9c0435d2e0b754594b81
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "os-helpers: add os-helpers-api"
+              hash: 338edf9527652c467ad52046d75adfaf7a95ecf4
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.113.13
+          title: ""
+          date: 2023-03-15T13:00:48.209Z
+        - commits:
+            - subject: Remove a bad check in Internet connection sharing test
+              hash: 80d2c45d7318464935516acdc2dd884efaacf31a
+              body: >
+                In the Internet connection sharing test one of the checks may run
+
+                into a racing problem. The following command is holding the iptables
+
+                lock for 3 seconds while NetworkManager activates a connection with
+
+                sharing enabled:
+
+
+                `flock /run/xtables.lock sleep 3 & nmcli c up dummy & wait`
+
+
+                NetworkManager waits for 2 seconds for the lock to be released and
+
+                those three seconds should be enough for one of the iptables rules
+
+                to fail. However there is no guarantee that NetworkManager will start
+
+                adding the iptables rules that quickly - it may start adding those
+
+                after one out of those three seconds already passed, which will
+
+                lead to all iptables rules to be set at the end.
+
+
+                This check is non-essential for the test itself, so it is removed with
+
+                this commit.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Zahari Petkov <zahari@balena.io>
+                signed-off-by: Zahari Petkov <zahari@balena.io>
+              author: Zahari Petkov
+              nested: []
+          version: meta-balena-2.113.12
+          title: ""
+          date: 2023-03-14T10:35:04.209Z
+        - commits:
+            - subject: "peak: Ship signed module when signing is enabled"
+              hash: 97d64167c1bcbb76d1638486aa3eb158f37785c9
+              body: >
+                At this moment, when module signing is enabled, the peak module is signed
+
+                but do_install ignores the signed variant and installs the original
+
+                unsigned file. With this patch do_install installs the signed file
+
+                if available.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.113.11
+          title: ""
+          date: 2023-03-14T01:03:28.843Z
+        - commits:
+            - subject: "patch: Add balenaOS debugging docs"
+              hash: a091584f0ab6af190fd7ad18ab7f5db091ae90f0
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+              author: Vipul Gupta (@vipulgupta2048)
+              nested: []
+          version: meta-balena-2.113.10
+          title: ""
+          date: 2023-03-09T16:37:31.248Z
+        - commits:
+            - subject: "flasher: fix installation when in user mode w/ sb disabled"
+              hash: 1592a4cfa4035892fcdc1484717bfcb5966221f3
+              body: >
+                Previously, we bailed out of the installer when the system was in user
+
+                mode (keys enrolled) but the user had not opted in to secure boot, as it
+
+                was ambiguous whether the user actually wanted SB/FDE.
+
+
+                However, some systems come with vendor keys pre-enrolled, and a user may
+
+                simply turn off secure boot in the firmware setup menu without erasing
+
+                the keys. This would result in the installer bailing out even though
+
+                secure boot is disabled in the firmware menu.
+
+
+                Check that secure boot is enabled in addition to having keys enrolled
+
+                before bailing out.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.113.9
+          title: ""
+          date: 2023-03-09T05:34:10.446Z
+        - commits:
+            - subject: fix ip for dummy interface to avoid ip conflicts
+              hash: e3fd7de4f5a61773a77cf33bd05a58c77186ecf2
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+            - subject: "tests: os: NetworkManager iptables rules test for Internet sharing"
+              hash: 90dbb8f414435c88e95a53535d003039ca7d42a4
+              body: >
+                Test for the NetworkManager patch done in
+
+                https://github.com/balena-os/meta-balena/pull/2963
+
+
+                A racing condition between balenaEngine and NetworkManager led to some Internet
+
+                connection sharing iptables rules not being applied when NM connection profile
+
+                with Internet sharing was activated at boot.
+
+
+                This test checks whether all necessary iptables rules are added by artificially
+
+                blocking iptables for 1 second and then for 3 seconds while a connection
+
+                profile with Internet sharing is activated.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Zahari Petkov <zahari@balena.io>
+                signed-off-by: Zahari Petkov <zahari@balena.io>
+              author: Zahari Petkov
+              nested: []
+          version: meta-balena-2.113.8
+          title: ""
+          date: 2023-03-08T11:28:57.215Z
+        - commits:
+            - subject: "conf: distro: balena-os: use lower case for signing key names"
+              hash: 177a88c334a43fb8959f842170d6cbd976a9e53d
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.113.7
+          title: ""
+          date: 2023-03-07T18:26:31.574Z
+        - commits:
+            - subject: "recipes-core/images: Ensure redsocks sample files are deployed"
+              hash: fe8b2b248d6a65b26def40c9d374f04c813fd40c
+              body: >
+                ... before trying to include them in the boot partition, otherwise
+
+                the yocto build may fail sporadically.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-2.113.6
+          title: ""
+          date: 2023-03-07T14:25:45.437Z
+        - commits:
+            - subject: "image-balena.bbclass: deploy grub-conf before building the boot
+                partition"
+              hash: 22942a52bdf3f1cde6201c0bcc71cb72e3c899b9
+              body: >
+                do_resin_boot_dirgen_and_deploy needs all the partial files deployed
+
+                when it runs as it will be copying them to the actual boot partition.
+
+                There is a race condition between it and grub_conf:do_deploy,
+
+                we have seen builds fail when grub_conf:do_deploy does not execute
+
+                in time. This patch adds an explicit dependency to avoid such situation.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.113.5
+          title: ""
+          date: 2023-03-07T11:02:11.648Z
+        - commits:
+            - subject: "balena-keys: do not ship certificates in DER format"
+              hash: bef02fa7e4800e8c2370b6323ddfc56fb9adec62
+              body: >
+                We have added DER certificates because it is the only format
+
+                that QEMU/TianoCore accepts in UEFI setup. Since we made setup mode
+
+                work properly, there is no need to program the QEMU keys manually
+
+                and therefore there is no reason to pollute the boot partition with
+
+                the DER files. If indeed necessary, they can always be extracted
+
+                from the ESL, which is still shipped. Shipping the DER files is also
+
+                not possible when db uses hashes instead of certificates, which we
+
+                want to move towards.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.113.4
+          title: ""
+          date: 2023-03-03T14:57:31.134Z
+        - commits:
+            - subject: "balena-units-conf: launch os-config on config changes"
+              hash: b3324272950bffa587963b8ce53d7111ebc04471
+              body: >
+                This allows to transition from unmanaged to managed by just writing
+
+                a config.json file, like it's the case with AWS cloud configuration.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.113.3
+          title: ""
+          date: 2023-03-02T21:55:35.239Z
+        - commits:
+            - subject: Refer to balenaEngine by its full name
+              hash: 74b747bd20bf906704b75058f43248f8a5f0c20c
+              body: >
+                Previously, it was being referred to only as "balena". Being explicit
+
+                that this is about balenaEngine makes it simpler to grep for
+
+                Engine-related portions of balenaOS. Might also help a tad bit when
+
+                looking at logs.
+              footer:
+                Signed-off-by: Leandro Motta Barros <leandro@balena.io>
+                signed-off-by: Leandro Motta Barros <leandro@balena.io>
+                Change-type: patch
+                change-type: patch
+              author: Leandro Motta Barros
+              nested: []
+          version: meta-balena-2.113.2
+          title: ""
+          date: 2023-03-02T13:07:15.621Z
+        - commits:
+            - subject: "os-helpers-fs: formatting and fixing lint warning"
+              hash: 69878f0fa6c83dfc7d38921c364577f00c2a4461
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "os-helpers-fs: fix check for media attached"
+              hash: 7f84a4220469f7324997488945ea2fd8eda45bb5
+              body: |
+                Fix the check for media attached to device that fails with:
+
+                sh: [: -l: binary operator expected
+
+                Also, redirect all output to use only the exit code.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "initrdscripts: migrate: use du instead of wc to calculate byte sizes"
+              hash: 28eb87859810e0a9e43936b4fc893fc5893510b0
+              body: >
+                The `du` utility has the same output format for single or several files,
+
+                while the `wc` utility doesn't and does not display a total for single
+
+                files.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.113.1
+          title: ""
+          date: 2023-02-28T13:33:39.382Z
+        - commits:
+            - subject: "resin-init-flasher: use logging helper"
+              hash: a34d154e494addc1f32a088909d56b7b237a731a
+              body: |
+                Replace custom logging with helper functions.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "resin-init-flasher: replace shutdown for reboot in case of migration"
+              hash: f5671f9514216c93b4770a20adc9ff71730f8f63
+              body: >
+                When migrating, we can't assume a device can be remotely powered on, so
+
+                finish the flashing with a reboot instead of a shutdown.
+
+
+                This is possible as the initramfs does not currently have a shutdown
+
+                command and avoids the complexity of having to detect whether we are
+
+                running from initramfs or not.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "README: add installer section"
+              hash: 736f12029c93427fb6fe75cbb18fe9a0a73768a9
+              body: |
+                Document the installer section of `config.json`
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "initrdscripts: Add migration module"
+              hash: c59a7090f281a0b0e1602efded31816101c094b1
+              body: >
+                This module allows to program the internal storage from initramfs hence
+
+                making it possible to migrate an existing OS by booting from the same
+
+                disk.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "integration layers: use `android-tools` from Yocto Dunfell and before"
+              hash: 0d9e43d1133eb246aa6b220198264ff10e72e512
+              body: |
+                The `android-tools-adbd` package was only split after Dunfell.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "resin-init-flasher: comply with recovery mode"
+              hash: b0e671fe8d1782bfdc38c277899be43ae0cab977
+              body: >
+                If booting in recovery mode, wait on adbd to exit before continuing.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "initrdscritps: Move moving /run mountpoint from rootfs to migrate
+                module"
+              hash: 7b3227c08f693131933fb9fea0d3796571837253
+              body: >
+                The migrate module needs to umount the rootfs, so by moving the mountpoint
+
+                moving into the migrate module it's only done when not migrating.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "initrdscripts: add recovery module"
+              hash: 2431bc39dde12cab35f407423e4b57db3ec78aff
+              body: >
+                When `recovery` is passed in the kernel command line, the initramfs will
+
+                not boot into the OS but launch adbd.
+
+
+                A connection can then be established via the network (if a DHCP address
+
+                is provided) or using a USB gadget connection.
+
+
+                For a network connection, the client needs to install `adb` and run:
+
+                ```
+
+                adb connect $IPADDR:5555
+
+                adb shell
+
+                ```
+
+
+                Other adb commands, like pull/push of files are also available.
+
+
+                Resolves #2864
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.113.0
+          title: ""
+          date: 2023-02-25T14:46:47.829Z
+        - commits:
+            - subject: "os-helpers-fs: add dependency on util-linux fdisk"
+              hash: f27132636f4dda10d51cf0e1a3eb13d3db67b1a2
+              body: >
+                The os-helpers-fs script uses functionality not available on busybox's
+
+                fdisk.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.112.15
+          title: ""
+          date: 2023-02-24T09:45:05.390Z
+  version: 2.113.18
+  title: ""
+  date: 2023-03-17T10:50:22.499Z
+- commits:
     - subject: Update contracts to 0ff4f419b4467349d7cb1d1202b580004067664c
       hash: b72010692b3fbbdb485927a2d828ad99eea1d264
       body: Update contracts
