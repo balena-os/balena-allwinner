@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update contracts to 777cd35ffb8bebb2a9d8a2ec6b88a45b2c937193
+      hash: f4cbb620973851bd23acb2012fd37adfa7d397d8
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 777cd35ffb8bebb2a9d8a2ec6b88a45b2c937193
+        changelog-entry: Update contracts to 777cd35ffb8bebb2a9d8a2ec6b88a45b2c937193
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "debian/ubuntu jetson-orin-nx-xavier-nx-devkit: Add distro configs"
+              hash: ad9d69f447d9091f1ae2a582b02941472efb0539
+              body: |
+                The Orin NX modules uses L4T 35.2
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Alexandru Costache
+            - subject: "Orin NX: Update flashing steps"
+              hash: c7e77638474694870874afa17a453b727b3797d3
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.57
+          title: ""
+          date: 2023-04-07T12:53:58.620Z
+  version: 2.114.0+rev1
+  title: ""
+  date: 2023-04-07T15:26:42.071Z
+- commits:
     - subject: Update layers/meta-balena to 3f0e4743516442227387bb9fc55d97fdf7d57a12
       hash: 7b62848c1b28360d920e8692ab1322ea5b446c5a
       body: Update layers/meta-balena

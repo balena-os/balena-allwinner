@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v2.114.0+rev1
+## (2023-04-07)
+
+
+<details>
+<summary> Update contracts to 777cd35ffb8bebb2a9d8a2ec6b88a45b2c937193 [Renovate Bot] </summary>
+
+> ## contracts-2.0.57
+> ### (2023-04-07)
+> 
+> * debian/ubuntu jetson-orin-nx-xavier-nx-devkit: Add distro configs [Alexandru Costache]
+> * Orin NX: Update flashing steps [Alexandru Costache]
+> 
+
+</details>
+
 # v2.114.0
 ## (2023-04-07)
 
