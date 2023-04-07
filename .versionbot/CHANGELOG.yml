@@ -1,4 +1,43 @@
 - commits:
+    - subject: Update layers/meta-balena to aa8a58d761c11e9ed875d78e74f6838cb4e2ff02
+      hash: 49d47ff3b3f00791206e1db3b7d9a0962b6c51fc
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to aa8a58d761c11e9ed875d78e74f6838cb4e2ff02
+        changelog-entry: Update layers/meta-balena to aa8a58d761c11e9ed875d78e74f6838cb4e2ff02
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v14.10.2
+              hash: 822ccaddeb62a8cc732f6422566f1f3ec129c3a0
+              body: |
+                Update balena-supervisor from 14.10.1 to 14.10.2
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Renovate Bot
+              nested:
+                - commits:
+                    - subject: "backends: Add Jetson Orin NX custom device-tree support"
+                      hash: 6b67db98e54cd7756d7e31d9676d31ab305c4d56
+                      body: ""
+                      footer:
+                        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                        signed-off-by: Alexandru Costache <alexandru@balena.io>
+                        Change-type: patch
+                        change-type: patch
+                      author: Alexandru Costache
+                      nested: []
+                  version: balena-supervisor-14.10.2
+                  title: ""
+                  date: 2023-04-07T18:35:17.559Z
+          version: meta-balena-2.114.1
+          title: ""
+          date: 2023-04-07T21:27:08.879Z
+  version: 2.114.1
+  title: ""
+  date: 2023-04-07T23:38:17.079Z
+- commits:
     - subject: Update contracts to 777cd35ffb8bebb2a9d8a2ec6b88a45b2c937193
       hash: f4cbb620973851bd23acb2012fd37adfa7d397d8
       body: Update contracts
