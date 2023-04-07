@@ -1,6 +1,37 @@
 Change log
 -----------
 
+# v2.114.0
+## (2023-04-07)
+
+
+<details>
+<summary> Update layers/meta-balena to 3f0e4743516442227387bb9fc55d97fdf7d57a12 [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.0
+> ### (2023-04-07)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v14.10.1 [Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-14.10.1
+>> #### (2023-04-07)
+>> 
+>> * Use dbus-send to get current boot block device instead of fdisk [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-14.10.0
+>> #### (2023-03-28)
+>> 
+>> * Mount boot partition into container on Supervisor start [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v2.113.35
 ## (2023-04-05)
 
