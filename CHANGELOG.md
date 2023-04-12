@@ -1,6 +1,37 @@
 Change log
 -----------
 
+# v2.114.3
+## (2023-04-12)
+
+
+<details>
+<summary> Update layers/meta-balena to 9197a215577fd82110fc3c0a863a25fa9ec3cfcc [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.3
+> ### (2023-04-12)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v14.10.4 [Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-14.10.4
+>> #### (2023-04-10)
+>> 
+>> * Log uncaught promise exceptions on the app entry [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-14.10.3
+>> #### (2023-04-10)
+>> 
+>> * Fix assertion error in restart-service [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v2.114.2
 ## (2023-04-12)
 

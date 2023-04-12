@@ -1,4 +1,75 @@
 - commits:
+    - subject: Update layers/meta-balena to 9197a215577fd82110fc3c0a863a25fa9ec3cfcc
+      hash: 95eaf2a35638e56b69ea7ceb76dd95dcbf9e0e9d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9197a215577fd82110fc3c0a863a25fa9ec3cfcc
+        changelog-entry: Update layers/meta-balena to 9197a215577fd82110fc3c0a863a25fa9ec3cfcc
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v14.10.4
+              hash: 8dc882977526603790280a7550985df3bce4db09
+              body: |
+                Update balena-supervisor from 14.10.2 to 14.10.4
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Renovate Bot
+              nested:
+                - commits:
+                    - subject: Log uncaught promise exceptions on the app entry
+                      hash: 676464142690da2e36a810cb35e4ea4d0d751636
+                      body: >
+                        Node 15 [changed the way it treats unhandled promise
+                        rejections](https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V15.md#throw-on-unhandled-rejections---33021)
+                        from a warning to a throw.
+
+                        For this reason errors like a corrupt migration directory, that happens when trying to
+
+                        roll back to a previous supervisor version were no longer showing a
+
+                        message but dumping the full minimized code into the journal logs.
+
+
+                        This PR adds a catchall on app.ts to log the exception and throw an exit
+
+                        code of 1.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-14.10.4
+                  title: ""
+                  date: 2023-04-10T18:15:41.878Z
+                - commits:
+                    - subject: Fix assertion error in restart-service
+                      hash: b9e1464d96824f5332c71324d753d94ddbdecf90
+                      body: >
+                        From:
+                        https://github.com/balena-os/balena-supervisor/pull/2153/commits/c0b4fafe842115933b1da9b4d68e601a19c3e4eb
+
+                        Restart-service checks that both services have restarted in its test assertion, which is
+
+                        incorrect as restart-service should only restart one service.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Christina Ying Wang <christina@balena.io>
+                        signed-off-by: Christina Ying Wang <christina@balena.io>
+                      author: Christina Ying Wang
+                      nested: []
+                  version: balena-supervisor-14.10.3
+                  title: ""
+                  date: 2023-04-10T15:17:58.539Z
+          version: meta-balena-2.114.3
+          title: ""
+          date: 2023-04-12T13:45:48.569Z
+  version: 2.114.3
+  title: ""
+  date: 2023-04-12T14:46:34.352Z
+- commits:
     - subject: Update layers/meta-balena to af7446b3723221a5dbaa6e979c57e305d481f2d3
       hash: 3a040f7b4fbc0d9d72442f606d7a589171157c36
       body: Update layers/meta-balena
