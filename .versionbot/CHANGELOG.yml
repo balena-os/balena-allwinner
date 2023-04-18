@@ -1,4 +1,106 @@
 - commits:
+    - subject: Update layers/meta-balena to 1264f58c432b7d87523a59ff27e246c2d6a3f903
+      hash: 22d6676fcc189854d5a53969d151d4b3d723c0ae
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1264f58c432b7d87523a59ff27e246c2d6a3f903
+        changelog-entry: Update layers/meta-balena to 1264f58c432b7d87523a59ff27e246c2d6a3f903
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "initedscripts: recovery: do not use strings for timeout"
+              hash: c17da3802213251c69ba8a99ce6a8a63b358f022
+              body: >
+                Remove the `m` suffix to the timeout as they are supposed to be compared
+
+                as integer numbers.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "resin-init-flasher: limit boot device identification to booting disk"
+              hash: 5ee9a12075c3c0a11455ccb342ce4499916395be
+              body: >
+                The installer is to copy configuration files into the boot partition on
+
+                the installer disk - searching by label needs to be restriced to the
+
+                booting disk to avoid clashes if there are other disks with matching
+
+                labels present.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "resin-init-flasher: add verbose copy of migration log"
+              hash: 8fe29890b6e3c2caca1c603f1ecbe046d9cd1fc1
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "resin-init-flasher: fix EFI installation for multiple disks"
+              hash: 69459a964f62adbe4b9661b718994391c4a78363
+              body: >
+                Search for the installation disk on the same device the system is being
+
+                installed on. This avoids problems when there are more than one disk
+
+                with balena/resin labelling.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "initrdscripts: migrate: correctly identify boot device"
+              hash: 27fd9e05d16d60a7340a16abcda5e93fd1fdb199
+              body: >
+                The internal target device to program is not always the device the system
+
+                is booting from. Make sure the `flash-boot` partition search is done
+
+                on the booting device.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "distro: balena-os: update GRUB key id for signature"
+              hash: f4242aa560e869892a7289ac8523bed055feffe3
+              body: >
+                Update the default Grub key id so it matches the currently configured
+
+                key. This avoids having to configure this in the build jobs.
+
+
+                [skip ci]
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.114.4
+          title: ""
+          date: 2023-04-18T12:20:45.009Z
+  version: 2.114.4
+  title: ""
+  date: 2023-04-18T15:10:13.137Z
+- commits:
     - subject: Update balena-yocto-scripts to 66e817cc08c391f06d0cf16dded7e6cf2082d0ca
       hash: 5945f0e36d40864d1cce84fd9c2b5324cae67af4
       body: Update balena-yocto-scripts
