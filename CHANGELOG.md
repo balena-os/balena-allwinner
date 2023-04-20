@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v2.114.6
+## (2023-04-20)
+
+
+<details>
+<summary> Update layers/meta-balena to ac3e9193544d0bc3188473f725e3d88495caed75 [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.6
+> ### (2023-04-20)
+> 
+> * Update db and dbx hashes during HUP when secure boot is enabled [Michal Toman]
+> * balena-db-hashes: ship both db and dbx updates [Michal Toman]
+> * Use hashes instead of certificates for secure boot image validation [Michal Toman]
+> 
+
+</details>
+
 # v2.114.5
 ## (2023-04-19)
 
