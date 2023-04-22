@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v2.114.7+rev1
+## (2023-04-22)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 34c8434ffcaeeeb14853082bbf2b4ecc5e0ec769 [Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.19.27
+> ### (2023-04-21)
+> 
+> * barys: fix removal of equals sign from argval [Joseph Kogut]
+> 
+
+</details>
+
 # v2.114.7
 ## (2023-04-20)
 
