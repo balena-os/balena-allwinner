@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v2.114.9
+## (2023-04-22)
+
+
+<details>
+<summary> Update layers/meta-balena to e2663a747325b2cb71476fde889244ad424ec8a4 [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.9
+> ### (2023-04-22)
+> 
+> * tests: os: configure to use installer's migrator [Alex Gonzalez]
+> * test: os: add installer migration test [Alex Gonzalez]
+> 
+
+</details>
+
 # v2.114.8
 ## (2023-04-22)
 
