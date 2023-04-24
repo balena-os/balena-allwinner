@@ -1,4 +1,51 @@
 - commits:
+    - subject: Update layers/meta-balena to 945c6af54ac4f637418ec812747e4fe4e43e8844
+      hash: d438651fe9fbc3c9b59fe9b86a127071077265a7
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 945c6af54ac4f637418ec812747e4fe4e43e8844
+        changelog-entry: Update layers/meta-balena to 945c6af54ac4f637418ec812747e4fe4e43e8844
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-engine to v20.10.35
+              hash: eb6d64cc9f8cf9b429ae9047ffc6b5e5afa81e10
+              body: |
+                Update balena-engine from 20.10.34 to 20.10.35
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update libnetwork to fix port binding issue
+                      hash: 56aa6337c29329e6100c24f6775840c47081cd06
+                      body: >
+                        This new version has a patch cherry-picked from here:
+
+                        https://github.com/moby/libnetwork/pull/1805
+
+
+                        This patch is meant to avoid cases in which libnetwork internal state
+
+                        gets inconsistent in case of crashes.
+                      footer:
+                        Signed-off-by: Leandro Motta Barros <leandro@balena.io>
+                        signed-off-by: Leandro Motta Barros <leandro@balena.io>
+                        Change-type: patch
+                        change-type: patch
+                      author: Leandro Motta Barros
+                      nested: []
+                  version: balena-engine-20.10.35
+                  title: ""
+                  date: 2023-04-24T13:11:04.337Z
+          version: meta-balena-2.114.11
+          title: ""
+          date: 2023-04-24T19:52:26.600Z
+  version: 2.114.11
+  title: ""
+  date: 2023-04-24T21:52:32.346Z
+- commits:
     - subject: Update layers/meta-balena to 6f38c16dea7e006ee20b90a089574505fbce4a25
       hash: 4c40ce58f20f6d5195429036fb053cb2610a3a62
       body: Update layers/meta-balena
