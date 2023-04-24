@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v2.114.10
+## (2023-04-24)
+
+
+<details>
+<summary> Update layers/meta-balena to 6f38c16dea7e006ee20b90a089574505fbce4a25 [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.10
+> ### (2023-04-24)
+> 
+> * mkfs-hostapp-native: Update base image in Dockerfile [Alexandru Costache]
+> 
+
+</details>
+
 # v2.114.9
 ## (2023-04-22)
 
