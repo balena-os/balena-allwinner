@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update contracts to 6c6ed28d459bc48102a69cdf0850d2eb4c778ce7
+      hash: 06f9eb5d7fd621b4f4cc67e51b4a1ab5c138e7e6
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 6c6ed28d459bc48102a69cdf0850d2eb4c778ce7
+        changelog-entry: Update contracts to 6c6ed28d459bc48102a69cdf0850d2eb4c778ce7
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "jetson-agx-orin-devkit: Mention the RAM configuration in the device
+                name"
+              hash: 82d3a94938956376eeafa518a863a344acd2190b
+              body: |
+                By default the AGX Orin Devkit has 32GB RAM, however, new
+                production modules have been released with L4T 35.3.1 so we
+                should emphasize that newer modules may not work with this
+                image.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.58
+          title: ""
+          date: 2023-04-27T11:52:02.405Z
+  version: 2.114.11+rev1
+  title: ""
+  date: 2023-04-27T14:45:06.304Z
+- commits:
     - subject: Update layers/meta-balena to 945c6af54ac4f637418ec812747e4fe4e43e8844
       hash: d438651fe9fbc3c9b59fe9b86a127071077265a7
       body: Update layers/meta-balena
