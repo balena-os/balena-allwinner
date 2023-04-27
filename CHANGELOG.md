@@ -1,6 +1,29 @@
 Change log
 -----------
 
+# v2.114.13
+## (2023-04-27)
+
+
+<details>
+<summary> Update layers/meta-balena to 90dd8d13b6e4015fa4fb8a3407ddf37eab443cd6 [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.13
+> ### (2023-04-27)
+> 
+> * hostapp-update-hooks: use unsafe fatrw copy for bootfiles [Alex Gonzalez]
+> * balena-config-vars: introduce unsafe fatrw copy [Alex Gonzalez]
+> 
+> ## meta-balena-2.114.12
+> ### (2023-04-26)
+> 
+> * classes: kernel-balena: force recompilation if signing variables change [Alex Gonzalez]
+> * balena-keys: make tasks depends on signing variables [Alex Gonzalez]
+> * classes: sign: make signing task depends on signing variables [Alex Gonzalez]
+> 
+
+</details>
+
 # v2.114.11+rev1
 ## (2023-04-27)
 
