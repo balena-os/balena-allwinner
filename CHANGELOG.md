@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v2.114.16+rev1
+## (2023-05-03)
+
+
+<details>
+<summary> Update contracts to 75cd5e9f19d49b8723b7e39033763ca698e1254f [Renovate Bot] </summary>
+
+> ## contracts-2.0.59
+> ### (2023-05-03)
+> 
+> * hw.device-type: Add revpi-connect-s [Obaid Ch]
+> 
+
+</details>
+
 # v2.114.16
 ## (2023-05-03)
 

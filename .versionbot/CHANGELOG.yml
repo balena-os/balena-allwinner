@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 75cd5e9f19d49b8723b7e39033763ca698e1254f
+      hash: d37f2b447c2d2646d6250e2b5b4e767fa28b788d
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 75cd5e9f19d49b8723b7e39033763ca698e1254f
+        changelog-entry: Update contracts to 75cd5e9f19d49b8723b7e39033763ca698e1254f
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "hw.device-type: Add revpi-connect-s"
+              hash: d81ef3d12565d9c0e81d776a6a156f22f6322728
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Obaid Chemkhi obaid.chemkhi@voltstorage.com
+                signed-off-by: Obaid Chemkhi obaid.chemkhi@voltstorage.com
+              author: Obaid Ch
+          version: contracts-2.0.59
+          title: ""
+          date: 2023-05-03T09:53:24.491Z
+  version: 2.114.16+rev1
+  title: ""
+  date: 2023-05-03T11:07:53.067Z
+- commits:
     - subject: Update layers/meta-balena to 43bf9f98db7de74bce36141f5e55c4dcffb7e060
       hash: 6e62070315fafe06f85fab752d14e4fbececc827
       body: Update layers/meta-balena
