@@ -1,4 +1,48 @@
 - commits:
+    - subject: Update layers/meta-balena to fa0106adb36432f5538f908304e9967c827dcfd4
+      hash: b11b8a1961404427c9374e4daa0e7e6f8c89139b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to fa0106adb36432f5538f908304e9967c827dcfd4
+        changelog-entry: Update layers/meta-balena to fa0106adb36432f5538f908304e9967c827dcfd4
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "test: append installer configuration instead of replacing it"
+              hash: 2844d312784f2bf452fb547f2a4418814217ded1
+              body: >
+                Both the migrator and secureboot tests assumed they were
+                creating an
+
+                installer config.json section. Modify the code so both settings are
+
+                included.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "test: os: use boolean for installer migration flag"
+              hash: e2a4555c035ddd90c22afbf2150769175c6fb2f1
+              body: >
+                The installerForceMigration is a boolean, so let's use the
+                proper type.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.114.17
+          title: ""
+          date: 2023-05-03T13:25:15.091Z
+  version: 2.114.17
+  title: ""
+  date: 2023-05-03T15:08:33.092Z
+- commits:
     - subject: Update contracts to 75cd5e9f19d49b8723b7e39033763ca698e1254f
       hash: d37f2b447c2d2646d6250e2b5b4e767fa28b788d
       body: Update contracts

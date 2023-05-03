@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v2.114.17
+## (2023-05-03)
+
+
+<details>
+<summary> Update layers/meta-balena to fa0106adb36432f5538f908304e9967c827dcfd4 [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.17
+> ### (2023-05-03)
+> 
+> * test: append installer configuration instead of replacing it [Alex Gonzalez]
+> * test: os: use boolean for installer migration flag [Alex Gonzalez]
+> 
+
+</details>
+
 # v2.114.16+rev1
 ## (2023-05-03)
 
