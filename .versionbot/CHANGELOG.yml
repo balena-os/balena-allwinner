@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to e2ce4a7a054624967941f4b96500b5bb79c36d1e
+      hash: ad495f94a4fd4c4f5c4f3c1848ac3f97f56b1a25
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e2ce4a7a054624967941f4b96500b5bb79c36d1e
+        changelog-entry: Update layers/meta-balena to e2ce4a7a054624967941f4b96500b5bb79c36d1e
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Updated the CDS link
+              hash: c3614eaa6e757f6e8276f87ecefc1af4d0314150
+              body: Updated CDS link to the balena.io subdomain one
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Hampton (@rhampt) <rhampt@balena.io>
+                signed-off-by: Ryan Hampton (@rhampt) <rhampt@balena.io>
+              author: Ryan
+              nested: []
+          version: meta-balena-2.114.20
+          title: ""
+          date: 2023-05-04T22:20:34.357Z
+  version: 2.114.20
+  title: ""
+  date: 2023-05-05T00:13:59.836Z
+- commits:
     - subject: Update contracts to fd4af4e5694608cc0c87d9bff2a5b27b2c5f2f39
       hash: 89ff146304d5c79e119ed7b33b87f9939a206ad2
       body: Update contracts
