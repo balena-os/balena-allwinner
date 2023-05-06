@@ -1,6 +1,25 @@
 Change log
 -----------
 
+# v2.114.23
+## (2023-05-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 3f2f215e39c39fc3ef227db665c99fb8ad77ee08 [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.23
+> ### (2023-05-06)
+> 
+> * tests: suites: remove default migration force configuration [Alex Gonzalez]
+> * resin-init-flasher: avoid partition labels clashes [Alex Gonzalez]
+> * initrdscripts: recovery: set adb default timeouts in minutes [Alex Gonzalez]
+> * tests: move installerForceMigration suite configuration to balenaOS section [Alex Gonzalez]
+> * tests: simplify accessing config.json data [Alex Gonzalez]
+> 
+
+</details>
+
 # v2.114.22+rev1
 ## (2023-05-06)
 
