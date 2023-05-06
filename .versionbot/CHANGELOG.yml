@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 57226ffa5abafc3001cb275ad6520895c938842a
+      hash: 8c9a96589ad0c48c9db8cac32acfd3da3474727b
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 57226ffa5abafc3001cb275ad6520895c938842a
+        changelog-entry: Update balena-yocto-scripts to 57226ffa5abafc3001cb275ad6520895c938842a
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "jenkins_build: accept bitbake extra arguments"
+              hash: 6847515a46b62726e24156f6ce05365dd4f00ea8
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.19.28
+          title: ""
+          date: 2023-05-06T15:44:43.740Z
+  version: 2.114.22+rev1
+  title: ""
+  date: 2023-05-06T18:19:57.029Z
+- commits:
     - subject: Update layers/meta-balena to ddaac0ccf50d22ac8d0ed6c73022edd40c68b58e
       hash: 9b53368b0d64f405ca8292d7684bc789326540ee
       body: Update layers/meta-balena
