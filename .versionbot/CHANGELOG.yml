@@ -1,4 +1,50 @@
 - commits:
+    - subject: Update layers/meta-balena to 39982e107a500e0ebdacfd0d5ae33576cf2e24b4
+      hash: 9d162b5d79a3505524bc2ad2ae8d0f4190eb01d6
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 39982e107a500e0ebdacfd0d5ae33576cf2e24b4
+        changelog-entry: Update layers/meta-balena to 39982e107a500e0ebdacfd0d5ae33576cf2e24b4
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: hup: enable boot-switch skip"
+              hash: f8f0b66b5a9d9f93c61f19f6998a57a7214ffe3a
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+            - subject: "tests: cloud: enable boot-switch skip Commit body"
+              hash: 9a724ff741b0ad0f873b031108535f3cf4e99b15
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+            - subject: "tests: os: enable boot-switch skip"
+              hash: 25094a479849cccf743c97f55f81a5c8dff17933
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-2.114.25
+          title: ""
+          date: 2023-05-12T17:21:39.646Z
+  version: 2.114.25
+  title: ""
+  date: 2023-05-12T19:22:37.883Z
+- commits:
     - subject: Update layers/meta-balena to d0b1a5a80c691e752dd5b396ce7da995507dd619
       hash: 07c73fd8c48891af0600b13457da3ab1390dc37c
       body: Update layers/meta-balena
