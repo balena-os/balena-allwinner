@@ -1,6 +1,24 @@
 Change log
 -----------
 
+# v2.115.1
+## (2023-05-24)
+
+
+<details>
+<summary> Update layers/meta-balena to 5bf3a7b37f4e33264629144c9bf355b4d81c1dee [Renovate Bot] </summary>
+
+> ## meta-balena-2.115.1
+> ### (2023-05-17)
+> 
+> * tests: config: set both network options to false [rcooke-warwick]
+> * tests: hup: use contract to configure network [rcooke-warwick]
+> * tests: cloud: use contract to configure network [rcooke-warwick]
+> * tests: os: use contract to configure network [rcooke-warwick]
+> 
+
+</details>
+
 # v2.115.0+rev1
 ## (2023-05-23)
 
