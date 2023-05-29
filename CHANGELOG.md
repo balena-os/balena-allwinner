@@ -1,6 +1,26 @@
 Change log
 -----------
 
+# v2.115.3
+## (2023-05-29)
+
+
+<details>
+<summary> Update layers/meta-balena to 60cfd8a3761501274de5f189fd8d52dd75cfbe42 [Renovate Bot] </summary>
+
+> ## meta-balena-2.115.3
+> ### (2023-05-29)
+> 
+> * resin-init-flasher: check that commands exist before calling [Alex Gonzalez]
+> 
+> ## meta-balena-2.115.2
+> ### (2023-05-28)
+> 
+> * os-helpers: do not fail build if API tests fail [Alex Gonzalez]
+> 
+
+</details>
+
 # v2.115.1
 ## (2023-05-24)
 
