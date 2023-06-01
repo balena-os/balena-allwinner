@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v2.115.4
+## (2023-06-01)
+
+
+<details>
+<summary> Update layers/meta-balena to f06ec1fc32f6c5baa0c734eaf9e94ee88f7993bb [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-2.115.4
+> ### (2023-06-01)
+> 
+> * docs: Make secure boot docs more detailed [Michal Toman]
+> 
+
+</details>
+
 # v2.115.3
 ## (2023-05-29)
 

@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to f06ec1fc32f6c5baa0c734eaf9e94ee88f7993bb
+      hash: 8ceb10b4d9d1bd746e8fdb7c7a885155ebd62d81
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f06ec1fc32f6c5baa0c734eaf9e94ee88f7993bb
+        changelog-entry: Update layers/meta-balena to f06ec1fc32f6c5baa0c734eaf9e94ee88f7993bb
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "docs: Make secure boot docs more detailed"
+              hash: 96ec764b245197380d58a556949011ab444ce96e
+              body: >
+                This patch extends secure boot documentation with more details
+                about
+
+                how the feature works and tries to explain why some decisions were made.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-2.115.4
+          title: ""
+          date: 2023-06-01T09:37:58.007Z
+  version: 2.115.4
+  title: ""
+  date: 2023-06-01T12:39:16.863Z
+- commits:
     - subject: Update layers/meta-balena to 60cfd8a3761501274de5f189fd8d52dd75cfbe42
       hash: 2f39958889b9875a38bc2fdce7bf6fb7a92cba41
       body: Update layers/meta-balena
