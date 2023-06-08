@@ -1,6 +1,34 @@
 Change log
 -----------
 
+# v2.115.5
+## (2023-06-08)
+
+
+<details>
+<summary> Update layers/meta-balena to 7c31e98312e50f7cc6380b00701c6ed8ff3da216 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-2.115.5
+> ### (2023-06-08)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v14.11.2 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-14.11.2
+>> #### (2023-06-05)
+>> 
+>> * Handle Engine-host race condition for "always" and "unless-stopped" restart policy [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
+* Remove pull_request_target event run for ESR targets [Alex Gonzalez]
+
 # v2.115.4+rev1
 ## (2023-06-01)
 
