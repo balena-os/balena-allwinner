@@ -1,6 +1,33 @@
 Change log
 -----------
 
+# v2.115.15
+## (2023-06-28)
+
+
+<details>
+<summary> Update layers/meta-balena to c2e6ca9d57fd7214fe7c078591741a9c0fa6de73 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-2.115.15
+> ### (2023-06-28)
+> 
+> 
+> <details>
+> <summary> Update balena-engine to v20.10.37 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-engine-20.10.37
+>> #### (2023-06-26)
+>> 
+>> * Bugfix: concatReadSeekCloser.Read() with buffers of any size [Leandro Motta Barros]
+>> * Minor code and comments tweaks [Leandro Motta Barros]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v2.115.14
 ## (2023-06-27)
 
