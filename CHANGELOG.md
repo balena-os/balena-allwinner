@@ -1,6 +1,32 @@
 Change log
 -----------
 
+# v2.115.16
+## (2023-06-28)
+
+
+<details>
+<summary> Update layers/meta-balena to c2004fe8aea1c95bccb4151079cbfb63c07e864c [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-2.115.16
+> ### (2023-06-28)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v14.11.8 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-14.11.8
+>> #### (2023-06-23)
+>> 
+>> * Parse container exit error message instead of status [Christina W]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v2.115.15
 ## (2023-06-28)
 
