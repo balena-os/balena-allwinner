@@ -1,4 +1,39 @@
 - commits:
+    - subject: Update layers/meta-balena to 00f65638c2398d9e67b0053b52cc39446fec496f
+      hash: 65318d012aa2439743deb0158750c16866f849ff
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 00f65638c2398d9e67b0053b52cc39446fec496f
+        changelog-entry: Update layers/meta-balena to 00f65638c2398d9e67b0053b52cc39446fec496f
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: bail out in kexec initramfs hook on failure
+              hash: 87e9fad4dc9e6954c9edc36a233e849c8adb6d41
+              body: >
+                Kexec is used to boot into the decrypted kernel in the hostapp
+                on
+
+                systems with secure boot and full-disk encryption.
+
+
+                If kexec fails, we don't want to continue with the rest of the boot
+
+                process in the first stage kernel, so bail out on failure.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-3.0.7
+          title: ""
+          date: 2023-07-06T19:15:08.317Z
+  version: 3.0.7
+  title: ""
+  date: 2023-07-10T09:11:14.705Z
+- commits:
     - subject: Update layers/meta-balena to f7963b6b6d2cafd4d2b9ab4cfb12052d1afa0e53
       hash: bb95270632e13f89c651d5f27195ad3471ce9d0b
       body: Update layers/meta-balena

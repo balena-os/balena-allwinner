@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v3.0.7
+## (2023-07-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 00f65638c2398d9e67b0053b52cc39446fec496f [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-3.0.7
+> ### (2023-07-06)
+> 
+> * bail out in kexec initramfs hook on failure [Joseph Kogut]
+> 
+
+</details>
+
 # v3.0.6
 ## (2023-07-06)
 
