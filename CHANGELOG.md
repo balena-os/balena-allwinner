@@ -1,6 +1,25 @@
 Change log
 -----------
 
+# v3.1.0
+## (2023-07-25)
+
+
+<details>
+<summary> Update layers/meta-balena to 76a64e46ebf953fba9e78aa7e60892113ccb9ad7 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-3.1.0
+> ### (2023-07-25)
+> 
+> * linux-firmware: upgrade 20210511 -> 20230404 [Joseph Kogut]
+> * common: firmware: repackage iwlwifi-quz-a0-hr-b0 [Joseph Kogut]
+> * common: firmware: repackage iwlwifi-cc-a0 [Joseph Kogut]
+> * compat: connectivity: drop deprecated iwlwifi files [Joseph Kogut]
+> * compat: install linux-firmware-iwlwifi-3160 [Joseph Kogut]
+> 
+
+</details>
+
 # v3.0.17
 ## (2023-07-25)
 
