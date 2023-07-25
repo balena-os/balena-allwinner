@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to 424c259104716586e450738c7de6fb7ef3472a02
+      hash: 32a010bc1e539332250356da93b2d17d2c053071
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 424c259104716586e450738c7de6fb7ef3472a02
+        changelog-entry: Update layers/meta-balena to 424c259104716586e450738c7de6fb7ef3472a02
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "balena-image: Install extra_uEnv for all boards that use u-boot"
+              hash: c9d665f0c2a0454a84d9890d56e4d93f57bf93ad
+              body: >
+                Some board BSPs may define UBOOT_MACHINE, others UBOOT_CONFIG,
+
+                let's make sure we include the extra_uEnv.txt file in the non-flasher
+
+                image for both cases.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-3.0.17
+          title: ""
+          date: 2023-07-25T13:45:11.862Z
+  version: 3.0.17
+  title: ""
+  date: 2023-07-25T16:09:00.715Z
+- commits:
     - subject: Update layers/meta-balena to e1f474a9b8d28d5b0a0b993dd52108c214a376ea
       hash: d142eceeb37860244d2fd105775facc930db706f
       body: Update layers/meta-balena

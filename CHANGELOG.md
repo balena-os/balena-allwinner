@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v3.0.17
+## (2023-07-25)
+
+
+<details>
+<summary> Update layers/meta-balena to 424c259104716586e450738c7de6fb7ef3472a02 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-3.0.17
+> ### (2023-07-25)
+> 
+> * balena-image: Install extra_uEnv for all boards that use u-boot [Alexandru Costache]
+> 
+
+</details>
+
 # v3.0.16
 ## (2023-07-22)
 
