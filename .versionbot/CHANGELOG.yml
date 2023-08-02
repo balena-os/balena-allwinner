@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to a71647f35b7987e21887d7cf0d0f6a883662ff5b
+      hash: c78cc97f1676224afa0aeca1c8ecf27ab5f91f99
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to a71647f35b7987e21887d7cf0d0f6a883662ff5b
+        changelog-entry: Update layers/meta-balena to a71647f35b7987e21887d7cf0d0f6a883662ff5b
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Reduce scope of app token used for backports and ESR
+              hash: 331589395a0dbbb16fc9d9491c5c43c2ca68c1fa
+              body: >
+                These permissions have already been removed from
+                flowzone-app[bot]
+
+                so they cannot be requested at runtime.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-3.1.5
+          title: ""
+          date: 2023-08-01T21:53:05.189Z
+  version: 3.1.5
+  title: ""
+  date: 2023-08-02T00:37:01.669Z
+- commits:
     - subject: Update layers/meta-balena to 3ee7dc32110f9da60a088b5bd4bb39642d901bb5
       hash: 9bea7c764a835ff8d48e454f13305cdd8130d465
       body: Update layers/meta-balena
