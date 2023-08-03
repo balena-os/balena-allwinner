@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update contracts to bd81b500fe74976567485afa39f6bbab3e60dd77
+      hash: b8bf19b63d58089d4e0de4ac2607778050880542
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to bd81b500fe74976567485afa39f6bbab3e60dd77
+        changelog-entry: Update contracts to bd81b500fe74976567485afa39f6bbab3e60dd77
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Fix conditional when installing libssl1.1
+              hash: 29e5a99050fb93fcea404fd48d2db029acf4acb3
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+          version: contracts-2.0.67
+          title: ""
+          date: 2023-08-03T20:27:02.315Z
+        - commits:
+            - subject: Fix a condition where /etc/nsswitch.conf exists and the build fails
+              hash: c8c521ae9fdb908fb37642154d5fbe73a2849985
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+          version: contracts-2.0.66
+          title: ""
+          date: 2023-08-03T20:04:14.870Z
+  version: 3.1.6+rev2
+  title: ""
+  date: 2023-08-03T22:59:15.382Z
+- commits:
     - subject: Update contracts to bf0ec3d5a42dae4babeed8485030a0ca50f6fde3
       hash: f6abe9809f0541bd357fadfcf2805996100736c2
       body: Update contracts
