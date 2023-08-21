@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to ab712a25ab4b9747037fc2a20f76e1d0b6f49e5e
+      hash: 35a634691b5d5c8f5df752fd104a55666e48416f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ab712a25ab4b9747037fc2a20f76e1d0b6f49e5e
+        changelog-entry: Update layers/meta-balena to ab712a25ab4b9747037fc2a20f76e1d0b6f49e5e
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: cloud: lockfile: change test order"
+              hash: 3134d64124c6dbbcd34f54874a1f4eaee09a4c6f
+              body: |
+                Change the test order to make things more consistent.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-3.2.4
+          title: ""
+          date: 2023-08-21T17:51:32.589Z
+  version: 3.2.4
+  title: ""
+  date: 2023-08-21T18:51:55.149Z
+- commits:
     - subject: Update layers/meta-balena to ab4a4bdbce4c33a63a24f9d969f18711ddbfdc96
       hash: 779fb45c002fd5adedaaa66c7ad27cbc775e10c8
       body: Update layers/meta-balena
