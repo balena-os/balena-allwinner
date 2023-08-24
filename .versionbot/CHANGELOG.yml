@@ -1,4 +1,58 @@
 - commits:
+    - subject: Update layers/meta-balena to 9b15abeeb36a1e2a8e1b382a1f9b00b3c034371c
+      hash: b5534a7766b35a901271cab3f1a0cef0c1443717
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9b15abeeb36a1e2a8e1b382a1f9b00b3c034371c
+        changelog-entry: Update layers/meta-balena to 9b15abeeb36a1e2a8e1b382a1f9b00b3c034371c
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "meta-balena-warrior: modemmanager: use v 1.18.4"
+              hash: d02bb9abe2705f30f8a94c58787c8b03a32ff3c4
+              body: >
+                The current meta-balena modemmanager is not compatible with
+                Meson older
+
+                than 0.53.0.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "meta-balena-warrior: libmqmi: use v 1.30.2"
+              hash: 789d7f313c58183ed2c60c27b42e3fce8eb7e5ea
+              body: |
+                The current meta-balena libqmi is not compatible with Meson
+                older than 0.53.0.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "meta-balena-warrior: libmbim: use v 1.26.2"
+              hash: 627bfe3196c30e0b1c742a3b1e2252acd1f97d47
+              body: |
+                The current meta-balena libmbim version won't work with
+                Meson older than 0.53.0.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-3.2.8
+          title: ""
+          date: 2023-08-24T14:57:02.794Z
+  version: 3.2.8
+  title: ""
+  date: 2023-08-24T16:02:23.710Z
+- commits:
     - subject: Update layers/meta-balena to d0fb824dca1869d27592e5c48b757cbf95ae106f
       hash: f4e429929b89ad361746455f39a8fb855769a9aa
       body: Update layers/meta-balena
