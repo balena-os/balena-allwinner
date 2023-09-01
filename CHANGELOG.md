@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v3.2.11
+## (2023-09-01)
+
+
+<details>
+<summary> Update layers/meta-balena to c1fb1e6bc532507ed9084ba613a481a6a7dbd466 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-3.2.11
+> ### (2023-09-01)
+> 
+> * Update tibdex/github-app-token action to v1.8.2 [Self-hosted Renovate Bot]
+> 
+
+</details>
+
 # v3.2.10
 ## (2023-09-01)
 

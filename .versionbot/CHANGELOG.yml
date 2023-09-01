@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update layers/meta-balena to c1fb1e6bc532507ed9084ba613a481a6a7dbd466
+      hash: 7df1be2372e7c626448270e9cd9c4b0a82158774
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c1fb1e6bc532507ed9084ba613a481a6a7dbd466
+        changelog-entry: Update layers/meta-balena to c1fb1e6bc532507ed9084ba613a481a6a7dbd466
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tibdex/github-app-token action to v1.8.2
+              hash: 2c08fe375d06ae4421cb234dec3ddd6a61953256
+              body: |
+                Update tibdex/github-app-token from v1.8.0 to v1.8.2
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested: []
+          version: meta-balena-3.2.11
+          title: ""
+          date: 2023-09-01T17:32:58.971Z
+  version: 3.2.11
+  title: ""
+  date: 2023-09-01T19:33:59.989Z
+- commits:
     - subject: Update layers/meta-balena to cacbac0f5dc91de46ab61fcb1f517390dc4724ed
       hash: a103d3a9e69c8b22ba6bd001a47b03261bc77c14
       body: Update layers/meta-balena
