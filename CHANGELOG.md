@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v3.2.10
+## (2023-09-01)
+
+
+<details>
+<summary> Update layers/meta-balena to cacbac0f5dc91de46ab61fcb1f517390dc4724ed [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-3.2.10
+> ### (2023-09-01)
+> 
+> * meta-resin-pyro: do not apply further modemmanager updates [Alex Gonzalez]
+> 
+
+</details>
+
 # v3.2.9
 ## (2023-08-31)
 
