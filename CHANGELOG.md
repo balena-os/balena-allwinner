@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.0.0
+## (2023-09-06)
+
+
+<details>
+<summary> Update layers/meta-balena to b85be94a14e77496ff21e131642f596a247efd59 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.0.0
+> ### (2023-09-06)
+> 
+> * Update actions/checkout action to v4 [Self-hosted Renovate Bot]
+> 
+
+</details>
+
 # v3.2.12
 ## (2023-09-06)
 

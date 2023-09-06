@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update layers/meta-balena to b85be94a14e77496ff21e131642f596a247efd59
+      hash: 8c36c8891197d7adfffb5b0da94497ce3ee06006
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b85be94a14e77496ff21e131642f596a247efd59
+        changelog-entry: Update layers/meta-balena to b85be94a14e77496ff21e131642f596a247efd59
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update actions/checkout action to v4
+              hash: 9b6169bbff3de4d637969f1305bf88ad23d86c09
+              body: |
+                Update actions/checkout from v3 to v4
+              footer:
+                Change-type: major
+                change-type: major
+              author: Self-hosted Renovate Bot
+              nested: []
+          version: meta-balena-4.0.0
+          title: ""
+          date: 2023-09-06T14:51:51.368Z
+  version: 4.0.0
+  title: ""
+  date: 2023-09-06T15:52:35.586Z
+- commits:
     - subject: Update layers/meta-balena to c0508d3c1ae14f7f4c80312b044cc4a1efa46c60
       hash: c4c100b1f7f64d86a5bfdee728638ec86e18f9d3
       body: Update layers/meta-balena
