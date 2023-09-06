@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to c0508d3c1ae14f7f4c80312b044cc4a1efa46c60
+      hash: c4c100b1f7f64d86a5bfdee728638ec86e18f9d3
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c0508d3c1ae14f7f4c80312b044cc4a1efa46c60
+        changelog-entry: Update layers/meta-balena to c0508d3c1ae14f7f4c80312b044cc4a1efa46c60
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "timesync-https: skip time sync if connectivity URI is null"
+              hash: c9e8e50d0595bac83bb815e58d61aa0ba82d442c
+              body: >
+                This allows to still launch network services in isolated
+                environments.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "README: update time in the OS section"
+              hash: 5f1009db2d45ab294a8ed7fdbe49ceff13730607
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-3.2.12
+          title: ""
+          date: 2023-09-06T08:03:14.463Z
+  version: 3.2.12
+  title: ""
+  date: 2023-09-06T08:59:27.213Z
+- commits:
     - subject: Update contracts to 518a1d424f09a11dc1b60a16026bfe8ffe07ca78
       hash: a0e95c19b5d099bc7b9aa933f023e115dccdda6e
       body: Update contracts

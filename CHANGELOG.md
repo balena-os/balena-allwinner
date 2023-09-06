@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v3.2.12
+## (2023-09-06)
+
+
+<details>
+<summary> Update layers/meta-balena to c0508d3c1ae14f7f4c80312b044cc4a1efa46c60 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-3.2.12
+> ### (2023-09-06)
+> 
+> * timesync-https: skip time sync if connectivity URI is null [Alex Gonzalez]
+> * README: update time in the OS section [Alex Gonzalez]
+> 
+
+</details>
+
 # v3.2.11+rev1
 ## (2023-09-04)
 
