@@ -1,6 +1,33 @@
 Change log
 -----------
 
+# v4.0.6
+## (2023-09-13)
+
+
+<details>
+<summary> Update layers/meta-balena to 6b39839656ee335e08081474e0c528978fdcae6c [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.0.6
+> ### (2023-09-13)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v14.12.1 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-14.12.1
+>> #### (2023-08-21)
+>> 
+>> * Bump sqlite3 to 5.1.6 [Felipe Lalanne]
+>> * Bump knex to v2.5.1 [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v4.0.5
 ## (2023-09-13)
 

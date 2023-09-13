@@ -1,4 +1,49 @@
 - commits:
+    - subject: Update layers/meta-balena to 6b39839656ee335e08081474e0c528978fdcae6c
+      hash: 5b527b4df17e9eaf1a1048f68c27a35452c34fbe
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6b39839656ee335e08081474e0c528978fdcae6c
+        changelog-entry: Update layers/meta-balena to 6b39839656ee335e08081474e0c528978fdcae6c
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v14.12.1
+              hash: e24c7a84c64b4fe1465303987c898268a22cb73f
+              body: |
+                Update balena-supervisor from 14.12.0 to 14.12.1
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Bump sqlite3 to 5.1.6
+                      hash: 99962dc94f2356008c063ede08a2a71b4ef21630
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                    - subject: Bump knex to v2.5.1
+                      hash: 06e258ecad2e91f40c2b1602a59b0120bc5639c3
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-14.12.1
+                  title: ""
+                  date: 2023-08-21T16:17:32.755Z
+          version: meta-balena-4.0.6
+          title: ""
+          date: 2023-09-13T20:19:59.968Z
+  version: 4.0.6
+  title: ""
+  date: 2023-09-13T23:21:04.807Z
+- commits:
     - subject: Update layers/meta-balena to cd6279920e902422377cd21d81584ccf1791676c
       hash: 2ff12d9c10040fd795f78929f6248d4f08d96d6d
       body: Update layers/meta-balena
