@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.0.8
+## (2023-09-15)
+
+
+<details>
+<summary> Update layers/meta-balena to 3282f57a59799111d7f68c13013f6324aa65c966 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.0.8
+> ### (2023-09-15)
+> 
+> * Enable back ModemManager AT commands through D-Bus and	mmcli [Zahari Petkov]
+> 
+
+</details>
+
 # v4.0.7
 ## (2023-09-14)
 

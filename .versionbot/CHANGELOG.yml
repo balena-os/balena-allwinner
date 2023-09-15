@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update layers/meta-balena to 3282f57a59799111d7f68c13013f6324aa65c966
+      hash: 2472dd4fd6f17955d55ecde4fe5f66440a27bbbe
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3282f57a59799111d7f68c13013f6324aa65c966
+        changelog-entry: Update layers/meta-balena to 3282f57a59799111d7f68c13013f6324aa65c966
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Enable back ModemManager AT commands through D-Bus and	mmcli
+              hash: da1a6c0dd2e74fc8b98aafb109eed5aed7e95c43
+              body: >
+                That feature was lost when transitioning from autotools to meson.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: Enable back ModemManager AT commands through D-Bus and	mmcli
+                changelog-entry: Enable back ModemManager AT commands through D-Bus and	mmcli
+                Signed-off-by: Zahari Petkov <zahari@balena.io>
+                signed-off-by: Zahari Petkov <zahari@balena.io>
+              author: Zahari Petkov
+              nested: []
+          version: meta-balena-4.0.8
+          title: ""
+          date: 2023-09-15T17:27:00.202Z
+  version: 4.0.8
+  title: ""
+  date: 2023-09-15T20:28:05.931Z
+- commits:
     - subject: Update layers/meta-balena to 3c2bfbdb10a51ef5b3fd3f7e59888645f2029ecc
       hash: 616fc823aa713d7fa0ecec3f7dc10c1fe6a467ab
       body: Update layers/meta-balena
