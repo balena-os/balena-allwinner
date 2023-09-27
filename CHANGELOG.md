@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.0.14
+## (2023-09-27)
+
+
+<details>
+<summary> Update layers/meta-balena to 57aaaf0107f42f88956e9216dfb497bbf5c1d38e [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.0.14
+> ### (2023-09-27)
+> 
+> * patch: Add custom build docs [Vipul Gupta (@vipulgupta2048)]
+> 
+
+</details>
+
 # v4.0.13
 ## (2023-09-26)
 

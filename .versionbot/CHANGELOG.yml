@@ -1,4 +1,28 @@
 - commits:
+    - subject: Update layers/meta-balena to 57aaaf0107f42f88956e9216dfb497bbf5c1d38e
+      hash: 202e705a51520720dad05c93af757a9b0be559db
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 57aaaf0107f42f88956e9216dfb497bbf5c1d38e
+        changelog-entry: Update layers/meta-balena to 57aaaf0107f42f88956e9216dfb497bbf5c1d38e
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "patch: Add custom build docs"
+              hash: 1d5f8ba92d5bd5b7a1fd26fa25473febc8e097d2
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+              author: Vipul Gupta (@vipulgupta2048)
+              nested: []
+          version: meta-balena-4.0.14
+          title: ""
+          date: 2023-09-27T13:13:37.324Z
+  version: 4.0.14
+  title: ""
+  date: 2023-09-27T17:14:06.787Z
+- commits:
     - subject: Update layers/meta-balena to 57352e943a786ab900f9dd9d07fcd39963babdf6
       hash: 1bac2cef944977ad35fe9a593bbfe9d892a9af53
       body: Update layers/meta-balena
