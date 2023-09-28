@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update contracts to 12fb777da3f386501d3fa386b9ac9319afd9a424
+      hash: 619393229c8a9ee492589822a1844dd341e7d3cf
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 12fb777da3f386501d3fa386b9ac9319afd9a424
+        changelog-entry: Update contracts to 12fb777da3f386501d3fa386b9ac9319afd9a424
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "raspberrypi5: remove reference to 64bits in display name"
+              hash: 5f7d9230b8ed3caffbfab717b2a197a5b6d83466
+              body: |
+                There won't be a 32bits OS for this device type.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+          version: contracts-2.0.75
+          title: ""
+          date: 2023-09-28T14:04:28.190Z
+        - commits:
+            - subject: "raspberrypi5: Explicitly flag as public for the switch to apply"
+              hash: da8c456a1aecb30dfe1ef3ad27e0ac59449ecac8
+              body: >
+                As the device was previously private, the `is_private` needs to
+                be
+
+                explicitly set to false for the device type to become public.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+          version: contracts-2.0.74
+          title: ""
+          date: 2023-09-28T13:27:54.317Z
+  version: 4.0.16+rev2
+  title: ""
+  date: 2023-09-28T16:17:08.976Z
+- commits:
     - subject: Update balena-yocto-scripts to 29e8e0678085db54226956617ae66b59f5a28f8d
       hash: 1edecf71ffe994248ae650157f91b5e90052bb53
       body: Update balena-yocto-scripts
