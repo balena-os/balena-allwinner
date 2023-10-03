@@ -1,4 +1,39 @@
 - commits:
+    - subject: Update layers/meta-balena to b1e2d7f34e4bffe2c6149b0a360cb226c6f644a7
+      hash: 2d1e267ae3f9edda6b41c28b9534d6a53a79a1b3
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b1e2d7f34e4bffe2c6149b0a360cb226c6f644a7
+        changelog-entry: Update layers/meta-balena to b1e2d7f34e4bffe2c6149b0a360cb226c6f644a7
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "workflows: Switch to balenaOS ESR [bot] for authentication"
+              hash: 6cb9379a3055da7811215ad6572f2205658ec986
+              body: >
+                Flowzone App no longer has workflow:write permissions for
+                security reasons.
+
+
+                This new balenaOS ESR bot has contents:write and workflows:write permissions
+
+                but is only available on balenaOS repositories.
+              footer:
+                See: https://github.com/apps/balenaos-esr
+                see: https://github.com/apps/balenaos-esr
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-4.0.17
+          title: ""
+          date: 2023-10-02T20:32:23.925Z
+  version: 4.0.17
+  title: ""
+  date: 2023-10-03T06:51:29.788Z
+- commits:
     - subject: Update layers/meta-openembedded to
         e42d1e758f9f08b98c0e8c6f0532316951bb276f
       hash: 1260ec1153b22f35a538304177036c589f479161

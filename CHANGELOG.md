@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.0.17
+## (2023-10-03)
+
+
+<details>
+<summary> Update layers/meta-balena to b1e2d7f34e4bffe2c6149b0a360cb226c6f644a7 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.0.17
+> ### (2023-10-02)
+> 
+> * workflows: Switch to balenaOS ESR [bot] for authentication [Kyle Harding]
+> 
+
+</details>
+
 # v4.0.16+rev5
 ## (2023-10-02)
 
