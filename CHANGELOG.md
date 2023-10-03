@@ -1,6 +1,57 @@
 Change log
 -----------
 
+# v4.0.19
+## (2023-10-03)
+
+
+<details>
+<summary> Update layers/meta-balena to 953223d8666ab4ca470e1e5def671a4d0c12cb50 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.0.19
+> ### (2023-10-03)
+> 
+> * flowzone: meta-balena-esr: add weekly run to keep workflow enabled [Alex Gonzalez]
+> 
+> ## meta-balena-4.0.18
+> ### (2023-10-03)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v14.13.4 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-14.13.4
+>> #### (2023-10-02)
+>> 
+>> * Add tmpfs for /mnt/root/tmp in test env [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-14.13.3
+>> #### (2023-10-02)
+>> 
+>> * Use `~=` to specify alpine package versions [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-14.13.2
+>> #### (Invalid date)
+>> 
+>> * Use native structuredClone instead of _.cloneDeep [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-14.13.1
+>> #### (2023-09-28)
+>> 
+>> * Update balena-io/deploy-to-balena-action to v1.0.3 [Self-hosted Renovate Bot]
+>> 
+>> ### balena-supervisor-14.13.0
+>> #### (2023-09-28)
+>> 
+>> * Update runtime-base image to alpine:3.18 [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v4.0.17
 ## (2023-10-03)
 
