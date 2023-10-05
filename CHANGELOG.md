@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.0.20
+## (2023-10-05)
+
+
+<details>
+<summary> Update layers/meta-balena to dda681a93a1e2459925d36fabcb8bd4c6f68363a [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.0.20
+> ### (2023-10-05)
+> 
+> * balena-net-config: Ensure NM dispatcher scripts are executable [Alexandru Costache]
+> 
+
+</details>
+
 # v4.0.19+rev4
 ## (2023-10-05)
 

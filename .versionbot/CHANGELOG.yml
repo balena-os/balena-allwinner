@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update layers/meta-balena to dda681a93a1e2459925d36fabcb8bd4c6f68363a
+      hash: 4834faabdd890a4899b260c0969ba2e275503f0a
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to dda681a93a1e2459925d36fabcb8bd4c6f68363a
+        changelog-entry: Update layers/meta-balena to dda681a93a1e2459925d36fabcb8bd4c6f68363a
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "balena-net-config: Ensure NM dispatcher scripts are executable"
+              hash: ee6083ce3c690aff7c617af1455e19144d3048fc
+              body: >
+                This commit fixes the following error:
+                    nm-dispatcher[4209]: req:1 hostname: find-scripts:
+                        Cannot execute ... 50-example-script.sh: not executable by owner.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-4.0.20
+          title: ""
+          date: 2023-10-05T14:41:28.636Z
+  version: 4.0.20
+  title: ""
+  date: 2023-10-05T16:42:19.370Z
+- commits:
     - subject: Update layers/poky to c0535262c8799c687fb0d5bdd7d1182ce768e3d5
       hash: 0eb9e7bc3c00ec747829dfc10e502c1e72017393
       body: Update layers/poky
