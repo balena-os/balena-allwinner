@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update layers/meta-balena to 9fe2ab5faca6323fa188bdc3145511083085ffc9
+      hash: 60148fc465810ac9f3ee19c4316014b6a011441b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9fe2ab5faca6323fa188bdc3145511083085ffc9
+        changelog-entry: Update layers/meta-balena to 9fe2ab5faca6323fa188bdc3145511083085ffc9
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update backports with current 2.112.x
+              hash: 5e933611adce56c0028507838b8582635b4421e4
+              body: |
+                Set current to 2.112.x, next to 2.114.x and sunset to 2.107.x
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: BalenaCI github workflow
+              nested: []
+          version: meta-balena-4.0.21
+          title: ""
+          date: 2023-10-09T17:57:35.519Z
+  version: 4.0.21
+  title: ""
+  date: 2023-10-09T21:58:18.238Z
+- commits:
     - subject: Update layers/poky to 278d77034e08df0d49860705aa72d91e4af73d61
       hash: 76e3255058aec2d1d2bec61afc81d240176be86e
       body: Update layers/poky

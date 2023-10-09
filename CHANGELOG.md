@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.0.21
+## (2023-10-09)
+
+
+<details>
+<summary> Update layers/meta-balena to 9fe2ab5faca6323fa188bdc3145511083085ffc9 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.0.21
+> ### (2023-10-09)
+> 
+> * Update backports with current 2.112.x [BalenaCI github workflow]
+> 
+
+</details>
+
 # v4.0.20+rev2
 ## (2023-10-09)
 
