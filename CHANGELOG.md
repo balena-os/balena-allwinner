@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.0.23
+## (2023-10-11)
+
+
+<details>
+<summary> Update layers/meta-balena to 2a57fb406f8ddf36f1e907c1b7c236fed64574be [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.0.23
+> ### (2023-10-10)
+> 
+> * os-helpers-fs: fix returning multiple matching devices [Joseph Kogut]
+> 
+
+</details>
+
 # v4.0.22+rev1
 ## (2023-10-10)
 
