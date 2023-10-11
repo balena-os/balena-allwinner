@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to f98f94b3181bfd112b2b88287ae29b134bb4c1ab
+      hash: 6ca159526c80749fba30f6d7811ebcb4e3364676
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f98f94b3181bfd112b2b88287ae29b134bb4c1ab
+        changelog-entry: Update layers/meta-balena to f98f94b3181bfd112b2b88287ae29b134bb4c1ab
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "classes: image_types_balena: do not hardcode path to data image"
+              hash: 68365fdf211485e4a9694192cf10899136ce75ce
+              body: >
+                Use the `DEPLOY_DIR_IMAGES` variable which is filled by the
+                deploy
+
+                class from the docker-disk recipe deploy task.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-4.0.24
+          title: ""
+          date: 2023-10-11T16:21:53.282Z
+  version: 4.0.24
+  title: ""
+  date: 2023-10-11T20:05:11.456Z
+- commits:
     - subject: Update balena-yocto-scripts to c9f72aa9d032ab2281b918dab5970f18568a7644
       hash: 36f72d6f3b048097adebc294d84050eb306935dc
       body: Update balena-yocto-scripts
