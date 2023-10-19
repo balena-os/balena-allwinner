@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 97f176d005a5d91542ac4278ce7dc8eb52dd3e46
+      hash: c0b8380068ec6c63d076fbc5065eee2587471c90
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 97f176d005a5d91542ac4278ce7dc8eb52dd3e46
+        changelog-entry: Update contracts to 97f176d005a5d91542ac4278ce7dc8eb52dd3e46
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "hw.device-type: Modify bluechiptechnology-tm3"
+              hash: 744605ce53f5091f1661c301962dba44c439481a
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+                signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+              author: crichardson
+          version: contracts-2.0.78
+          title: ""
+          date: 2023-10-19T07:29:25.960Z
+  version: 4.0.27+rev1
+  title: ""
+  date: 2023-10-19T09:34:12.669Z
+- commits:
     - subject: Update layers/meta-balena to 2afcf8f6657947fea0ddc5a34fc7c8773b1cfb24
       hash: 65158fb660a1da75825103db257611d72f0706f1
       body: Update layers/meta-balena
