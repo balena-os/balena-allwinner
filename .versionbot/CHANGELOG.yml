@@ -1,4 +1,80 @@
 - commits:
+    - subject: Update layers/meta-balena to caa8a7842e0680a4f3a2a51d6b81017ff08fb390
+      hash: 5c5ed5872ad463ffcee0c0f7e63b7383497572f1
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to caa8a7842e0680a4f3a2a51d6b81017ff08fb390
+        changelog-entry: Update layers/meta-balena to caa8a7842e0680a4f3a2a51d6b81017ff08fb390
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to cd38f4a
+              hash: 9850216225e8c140b710e8a5f8454b5a7b2264c4
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update core/contracts digest to 42e712d
+                      hash: 1853c343fcb27ff2a287880dcf4906a1012a7ae3
+                      body: |
+                        Update core/contracts
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.4
+                  title: ""
+                  date: 2023-10-20T07:21:37.849Z
+                - commits:
+                    - subject: Update core/contracts digest to 2d44c9c
+                      hash: bffd6dae100a692c10ec1afcef775d908e57ed11
+                      body: |
+                        Update core/contracts
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.3
+                  title: ""
+                  date: 2023-10-19T13:43:36.969Z
+                - commits:
+                    - subject: Update actions/checkout digest to b4ffde6
+                      hash: d04f4cc5cc497173cae45b5538abbc1e21cb7564
+                      body: |
+                        Update actions/checkout
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.2
+                  title: ""
+                  date: 2023-10-19T11:21:08.816Z
+                - commits:
+                    - subject: Update core/contracts digest to 97f176d
+                      hash: 72ad2ce2a67767be53aa94b920fc6314e2ae86b5
+                      body: |
+                        Update core/contracts
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.1
+                  title: ""
+                  date: 2023-10-19T08:49:38.251Z
+          version: meta-balena-4.0.28
+          title: ""
+          date: 2023-10-20T11:37:25.753Z
+  version: 4.0.28
+  title: ""
+  date: 2023-10-20T14:41:20.799Z
+- commits:
     - subject: Update contracts to 42e712dfe54929870e1ef51fc95cff10f760ab08
       hash: 72e4ad4d7de4ca2aafdc30bd557ccff3b7b32000
       body: Update contracts
