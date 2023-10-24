@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update layers/meta-balena to 88fa82e720d8cff1a8e9221703661cb3eee4ad6f
+      hash: de924c87cd43f360473b5439d685f02958d9e05f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 88fa82e720d8cff1a8e9221703661cb3eee4ad6f
+        changelog-entry: Update layers/meta-balena to 88fa82e720d8cff1a8e9221703661cb3eee4ad6f
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: 'Revert "kernel-balena: Remove apparmor support"'
+              hash: ddc94ae58072323cf94ac39d6c2d16c78ff794d8
+              body: >
+                This is no longer needed after the balena_os/balena-engine
+                commit:
+
+                https://github.com/balena-os/balena-engine/commit/ed8ba18e8776a7bf37b3326baeca8196b4ea76b0
+
+
+                released in balena-engine v20.10.39
+
+
+                This reverts commit 18cd233a83554b58b3540164afd768fdeda60b03.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-4.0.31
+          title: ""
+          date: 2023-10-24T16:20:53.918Z
+  version: 4.0.31
+  title: ""
+  date: 2023-10-24T21:06:00.065Z
+- commits:
     - subject: Update layers/meta-balena to ff47baf219489312903ecbfe52f6f16a2cb284bb
       hash: 7cefa062ad35fd9869f121b29392a7c66ed81ea4
       body: Update layers/meta-balena
