@@ -1,6 +1,24 @@
 Change log
 -----------
 
+# v4.1.0
+## (2023-10-25)
+
+
+<details>
+<summary> Update layers/meta-balena to 6d41111f954f5c2f080b6f01b37634814b5bc84f [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.1.0
+> ### (2023-10-25)
+> 
+> * tests: add safe reboot checks [Alex Gonzalez]
+> * hostapp-update: move lock checking to helper function [Alex Gonzalez]
+> * os-helpers-logging: output script logging to journald [Alex Gonzalez]
+> * os-helpers: add safe_reboot function [Alex Gonzalez]
+> 
+
+</details>
+
 # v4.0.31+rev1
 ## (2023-10-24)
 

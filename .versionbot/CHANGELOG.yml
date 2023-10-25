@@ -1,4 +1,72 @@
 - commits:
+    - subject: Update layers/meta-balena to 6d41111f954f5c2f080b6f01b37634814b5bc84f
+      hash: c1b86fe5bc79bdc23b461ec22ee0a2622c6c61b4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6d41111f954f5c2f080b6f01b37634814b5bc84f
+        changelog-entry: Update layers/meta-balena to 6d41111f954f5c2f080b6f01b37634814b5bc84f
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: add safe reboot checks"
+              hash: 8d99048a3e2218d4cfdbbf9e27e2a3e04c1aa700
+              body: >
+                This check tests the safe_reboot script used in hostOS updates
+                to
+
+                make sure application locks are respected.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "hostapp-update: move lock checking to helper function"
+              hash: 8cf977610619687e5958c66b430585cd91f0dbe2
+              body: >
+                The helper function can then be called both from hostapp-update
+                and
+
+                from the actions server hup script.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "os-helpers-logging: output script logging to journald"
+              hash: e0f1c60cf6eaf668c4c5714d525da17df58073e5
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "os-helpers: add safe_reboot function"
+              hash: 18ebc142a761b798fe3b08bc93baf52a11702a2c
+              body: >
+                This script performs a safe system reboot with application
+                update
+
+                locks checks.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-4.1.0
+          title: ""
+          date: 2023-10-25T08:06:44.556Z
+  version: 4.1.0
+  title: ""
+  date: 2023-10-25T10:56:14.296Z
+- commits:
     - subject: Update layers/meta-openembedded to
         300be975359fdb3a3b2bf7c6fe15dea7acac575d
       hash: f4e81c88486446c0a2beeb93f8219bc9f1191103
