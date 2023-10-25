@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to 0608f561a79e1b4b2ba5e83a10c4b9d2010a00cd
+      hash: 46221bd105c5c8c1639cf1ae491d0f2b84e64bb4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 0608f561a79e1b4b2ba5e83a10c4b9d2010a00cd
+        changelog-entry: Update layers/meta-balena to 0608f561a79e1b4b2ba5e83a10c4b9d2010a00cd
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "plymouth: Remove --retain-splash flag from plymouth quit"
+              hash: 01a0cc9a3116274fd6e6e6c999705e6e5a8acfec
+              body: |
+                This flag isn't needed on balenaOS as the splash screen
+                remains even after plymouthd is stopped.
+
+                Having the flag in place prevents user apps from writing to
+                tty consoles after stopping plymouth via dbus.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-4.1.1
+          title: ""
+          date: 2023-10-25T19:07:25.710Z
+  version: 4.1.1
+  title: ""
+  date: 2023-10-25T21:58:05.240Z
+- commits:
     - subject: Update layers/meta-balena to 6d41111f954f5c2f080b6f01b37634814b5bc84f
       hash: c1b86fe5bc79bdc23b461ec22ee0a2622c6c61b4
       body: Update layers/meta-balena

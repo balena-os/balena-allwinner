@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.1.1
+## (2023-10-25)
+
+
+<details>
+<summary> Update layers/meta-balena to 0608f561a79e1b4b2ba5e83a10c4b9d2010a00cd [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.1.1
+> ### (2023-10-25)
+> 
+> * plymouth: Remove --retain-splash flag from plymouth quit [Kyle Harding]
+> 
+
+</details>
+
 # v4.1.0
 ## (2023-10-25)
 
