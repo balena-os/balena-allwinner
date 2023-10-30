@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v4.1.1+rev2
+## (2023-10-30)
+
+* Update layers/poky to aeac1034661725b5c83e79f76238429fb236b090 [Self-hosted Renovate Bot]
+* Update contracts to 109179385bb4b862cd7572be14d4c5edddbd93c9 [Self-hosted Renovate Bot]
+
 # v4.1.1+rev1
 ## (2023-10-26)
 
