@@ -1,4 +1,75 @@
 - commits:
+    - subject: Update layers/meta-balena to 1f878fc282e911950df09d5af3eb6b61a12d6c48
+      hash: c8d03b1bac6f84fb984320d309995199e183f13e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1f878fc282e911950df09d5af3eb6b61a12d6c48
+        changelog-entry: Update layers/meta-balena to 1f878fc282e911950df09d5af3eb6b61a12d6c48
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "flasher: remove user mode check after programming keys"
+              hash: 05d3d41323c20f557a773229766afaef1dbf1eb5
+              body: >
+                This check is now done in the cryptsetup initramfs hook rather
+                than
+
+                during installation, which obviates the need to perform it during setup.
+
+                Remove it.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "initrdscripts: unlock LUKS partitions only in user mode"
+              hash: 63672541fefde9643040a555ba125e0bd021dc46
+              body: >
+                During installation, some firmwares may allow keys to be
+                enrolled but
+
+                fail to tip the system into user mode until the system is rebooted. We
+
+                don't want to mislead users with only full-disk encryption into thinking
+
+                their system also has secure boot enabled when it doesn't.
+
+
+                Disable the hook to unlock encrypted partitions if the firmware fails to
+
+                boot into user mode.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "os-helpers: add secure boot helpers"
+              hash: c8e0369c239b229366278d5d7725bfcd2e8ac86d
+              body: >
+                We now have several places where secure boot specific
+                configuration is
+
+                checked. Create an os-helpers-secureboot package to consolidate and
+
+                reuse this code.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-4.1.2
+          title: ""
+          date: 2023-11-01T08:29:33.877Z
+  version: 4.1.2
+  title: ""
+  date: 2023-11-01T11:33:45.754Z
+- commits:
     - subject: Update layers/poky to aeac1034661725b5c83e79f76238429fb236b090
       hash: af50953f78dfbe5e62354111dd0818626680b850
       body: Update layers/poky

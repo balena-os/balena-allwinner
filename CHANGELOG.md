@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v4.1.2
+## (2023-11-01)
+
+
+<details>
+<summary> Update layers/meta-balena to 1f878fc282e911950df09d5af3eb6b61a12d6c48 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.1.2
+> ### (2023-11-01)
+> 
+> * flasher: remove user mode check after programming keys [Joseph Kogut]
+> * initrdscripts: unlock LUKS partitions only in user mode [Joseph Kogut]
+> * os-helpers: add secure boot helpers [Joseph Kogut]
+> 
+
+</details>
+
 # v4.1.1+rev2
 ## (2023-10-30)
 
