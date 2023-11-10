@@ -1,4 +1,81 @@
 - commits:
+    - subject: Update layers/meta-balena to 53a1e875f6a48f891d26b5edb9295fc6486ab4e8
+      hash: 069e160323c8916bbc43afe8917735c9a7f94593
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 53a1e875f6a48f891d26b5edb9295fc6486ab4e8
+        changelog-entry: Update layers/meta-balena to 53a1e875f6a48f891d26b5edb9295fc6486ab4e8
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "update-balena-supervisor: ensure target supervisor is running"
+              hash: bb56c90dd91913773bb838ee5361731ab65fc754
+              body: >
+                If the target supervisor image is already cached but there is no
+
+                container running with it, the update script would just exit without
+
+                actually running the target supervisor.
+
+
+                This commit checks whether there is a running container using the
+
+                target image and restarts the supervisor if there is none.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "update-balena-supervisor: use os-helpers logging"
+              hash: 65419a73aab31f92f640dee998dd85f9620e3ca8
+              body: |
+                This allows the script to log messages to the journal.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "hostapp-update: surface logs to journal"
+              hash: f34090d23ceef8c352d188a6aa34351885971239
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "hostapp-update-hooks: surface logs to journal"
+              hash: 5e1fdf9e3d94af2f814e9cef44b4f114b7ac2b76
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "os-helpers-logging: skip logging to journal from a container"
+              hash: 07f32d8098ef6a826b49f09cda04f9a11181409d
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-4.1.5
+          title: ""
+          date: 2023-11-10T16:58:38.759Z
+  version: 4.1.5
+  title: ""
+  date: 2023-11-10T19:12:54.938Z
+- commits:
     - subject: Update layers/meta-balena to 96b949b1282438824db7b960413407401a8512ea
       hash: a72fc2b1b0f543e80dde8d9d451f6f42c578d13e
       body: Update layers/meta-balena
