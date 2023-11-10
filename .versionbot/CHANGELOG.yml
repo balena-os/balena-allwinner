@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to 96b949b1282438824db7b960413407401a8512ea
+      hash: a72fc2b1b0f543e80dde8d9d451f6f42c578d13e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 96b949b1282438824db7b960413407401a8512ea
+        changelog-entry: Update layers/meta-balena to 96b949b1282438824db7b960413407401a8512ea
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to af50e8d
+              hash: c2f33c50ca7e24e74afed1bd8490b1c49d67ddfa
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: "core: remove request timeout on flashing"
+                      hash: 8c8ff58cfd7d2c93cda7735cb48f92556445e053
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Ryan Cooke <ryan@balena.io>
+                        signed-off-by: Ryan Cooke <ryan@balena.io>
+                      author: rcooke-warwick
+                      nested: []
+                  version: leviathan-2.29.10
+                  title: ""
+                  date: 2023-11-08T10:24:24.736Z
+          version: meta-balena-4.1.4
+          title: ""
+          date: 2023-11-10T09:57:20.312Z
+  version: 4.1.4
+  title: ""
+  date: 2023-11-10T12:58:53.106Z
+- commits:
     - subject: Update layers/meta-balena to 6fcf0103c06b9a20d5fbc06e1433cce71145bb2f
       hash: f37596565b5c320ae586c226a4759e24986f5bb2
       body: Update layers/meta-balena
