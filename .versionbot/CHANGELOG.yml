@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/poky to e66a386604b21090daec1bde16640756ad777fb0
+      hash: b305008bd297dfbdbee9ecb62dfe443f5fdbb296
+      body: Update layers/poky
+      footer:
+        Changelog-entry: Update layers/poky to e66a386604b21090daec1bde16640756ad777fb0
+        changelog-entry: Update layers/poky to e66a386604b21090daec1bde16640756ad777fb0
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 4.1.5+rev1
+  title: ""
+  date: 2023-11-13T09:09:32.172Z
+- commits:
     - subject: Update layers/meta-balena to 53a1e875f6a48f891d26b5edb9295fc6486ab4e8
       hash: 069e160323c8916bbc43afe8917735c9a7f94593
       body: Update layers/meta-balena
