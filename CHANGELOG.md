@@ -1,6 +1,24 @@
 Change log
 -----------
 
+# v4.1.5+rev2
+## (2023-11-13)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 84d8d394f158be4490628d7ca65a50e90667fa4b [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.19.40
+> ### (2023-11-13)
+> 
+> * Dockerfiles: update balenaCLI version to 17.2.2 [Alex Gonzalez]
+> * balena-deploy-block.sh: deploy licenses and changelog as release assets [Alex Gonzalez]
+> * balena-deploy: Add changelog to deployed artifacts [Alex Gonzalez]
+> * balena-api: add release assets helper functions [Alex Gonzalez]
+> 
+
+</details>
+
 # v4.1.5+rev1
 ## (2023-11-13)
 
