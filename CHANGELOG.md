@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.1.7+rev2
+## (2023-11-22)
+
+
+<details>
+<summary> Update contracts to c45079c380048f9f65967a68cf30f1654195384f [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.82
+> ### (2023-11-22)
+> 
+> * lcbzu9: boot from internal storage [Francois Loubser]
+> 
+
+</details>
+
 # v4.1.7+rev1
 ## (2023-11-20)
 
