@@ -1,4 +1,54 @@
 - commits:
+    - subject: Update layers/meta-balena to 3d7cb3b819e6ac6636b7db302dcfc6be0d7c3aed
+      hash: 689b68f957dab7dc2d410006d548dbe24e64b6c2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3d7cb3b819e6ac6636b7db302dcfc6be0d7c3aed
+        changelog-entry: Update layers/meta-balena to 3d7cb3b819e6ac6636b7db302dcfc6be0d7c3aed
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 935f8ef
+              hash: 8b9f83c774bd7df17714dfa5443cf41822702ad6
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update Lock file maintenance
+                      hash: 3a19b6a005b2354d247e43ee63f374fd2822e4ef
+                      body: |
+                        Update
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.16
+                  title: ""
+                  date: 2023-11-22T11:32:22.495Z
+                - commits:
+                    - subject: Update core/contracts digest to c45079c
+                      hash: 1d890adc096a64d8a7766ca22ffe4e11d8933434
+                      body: |
+                        Update core/contracts
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.15
+                  title: ""
+                  date: 2023-11-22T10:35:34.292Z
+          version: meta-balena-4.1.8
+          title: ""
+          date: 2023-11-22T15:44:31.064Z
+  version: 4.1.8
+  title: ""
+  date: 2023-11-22T20:45:37.431Z
+- commits:
     - subject: Update contracts to c45079c380048f9f65967a68cf30f1654195384f
       hash: 0584c4cde2736b5242a50ff76b0efd0c576b70db
       body: Update contracts
