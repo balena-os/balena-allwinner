@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.1.8+rev1
+## (2023-11-24)
+
+
+<details>
+<summary> Update contracts to 9a8805526c0fbe4aa1477f32b23c3d0e3647792a [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.83
+> ### (2023-11-24)
+> 
+> * revpi-connect-4: Added contract files for revpi-connect-4 [Waqar Rashid]
+> 
+
+</details>
+
 # v4.1.8
 ## (2023-11-22)
 

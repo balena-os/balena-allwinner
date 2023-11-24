@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 9a8805526c0fbe4aa1477f32b23c3d0e3647792a
+      hash: d663da5f3472cae630bdebd9f785b5e0d2f00edf
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 9a8805526c0fbe4aa1477f32b23c3d0e3647792a
+        changelog-entry: Update contracts to 9a8805526c0fbe4aa1477f32b23c3d0e3647792a
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "revpi-connect-4: Added contract files for revpi-connect-4"
+              hash: 02568911b78335c520abb9cb1e0ce8e2cb25e095
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Waqar Rashid <waqar.rashid@voltstorage.com>
+                signed-off-by: Waqar Rashid <waqar.rashid@voltstorage.com>
+              author: Waqar Rashid
+          version: contracts-2.0.83
+          title: ""
+          date: 2023-11-24T09:56:22.891Z
+  version: 4.1.8+rev1
+  title: ""
+  date: 2023-11-24T12:52:14.503Z
+- commits:
     - subject: Update layers/meta-balena to 3d7cb3b819e6ac6636b7db302dcfc6be0d7c3aed
       hash: 689b68f957dab7dc2d410006d548dbe24e64b6c2
       body: Update layers/meta-balena
