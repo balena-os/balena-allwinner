@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v4.1.11
+## (2023-11-27)
+
+
+<details>
+<summary> Update layers/meta-balena to cb75bf3ef0719cac2b8b080dd99f90d4f6c95705 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-4.1.11
+> ### (2023-11-27)
+> 
+> * tests: os: safe-reboot: wait for SV to start [rcooke-warwick]
+> 
+
+</details>
+
 # v4.1.10
 ## (2023-11-27)
 
