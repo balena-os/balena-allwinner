@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.0.2
+## (2023-11-30)
+
+
+<details>
+<summary> Update layers/meta-balena to 4e89f786a171b42546c254557c5f1283c71e9503 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.0.2
+> ### (Invalid date)
+> 
+> * balena-rollback: If applicable, run device specific healthchecks [Alexandru Costache]
+> 
+
+</details>
+
 # v5.0.1
 ## (2023-11-29)
 
