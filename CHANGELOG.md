@@ -1,6 +1,38 @@
 Change log
 -----------
 
+# v5.0.3
+## (2023-12-01)
+
+
+<details>
+<summary> Update layers/meta-balena to 0e2ba69c8a8d7c6b67ec8536f5c84bbd245ac220 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.0.3
+> ### (Invalid date)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v15.0.4 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-15.0.4
+>> #### (2023-11-22)
+>> 
+>> * Only build sqlite3 from source [Felipe Lalanne]
+>> * Update @balena/systemd to 0.5.0 [Christina Ying Wang]
+>> 
+>> ### balena-supervisor-15.0.3
+>> #### (2023-11-22)
+>> 
+>> * Cache last reported current state to /mnt/root/tmp [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v5.0.2
 ## (2023-11-30)
 
