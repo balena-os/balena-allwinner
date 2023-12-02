@@ -1,4 +1,43 @@
 - commits:
+    - subject: Update layers/meta-balena to b33a629f6582bf749164fa40e33b992fa3054e51
+      hash: 05141185b4ce877260ea31adb1ee1ca9928f7e83
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b33a629f6582bf749164fa40e33b992fa3054e51
+        changelog-entry: Update layers/meta-balena to b33a629f6582bf749164fa40e33b992fa3054e51
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-engine to v20.10.41
+              hash: 791d6306a9b33554606977fd1a8252a90a6a1235
+              body: |
+                Update balena-engine from 20.10.40 to 20.10.41
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Simplified development doc 'Build and run' instructions
+                      hash: e23a01b24a60f3a686e1ed9d3667dcc56db437a3
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Ken Bannister <kb2ma@runbox.com>
+                        signed-off-by: Ken Bannister <kb2ma@runbox.com>
+                      author: Ken Bannister
+                      nested: []
+                  version: balena-engine-20.10.41
+                  title: ""
+                  date: 2023-12-01T18:50:14.756Z
+          version: meta-balena-5.0.4
+          title: ""
+          date: 2023-12-01T22:19:50.474Z
+  version: 5.0.4
+  title: ""
+  date: 2023-12-02T01:21:06.495Z
+- commits:
     - subject: Update layers/meta-balena to 0e2ba69c8a8d7c6b67ec8536f5c84bbd245ac220
       hash: d33dacd29d41d9bb518b3d0b8ecd8145149b010a
       body: Update layers/meta-balena
