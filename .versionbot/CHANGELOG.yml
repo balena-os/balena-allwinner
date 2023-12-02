@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to 11ab946c68bc4245e2449ebf4765ecfc1c73831d
+      hash: 49f159cf7fbef334253aa1a42b3debe2d8811dd1
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 11ab946c68bc4245e2449ebf4765ecfc1c73831d
+        changelog-entry: Update layers/meta-balena to 11ab946c68bc4245e2449ebf4765ecfc1c73831d
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to eaf8774
+              hash: 12d2ce997733de80dc89c6d0d84a4cb67a5c2da2
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: add jetson-agx-orin-devkit resin-boot index
+                      hash: 2a27941b65cc163899016fddf12339e1073e2e97
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Ryan Cooke <ryan@balena.io>
+                        signed-off-by: Ryan Cooke <ryan@balena.io>
+                      author: rcooke-warwick
+                      nested: []
+                  version: leviathan-2.29.19
+                  title: ""
+                  date: 2023-12-01T12:13:53.767Z
+          version: meta-balena-5.0.5
+          title: ""
+          date: 2023-12-02T05:21:14.848Z
+  version: 5.0.5
+  title: ""
+  date: 2023-12-02T08:22:02.370Z
+- commits:
     - subject: Update layers/meta-balena to b33a629f6582bf749164fa40e33b992fa3054e51
       hash: 05141185b4ce877260ea31adb1ee1ca9928f7e83
       body: Update layers/meta-balena
