@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.0.6
+## (2023-12-05)
+
+
+<details>
+<summary> Update layers/meta-balena to 3617c776ed31ef47429bb266d4276d63f19a2d58 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.0.6
+> ### (2023-12-05)
+> 
+> * os-helpers-logging: replace broken container check [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.0.5
 ## (2023-12-02)
 
