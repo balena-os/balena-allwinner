@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.0.9
+## (2023-12-12)
+
+
+<details>
+<summary> Update layers/meta-balena to 77ede04d006fc181647691958da41161e4f8402e [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.0.9
+> ### (2023-12-12)
+> 
+> * timesync-https: increase default connection max time to 10s [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.0.8+rev1
 ## (2023-12-11)
 
