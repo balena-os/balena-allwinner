@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v5.1.0
+## (2023-12-19)
+
+
+<details>
+<summary> Update layers/meta-balena to d80ee36afa682981b8acce253e28c8237ed8166a [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.0
+> ### (2023-12-19)
+> 
+> * migrate: check for mount point before umounting [Alex Gonzalez]
+> * initrdscripts: move mounting of log mounts to finish module [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.0.11+rev1
 ## (2023-12-18)
 

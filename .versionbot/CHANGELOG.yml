@@ -1,4 +1,61 @@
 - commits:
+    - subject: Update layers/meta-balena to d80ee36afa682981b8acce253e28c8237ed8166a
+      hash: aaa949e7718d037c0c4e90ff91161d8cebaca7ea
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d80ee36afa682981b8acce253e28c8237ed8166a
+        changelog-entry: Update layers/meta-balena to d80ee36afa682981b8acce253e28c8237ed8166a
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "migrate: check for mount point before umounting"
+              hash: 5e1165213e086efdecabd3dbd8d8a5c9c5d4d2ea
+              body: |
+                This avoids a warning on each boot.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "initrdscripts: move mounting of log mounts to finish module"
+              hash: 0f3bd475dadc52aa48f7b98bf18e4cd3a1b9e9e7
+              body: |
+                The log files are kept in the /run partition that also houses
+                the udev database.
+
+                By moving the /run partition to $ROOTFS_DIR/run in the migrate
+                module, the udev database persists across reboots.
+
+                The udevcleanup module was introduced to cleanup the database
+                so it's regenerated on the final rootfs as the rules are
+                different between initramfs and final rootfs. By moving /run
+                before udevcleanup ran, the cleanup was not effective.
+
+                This commit moves the relocation of the /run mount to the
+                finish module, after udevcleanup is run, and groups it with
+                the other relocations needed for the pivot switch.
+
+                Looking at git history, the relocation of the /run partition
+                was initially done in the rootfs module, so when the migrate
+                module was introduced and needed to mount the rootfs, this
+                relocation was just moved into the migration module itself,
+                without considering later modules like finish.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-5.1.0
+          title: ""
+          date: 2023-12-19T14:17:32.497Z
+  version: 5.1.0
+  title: ""
+  date: 2023-12-19T17:29:08.026Z
+- commits:
     - subject: Update layers/meta-openembedded to
         fc632d5bb0936e91e4e0191547b9aa8ca47b4ffe
       hash: e8d3d8d1050263cb141b7ab8f5aff1a9cefb5221
