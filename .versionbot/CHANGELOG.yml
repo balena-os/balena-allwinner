@@ -1,4 +1,27 @@
 - commits:
+    - subject: Update contracts to 31188f585dc7d7f9e58c138e4c3257e9c2c274c0
+      hash: c5c425243d721db7ef8ba6007b85b17aa6d2145a
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 31188f585dc7d7f9e58c138e4c3257e9c2c274c0
+        changelog-entry: Update contracts to 31188f585dc7d7f9e58c138e4c3257e9c2c274c0
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "patch: Remove wiki link reference to flash Tinker Board"
+              hash: 2d9a5bbea64deda704298e8ee41834e9d180d4da
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+              author: Vipul Gupta (@vipulgupta2048)
+          version: contracts-2.0.85
+          title: ""
+          date: 2023-12-21T13:26:59.714Z
+  version: 5.1.1+rev1
+  title: ""
+  date: 2023-12-21T21:37:07.040Z
+- commits:
     - subject: Update layers/meta-balena to 66bfc4c87173155d21d2f82a6888f67f1009ccd8
       hash: bbd18b9532ec28b20afafa3b70af14ad4c63c4c2
       body: Update layers/meta-balena
