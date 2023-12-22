@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 0008306e565a95aa51d04a8a0fcc318df3df59a2
+      hash: 7cc51ec11de78e36a56c7e7b2c86a995c6bf5aac
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 0008306e565a95aa51d04a8a0fcc318df3df59a2
+        changelog-entry: Update balena-yocto-scripts to 0008306e565a95aa51d04a8a0fcc318df3df59a2
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "automation/balena-deploy: Pin to known working version of balena-img"
+              hash: 927310397896f35bd1921202e8b1f30ba3ef47d8
+              body: >
+                As per internal thread
+                https://balena.zulipchat.com/#narrow/stream/345890-balena-io/topic/Jenkins.20build.20failures/near/409602914
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: balena-yocto-scripts-1.19.41
+          title: ""
+          date: 2023-12-22T16:01:59.872Z
+  version: 5.1.2+rev1
+  title: ""
+  date: 2023-12-22T18:40:15.333Z
+- commits:
     - subject: Update layers/meta-balena to a3b1dd7c9cb8bf593ead65b5c41d5977ad020ab7
       hash: 0fa80d51a5ae56ea83a2a32e16c618240f9a13a9
       body: Update layers/meta-balena
