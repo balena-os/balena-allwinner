@@ -1,4 +1,54 @@
 - commits:
+    - subject: Update layers/meta-balena to aa9cd7315d801b22635e8468a0341d5dd7182a11
+      hash: c0a7e076a77d35be195c997997d8db6d118b8bf3
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to aa9cd7315d801b22635e8468a0341d5dd7182a11
+        changelog-entry: Update layers/meta-balena to aa9cd7315d801b22635e8468a0341d5dd7182a11
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 70db044
+              hash: 0498c1ee79993731af3393075c9b38661d3e9003
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update core/contracts digest to dd3614e
+                      hash: c3878a8e47e68e873c88ae4289a8d63762ffc92b
+                      body: |
+                        Update core/contracts
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.30
+                  title: ""
+                  date: 2024-01-01T01:57:46.608Z
+                - commits:
+                    - subject: Update Lock file maintenance
+                      hash: 214d045910bbd644022dfb54011765e89138459e
+                      body: |
+                        Update
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.29
+                  title: ""
+                  date: 2024-01-01T00:53:05.099Z
+          version: meta-balena-5.1.5
+          title: ""
+          date: 2024-01-01T06:16:53.331Z
+  version: 5.1.5
+  title: ""
+  date: 2024-01-01T09:17:33.259Z
+- commits:
     - subject: Update contracts to dd3614e53254562a7f93415de7e7aaaf73637a96
       hash: dc6a5214cb880df2d1c5e762e5eed928e4519acf
       body: Update contracts
