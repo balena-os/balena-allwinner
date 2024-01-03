@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update contracts to 802e95f85092e2bacc14014823b8167add968edd
+      hash: 309ca4b42e0effd1dbe00a0c012dcea563a2ba6e
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 802e95f85092e2bacc14014823b8167add968edd
+        changelog-entry: Update contracts to 802e95f85092e2bacc14014823b8167add968edd
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "jetson-orin-nx-seeed-j4012: Add Seeed J4012 device-type"
+              hash: 2f35889ca436bcb17cb8fba3e9192676b9872042
+              body: |
+                This is the initial commit, necessary to create the DT
+                in the API. The icon will need to be updated.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.88
+          title: ""
+          date: 2024-01-03T13:26:42.845Z
+  version: 5.1.5+rev2
+  title: ""
+  date: 2024-01-03T15:26:40.308Z
+- commits:
     - subject: Update layers/poky to 80cc03ec403a4901e0d8ccb353a4770d13b88e0f
       hash: 4fd00d062caae85c80c3485949a7dc4b1bf3f7f6
       body: Update layers/poky
