@@ -1,6 +1,59 @@
 Change log
 -----------
 
+# v5.1.8
+## (2024-01-10)
+
+
+<details>
+<summary> Update layers/meta-balena to afa34852ba91dc6e720ae90890c095b73a1f8882 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.8
+> ### (2024-01-09)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to dbcacdb [Self-hosted Renovate Bot] </summary>
+> 
+>> ### leviathan-2.29.33
+>> #### (2024-01-09)
+>> 
+>> * timeout netcat process [rcooke-warwick]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-5.1.7
+> ### (2024-01-09)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v15.2.0 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-15.2.0
+>> #### (2024-01-08)
+>> 
+>> * Try MDNS lookup only if regular DNS lookup fails [Felipe Lalanne]
+>> * Refactor mdns lookup code in app entry [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-15.1.1
+>> #### (2024-01-02)
+>> 
+>> * docs: api: start-service: specify this endpoint affects the device [Alex Gonzalez]
+>> 
+>> ### balena-supervisor-15.1.0
+>> #### (2023-11-22)
+>> 
+>> * Force remove container if updateMetadata fails [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v5.1.6+rev1
 ## (2024-01-08)
 
