@@ -1,4 +1,55 @@
 - commits:
+    - subject: Update layers/meta-balena to 7322b033dd6efde288f564e657df0f1c1f217b7e
+      hash: 17b134188b40602d57e298720561c834ca6924f9
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7322b033dd6efde288f564e657df0f1c1f217b7e
+        changelog-entry: Update layers/meta-balena to 7322b033dd6efde288f564e657df0f1c1f217b7e
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 0210c02
+              hash: 50e34dfc6013518a459c1be749804fbf837803d9
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: change to ssh tunnel
+                      hash: c15d5183a61e4ed9d437642560c2db071b1d7672
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Ryan Cooke <ryan@balena.io>
+                        signed-off-by: Ryan Cooke <ryan@balena.io>
+                      author: rcooke-warwick
+                      nested: []
+                  version: leviathan-2.29.35
+                  title: ""
+                  date: 2024-01-11T12:51:52.503Z
+                - commits:
+                    - subject: Update core/contracts digest to 14a10d9
+                      hash: bd5f29abd2bbe194df6f7657b69b860f435b1ef7
+                      body: |
+                        Update core/contracts
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.34
+                  title: ""
+                  date: 2024-01-10T11:32:06.062Z
+          version: meta-balena-5.1.9
+          title: ""
+          date: 2024-01-11T18:57:27.371Z
+  version: 5.1.9
+  title: ""
+  date: 2024-01-11T20:58:16.640Z
+- commits:
     - subject: Update layers/poky to b418ede9942f8b31d66ce172ede35f55b423b0a2
       hash: b26f04b651b8eb35a1527b51de1be871b63b6f18
       body: Update layers/poky
