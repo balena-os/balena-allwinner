@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.1.10
+## (2024-01-12)
+
+
+<details>
+<summary> Update layers/meta-balena to d4e80942c09f500b3f6272395b29f8b13faa9253 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.10
+> ### (2024-01-12)
+> 
+> * tests/bluetooth: Leave Autokit host discoverable on BT for a longer period of time [Alexandru Costache]
+> 
+
+</details>
+
 # v5.1.9
 ## (2024-01-11)
 

@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to d4e80942c09f500b3f6272395b29f8b13faa9253
+      hash: 1889edc1dd5029ab941da6bd722e62f5f9daae5b
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d4e80942c09f500b3f6272395b29f8b13faa9253
+        changelog-entry: Update layers/meta-balena to d4e80942c09f500b3f6272395b29f8b13faa9253
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests/bluetooth: Leave Autokit host discoverable on BT for a longer
+                period of time"
+              hash: a4f57877b7582b0e36672269471c178a7511d18f
+              body: >
+                We've noticed that leaving the host discoverable indefinitely on
+                Pi3 Autokit hosts solves sporadic scan failures. Thus, leaving
+                the host discoverable for 20 minutes should be sufficient to
+                prevent these cases.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-5.1.10
+          title: ""
+          date: 2024-01-12T15:29:12.742Z
+  version: 5.1.10
+  title: ""
+  date: 2024-01-12T19:01:37.372Z
+- commits:
     - subject: Update layers/meta-balena to 7322b033dd6efde288f564e657df0f1c1f217b7e
       hash: 17b134188b40602d57e298720561c834ca6924f9
       body: Update layers/meta-balena
