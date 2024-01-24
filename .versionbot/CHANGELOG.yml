@@ -1,4 +1,69 @@
 - commits:
+    - subject: Update layers/meta-balena to 2868aa1385bcbf6fe885e76872c2015de209d710
+      hash: ce4d0c3fe2afb5657727d0d3db897414e06e5f38
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 2868aa1385bcbf6fe885e76872c2015de209d710
+        changelog-entry: Update layers/meta-balena to 2868aa1385bcbf6fe885e76872c2015de209d710
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to e618772
+              hash: 134b8f2e7f8f75c67e4aa49feb8d0d38c0e5121b
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update Lock file maintenance
+                      hash: 601c03a87a8073ffa13e1abcdf51bb403f571f66
+                      body: |
+                        Update
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.40
+                  title: ""
+                  date: 2024-01-23T19:29:48.498Z
+                - commits:
+                    - subject: Update actions/upload-artifact digest to 26f96df
+                      hash: f9f08bf7810406b4fb16a3b1ac2345ad205d3c83
+                      body: |
+                        Update actions/upload-artifact
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.39
+                  title: ""
+                  date: 2024-01-23T18:31:12.292Z
+          version: meta-balena-5.1.14
+          title: ""
+          date: 2024-01-24T00:07:16.859Z
+        - commits:
+            - subject: Start extract-balena-ca before os-config update
+              hash: 1b43e70a712145abe11c6fe6332d29b4dde50c49
+              body: |
+                For os-config to use the OS wide ca certificate
+                instead of an existing balenaRootCA in the
+                config.json
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: jaomaloy
+              nested: []
+          version: meta-balena-5.1.13
+          title: ""
+          date: 2024-01-23T10:52:48.191Z
+  version: 5.1.14
+  title: ""
+  date: 2024-01-24T02:46:01.656Z
+- commits:
     - subject: Update layers/poky to d9d1a730aee831120e99a3250dd4e91f435b0b40
       hash: 185f0503b0e641d29ade02439dc2478d2bff1cc6
       body: Update layers/poky

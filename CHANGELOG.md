@@ -1,6 +1,42 @@
 Change log
 -----------
 
+# v5.1.14
+## (2024-01-24)
+
+
+<details>
+<summary> Update layers/meta-balena to 2868aa1385bcbf6fe885e76872c2015de209d710 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.14
+> ### (2024-01-24)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to e618772 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### leviathan-2.29.40
+>> #### (2024-01-23)
+>> 
+>> * Update Lock file maintenance [Self-hosted Renovate Bot]
+>> 
+>> ### leviathan-2.29.39
+>> #### (2024-01-23)
+>> 
+>> * Update actions/upload-artifact digest to 26f96df [Self-hosted Renovate Bot]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-5.1.13
+> ### (2024-01-23)
+> 
+> * Start extract-balena-ca before os-config update [jaomaloy]
+> 
+
+</details>
+
 # v5.1.12+rev1
 ## (2024-01-22)
 
