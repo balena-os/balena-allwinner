@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.1.18
+## (2024-01-29)
+
+
+<details>
+<summary> Update layers/meta-balena to 926c556a680f3d42118f2f8cb5c5cd67b1f79c3c [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.18
+> ### (2024-01-29)
+> 
+> * classes: kernel-balena: expose watchdog in sysfs [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.1.17
 ## (2024-01-29)
 
