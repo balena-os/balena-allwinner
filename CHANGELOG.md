@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.1.18+rev1
+## (2024-01-31)
+
+
+<details>
+<summary> Update contracts to 8dfe06b57576e15e8579d4083bb316c9c7671488 [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.91
+> ### (2024-02-01)
+> 
+> * Remove generic-amd64-fde device type [Michal Toman]
+> 
+
+</details>
+
 # v5.1.18
 ## (2024-01-29)
 

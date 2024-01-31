@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update contracts to 8dfe06b57576e15e8579d4083bb316c9c7671488
+      hash: 4ae18bb6e49708b58eed1b550ae0921a582e34e1
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 8dfe06b57576e15e8579d4083bb316c9c7671488
+        changelog-entry: Update contracts to 8dfe06b57576e15e8579d4083bb316c9c7671488
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Remove generic-amd64-fde device type
+              hash: a9e475afc5c9a0cc02fe39293b83c2476af2a7e7
+              body: |
+                FDE is a feature, it does not need a separate device type.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+          version: contracts-2.0.91
+          title: ""
+          date: 2024-01-31T10:51:22.461Z
+  version: 5.1.18+rev1
+  title: ""
+  date: 2024-01-31T13:13:59.482Z
+- commits:
     - subject: Update layers/meta-balena to 926c556a680f3d42118f2f8cb5c5cd67b1f79c3c
       hash: c207b474bfb5a9dad97b96f433572c7ae5c92be7
       body: Update layers/meta-balena
