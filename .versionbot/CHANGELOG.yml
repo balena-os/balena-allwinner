@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 75a97647a44cfe534f93926ab039afca6570cb86
+      hash: b8d7a55cf8ec5ec3313d52c44373082ecb1be29b
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 75a97647a44cfe534f93926ab039afca6570cb86
+        changelog-entry: Update contracts to 75a97647a44cfe534f93926ab039afca6570cb86
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "hw.device-type: Add phyboard-lyra-am62xx-2 device"
+              hash: d9e57b1f2432aac0ea4b6d9e6285e805e5359a6f
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Atanas Bunchev <atanas.bunchev@konsulko.com>
+                signed-off-by: Atanas Bunchev <atanas.bunchev@konsulko.com>
+              author: Atanas Bunchev
+          version: contracts-2.0.92
+          title: ""
+          date: 2024-02-01T10:43:30.336Z
+  version: 5.1.20+rev2
+  title: ""
+  date: 2024-02-01T15:18:06.508Z
+- commits:
     - subject: Update layers/poky to b22e4f002d3f0bc3cb2aa6fb5249785f5b0d95e6
       hash: edc34e0675b7b0129dcd361b494cd398c74cb9f8
       body: Update layers/poky
