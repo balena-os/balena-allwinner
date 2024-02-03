@@ -1,6 +1,27 @@
 Change log
 -----------
 
+# v5.1.22+rev1
+## (2024-02-03)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 0ba4bf5f5c4597b21628dfb6206304d1f889468f [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.21.0
+> ### (2024-02-02)
+> 
+> * Return image id after pulling helper images [Kyle Harding]
+> * Build and publish helper images with Flowzone [Kyle Harding]
+> 
+> ## balena-yocto-scripts-1.20.0
+> ### (2024-02-02)
+> 
+> * Remove unused block-build functions [Kyle Harding]
+> 
+
+</details>
+
 # v5.1.22
 ## (2024-02-02)
 
