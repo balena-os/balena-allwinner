@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to aa6c72f952fa9f9a7428e0bf445b98a5023f8a60
+      hash: 66bd9d7ce97150ac5d5c096fe4020508450a12d7
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to aa6c72f952fa9f9a7428e0bf445b98a5023f8a60
+        changelog-entry: Update layers/meta-balena to aa6c72f952fa9f9a7428e0bf445b98a5023f8a60
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: cloud: disable dut internet after flashing"
+              hash: d2862583495343999f413f2279e0a560c4f85036
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-5.1.23
+          title: ""
+          date: 2024-02-05T08:28:03.676Z
+  version: 5.1.23
+  title: ""
+  date: 2024-02-05T11:46:49.027Z
+- commits:
     - subject: Update balena-yocto-scripts to 0ba4bf5f5c4597b21628dfb6206304d1f889468f
       hash: 222db79bd04f75d319b5ea6547e3d464a00ae9d0
       body: Update balena-yocto-scripts
