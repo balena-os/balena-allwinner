@@ -1,6 +1,32 @@
 Change log
 -----------
 
+# v5.1.25
+## (2024-02-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 77dc93411fffa0cc71dcc36e447cbfa9170f909d [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.25
+> ### (2024-02-06)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to a708a7f [Self-hosted Renovate Bot] </summary>
+> 
+>> ### leviathan-2.29.49
+>> #### (2024-02-05)
+>> 
+>> * Update actions/upload-artifact digest to 5d5d22a [Self-hosted Renovate Bot]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v5.1.24
 ## (2024-02-06)
 
