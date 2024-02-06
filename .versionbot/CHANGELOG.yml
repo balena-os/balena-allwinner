@@ -1,4 +1,54 @@
 - commits:
+    - subject: Update layers/meta-balena to e3519f1960bc68e72abf3ec052564cbf5878629f
+      hash: 56ac2ac5894f32a57f83c1448d59beaa9faec822
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e3519f1960bc68e72abf3ec052564cbf5878629f
+        changelog-entry: Update layers/meta-balena to e3519f1960bc68e72abf3ec052564cbf5878629f
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 57ba19b
+              hash: 95914f064319b07f4fffaea99acba403371f8552
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update balena-os/leviathan-worker to v2.9.32
+                      hash: 9b77f33362ad96fbcb16144d1ced8f55b1ae229b
+                      body: |
+                        Update balena-os/leviathan-worker from 2.9.30 to 2.9.32
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.48
+                  title: ""
+                  date: 2024-02-05T14:50:14.058Z
+                - commits:
+                    - subject: Update Lock file maintenance
+                      hash: aaaa5b9d3cbdc934492b3198be0f589878bb2556
+                      body: |
+                        Update
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.29.47
+                  title: ""
+                  date: 2024-02-05T00:45:07.492Z
+          version: meta-balena-5.1.24
+          title: ""
+          date: 2024-02-05T21:33:40.827Z
+  version: 5.1.24
+  title: ""
+  date: 2024-02-06T01:35:31.075Z
+- commits:
     - subject: Update layers/meta-balena to aa6c72f952fa9f9a7428e0bf445b98a5023f8a60
       hash: 66bd9d7ce97150ac5d5c096fe4020508450a12d7
       body: Update layers/meta-balena
