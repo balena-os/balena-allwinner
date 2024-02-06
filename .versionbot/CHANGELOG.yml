@@ -1,4 +1,49 @@
 - commits:
+    - subject: Update layers/meta-balena to cde215eca198fddfd900cf481ed5cc3f26d901ab
+      hash: be8c1f56ee03e70c26d97bf05e69592dfdcece30
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to cde215eca198fddfd900cf481ed5cc3f26d901ab
+        changelog-entry: Update layers/meta-balena to cde215eca198fddfd900cf481ed5cc3f26d901ab
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v15.3.1
+              hash: d1816fb95d9d1722f258609c92f9f4d6d982c730
+              body: |
+                Update balena-supervisor from 15.3.0 to 15.3.1
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Respect update strategies app-wide instead of at the service level
+                      hash: 3afcef296914840268356f7f98bc4bd8cce9427c
+                      body: >
+                        Fixes behavior for release updates which removes a
+                        service in current state
+
+                        and adds a new service in target state.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Closes: "#2095"
+                        closes: "#2095"
+                        Signed-off-by: Christina Ying Wang <christina@balena.io>
+                        signed-off-by: Christina Ying Wang <christina@balena.io>
+                      author: Christina Ying Wang
+                      nested: []
+                  version: balena-supervisor-15.3.1
+                  title: ""
+                  date: 2024-02-01T19:31:12.515Z
+          version: meta-balena-5.1.26
+          title: ""
+          date: 2024-02-06T12:44:48.657Z
+  version: 5.1.26
+  title: ""
+  date: 2024-02-06T17:36:52.596Z
+- commits:
     - subject: Update layers/meta-balena to 77dc93411fffa0cc71dcc36e447cbfa9170f909d
       hash: 55252e7d49d9fe541ac5296eb94a28c9a5f8f5da
       body: Update layers/meta-balena
