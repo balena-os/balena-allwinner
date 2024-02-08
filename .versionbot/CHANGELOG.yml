@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 4f7dba1c6408a17c5a07e353443b068410fd8aa2
+      hash: 65b9310a1cc947f81929375219086a9086ae1032
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 4f7dba1c6408a17c5a07e353443b068410fd8aa2
+        changelog-entry: Update contracts to 4f7dba1c6408a17c5a07e353443b068410fd8aa2
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "hw.device-type: Add Kontron i.MX8M Mini device"
+              hash: bfae3a09557f6bb7e3fffb888337339d9b900ebf
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: joris-bright <joris@bright-energy.eu>
+                signed-off-by: joris-bright <joris@bright-energy.eu>
+              author: joris-bright
+          version: contracts-2.0.93
+          title: ""
+          date: 2024-02-08T08:40:46.444Z
+  version: 5.1.26+rev3
+  title: ""
+  date: 2024-02-08T13:43:58.318Z
+- commits:
     - subject: Update layers/poky to 12fab85ba186f2a372c40f733b0881f0efc46024
       hash: fe3e37e6afd76f4771e5b417f3e1378e6128ea3c
       body: Update layers/poky
