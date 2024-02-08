@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 6ccd3b1013b6d25ea9990a07a06bee864fe0a172
+      hash: c5acee1973f4a2a3447bdaccb088f4b028d5531d
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 6ccd3b1013b6d25ea9990a07a06bee864fe0a172
+        changelog-entry: Update balena-yocto-scripts to 6ccd3b1013b6d25ea9990a07a06bee864fe0a172
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "automation/include: Pass helper image version"
+              hash: 2a8e25e0d0b46b3249c1c77b0c38219ebcdea1f0
+              body: >
+                This is needed by the balena-push-env helper image that needs
+                the
+
+                balena-yocto-scripts version but has no way of getting that info
+
+                otherwise.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: balena-yocto-scripts-1.21.2
+          title: ""
+          date: 2024-02-08T07:44:50.538Z
+  version: 5.1.26+rev4
+  title: ""
+  date: 2024-02-08T17:17:58.620Z
+- commits:
     - subject: Update contracts to 4f7dba1c6408a17c5a07e353443b068410fd8aa2
       hash: 65b9310a1cc947f81929375219086a9086ae1032
       body: Update contracts
