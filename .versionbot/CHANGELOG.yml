@@ -1,4 +1,86 @@
 - commits:
+    - subject: Update layers/meta-balena to 4b70a3a329ce5e6749b32e49f87ef0093ee2d2c6
+      hash: d4074b31fb478c41f35c5ddee7ee2a2d649ecdb5
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 4b70a3a329ce5e6749b32e49f87ef0093ee2d2c6
+        changelog-entry: Update layers/meta-balena to 4b70a3a329ce5e6749b32e49f87ef0093ee2d2c6
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-engine to v20.10.43
+              hash: 2f47cdb1996b3ab4421a22fd0b36917899bf77b4
+              body: |
+                Update balena-engine from 20.10.42 to 20.10.43
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update runc component to v1.1.12 from balena-runc repo
+                      hash: 9cdf0321cbb1dee0b1712f4e537f1b90caad45ea
+                      body: >
+                        Also update containerd component from balena-containerd
+                        to also use
+
+                        runc v1.1.12. Also update dependencies as indicated from balena-runc go.mod.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Ken Bannister <kb2ma@runbox.com>
+                        signed-off-by: Ken Bannister <kb2ma@runbox.com>
+                      author: Ken Bannister
+                      nested: []
+                  version: balena-engine-20.10.43
+                  title: ""
+                  date: 2024-02-06T08:42:31.660Z
+          version: meta-balena-5.1.28
+          title: ""
+          date: 2024-02-11T11:59:55.024Z
+    - subject: Update layers/meta-balena to cb86da70496b25de7b826abbacd7c7feedf2fa54
+      hash: 240c23d5cbf6b83b7b17ae559f4bb38636f99b88
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to cb86da70496b25de7b826abbacd7c7feedf2fa54
+        changelog-entry: Update layers/meta-balena to cb86da70496b25de7b826abbacd7c7feedf2fa54
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-engine to v20.10.43
+              hash: 2f47cdb1996b3ab4421a22fd0b36917899bf77b4
+              body: |
+                Update balena-engine from 20.10.42 to 20.10.43
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update runc component to v1.1.12 from balena-runc repo
+                      hash: 9cdf0321cbb1dee0b1712f4e537f1b90caad45ea
+                      body: >
+                        Also update containerd component from balena-containerd
+                        to also use
+
+                        runc v1.1.12. Also update dependencies as indicated from balena-runc go.mod.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Ken Bannister <kb2ma@runbox.com>
+                        signed-off-by: Ken Bannister <kb2ma@runbox.com>
+                      author: Ken Bannister
+                      nested: []
+                  version: balena-engine-20.10.43
+                  title: ""
+                  date: 2024-02-06T08:42:31.660Z
+          version: meta-balena-5.1.28
+          title: ""
+          date: 2024-02-11T11:59:55.024Z
+  version: 5.1.28
+  title: ""
+  date: 2024-02-11T15:55:00.267Z
+- commits:
     - subject: Update balena-yocto-scripts to 6ccd3b1013b6d25ea9990a07a06bee864fe0a172
       hash: c5acee1973f4a2a3447bdaccb088f4b028d5531d
       body: Update balena-yocto-scripts
