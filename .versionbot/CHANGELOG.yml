@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 0cb57aede8dea798c14ddfc6546525b920504970
+      hash: 48bcb5edcea90f135e6626cb655f1e99b0f89779
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 0cb57aede8dea798c14ddfc6546525b920504970
+        changelog-entry: Update balena-yocto-scripts to 0cb57aede8dea798c14ddfc6546525b920504970
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Enable S3 Server Side Encryption flags
+              hash: 93a2a37249c8262662934e4220c1009a8f22c51c
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.21.3
+          title: ""
+          date: 2024-02-11T13:57:42.525Z
+  version: 5.1.28+rev1
+  title: ""
+  date: 2024-02-11T18:55:33.223Z
+- commits:
     - subject: Update layers/meta-balena to 4b70a3a329ce5e6749b32e49f87ef0093ee2d2c6
       hash: d4074b31fb478c41f35c5ddee7ee2a2d649ecdb5
       body: Update layers/meta-balena
