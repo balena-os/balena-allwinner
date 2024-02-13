@@ -1,6 +1,32 @@
 Change log
 -----------
 
+# v5.1.32
+## (2024-02-13)
+
+
+<details>
+<summary> Update layers/meta-balena to 9cacd8fbca660d61433e0b01a2beb0e515ea5a51 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.32
+> ### (2024-02-13)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 4b9de7e [Self-hosted Renovate Bot] </summary>
+> 
+>> ### leviathan-2.29.57
+>> #### (2024-02-13)
+>> 
+>> * patch: Authenticate the validator before validation [Vipul Gupta (@vipulgupta2048)]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v5.1.31
 ## (2024-02-13)
 

@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update layers/meta-balena to 9cacd8fbca660d61433e0b01a2beb0e515ea5a51
+      hash: 5f809355b524c36afeee901a5d0c2a5eaa7fc5ce
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9cacd8fbca660d61433e0b01a2beb0e515ea5a51
+        changelog-entry: Update layers/meta-balena to 9cacd8fbca660d61433e0b01a2beb0e515ea5a51
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 4b9de7e
+              hash: b4f6a28c7c7f0f9636417b5e06c16a8ddc3ce2e9
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: "patch: Authenticate the validator before validation"
+                      hash: 03ef1b01b99d921fe99b834001de26d4c760f3b8
+                      body: ""
+                      footer:
+                        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                      author: Vipul Gupta (@vipulgupta2048)
+                      nested: []
+                  version: leviathan-2.29.57
+                  title: ""
+                  date: 2024-02-13T10:45:34.666Z
+          version: meta-balena-5.1.32
+          title: ""
+          date: 2024-02-13T16:01:45.214Z
+  version: 5.1.32
+  title: ""
+  date: 2024-02-13T18:02:42.798Z
+- commits:
     - subject: Update layers/meta-balena to 71c5240fd2c9d26e7773c1ed4b3dc67f7fa4f9c7
       hash: 2fbf4cb363c37314b1ba13d36034fa004d80ac29
       body: Update layers/meta-balena
