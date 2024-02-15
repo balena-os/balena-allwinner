@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.1.34
+## (2024-02-15)
+
+
+<details>
+<summary> Update layers/meta-balena to b72d2791eb6b8e7a8fbb7b25cc43649a6c5cc281 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.34
+> ### (2024-02-14)
+> 
+> * resin-init-flasher: add jq dependency [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.1.33+rev1
 ## (2024-02-14)
 

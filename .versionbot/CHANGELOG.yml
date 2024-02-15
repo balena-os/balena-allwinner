@@ -1,4 +1,39 @@
 - commits:
+    - subject: Update layers/meta-balena to b72d2791eb6b8e7a8fbb7b25cc43649a6c5cc281
+      hash: 0fc71fd66bc2e68194bbc0e906e7c550cd16ce52
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b72d2791eb6b8e7a8fbb7b25cc43649a6c5cc281
+        changelog-entry: Update layers/meta-balena to b72d2791eb6b8e7a8fbb7b25cc43649a6c5cc281
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "resin-init-flasher: add jq dependency"
+              hash: 87aa01801d193a893f10367ba71b9cc824bf7e69
+              body: >
+                Without this dependency, the call to `jq` does not happen and
+                the check
+
+                for INTERNAL_DEVICE_KERNEL is not performed.
+
+
+                Several devices that define internal storage but do not define
+
+                INTERNAL_DEVICE_KERNEL will now fail and need to be fixed.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-5.1.34
+          title: ""
+          date: 2024-02-14T23:11:49.455Z
+  version: 5.1.34
+  title: ""
+  date: 2024-02-15T04:07:30.247Z
+- commits:
     - subject: Update contracts to 0c54ce2d25baac5485f3828dbfed58c33f881256
       hash: 1190ce170df6fbdb6efe557624fea1bcb854907e
       body: Update contracts
