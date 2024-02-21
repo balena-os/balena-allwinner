@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.1.36
+## (2024-02-21)
+
+
+<details>
+<summary> Update layers/meta-balena to 03023b22b4e6de475e868b60fc8999c94d9255dc [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.36
+> ### (2024-02-21)
+> 
+> * tests: hup: test breadcrumbs after rollback services [Joseph Kogut]
+> 
+
+</details>
+
 # v5.1.35
 ## (2024-02-19)
 
