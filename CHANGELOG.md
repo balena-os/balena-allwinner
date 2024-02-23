@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v5.1.37
+## (2024-02-23)
+
+
+<details>
+<summary> Update layers/meta-balena to bf4ec98227e4cce4c22ff3d7037bdcd78ffdd9ec [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.37
+> ### (2024-02-22)
+> 
+> * tests/device-tree: Minor spelling fixes [Alexandru]
+> * test/device-tree: Send vcdbg to DUT [Alexandru Costache]
+> * patch: Add vcdbg binary to tests [Vipul Gupta (@vipulgupta2048)]
+> 
+
+</details>
+
 # v5.1.36+rev1
 ## (2024-02-22)
 

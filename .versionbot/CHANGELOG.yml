@@ -1,4 +1,48 @@
 - commits:
+    - subject: Update layers/meta-balena to bf4ec98227e4cce4c22ff3d7037bdcd78ffdd9ec
+      hash: fe52d93011797614efade5eb511f87024912aabb
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to bf4ec98227e4cce4c22ff3d7037bdcd78ffdd9ec
+        changelog-entry: Update layers/meta-balena to bf4ec98227e4cce4c22ff3d7037bdcd78ffdd9ec
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests/device-tree: Minor spelling fixes"
+              hash: 928fa031f794d09ce603795acc224fcb61e855d9
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru
+              nested: []
+            - subject: "test/device-tree: Send vcdbg to DUT"
+              hash: aab7e1390f9f1181a47905328ef5fba1b5e509f6
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+            - subject: "patch: Add vcdbg binary to tests"
+              hash: db56a276b23ba900bbbb1b4944a6a8fd4ca2f55f
+              body: ""
+              footer:
+                Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+                signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+              author: Vipul Gupta (@vipulgupta2048)
+              nested: []
+          version: meta-balena-5.1.37
+          title: ""
+          date: 2024-02-22T20:38:47.969Z
+  version: 5.1.37
+  title: ""
+  date: 2024-02-23T00:39:34.002Z
+- commits:
     - subject: Update layers/poky to b110cd3d821b6d0ef310fb05465087255c7bdca3
       hash: e64df8d65a2171da93fe747e7095f015642607c2
       body: Update layers/poky
