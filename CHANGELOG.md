@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v5.1.39+rev1
+## (2024-02-26)
+
+
+<details>
+<summary> Update contracts to f3ba2eee92e77c5a595bf22ffbeaa9164683ff1b [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.95
+> ### (2024-02-26)
+> 
+> * sw.os+hw.device-type: Update Jetson Orin repositories [Alexandru Costache]
+> * jetson-orin-nx-seeed-j4012: Add ubuntu and debian distro tpl files [Alexandru Costache]
+> 
+
+</details>
+
 # v5.1.39
 ## (2024-02-26)
 
