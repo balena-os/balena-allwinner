@@ -1,4 +1,50 @@
 - commits:
+    - subject: Update layers/meta-balena to 61a61111139e34f6c2f5c2f096dfb65cc37405b4
+      hash: 7aaeb3699532c338a1626c18184be0f5e8da7e38
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 61a61111139e34f6c2f5c2f096dfb65cc37405b4
+        changelog-entry: Update layers/meta-balena to 61a61111139e34f6c2f5c2f096dfb65cc37405b4
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: hup: use secondary antenna for revpi4"
+              hash: d353a984983e58ca187a678b03bf5420672940a5
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+            - subject: "tests: cloud : use secondary antenna for revpi4"
+              hash: 1bbf59431281805b88303dce2747922c0a78eb97
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+            - subject: "tests: os: use secondary antenna for revpi4"
+              hash: 67f34c93af43420199e729956d8b47d5e32a0601
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-5.1.41
+          title: ""
+          date: 2024-02-27T12:56:34.503Z
+  version: 5.1.41
+  title: ""
+  date: 2024-02-27T16:04:16.904Z
+- commits:
     - subject: Update layers/meta-balena to 53ff24d92800474ad310af81129aef2c4d9d2809
       hash: f8ddba3eec1ade144e3679ddb80044762d55c32a
       body: Update layers/meta-balena
