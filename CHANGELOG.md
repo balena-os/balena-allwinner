@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.1.43
+## (2024-02-28)
+
+
+<details>
+<summary> Update layers/meta-balena to 87036c0cd6a4e23b55300c64f62158328e0eb779 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.43
+> ### (2024-02-28)
+> 
+> * Start os-config service after extracting CA [jaomaloy]
+> 
+
+</details>
+
 # v5.1.42
 ## (2024-02-28)
 
