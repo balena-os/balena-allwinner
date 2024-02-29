@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.1.44
+## (2024-02-29)
+
+
+<details>
+<summary> Update layers/meta-balena to 64cd9e85978a6148a5b0f9231edab4fe42db9c33 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.44
+> ### (2024-02-29)
+> 
+> * resin-init-flasher: Allow building images for non-flasher devices that have internal storage [Alexandru]
+> 
+
+</details>
+
 # v5.1.43+rev1
 ## (2024-02-29)
 
