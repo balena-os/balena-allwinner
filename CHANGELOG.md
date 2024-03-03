@@ -1,6 +1,27 @@
 Change log
 -----------
 
+# v5.1.47
+## (2024-03-03)
+
+
+<details>
+<summary> Update layers/meta-balena to 6accf97a7c0276a78d47b8d5fa93c515f31d24c2 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.47
+> ### (2024-03-03)
+> 
+> * classes: kernel-balena: fix secureboot append [Alex Gonzalez]
+> * classes: kernel-balena: correct dmcrypt dependencies [Alex Gonzalez]
+> * classes: kernel-balena: separate kexec configuration [Alex Gonzalez]
+> * kernel-balena: remove EFI specific settings [Alex Gonzalez]
+> * kernel-balena: separate EFI specific secure boot configurations [Alex Gonzalez]
+> * kernel-balena: remove deprecated kernel configuration [Alex Gonzalez]
+> * kernel-balena: add nfsd kernel setting [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.1.46+rev2
 ## (2024-03-02)
 
