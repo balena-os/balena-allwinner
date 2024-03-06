@@ -1,4 +1,48 @@
 - commits:
+    - subject: Update layers/meta-balena to 6898f00e2d312aa468a44a98880882c31e81b26e
+      hash: 62e9cb5ac13e83c6a339c0c62738fe0d8bb98be7
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6898f00e2d312aa468a44a98880882c31e81b26e
+        changelog-entry: Update layers/meta-balena to 6898f00e2d312aa468a44a98880882c31e81b26e
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "hostapp-update-hooks: Soft include balena-config-defaults"
+              hash: a6cd568a3b3aec127e2ef5b9b480b657a3ea246e
+              body: >
+                a203bcdfd567c0cc4b4ed9de493513142cd7463f introduced a dependency
+
+                on /usr/sbin/balena-config-defaults to hostapp-update-hooks, however
+
+                during HUP the script is not only executed in the "new" OS container
+
+                but directly in the context of the "old" OS as well, so
+
+                /usr/sbin/balena-config-defaults needs to exist there.
+
+                The file was introduced in balenaOS v2.99.28, so trying to HUP
+
+                from anything before that will fail.
+
+
+                This patch changes this to a soft dependency so even if the file
+
+                is missing HUP will continue.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-5.1.48
+          title: ""
+          date: 2024-03-06T08:25:08.800Z
+  version: 5.1.48
+  title: ""
+  date: 2024-03-06T10:25:51.910Z
+- commits:
     - subject: pass input parameters to common esr workflow
       hash: 16e5ede715cd2189724a3610bdc6bdf1660acffe
       body: ""
