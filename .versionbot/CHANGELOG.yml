@@ -1,4 +1,43 @@
 - commits:
+    - subject: Update layers/meta-balena to bbe9d4c565bbb3b158de268ee0a77076504e5419
+      hash: 46f3911fd12ed9642f493e9c7589a13e2b44de9e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to bbe9d4c565bbb3b158de268ee0a77076504e5419
+        changelog-entry: Update layers/meta-balena to bbe9d4c565bbb3b158de268ee0a77076504e5419
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests/device-tree: Rework to account for new form of setting dtoverlay
+                in config.txt by the supervisor"
+              hash: 12a0940ce31031e203364dd6c76a4fc07697133b
+              body: |
+                The supervisor will now write the following dtoverlay setting
+
+                "gpio-key,gpio=4,active_low=0,gpio_pull=down"
+
+                into config.txt in the following form:
+
+                dtoverlay=gpio-key
+                dtparam=gpio=4
+                dtparam=active_low=0
+                dtparam=gpio_pull=down
+
+                So we need to rework the test to account for these changes.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-5.1.50
+          title: ""
+          date: 2024-03-07T11:28:39.221Z
+  version: 5.1.50
+  title: ""
+  date: 2024-03-07T15:33:27.799Z
+- commits:
     - subject: Update layers/meta-balena to 069243961adb123830eb4073a6245b2fa1e6f8b3
       hash: 01355772f9183376c6ca07e3bbc47cfb85d636c2
       body: Update layers/meta-balena
