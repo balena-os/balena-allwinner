@@ -1,6 +1,32 @@
 Change log
 -----------
 
+# v5.1.53
+## (2024-03-12)
+
+
+<details>
+<summary> Update layers/meta-balena to 4f480f5a5ef8595e963b373ea03f9f684ab9073b [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.53
+> ### (2024-03-12)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.1.5 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-16.1.5
+>> #### (2024-03-12)
+>> 
+>> * Update fatrw to v0.2.21 [Felipe Lalanne]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v5.1.52
 ## (2024-03-11)
 

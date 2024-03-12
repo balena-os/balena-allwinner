@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to 4f480f5a5ef8595e963b373ea03f9f684ab9073b
+      hash: bf5a5f45344d916958472abb758c81291f2dc131
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 4f480f5a5ef8595e963b373ea03f9f684ab9073b
+        changelog-entry: Update layers/meta-balena to 4f480f5a5ef8595e963b373ea03f9f684ab9073b
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v16.1.5
+              hash: b15d808d021e647afc8c4da22f64dc9e7c929310
+              body: |
+                Update balena-supervisor from 16.1.4 to 16.1.5
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update fatrw to v0.2.21
+                      hash: 772702793c3ebf9bf3ac8119934436f2caa44bef
+                      body: |
+                        Update fatrw from 0.2.9 to 0.2.21
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-16.1.5
+                  title: ""
+                  date: 2024-03-12T13:33:05.116Z
+          version: meta-balena-5.1.53
+          title: ""
+          date: 2024-03-12T18:48:47.631Z
+  version: 5.1.53
+  title: ""
+  date: 2024-03-12T21:49:26.250Z
+- commits:
     - subject: Update layers/meta-balena to 71c89b66afa1cbf4113ed369b2cb7dd7035791b4
       hash: cd62c63e495684150dc4e2996cc0d90549672d91
       body: Update layers/meta-balena
