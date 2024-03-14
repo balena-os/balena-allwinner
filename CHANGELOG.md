@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.1.54
+## (2024-03-14)
+
+
+<details>
+<summary> Update layers/meta-balena to 2cef02167e0e780d1e96da0f801f1f4d5e27e79f [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.1.54
+> ### (2024-03-13)
+> 
+> * mkfs-hostapp-native: Disable iptables features in yocto balena daemon [Kyle Harding]
+> 
+
+</details>
+
 # v5.1.53+rev1
 ## (2024-03-14)
 
