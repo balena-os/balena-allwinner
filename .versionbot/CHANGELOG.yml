@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 908a50dc79192e66ab3fd518f166be05382c2c6e
+      hash: acd75f18ea0b07e2081c8c611822b89e615782ad
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 908a50dc79192e66ab3fd518f166be05382c2c6e
+        changelog-entry: Update contracts to 908a50dc79192e66ab3fd518f166be05382c2c6e
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "hw.device-type: Add beaglebone-play device"
+              hash: 67c4505e12b1ef6abfc37c9466470e062875bf00
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+                signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+              author: delhiryder
+          version: contracts-2.0.96
+          title: ""
+          date: 2024-03-14T16:14:23.733Z
+  version: 5.1.53+rev1
+  title: ""
+  date: 2024-03-14T19:56:20.558Z
+- commits:
     - subject: Update layers/meta-balena to 4f480f5a5ef8595e963b373ea03f9f684ab9073b
       hash: bf5a5f45344d916958472abb758c81291f2dc131
       body: Update layers/meta-balena
