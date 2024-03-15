@@ -1,4 +1,50 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 775e16968edc4c3803834bc524687ae4316ab6e4
+      hash: 31e4866708a1961d9d8580d225dd6a82b76010c8
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 775e16968edc4c3803834bc524687ae4316ab6e4
+        changelog-entry: Update balena-yocto-scripts to 775e16968edc4c3803834bc524687ae4316ab6e4
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Merge AMI publishing dependencies into yocto-build-env
+              hash: c208a885e849b1b49231de31268a482344220d38
+              body: |
+                This allows us to build and publish fewer helper images.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.21.5
+          title: ""
+          date: 2024-03-14T19:05:22.682Z
+        - commits:
+            - subject: "balena-build: avoid using device-type as a prefix in yocto sstate"
+              hash: f4a9566941083770151ebe3edd78e9866b4856fb
+              body: >
+                Yocto already splits the build sstate by target arch, native
+                arch, toolchains, and machine where applicable.
+
+
+                Keeping the caches separated by device type prevents sharing of
+                common cache steps between identical toolchains and
+                architectures.
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.21.4
+          title: ""
+          date: 2024-03-13T18:16:12.920Z
+  version: 5.1.54+rev1
+  title: ""
+  date: 2024-03-15T00:31:08.732Z
+- commits:
     - subject: Update layers/meta-balena to 2cef02167e0e780d1e96da0f801f1f4d5e27e79f
       hash: f2ff494d98f64edb980436453af7229dd90ddca6
       body: Update layers/meta-balena
