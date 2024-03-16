@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.2.0
+## (2024-03-16)
+
+
+<details>
+<summary> Update layers/meta-balena to 7e2a78213b4fb5915c1f8ecc042ffb1b38d9a013 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.2.0
+> ### (2024-03-16)
+> 
+> * Update NetworkManager to version 1.46.0 [Florin Sarbu]
+> 
+
+</details>
+
 # v5.1.54+rev1
 ## (2024-03-15)
 
