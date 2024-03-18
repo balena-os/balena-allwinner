@@ -1,4 +1,56 @@
 - commits:
+    - subject: Update layers/meta-balena to 74e89b4f4904b418882cb3dd9ef2c0bd360d8713
+      hash: c057220a831fca541847f88c6b381487a341a136
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 74e89b4f4904b418882cb3dd9ef2c0bd360d8713
+        changelog-entry: Update layers/meta-balena to 74e89b4f4904b418882cb3dd9ef2c0bd360d8713
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "networkmanager: Wait for iptables lock in shared dispatcher script"
+              hash: 374c4c32df59cc00e0b04d0c619f6fb98a69f1a5
+              body: >
+                The dispatcher script that moves around FORWARD rules of shared
+
+                interfaces currently calls iptables assuming it will always work
+
+                but in practice two iptables commands can not run in parallel
+
+                and we have occasionally seen the script fail with:
+
+
+                Another app is currently holding the xtables lock.
+
+                Perhaps you want to use the -w option?
+
+
+                This patch adds the -w option to make the script wait for the
+                lock
+
+                when necessary.
+
+
+                It also makes the script exit with an error code if anything
+                fails,
+
+                which will log the output as WARN instead of INFO as the errors
+
+                are easy to overlook at this moment.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-5.2.1
+          title: ""
+          date: 2024-03-18T17:11:28.023Z
+  version: 5.2.1
+  title: ""
+  date: 2024-03-18T20:16:53.824Z
+- commits:
     - subject: Update layers/meta-balena to 7e2a78213b4fb5915c1f8ecc042ffb1b38d9a013
       hash: bcdb44db2a422abf591bee1c2822f71579cb193d
       body: Update layers/meta-balena
