@@ -1,6 +1,34 @@
 Change log
 -----------
 
+# v5.2.3
+## (2024-03-22)
+
+
+<details>
+<summary> Update layers/meta-balena to 90d838ae943ffa72108522bfcc4370105a3be40c [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.2.3
+> ### (2024-03-22)
+> 
+> * mv docs/{,uefi-}secure-boot.md [Joseph Kogut]
+> * docs: secure-boot: update for PCR7 sealing [Joseph Kogut]
+> * os-helpers: compute_pcr7: merge event log digests [Joseph Kogut]
+> * Update policy's PCR7 value in hostapp-update hook [Joseph Kogut]
+> * os-helpers-tpm2: compute_pcr7: allow overriding efivars [Joseph Kogut]
+> * Move policy update to HUP commit hook [Joseph Kogut]
+> * rollback-health: move apply-dbx to HUP commit hook [Joseph Kogut]
+> * hostapp-hooks: include 0-signed-update only for efi [Joseph Kogut]
+> * secure boot: seal luks passphrase w/ PCR7 [Joseph Kogut]
+> * os-helpers-tpm2: separate authentication from crypto [Joseph Kogut]
+> * tcgtool: new recipe [Joseph Kogut]
+> * recipes-bsp: add recipe for GRUB 2.12 [Joseph Kogut]
+> * tests: skip bootloader config integrity check [Joseph Kogut]
+> * secureboot: enroll kernel hash in db for EFISTUB [Joseph Kogut]
+> 
+
+</details>
+
 # v5.2.2+rev1
 ## (2024-03-21)
 
