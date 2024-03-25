@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 35108dbe920e2b96e976065df205e265d19d86a5
+      hash: 87b92fa8c851afcfc4f96bbf6804888d78de96e3
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 35108dbe920e2b96e976065df205e265d19d86a5
+        changelog-entry: Update balena-yocto-scripts to 35108dbe920e2b96e976065df205e265d19d86a5
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: 'Revert "balena-build: avoid using device-type as a prefix in yocto
+                sstate"'
+              hash: 7a85083784a3225debf2276a978558df5a307ec7
+              body: |
+                This reverts commit f4a9566941083770151ebe3edd78e9866b4856fb.
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.21.6
+          title: ""
+          date: 2024-03-25T14:58:37.715Z
+  version: 5.2.3+rev1
+  title: ""
+  date: 2024-03-25T18:39:55.223Z
+- commits:
     - subject: Update layers/meta-balena to 90d838ae943ffa72108522bfcc4370105a3be40c
       hash: 908aaf86225d46c5e1b926ecc3670179fcca3eab
       body: Update layers/meta-balena
