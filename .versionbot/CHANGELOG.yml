@@ -1,4 +1,56 @@
 - commits:
+    - subject: Update contracts to 928d8e7a5295414c87548e8eca8ddea88205fb10
+      hash: 729ef8d3ecbf79964e9b0fe61cec94fd2154d959
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 928d8e7a5295414c87548e8eca8ddea88205fb10
+        changelog-entry: Update contracts to 928d8e7a5295414c87548e8eca8ddea88205fb10
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Add Advantech ECU1370 to hardware contract.
+              hash: 0dfe4758230bef9d6c97f533019aaba93cdc1520
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Lisandro Pérez Meyer <lpmeyer@ics.com>
+                signed-off-by: Lisandro Pérez Meyer <lpmeyer@ics.com>
+              author: Lisandro Pérez Meyer
+          version: contracts-2.0.100
+          title: ""
+          date: 2024-04-08T18:29:36.856Z
+        - commits:
+            - subject: Add node v20.12.0 for debian
+              hash: 69bd96b9757959ebbcdffb0e45e0811567929bb6
+              body: |
+                Planning to add alpine in a follow-up once
+                we get the jenkins job to work and will then
+                also mark 20.12.0 as the latest.
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Thodoris Greasidis
+          version: contracts-2.0.99
+          title: ""
+          date: 2024-04-07T23:28:45.593Z
+        - commits:
+            - subject: "hw.device-type: Add bluechiptechnology-db1"
+              hash: 16e6a9606a0eddf4cfcc9f3fa18d539096d64e16
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+                signed-off-by: Chris Richardson <crichardson@bluechiptechnology.com>
+              author: crichardson
+          version: contracts-2.0.98
+          title: ""
+          date: 2024-03-26T12:30:34.277Z
+  version: 5.2.4+rev1
+  title: ""
+  date: 2024-04-08T20:34:27.552Z
+- commits:
     - subject: Update layers/meta-balena to 756d76ca12b7cbf2086bf6bad5f36b1117423d5f
       hash: 062425789bd7b39b5fa05e604550d7ed04777f6b
       body: Update layers/meta-balena

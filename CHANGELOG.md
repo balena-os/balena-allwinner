@@ -1,6 +1,31 @@
 Change log
 -----------
 
+# v5.2.4+rev1
+## (2024-04-08)
+
+
+<details>
+<summary> Update contracts to 928d8e7a5295414c87548e8eca8ddea88205fb10 [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.100
+> ### (2024-04-08)
+> 
+> * Add Advantech ECU1370 to hardware contract. [Lisandro Pérez Meyer]
+> 
+> ## contracts-2.0.99
+> ### (2024-04-07)
+> 
+> * Add node v20.12.0 for debian [Thodoris Greasidis]
+> 
+> ## contracts-2.0.98
+> ### (2024-03-26)
+> 
+> * hw.device-type: Add bluechiptechnology-db1 [crichardson]
+> 
+
+</details>
+
 # v5.2.4
 ## (2024-04-06)
 
