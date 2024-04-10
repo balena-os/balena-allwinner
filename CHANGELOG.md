@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v5.2.4+rev2
+## (2024-04-10)
+
+
+<details>
+<summary> Update contracts to 619554d6126d299a8349a065e49bcdbe855f3293 [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.101
+> ### (2024-04-10)
+> 
+> * Remove outdated jdk & jre 8 [Thodoris Greasidis]
+> * Remove python 3.7.16 since it's in EOL [Thodoris Greasidis]
+> * Remove node v14 & v16 since they are EOL [Thodoris Greasidis]
+> 
+
+</details>
+
 # v5.2.4+rev1
 ## (2024-04-08)
 

@@ -1,4 +1,43 @@
 - commits:
+    - subject: Update contracts to 619554d6126d299a8349a065e49bcdbe855f3293
+      hash: f8e92a2b388c4755278cdb0161b1cbf05d7c495f
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 619554d6126d299a8349a065e49bcdbe855f3293
+        changelog-entry: Update contracts to 619554d6126d299a8349a065e49bcdbe855f3293
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Remove outdated jdk & jre 8
+              hash: 1d3d5c74c32119bfb816e411d0d6a992e642d659
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Thodoris Greasidis
+            - subject: Remove python 3.7.16 since it's in EOL
+              hash: 0bc11dc4a257a753fd4ad7b1aba999f0c23188f4
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Thodoris Greasidis
+            - subject: Remove node v14 & v16 since they are EOL
+              hash: 96055862f317b8b54896702d46361392bd1ccaca
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                See: https://balena.zulipchat.com/#narrow/stream/345890-balena-io/topic/base.20images/near/432359439
+                see: https://balena.zulipchat.com/#narrow/stream/345890-balena-io/topic/base.20images/near/432359439
+              author: Thodoris Greasidis
+          version: contracts-2.0.101
+          title: ""
+          date: 2024-04-10T09:26:36.966Z
+  version: 5.2.4+rev2
+  title: ""
+  date: 2024-04-10T11:40:35.955Z
+- commits:
     - subject: Update contracts to 928d8e7a5295414c87548e8eca8ddea88205fb10
       hash: 729ef8d3ecbf79964e9b0fe61cec94fd2154d959
       body: Update contracts
