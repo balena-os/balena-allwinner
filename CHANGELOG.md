@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.2.5
+## (2024-04-12)
+
+
+<details>
+<summary> Update layers/meta-balena to a7fe21a582d79c7086ecada4b670348b43804cdb [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.2.5
+> ### (2024-04-12)
+> 
+> * classes: sign-rsa: add class for RSA artifact signing [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.2.4+rev4
 ## (2024-04-11)
 
