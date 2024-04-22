@@ -1,4 +1,54 @@
 - commits:
+    - subject: Update layers/meta-balena to 09f97ae4e491700fc458672c94fd7170b37551e1
+      hash: a7f7e8a8b2873a7e08153f725662d538957e33b4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 09f97ae4e491700fc458672c94fd7170b37551e1
+        changelog-entry: Update layers/meta-balena to 09f97ae4e491700fc458672c94fd7170b37551e1
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 5984adc
+              hash: d620600db09f2215dbfc43748fcc493023809bf2
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Update actions/upload-artifact digest to 1746f4a
+                      hash: 4872b11fad92f5c8ea60050e21aa63a2bbb1289d
+                      body: |
+                        Update actions/upload-artifact
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.30.11
+                  title: ""
+                  date: 2024-04-22T01:55:56.805Z
+                - commits:
+                    - subject: Update Lock file maintenance
+                      hash: c3225ffd4e4fde06ceaf3ace5778fa8633a72e28
+                      body: |
+                        Update
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: leviathan-2.30.10
+                  title: ""
+                  date: 2024-04-22T00:50:13.147Z
+          version: meta-balena-5.2.9
+          title: ""
+          date: 2024-04-22T05:25:28.462Z
+  version: 5.2.9
+  title: ""
+  date: 2024-04-22T07:26:12.138Z
+- commits:
     - subject: Update balena-yocto-scripts to 45b33b1ab2a550bd8292e61139c7e1316d75219c
       hash: 72b23d7cd18378762e946e09df3db261f6bcdeee
       body: Update balena-yocto-scripts
