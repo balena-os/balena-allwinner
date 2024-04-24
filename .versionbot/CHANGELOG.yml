@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to 2e58bc5bb95af8ab7f27a3943ebb34761424445c
+      hash: 022ef385659dd401f626c4e074e769be40ef8390
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 2e58bc5bb95af8ab7f27a3943ebb34761424445c
+        changelog-entry: Update layers/meta-balena to 2e58bc5bb95af8ab7f27a3943ebb34761424445c
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: os: address race in internet con. sharing tests"
+              hash: c8fccaef7c48dcccb150f46d0bedb48460ead445
+              body: >
+                For some device types it's been noted that it takes longer than
+                the time it takes do do one check of the iptables rules for the
+                intended rules to appear, leading to a failure. This aims to
+                make the check more consistent by checking 5 times before
+                failing.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-5.3.1
+          title: ""
+          date: 2024-04-24T15:34:48.717Z
+  version: 5.3.1
+  title: ""
+  date: 2024-04-24T20:36:04.982Z
+- commits:
     - subject: Update layers/meta-balena to 02acc2b2f2337154e79825e21fc5a517a1f97315
       hash: 9a0617ba3a62ced79a63c22dac7d8537ec595067
       body: Update layers/meta-balena
