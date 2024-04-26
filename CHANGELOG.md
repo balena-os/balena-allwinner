@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v5.3.2
+## (2024-04-26)
+
+* Update layers/meta-openembedded to 01358b6d705071cc0ac5aefa7670ab235709729a [Self-hosted Renovate Bot]
+* Update layers/meta-balena to f212a46b75701da1ad174eaca183c5b9f55075ec [Self-hosted Renovate Bot]
+
 # v5.3.1
 ## (2024-04-24)
 
