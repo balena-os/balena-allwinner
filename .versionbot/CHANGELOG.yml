@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to cc46d73fa73a599f744a2f06a6c6983d76a45a41
+      hash: a93057415036cce99b37eee21e333eaef9d64d75
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to cc46d73fa73a599f744a2f06a6c6983d76a45a41
+        changelog-entry: Update layers/meta-balena to cc46d73fa73a599f744a2f06a6c6983d76a45a41
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "docs: elaborate automated testing requirement in board support guide"
+              hash: aad242195fb191cbe9c8230b9cf36aa4b0679fbe
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-5.3.3
+          title: ""
+          date: 2024-05-01T12:04:46.013Z
+  version: 5.3.3
+  title: ""
+  date: 2024-05-01T16:02:49.222Z
+- commits:
     - subject: Update balena-yocto-scripts to 019219edcbd508bdb1027bf56f20f8696fddba83
       hash: 0393d59a5f0d7cf82ff1a207717c2b054b592571
       body: Update balena-yocto-scripts
