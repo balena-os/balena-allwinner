@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to c7d68bb9a14aba972c692212dd41264f78527c38
+      hash: d2d84b5996dc5495e1361a528e43034b21beca70
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to c7d68bb9a14aba972c692212dd41264f78527c38
+        changelog-entry: Update layers/meta-balena to c7d68bb9a14aba972c692212dd41264f78527c38
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "peak: Update to version 8.17.0"
+              hash: 2ab3cb2eb859d0a8658fda0739e6d287adc0bc6d
+              body: >
+                This is needed to have it compiled against kernel version
+                6.6.23,
+
+                which we will include in balena-generic.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-5.3.6
+          title: ""
+          date: 2024-05-20T08:35:07.780Z
+  version: 5.3.6
+  title: ""
+  date: 2024-05-20T12:16:39.179Z
+- commits:
     - subject: Update layers/meta-balena to 760b2d6a41eee84c2db144fa6b5f4d40b0c9326a
       hash: 9c45d3702396f4d9ed1ef9e8a25e61829ecaa370
       body: Update layers/meta-balena
