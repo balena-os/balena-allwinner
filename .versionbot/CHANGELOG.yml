@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update layers/meta-balena to 98a8dc813fb1df71c510732e14fa31446ef883e6
+      hash: 4771995b3d136c49726367a2a8eb774b0249ddfc
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 98a8dc813fb1df71c510732e14fa31446ef883e6
+        changelog-entry: Update layers/meta-balena to 98a8dc813fb1df71c510732e14fa31446ef883e6
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: os: modem: fix curl command"
+              hash: 6a62c9fea1611658504e3ccdff29bd8ae7467b3d
+              body: >
+                The modem test was broken when changing from ping to curl as
+                part of 071c018. Here it is fixed
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-5.3.7
+          title: ""
+          date: 2024-05-22T07:06:53.156Z
+  version: 5.3.7
+  title: ""
+  date: 2024-05-22T09:27:30.317Z
+- commits:
     - subject: Update layers/meta-balena to c7d68bb9a14aba972c692212dd41264f78527c38
       hash: d2d84b5996dc5495e1361a528e43034b21beca70
       body: Update layers/meta-balena
