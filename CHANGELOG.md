@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.3.8
+## (2024-05-23)
+
+
+<details>
+<summary> Update layers/meta-balena to 7552b004b5a4d86e823397519ba78ea24632bcec [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.8
+> ### (2024-05-23)
+> 
+> * tests: safe-reboot: fetch and modify target state [rcooke-warwick]
+> 
+
+</details>
+
 # v5.3.7
 ## (2024-05-22)
 
