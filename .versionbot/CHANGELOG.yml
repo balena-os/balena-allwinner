@@ -1,4 +1,51 @@
 - commits:
+    - subject: Update layers/meta-balena to 762839409d5c94cd3592c41841657e5cfdc469f3
+      hash: 04c5f1a7f7aa8640d771d505ae2a21bbebee15d1
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 762839409d5c94cd3592c41841657e5cfdc469f3
+        changelog-entry: Update layers/meta-balena to 762839409d5c94cd3592c41841657e5cfdc469f3
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "NetworkManager: do not use FW rule numbers in shared dispatcher
+                script"
+              hash: ab8d61194d84045e4b74f60e4172a69dd52a3509
+              body: >
+                Manipulating the firewall rules by index introduces a race
+                condition.
+
+                Both NetworkManager and balenaEngine add the rules to the top
+
+                of the FORWARD chain instead of appending, so if we first look
+                up
+
+                a rule by number and then use the number to refer to it, we can
+                not
+
+                guarantee that the rule number has not changed (iow the rule has
+                not
+
+                been moved down) in the meantime.
+
+
+                This patch removes the use of rule numbers completely and makes
+
+                the "shared" dispatcher script refer to the rules by definition.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-5.3.9
+          title: ""
+          date: 2024-05-24T12:34:18.221Z
+  version: 5.3.9
+  title: ""
+  date: 2024-05-24T20:32:57.818Z
+- commits:
     - subject: Update layers/meta-balena to 7552b004b5a4d86e823397519ba78ea24632bcec
       hash: c2758e4b9dad83e7da45ecc842bf9a6e0f3914f4
       body: Update layers/meta-balena
