@@ -1,6 +1,42 @@
 Change log
 -----------
 
+# v5.3.10
+## (2024-05-25)
+
+
+<details>
+<summary> Update layers/meta-balena to 2e3a5bf77eef509e80c73cf1428341c4383d86d9 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.10
+> ### (2024-05-24)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.3.8 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-16.3.8
+>> #### (2024-05-24)
+>> 
+>> * Update balena-io/deploy-to-balena-action action to v2.0.68 [Self-hosted Renovate Bot]
+>> 
+>> ### balena-supervisor-16.3.7
+>> #### (2024-05-24)
+>> 
+>> * Update sinon to v18 [Self-hosted Renovate Bot]
+>> 
+>> ### balena-supervisor-16.3.6
+>> #### (2024-05-20)
+>> 
+>> * Update balena-io/deploy-to-balena-action action to v2.0.67 [Self-hosted Renovate Bot]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v5.3.9
 ## (2024-05-24)
 
