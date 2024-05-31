@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.3.12
+## (2024-05-31)
+
+
+<details>
+<summary> Update layers/meta-balena to 18061427fa1560355eb5911dc2c309024153680b [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.12
+> ### (2024-06-01)
+> 
+> * patch: Add Test Suite specific config for GHA [Vipul Gupta (@vipulgupta2048)]
+> 
+
+</details>
+
 # v5.3.11
 ## (2024-05-27)
 
