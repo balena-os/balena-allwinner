@@ -1,4 +1,45 @@
 - commits:
+    - subject: Update contracts to 94c4f90e950560f6287a87bea93a7a250c942665
+      hash: 0059f633544871022d59672d5ef6c91596d34865
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 94c4f90e950560f6287a87bea93a7a250c942665
+        changelog-entry: Update contracts to 94c4f90e950560f6287a87bea93a7a250c942665
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "jetson-orin-nano-seeed-j3010: Specify RAM size for the Seeed J3010"
+              hash: f5bb495bf4b516a86465dccf54e6d142bcf18311
+              body: >
+                Mentioning that this is a 4GB RAM Orin Nano module in the name.
+
+                The carrier board appears to be very close to the Devkit, so
+                this
+
+                image may be used with other carrier boards if they are
+                compatible.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+            - subject: "jetson-orin-nano-seeed-j3010: add Seeed J3010 device-type"
+              hash: 8013a005a44d3ed7fa0e977714997e0b29cb84f4
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Suykov <alex.suykov@sirinsoftware.com>
+                signed-off-by: Alex Suykov <alex.suykov@sirinsoftware.com>
+              author: Alex Suykov
+          version: contracts-2.0.104
+          title: ""
+          date: 2024-06-02T04:39:00.781Z
+  version: 5.3.13+rev1
+  title: ""
+  date: 2024-06-02T06:05:46.247Z
+- commits:
     - subject: Update layers/meta-balena to 12f6ea2e865cf1ac9a2e9d095015ad8b7110faae
       hash: b39becd34c6552583197b3605a0922eaf193732e
       body: Update layers/meta-balena
