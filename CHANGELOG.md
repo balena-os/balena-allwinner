@@ -1,6 +1,24 @@
 Change log
 -----------
 
+# v5.3.15
+## (2024-06-05)
+
+
+<details>
+<summary> Update layers/meta-balena to 8352e3480e96f4503361752cfe72aca9622250a3 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.15
+> ### (2024-06-05)
+> 
+> * os-helpers-tpm2: fix empty efivar reads [Joseph Kogut]
+> * rollback-health: bind mount EFI partition in old_rootfs [Joseph Kogut]
+> * rollback-health: mount securityfs in old_rootfs [Joseph Kogut]
+> * os-helpers-tpm2: compute_pcr7 w/ events post separator [Joseph Kogut]
+> 
+
+</details>
+
 # v5.3.14
 ## (2024-06-02)
 
