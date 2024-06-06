@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.3.15+rev1
+## (2024-06-06)
+
+
+<details>
+<summary> Update contracts to 8adfb6d81fb673d26e3ab7038b3ef2264c1d1fe7 [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.105
+> ### (2024-06-06)
+> 
+> * sw.os+hw.device-type: Update Jetson Orin distro configs for L4T 35.5.0 repositories [Alexandru Costache]
+> 
+
+</details>
+
 # v5.3.15
 ## (2024-06-05)
 
