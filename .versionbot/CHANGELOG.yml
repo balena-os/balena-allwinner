@@ -1,4 +1,46 @@
 - commits:
+    - subject: Update layers/meta-balena to 5285b94cc7d728fc9487609e25ad8bc8e82267c8
+      hash: e7ee98a60aa681a84e175c8d8fe8d3c6cc31addb
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5285b94cc7d728fc9487609e25ad8bc8e82267c8
+        changelog-entry: Update layers/meta-balena to 5285b94cc7d728fc9487609e25ad8bc8e82267c8
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Work around uuid file corruption in balenaEngine health check
+              hash: e3696fc97f5553f138c92947c5f080ccdef5c6e5
+              body: >
+                We have detected one more way in which the uuid file used by
+                containerd
+
+                can get corrupted. This time, the file is not empty, but doesn't
+                contain
+
+                a valid UUID either.
+
+
+                This commit thus extends the existing workaround to also handle
+                this
+
+                case.
+
+
+                See https://github.com/balena-os/balena-engine/issues/322
+              footer:
+                Signed-off-by: Leandro Motta Barros <leandro@balena.io>
+                signed-off-by: Leandro Motta Barros <leandro@balena.io>
+                Change-type: patch
+                change-type: patch
+              author: Leandro Motta Barros
+              nested: []
+          version: meta-balena-5.3.16
+          title: ""
+          date: 2024-06-06T22:28:17.347Z
+  version: 5.3.16
+  title: ""
+  date: 2024-06-07T04:24:55.457Z
+- commits:
     - subject: Update balena-yocto-scripts to b5b12bc2f8e08f90634d766afe30623c9899f323
       hash: 45e171e7f06c27bf6ee39ae036c4fa92c2242da7
       body: Update balena-yocto-scripts

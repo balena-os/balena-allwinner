@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.3.16
+## (2024-06-07)
+
+
+<details>
+<summary> Update layers/meta-balena to 5285b94cc7d728fc9487609e25ad8bc8e82267c8 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.16
+> ### (2024-06-06)
+> 
+> * Work around uuid file corruption in balenaEngine health check [Leandro Motta Barros]
+> 
+
+</details>
+
 # v5.3.15+rev2
 ## (2024-06-06)
 
