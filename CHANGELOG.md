@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.3.20
+## (2024-06-11)
+
+
+<details>
+<summary> Update layers/meta-balena to 4b3ccea138ea87cf44be8ac421faa6e4dfc0a8c0 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.20
+> ### (2024-06-11)
+> 
+> * hostapp-update-hooks: Re-add check for UEFI to signed-update hook [Michal Toman]
+> 
+
+</details>
+
 # v5.3.19
 ## (2024-06-10)
 

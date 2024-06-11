@@ -1,4 +1,58 @@
 - commits:
+    - subject: Update layers/meta-balena to 4b3ccea138ea87cf44be8ac421faa6e4dfc0a8c0
+      hash: d5447aaddbdc23a871120fa0cd1fa82c8acfd978
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 4b3ccea138ea87cf44be8ac421faa6e4dfc0a8c0
+        changelog-entry: Update layers/meta-balena to 4b3ccea138ea87cf44be8ac421faa6e4dfc0a8c0
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "hostapp-update-hooks: Re-add check for UEFI to signed-update hook"
+              hash: 972ef5f6090fc48a94a313bf01d8d59c6a3570d9
+              body: >
+                In 328222014146f0116e0208443f3e255d0e85ef15 we have removed
+
+                the signed-update hook from systems that do not have EFI
+
+                in MACHINE_FEATURES. This on its own makes sense, however
+                together
+
+                with it we have also removed the runtime check for whether the
+                running
+
+                system is actually booted in UEFI mode.
+
+
+                This effectively means it is no longer possible to update the
+                host OS
+
+                on a device type able to boot in both UEFI and BIOS modes
+
+                (intel-nuc and genericx86-64-ext) when booted in BIOS mode,
+
+                as the signed-update hook is executed unconditionally and fails
+
+                if the device is not running UEFI.
+
+
+                This patch re-adds the runtime check to only execute the hook
+
+                if the system is actually booted in UEFI mode.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-5.3.20
+          title: ""
+          date: 2024-06-11T12:55:22.727Z
+  version: 5.3.20
+  title: ""
+  date: 2024-06-11T18:42:35.674Z
+- commits:
     - subject: Update layers/meta-balena to 6d6ebe2b54ad45236c5fe53c1cc046cf350efdbe
       hash: df2808ccf79bcd46b7dba24540ecd8b104d8d9cf
       body: Update layers/meta-balena
