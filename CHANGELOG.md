@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.3.20+rev1
+## (2024-06-12)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 1ce733b37d5c143e1f68e28ff9fa9ac4ef709b87 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.22.2
+> ### (2024-06-12)
+> 
+> * Update the triggers on the example test workflow [Kyle Harding]
+> 
+
+</details>
+
 # v5.3.20
 ## (2024-06-11)
 
