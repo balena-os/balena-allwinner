@@ -1,6 +1,28 @@
 Change log
 -----------
 
+# v5.3.21+rev1
+## (2024-06-15)
+
+
+<details>
+<summary> Update balena-yocto-scripts to bdd131fd36a3edcc9a1bb2af493794ced60379a6 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.22.4
+> ### (2024-06-14)
+> 
+> * Update job conditions to allow non-PR events for internal branches [Kyle Harding]
+> * Hardcode environment paths at the job level [Kyle Harding]
+> * Replace test inputs with a single JSON matrix input [Kyle Harding]
+> 
+> ## balena-yocto-scripts-1.22.3
+> ### (2024-06-13)
+> 
+> * jenkins_generate_ami: pass yocto scripts version as an env var to helper container [rcooke-warwick]
+> 
+
+</details>
+
 # v5.3.21
 ## (2024-06-13)
 
