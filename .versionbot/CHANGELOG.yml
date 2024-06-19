@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 0164431c7032e80f145464e8cc7becfe8bb8597c
+      hash: f2c93d434d81f1856f54e403f50402ea5a3272d0
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 0164431c7032e80f145464e8cc7becfe8bb8597c
+        changelog-entry: Update balena-yocto-scripts to 0164431c7032e80f145464e8cc7becfe8bb8597c
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "Dockerfiles: update balenaCLI version to 18.2.2"
+              hash: cd6ff2606e5f7a251c6b03d4cfbea371d00a9db7
+              body: |
+                Update balena CLI from 17.2.2 to 18.2.2.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "Dockerfile_yocto-build-env: bump base image to 22.04"
+              hash: e027c512dbcf801a66a4bb4da15639ca67eedd2e
+              body: >
+                This brings a new Docker engine version which supports cgroup v2.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: balena-yocto-scripts-1.23.0
+          title: ""
+          date: 2024-06-19T15:20:58.274Z
+  version: 5.3.21+rev2
+  title: ""
+  date: 2024-06-19T22:14:58.976Z
+- commits:
     - subject: Update balena-yocto-scripts to bdd131fd36a3edcc9a1bb2af493794ced60379a6
       hash: d74049b9b446ab058beb1d54bb6165300c0418bf
       body: Update balena-yocto-scripts

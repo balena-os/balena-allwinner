@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v5.3.21+rev2
+## (2024-06-19)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 0164431c7032e80f145464e8cc7becfe8bb8597c [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.23.0
+> ### (2024-06-19)
+> 
+> * Dockerfiles: update balenaCLI version to 18.2.2 [Joseph Kogut]
+> * Dockerfile_yocto-build-env: bump base image to 22.04 [Joseph Kogut]
+> 
+
+</details>
+
 # v5.3.21+rev1
 ## (2024-06-15)
 
