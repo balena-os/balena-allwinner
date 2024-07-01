@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.3.22
+## (2024-07-01)
+
+
+<details>
+<summary> Update layers/meta-balena to 5e157d7d2954d406666df9d0681c2fbe63a838fa [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.22
+> ### (2024-07-01)
+> 
+> * initrdscripts: make the kexec script fail hard in unexpected states [Michal Toman]
+> 
+
+</details>
+
 # v5.3.21+rev5
 ## (2024-06-27)
 
