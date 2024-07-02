@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 64c93852695af74dc1ddb355da0c8e2ff464638c
+      hash: 0815a0c5105f474d6d3d99fefd8fbf9eda5a1c29
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 64c93852695af74dc1ddb355da0c8e2ff464638c
+        changelog-entry: Update balena-yocto-scripts to 64c93852695af74dc1ddb355da0c8e2ff464638c
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Fix quoting of $GITHUB_OUTPUT
+              hash: 5f56f3236d8ee3d764e46e419aa2431dd42d45ff
+              body: |
+                We had typos in two cases, in which we missed the opening quote.
+              footer:
+                Signed-off-by: Leandro Motta Barros <leandro@balena.io>
+                signed-off-by: Leandro Motta Barros <leandro@balena.io>
+                Change-type: patch
+                change-type: patch
+              author: Leandro Motta Barros
+              nested: []
+          version: balena-yocto-scripts-1.24.2
+          title: ""
+          date: 2024-07-02T00:54:39.074Z
+  version: 5.3.22+rev1
+  title: ""
+  date: 2024-07-02T04:02:36.269Z
+- commits:
     - subject: Update layers/meta-balena to 5e157d7d2954d406666df9d0681c2fbe63a838fa
       hash: f3834edaa56b9224ea0c13cca4ae8c52adee3991
       body: Update layers/meta-balena
