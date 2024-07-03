@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.3.23+rev2
+## (2024-07-03)
+
+
+<details>
+<summary> Update balena-yocto-scripts to f7894d49a4f5e56fbf570e2ce81bb7c0f8743e61 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.25.1
+> ### (2024-07-03)
+> 
+> * Fix actionlint errors and warnings in shell steps [Kyle Harding]
+> 
+
+</details>
+
 # v5.3.23+rev1
 ## (2024-07-03)
 
