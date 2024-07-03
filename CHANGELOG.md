@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.3.23+rev1
+## (2024-07-03)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 5469d877de428856cd630f2a18bc39edefdb924d [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.25.0
+> ### (2024-07-03)
+> 
+> * Do not run any tests by default unless provided by calling workflow [Kyle Harding]
+> 
+
+</details>
+
 # v5.3.23
 ## (2024-07-03)
 
