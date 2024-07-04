@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to e1d709a6f00e8dd3271a3c84d9fb6430cedec485
+      hash: 7a198ca1ba720e6a309d93f2fa01b50f438daabb
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e1d709a6f00e8dd3271a3c84d9fb6430cedec485
+        changelog-entry: Update layers/meta-balena to e1d709a6f00e8dd3271a3c84d9fb6430cedec485
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "workflows: fix linter errors"
+              hash: cd2e5faba65a6598952999953fcd4eb64520ac3a
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-5.3.24
+          title: ""
+          date: 2024-07-04T17:12:37.404Z
+  version: 5.3.24
+  title: ""
+  date: 2024-07-04T23:13:15.643Z
+- commits:
     - subject: Update balena-yocto-scripts to 32b15f1729158dec8046b9861da37062c68ff292
       hash: 0448b2621f3d8d36ebab1da18ff77c704dac8930
       body: Update balena-yocto-scripts
