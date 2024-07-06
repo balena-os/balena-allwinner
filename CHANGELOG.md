@@ -1,6 +1,38 @@
 Change log
 -----------
 
+# v5.3.25
+## (2024-07-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 6d368bce75115252c2a9253aebd3444d19771595 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.3.25
+> ### (2024-07-06)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v16.4.1 [Self-hosted Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-16.4.1
+>> #### (2024-07-05)
+>> 
+>> * Remove custom typings for docker-delta [Felipe Lalanne]
+>> 
+>> ### balena-supervisor-16.4.0
+>> #### (2024-07-04)
+>> 
+>> * Refactor host-config to be its own module [Christina Ying Wang]
+>> * Add HostConfig.parse method [Christina Ying Wang]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v5.3.24
 ## (2024-07-04)
 
