@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v5.3.27+rev1
+## (2024-07-08)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 09a174bf33ea56788ac4b483fdf1b7828c118f23 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.25.5
+> ### (2024-07-08)
+> 
+> * only login to s3 if deploying to s3 [rcooke-warwick]
+> 
+
+</details>
+
 # v5.3.27
 ## (2024-07-07)
 
