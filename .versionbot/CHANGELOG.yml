@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update contracts to 773c77cc902a5896a8fa75663d2aa661c0f4e1e3
+      hash: 9dd0ebf931fb0c2b660b5ae00c4e2c7d64703bef
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 773c77cc902a5896a8fa75663d2aa661c0f4e1e3
+        changelog-entry: Update contracts to 773c77cc902a5896a8fa75663d2aa661c0f4e1e3
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "hw.device-type: Disable bluetooth until this feature is officially
+                supported"
+              hash: bc3746dd50d63824e3069cd0098227d47e9f22ed
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+                signed-off-by: Sidd-Gupta sidd.gupta@zylum.in
+              author: delhiryder
+          version: contracts-2.0.106
+          title: ""
+          date: 2024-07-12T09:11:52.729Z
+  version: 5.3.28+rev1
+  title: ""
+  date: 2024-07-12T13:42:42.012Z
+- commits:
     - subject: Update layers/meta-balena to 4c376535a83f0b22b9757d835c4a7029cd758a77
       hash: f6b472085b14b245cabfc974b248b2b6acea75c4
       body: Update layers/meta-balena
