@@ -1,6 +1,25 @@
 Change log
 -----------
 
+# v5.4.0
+## (2024-07-13)
+
+
+<details>
+<summary> Update layers/meta-balena to 5b9716f19794b0e0da9c474e4e0ffadbde337c30 [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-5.4.0
+> ### (2024-07-13)
+> 
+> * classes: kernel-balena: remove configuration warnings for 6.1 [Alex Gonzalez]
+> * classes: balena-bootloader: add USB configuration dependencies [Alex Gonzalez]
+> * initrscripts: migrate: use configuration file to specify post-install action [Alex Gonzalez]
+> * resin-init-flasher: use configuration file to specify post-install action [Alex Gonzalez]
+> * tests: secureboot: add RPI specialization [Alex Gonzalez]
+> 
+
+</details>
+
 # v5.3.28+rev1
 ## (2024-07-12)
 
