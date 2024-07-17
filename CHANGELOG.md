@@ -1,6 +1,26 @@
 Change log
 -----------
 
+# v5.4.1+rev1
+## (2024-07-17)
+
+
+<details>
+<summary> Update balena-yocto-scripts to d59fac4cce1dcff0b423ac97aeccbd7f4486b9c2 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.25.8
+> ### (2024-07-17)
+> 
+> * Use env vars BALENA_HOST and BALENACLOUD_SSH_URL when provided [Kyle Harding]
+> 
+> ## balena-yocto-scripts-1.25.7
+> ### (2024-07-16)
+> 
+> * Fix handling of empty test matrix input [Kyle Harding]
+> 
+
+</details>
+
 # v5.4.1
 ## (2024-07-17)
 
