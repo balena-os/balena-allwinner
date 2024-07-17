@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update layers/meta-balena to eefb5c821b33171a468cd30e4de51e710a36ae7d
+      hash: c3abdcf6f4b4e700a32c2d3326ecb1843d5019ca
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to eefb5c821b33171a468cd30e4de51e710a36ae7d
+        changelog-entry: Update layers/meta-balena to eefb5c821b33171a468cd30e4de51e710a36ae7d
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Add build-only GHA workflows for missing devices
+              hash: af70358b6b17b309cb043a3f15e1cca8084b1976
+              body: |
+                For meta-balena PRs we only want to test virtual devices,
+                but we will do a sanity build for many types.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-5.4.1
+          title: ""
+          date: 2024-07-17T18:02:25.707Z
+  version: 5.4.1
+  title: ""
+  date: 2024-07-17T20:03:11.364Z
+- commits:
     - subject: Update balena-yocto-scripts to 7c73eefe9aac870b5fd9050e5d429dd56b0ab4ff
       hash: b6a61fbcabcf321ea162e19fa26f2c0aacaef308
       body: Update balena-yocto-scripts
