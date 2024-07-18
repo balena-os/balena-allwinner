@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-sunxi to 06091fa58f24c375fe68c97ad77af38ef3ff4078
+      hash: d83cc2d09cb5a6de2303485d35e357e204152eab
+      body: Update layers/meta-sunxi
+      footer:
+        Changelog-entry: Update layers/meta-sunxi to 06091fa58f24c375fe68c97ad77af38ef3ff4078
+        changelog-entry: Update layers/meta-sunxi to 06091fa58f24c375fe68c97ad77af38ef3ff4078
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 5.4.1+rev2
+  title: ""
+  date: 2024-07-18T17:07:01.703Z
+- commits:
     - subject: Update balena-yocto-scripts to d59fac4cce1dcff0b423ac97aeccbd7f4486b9c2
       hash: 085e17e52e0357f29ccf98403111820ad203883a
       body: Update balena-yocto-scripts

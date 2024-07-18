@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v5.4.1+rev2
+## (2024-07-18)
+
+* Update layers/meta-sunxi to 06091fa58f24c375fe68c97ad77af38ef3ff4078 [Self-hosted Renovate Bot]
+
 # v5.4.1+rev1
 ## (2024-07-17)
 
