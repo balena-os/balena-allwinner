@@ -1,4 +1,73 @@
 - commits:
+    - subject: Update layers/meta-balena to 359a462dd4121c84f2cb0c17e93ac4c34fcc60cd
+      hash: eda025704e3dd329c18c1e6aee1dcaaba04335e2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 359a462dd4121c84f2cb0c17e93ac4c34fcc60cd
+        changelog-entry: Update layers/meta-balena to 359a462dd4121c84f2cb0c17e93ac4c34fcc60cd
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "common: remove module compression bbclass"
+              hash: fbb35d54e5833db8a05b37e6cbce4bf1ca6ec1b7
+              body: >
+                This class is no longer necessary, as the kernel is configured
+                to use
+
+                module compression and in-kernel decompression when available.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "kernel-balena: enable zstd module compression"
+              hash: 3aa66ff60a50af2fa21714223f390f09114dbb1d
+              body: >
+                Enable zstandard module compression in kernels > v5.13, as this
+                feature
+
+                was introduced in commit c3d7ef377eb25, first published in that
+                release.
+              footer:
+                Change-type: major
+                change-type: major
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "image-balena: support zst compressed modules"
+              hash: 77ce253c9593b0d25e94d72e295a71e484a3b55e
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "kmod: enable zstd"
+              hash: df352c7fcd132871842326023bf61f8da80d5a22
+              body: >
+                Enable zstd support for kmod to allow modprobe to load
+                compressed
+
+                modules.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-6.0.0
+          title: ""
+          date: 2024-07-19T00:08:00.449Z
+  version: 6.0.0
+  title: ""
+  date: 2024-07-19T03:20:18.459Z
+- commits:
     - subject: Update layers/meta-sunxi to 06091fa58f24c375fe68c97ad77af38ef3ff4078
       hash: d83cc2d09cb5a6de2303485d35e357e204152eab
       body: Update layers/meta-sunxi

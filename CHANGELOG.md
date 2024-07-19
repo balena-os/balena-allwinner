@@ -1,6 +1,24 @@
 Change log
 -----------
 
+# v6.0.0
+## (2024-07-19)
+
+
+<details>
+<summary> Update layers/meta-balena to 359a462dd4121c84f2cb0c17e93ac4c34fcc60cd [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-6.0.0
+> ### (2024-07-19)
+> 
+> * common: remove module compression bbclass [Joseph Kogut]
+> * kernel-balena: enable zstd module compression [Joseph Kogut]
+> * image-balena: support zst compressed modules [Joseph Kogut]
+> * kmod: enable zstd [Joseph Kogut]
+> 
+
+</details>
+
 # v5.4.1+rev2
 ## (2024-07-18)
 
