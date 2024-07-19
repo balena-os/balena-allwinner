@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.0.1
+## (2024-07-19)
+
+
+<details>
+<summary> Update layers/meta-balena to 477bcf8a89128df43feca7e201bb4a5aac0e4dae [Self-hosted Renovate Bot] </summary>
+
+> ## meta-balena-6.0.1
+> ### (2024-07-19)
+> 
+> * NetworkManager: remove duplicate rules in shared dispatcher script [Michal Toman]
+> 
+
+</details>
+
 # v6.0.0
 ## (2024-07-19)
 

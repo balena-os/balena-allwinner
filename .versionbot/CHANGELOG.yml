@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update layers/meta-balena to 477bcf8a89128df43feca7e201bb4a5aac0e4dae
+      hash: f544a02cce7132b1f467ee46cad04a4d3fc09fe4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 477bcf8a89128df43feca7e201bb4a5aac0e4dae
+        changelog-entry: Update layers/meta-balena to 477bcf8a89128df43feca7e201bb4a5aac0e4dae
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "NetworkManager: remove duplicate rules in shared dispatcher script"
+              hash: 90093d5d780bb236e21add3a55f270c08623768a
+              body: >
+                Sometimes on NetworkManager restart a new rule for a shared
+                interface
+
+                is added, but the old rule is not cleaned up properly, so the
+                rules
+
+                are just piling up. This patch makes the shared dispatcher
+                script
+
+                clean up duplicates if it finds any.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.0.1
+          title: ""
+          date: 2024-07-19T16:09:46.427Z
+  version: 6.0.1
+  title: ""
+  date: 2024-07-19T22:11:18.445Z
+- commits:
     - subject: Update layers/meta-balena to 359a462dd4121c84f2cb0c17e93ac4c34fcc60cd
       hash: eda025704e3dd329c18c1e6aee1dcaaba04335e2
       body: Update layers/meta-balena
