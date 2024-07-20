@@ -21,6 +21,7 @@
 [submodule "layers/meta-rust"]
 	path = layers/meta-rust
 	url = https://github.com/meta-rust/meta-rust.git
+	branch = dunfell
 [submodule "contracts"]
 	path = contracts
 	url = https://github.com/balena-io/contracts.git
