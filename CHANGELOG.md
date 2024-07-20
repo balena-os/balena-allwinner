@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.0.1+rev1
+## (2024-07-20)
+
+* Update .gitmodules with submodule branch information [Kyle Harding]
+
 # v6.0.1
 ## (2024-07-19)
 
