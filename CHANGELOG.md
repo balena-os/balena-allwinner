@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v6.0.5+rev1
+## (2024-07-22)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 7b65acc0280a2239d7f8fcfd7260151d97b6f3d5 [Self-hosted Renovate Bot] </summary>
+
+> ## balena-yocto-scripts-1.25.9
+> ### (2024-07-22)
+> 
+> * use token to fetch private contracts [rcooke-warwick]
+> * unroll balena_lib_build_contract function [rcooke-warwick]
+> * unroll balena_api_is_dt_private function [rcooke-warwick]
+> 
+
+</details>
+
 # v6.0.5
 ## (2024-07-22)
 
