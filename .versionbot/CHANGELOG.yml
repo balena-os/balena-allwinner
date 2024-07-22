@@ -1,4 +1,133 @@
 - commits:
+    - subject: Update layers/meta-balena to 7c9d2c889576bf75a7b90fcbe3502541df286fe3
+      hash: 1e21422cc0698f6d73ed3b8930cf434acb039f68
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7c9d2c889576bf75a7b90fcbe3502541df286fe3
+        changelog-entry: Update layers/meta-balena to 7c9d2c889576bf75a7b90fcbe3502541df286fe3
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v16.4.4
+              hash: cd92e92408d399a81fa11e221cbd6f23849cefbb
+              body: |
+                Update balena-supervisor from 16.4.1 to 16.4.4
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested:
+                - commits:
+                    - subject: Improve log message typing
+                      hash: 4976578a830f3db6484e940a710928544709511d
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Pagan Gazzard
+                      nested: []
+                  version: balena-supervisor-16.4.4
+                  title: ""
+                  date: 2024-07-17T14:48:47.790Z
+                - commits:
+                    - subject: "Logs: only truncate the message if it's possible it will need it"
+                      hash: c5d0eafea9016792d3eea04bf9d9df7886eb8bc0
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Pagan Gazzard
+                      nested: []
+                    - subject: "Logs: skip setting default values if we're dropping as an invalid log"
+                      hash: 34cf8b67081d7d353319839eab129569a186cd71
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Pagan Gazzard
+                      nested: []
+                    - subject: "Logs: only call `Date.now()` if a timestamp is not already present"
+                      hash: 0a817af10c7dc107b7524a63b2410ff84c275a8d
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Pagan Gazzard
+                      nested: []
+                  version: balena-supervisor-16.4.3
+                  title: ""
+                  date: 2024-07-16T22:28:15.802Z
+                - commits:
+                    - subject: Cleanup images after state-engine tests
+                      hash: f38714d40ffa0c1a885016e8fdfbca46aff4108f
+                      body: >
+                        Tests on GitHub started failing recently because of
+                        leftover images from
+
+                        the state engine test suite. This fixes that issue to
+                        allow tests to
+
+                        pass.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-16.4.2
+                  title: ""
+                  date: 2024-07-16T21:55:49.331Z
+          version: meta-balena-6.0.5
+          title: ""
+          date: 2024-07-22T10:13:24.211Z
+        - commits:
+            - subject: Update balena-os/balena-yocto-scripts action to v1.25.8
+              hash: a8e3ff95943773edee89f4b1b5b4762b8e9e9bdd
+              body: |
+                Update balena-os/balena-yocto-scripts from v1.25.7 to v1.25.8
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Self-hosted Renovate Bot
+              nested: []
+          version: meta-balena-6.0.4
+          title: ""
+          date: 2024-07-22T09:14:24.239Z
+        - commits:
+            - subject: Update docker API version to match the v20.10 engine version
+              hash: b129f29043de773bf9f6b2259e30cd62487c3d41
+              body: >
+                Update the API version to the version set in the distro
+                configuration,
+
+                which must match the API version of the balena package.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "conf: distro: set default docker API version"
+              hash: 39194a01acb4bfaf51f6d59a0a77b1988519620f
+              body: >
+                This is used to match the API version used in the build pipeline
+                with
+
+                the balena version used in the image.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.0.3
+          title: ""
+          date: 2024-07-22T08:23:04.274Z
+  version: 6.0.5
+  title: ""
+  date: 2024-07-22T14:21:14.223Z
+- commits:
     - subject: Update layers/meta-balena to ba25d479aec53db0a1f20667026e57fe47461ebb
       hash: 7107d6e41e7e21bad7f3bfa5817385e6ab48c827
       body: Update layers/meta-balena
