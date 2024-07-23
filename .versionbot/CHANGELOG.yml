@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 34b4ee6c3aeabd21b9bb7b90536d837dbf465730
+      hash: a9c21f1c3f7afe924cc51df30f404237f76b36fe
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 34b4ee6c3aeabd21b9bb7b90536d837dbf465730
+        changelog-entry: Update balena-yocto-scripts to 34b4ee6c3aeabd21b9bb7b90536d837dbf465730
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: By default, deploy hostapp on push only
+              hash: 87763dfc75504522c1dadc698f74576bbf0e9320
+              body: >
+                This is meant to keep the defaults of `deploy-s3` and
+                `deploy-hostapp`
+
+                consistent.
+              footer:
+                Signed-off-by: Leandro Motta Barros <leandro@balena.io>
+                signed-off-by: Leandro Motta Barros <leandro@balena.io>
+                Change-type: patch
+                change-type: patch
+              author: Leandro Motta Barros
+              nested: []
+          version: balena-yocto-scripts-1.25.10
+          title: ""
+          date: 2024-07-23T02:23:14.094Z
+  version: 6.0.5+rev2
+  title: ""
+  date: 2024-07-23T06:23:45.306Z
+- commits:
     - subject: Update balena-yocto-scripts to 7b65acc0280a2239d7f8fcfd7260151d97b6f3d5
       hash: 2fd076604d4bdf1c60e34da4777a188173d44805
       body: Update balena-yocto-scripts
