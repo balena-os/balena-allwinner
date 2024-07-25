@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.0.5+rev3
+## (2024-07-25)
+
+
+<details>
+<summary> Update contracts to 1d499fe7d33791e1ac6dccfe031e178b7d520bb4 [Self-hosted Renovate Bot] </summary>
+
+> ## contracts-2.0.108
+> ### (2024-07-25)
+> 
+> * hw.device-type: Add new device-type Jetson AGX Orin 64GB Devkit [Alexandru Costache]
+> 
+
+</details>
+
 # v6.0.5+rev2
 ## (2024-07-23)
 
