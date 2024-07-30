@@ -1,4 +1,81 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 7736d3807540afb6646b435117bffa2377ac0156
+      hash: ad0a6121827815d046b6125f3558ae4f06fa2ea9
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 7736d3807540afb6646b435117bffa2377ac0156
+        changelog-entry: Update balena-yocto-scripts to 7736d3807540afb6646b435117bffa2377ac0156
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update docker/login-action action to v3.3.0
+              hash: 65a653d66efd1cbfdca1616d62a9387dc47eb50e
+              body: |
+                Update docker/login-action from 3.0.0 to 3.3.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.25.16
+          title: ""
+          date: 2024-07-30T03:01:08.144Z
+        - commits:
+            - subject: Update actions/upload-artifact action to v4.3.4
+              hash: f81cf0f07965cf34d687b76e9ad7befc6f49cf9c
+              body: |
+                Update actions/upload-artifact from 4.3.0 to 4.3.4
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.25.15
+          title: ""
+          date: 2024-07-30T01:00:25.663Z
+        - commits:
+            - subject: Update balena-os/leviathan digest to 36aafe0
+              hash: e5842524bf70adc29c62f35e0744ee970d232866
+              body: |
+                Update balena-os/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.25.14
+          title: ""
+          date: 2024-07-29T22:37:24.756Z
+        - commits:
+            - subject: Update actions/checkout action to v4.1.7
+              hash: c9da5d524bbebe7dde5175584589cce5634b7a41
+              body: |
+                Update actions/checkout from 4.1.1 to 4.1.7
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.25.13
+          title: ""
+          date: 2024-07-29T20:55:15.720Z
+        - commits:
+            - subject: Update Pin dependencies
+              hash: c48f1f984f2f22f49fc9aee3f1cc9883f8ca7ec5
+              body: |
+                Update actions/checkout
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.25.12
+          title: ""
+          date: 2024-07-29T18:13:01.088Z
+  version: 6.0.6+rev2
+  title: ""
+  date: 2024-07-30T05:59:39.560Z
+- commits:
     - subject: Update balena-yocto-scripts to cdc09006ec79c82efe149abfc8eb8b932924ef89
       hash: 31f335a4089b257063f180523493149e33927ca3
       body: Update balena-yocto-scripts
