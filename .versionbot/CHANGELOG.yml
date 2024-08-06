@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update contracts to 6d69a05508a9232ba593962c62dc9dd133dee616
+      hash: f9fd2ed8ab54da8c433298d3afae005c145b9ac6
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 6d69a05508a9232ba593962c62dc9dd133dee616
+        changelog-entry: Update contracts to 6d69a05508a9232ba593962c62dc9dd133dee616
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: Update provisioning instructions for AGX Orin 64GB"
+              hash: f8d665f044ea2e39a100fb865ffd5f8a8f4ae65f
+              body: >
+                The AGX Orin 64GB should be provisioned on the eMMC by default
+                as per the internal thread
+                https://balena.zulipchat.com/#narrow/stream/346009-aspect.2Fcustomer-success/topic/Get.20feedback.20on.20draft.20balenaOS.20with.20L4T.2036.2E3.20for.20Jetson.20Orin/near/455889690
+
+
+                We thus update the provisioning instructions accordingly
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru
+          version: contracts-2.0.109
+          title: ""
+          date: 2024-08-06T08:44:06.923Z
+  version: 6.0.6+rev4
+  title: ""
+  date: 2024-08-06T11:19:08.182Z
+- commits:
     - subject: Update balena-yocto-scripts to b97db01f749f1b731160dc4d3fa72301a4d4b3ce
       hash: 1806a0a2d34ff3832a6a914597af90a03d18e4ec
       body: Update balena-yocto-scripts
