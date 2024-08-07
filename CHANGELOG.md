@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.0.6+rev7
+## (2024-08-07)
+
+
+<details>
+<summary> Update contracts to 1663445fde467777e3d878e76193ea6fe9c1aefe [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.110
+> ### (2024-08-07)
+> 
+> * Add CompuLab iotdin-imx8p to harware contract. [Valentin Raevsky]
+> 
+
+</details>
+
 # v6.0.6+rev6
 ## (2024-08-06)
 
