@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.0.8
+## (2024-08-14)
+
+
+<details>
+<summary> Update layers/meta-balena to ed18e751ab21b245070bd4db35f68aa2925add94 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.8
+> ### (2024-08-14)
+> 
+> * tests: os: add check for iptables rules [rcooke-warwick]
+> 
+
+</details>
+
 # v6.0.7+rev1
 ## (2024-08-12)
 

@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to ed18e751ab21b245070bd4db35f68aa2925add94
+      hash: e7878ce97c713c00c76eb35ad6dcce1d526ac622
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ed18e751ab21b245070bd4db35f68aa2925add94
+        changelog-entry: Update layers/meta-balena to ed18e751ab21b245070bd4db35f68aa2925add94
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: os: add check for iptables rules"
+              hash: ac651d898929d492f3ec93a852f65b46d3883ac7
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: meta-balena-6.0.8
+          title: ""
+          date: 2024-08-14T01:35:51.540Z
+  version: 6.0.8
+  title: ""
+  date: 2024-08-14T02:48:48.223Z
+- commits:
     - subject: Update balena-yocto-scripts to 8450f5dfee536fe1cc26fda70916875857a7106f
       hash: f6fa60896bbaad1376b7a036f11b20b756a75c5a
       body: Update balena-yocto-scripts
