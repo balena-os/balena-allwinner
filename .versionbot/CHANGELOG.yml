@@ -1,4 +1,56 @@
 - commits:
+    - subject: Update layers/meta-balena to 8fde3b3743c86febb753e38b1f809d66e41f7756
+      hash: e312ec18d7711604f1caf851c85d9a0a682c53eb
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 8fde3b3743c86febb753e38b1f809d66e41f7756
+        changelog-entry: Update layers/meta-balena to 8fde3b3743c86febb753e38b1f809d66e41f7756
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v16.4.6
+              hash: 6137928e264def6afbbe5a42f8bc496419ab65a4
+              body: |
+                Update balena-supervisor from 16.4.4 to 16.4.6
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Update semver to v7.6.3
+                      hash: 340e69d0c22e12281ac8608eda2b5a871e645e19
+                      body: |
+                        Update semver from 7.6.2 to 7.6.3
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: balena-supervisor-16.4.6
+                  title: ""
+                  date: 2024-07-30T14:43:21.325Z
+                - commits:
+                    - subject: Update balena-io/deploy-to-balena-action action to v2.0.74
+                      hash: 92be067b0d2e408a526e55bd3a6a57e46dc52687
+                      body: >
+                        Update balena-io/deploy-to-balena-action from 2.0.72 to
+                        2.0.74
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Self-hosted Renovate Bot
+                      nested: []
+                  version: balena-supervisor-16.4.5
+                  title: ""
+                  date: 2024-07-25T14:31:14.222Z
+          version: meta-balena-6.0.10
+          title: ""
+          date: 2024-08-14T20:51:23.124Z
+  version: 6.0.10
+  title: ""
+  date: 2024-08-16T01:56:28.637Z
+- commits:
     - subject: Update balena-yocto-scripts to 87762ec55616db7a361d41ae0fb115f8a9d4e034
       hash: d943ff8df051352f1cf0f720ad909bfa9d3900af
       body: Update balena-yocto-scripts
