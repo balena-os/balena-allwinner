@@ -1,4 +1,44 @@
 - commits:
+    - subject: Update contracts to 59752b7f99c1e5576c605a2f4188f9661468319f
+      hash: a6139b2ff39d681f3f5fc18b432b88a3b66b443e
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 59752b7f99c1e5576c605a2f4188f9661468319f
+        changelog-entry: Update contracts to 59752b7f99c1e5576c605a2f4188f9661468319f
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "iotdin-imx8p: Update the devices contract"
+              hash: 6ba0c6f93908f3b57742c87f86bf87716dad616a
+              body: |
+                Disable bluetooth and wifi in the devices contracts files.
+                Reason: the CompuLab Autokit came without an IFM-WB i/o module.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+                signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+              author: Valentin Raevsky
+          version: contracts-2.0.113
+          title: ""
+          date: 2024-08-20T11:19:30.688Z
+        - commits:
+            - subject: Add support for Ubuntu Noble
+              hash: 909a9e8fd4f81731975f4a82304947f82a2d5378
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: ruffsl <roxfoxpox@gmail.com>
+                signed-off-by: ruffsl <roxfoxpox@gmail.com>
+              author: ruffsl
+          version: contracts-2.0.112
+          title: ""
+          date: 2024-08-19T15:53:05.491Z
+  version: 6.0.10+rev1
+  title: ""
+  date: 2024-08-20T14:14:27.632Z
+- commits:
     - subject: Update layers/meta-balena to 8fde3b3743c86febb753e38b1f809d66e41f7756
       hash: e312ec18d7711604f1caf851c85d9a0a682c53eb
       body: Update layers/meta-balena
