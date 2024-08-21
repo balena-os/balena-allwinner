@@ -1,6 +1,27 @@
 Change log
 -----------
 
+# v6.0.10+rev2
+## (2024-08-21)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 0ae0c767ca81526e1f50d702159f5d86ceebee75 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.24
+> ### (2024-08-21)
+> 
+> * ensure "force-finalize" guarantees a finalized release [rcooke-warwick]
+> * update example workflow to use "deploy-environment" input [rcooke-warwick]
+> * remove "deploy-esr" input [rcooke-warwick]
+> * remove "deploy-s3" input [rcooke-warwick]
+> * remove "deploy-hostapp" and add "force-finalize" and "finalize-on-push-if-tests-passed" [rcooke-warwick]
+> * rename "envinroment" input to "deploy-environment" for clarity [rcooke-warwick]
+> * remove os-dev input [rcooke-warwick]
+> 
+
+</details>
+
 # v6.0.10+rev1
 ## (2024-08-20)
 
