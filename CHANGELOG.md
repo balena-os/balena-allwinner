@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.0.11+rev1
+## (2024-08-23)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 58b4dd401dd6dd27262675b8061c7fddf5a593d4 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.25
+> ### (2024-08-23)
+> 
+> * Add unique unique identifiers to summary job [Kyle Harding]
+> 
+
+</details>
+
 # v6.0.11
 ## (2024-08-22)
 
