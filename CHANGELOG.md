@@ -1,6 +1,26 @@
 Change log
 -----------
 
+# v6.0.13
+## (2024-08-26)
+
+
+<details>
+<summary> Update layers/meta-balena to f95917dab4a9e2f6b7e6830c22ba26d461fac816 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.13
+> ### (2024-08-26)
+> 
+> * classes/image_types_balena: Add support for device specific boot filesystem options [Alexandru Costache]
+> 
+> ## meta-balena-6.0.12
+> ### (2024-08-23)
+> 
+> * Update balena-os/balena-yocto-scripts action to v1.25.25 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.0.11+rev1
 ## (2024-08-23)
 

@@ -1,4 +1,60 @@
 - commits:
+    - subject: Update layers/meta-balena to f95917dab4a9e2f6b7e6830c22ba26d461fac816
+      hash: 21f551d97d6a15f02bd00af6d7f2f5a4e1dac9ca
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f95917dab4a9e2f6b7e6830c22ba26d461fac816
+        changelog-entry: Update layers/meta-balena to f95917dab4a9e2f6b7e6830c22ba26d461fac816
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "classes/image_types_balena: Add support for device specific boot
+                filesystem options"
+              hash: 8a7b00339067e4b95933fe4936fc7bbfeacf97bf
+              body: >
+                The beagleplay is unable to load u-boot from the sd-card
+
+                boot partition if the standard geometry set by mkfs.vfat is used
+                -
+
+                that is 16 heads / 63 sectors per track.
+
+
+                We noticed that using a geometry of 16 heads / 32 sectors per
+                track
+
+                make the device to boot from the sd-card, so we make the
+
+                boot filesystem options configurable from the device repository
+
+                to apply this setting.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.0.13
+          title: ""
+          date: 2024-08-26T15:40:04.137Z
+        - commits:
+            - subject: Update balena-os/balena-yocto-scripts action to v1.25.25
+              hash: 811bd5df9d6e2b6911fb50183391af3a332e851b
+              body: |
+                Update balena-os/balena-yocto-scripts from v1.25.24 to v1.25.25
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: meta-balena-6.0.12
+          title: ""
+          date: 2024-08-23T21:26:41.583Z
+  version: 6.0.13
+  title: ""
+  date: 2024-08-26T19:39:00.584Z
+- commits:
     - subject: Update balena-yocto-scripts to 58b4dd401dd6dd27262675b8061c7fddf5a593d4
       hash: 396567c8cfb6c4f52417f878966c6985c72588a1
       body: Update balena-yocto-scripts
