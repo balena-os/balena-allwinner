@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.0.20
+## (2024-08-31)
+
+
+<details>
+<summary> Update layers/meta-balena to 5e5235368b985d34d1efbedb7ba95951b547dd1b [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.20
+> ### (2024-09-01)
+> 
+> * tests: config: restore both network options to false [Kyle Harding]
+> 
+
+</details>
+
 # v6.0.19
 ## (2024-08-31)
 
