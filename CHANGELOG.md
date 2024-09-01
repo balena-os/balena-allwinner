@@ -1,6 +1,31 @@
 Change log
 -----------
 
+# v6.0.20+rev1
+## (2024-09-01)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 578161cba337cccf1a23a2b4b8a5f45cbb16abb2 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.31
+> ### (2024-09-01)
+> 
+> * Update actions/upload-artifact action to v4.4.0 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.25.30
+> ### (2024-09-01)
+> 
+> * Update balena-os/leviathan digest to ff6a079 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.25.29
+> ### (2024-09-01)
+> 
+> * Restrict runners via yocto label, not 16cpu [Kyle Harding]
+> 
+
+</details>
+
 # v6.0.20
 ## (2024-08-31)
 
