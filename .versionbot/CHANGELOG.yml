@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 511c58dfa068d2fab2c8340c7fc2f6edb12b2f09
+      hash: 9279bf370197e5097a1194b0431bce89f044be05
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 511c58dfa068d2fab2c8340c7fc2f6edb12b2f09
+        changelog-entry: Update balena-yocto-scripts to 511c58dfa068d2fab2c8340c7fc2f6edb12b2f09
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-os/leviathan digest to da52396
+              hash: 807851bdb98648080dfd8565e3de047f92323454
+              body: |
+                Update balena-os/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.25.35
+          title: ""
+          date: 2024-09-04T09:07:04.754Z
+  version: 6.0.21+rev4
+  title: ""
+  date: 2024-09-04T12:12:49.411Z
+- commits:
     - subject: Update balena-yocto-scripts to df4ce150ec4c99fc78ce61f78d6efca4061e6adb
       hash: 4d1c6f1d82f3f557609e9a0d504daa6cb6c54ff4
       body: Update balena-yocto-scripts
