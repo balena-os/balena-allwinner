@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.0.22
+## (2024-09-12)
+
+
+<details>
+<summary> Update layers/meta-balena to c210599ad8e55675a29fe24800b7046eb260f397 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.22
+> ### (2024-09-12)
+> 
+> * Update balena-os/balena-yocto-scripts action to v1.25.39 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.0.21+rev8
 ## (2024-09-12)
 
