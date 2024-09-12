@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.0.23
+## (2024-09-12)
+
+
+<details>
+<summary> Update layers/meta-balena to b81a2d7084cb519aa78b5d56a96ca571150df63b [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.23
+> ### (2024-09-12)
+> 
+> * tests:os: Avoid setting apiEndpoint for unmanaged tests [Kyle Harding]
+> 
+
+</details>
+
 # v6.0.22
 ## (2024-09-12)
 

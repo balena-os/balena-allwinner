@@ -1,4 +1,38 @@
 - commits:
+    - subject: Update layers/meta-balena to b81a2d7084cb519aa78b5d56a96ca571150df63b
+      hash: d123abe85b9b176323c7a20d913fa22818497a2c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b81a2d7084cb519aa78b5d56a96ca571150df63b
+        changelog-entry: Update layers/meta-balena to b81a2d7084cb519aa78b5d56a96ca571150df63b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests:os: Avoid setting apiEndpoint for unmanaged tests"
+              hash: 123e5476c4740abb29e0818d93449ca8da804f5c
+              body: >
+                When this config.json field has a value, the supervisor will
+                treat the device as managed and will crash and start to boot
+                loop.
+
+
+                On faster device-types we don't seem to notice and the tests
+                pass by chance, but on Pi Zero and similar we consistently see
+                ECONNRESET when hitting local SV endpoints.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-6.0.23
+          title: ""
+          date: 2024-09-12T18:15:21.088Z
+  version: 6.0.23
+  title: ""
+  date: 2024-09-12T23:02:19.726Z
+- commits:
     - subject: Update layers/meta-balena to c210599ad8e55675a29fe24800b7046eb260f397
       hash: 550a7a911f08a4b003eaa18d856eafed49280ec5
       body: Update layers/meta-balena
