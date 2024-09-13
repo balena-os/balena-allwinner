@@ -1,6 +1,26 @@
 Change log
 -----------
 
+# v6.0.25
+## (2024-09-13)
+
+
+<details>
+<summary> Update layers/meta-balena to 743309ff6019a6b956ad21f73ced5ae5673f2b1b [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.25
+> ### (2024-09-13)
+> 
+> * initrdscripts: Make cryptsetup fail hard in unexpected conditions [Michal Toman]
+> 
+> ## meta-balena-6.0.24
+> ### (2024-09-13)
+> 
+> * common: fix return in commit_apply-dbx HUP hook [Joseph Kogut]
+> 
+
+</details>
+
 # v6.0.23+rev1
 ## (2024-09-13)
 

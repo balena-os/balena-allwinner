@@ -1,4 +1,68 @@
 - commits:
+    - subject: Update layers/meta-balena to 743309ff6019a6b956ad21f73ced5ae5673f2b1b
+      hash: 4ac7e0974f2a75f845293ee20de1581b26f3eb2c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 743309ff6019a6b956ad21f73ced5ae5673f2b1b
+        changelog-entry: Update layers/meta-balena to 743309ff6019a6b956ad21f73ced5ae5673f2b1b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "initrdscripts: Make cryptsetup fail hard in unexpected conditions"
+              hash: c1bccdbd95bcb0202c4b80679ade0967df643342
+              body: >
+                This patch adds a set of checks that make sure that the
+                partition
+
+                layout is as expected on a system with encrypted disks. Namely
+                it
+
+                * Checks that the boot partition is split
+
+                * Checks that it can find the correct amount of encrypted
+                partitions
+
+                * Checks that the label on the unlocked filesystem matches the
+                label
+                  on the encrypted partition
+                * Checks that system is not mixing encrypted and unencrypted
+                  partitions
+                * Checks there are no ambiguities or duplicit partitions
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.0.25
+          title: ""
+          date: 2024-09-13T16:23:25.632Z
+        - commits:
+            - subject: "common: fix return in commit_apply-dbx HUP hook"
+              hash: a557b614a0ce2cf39d6bdfb3e464834b0d570895
+              body: >
+                This code was moved from rollback-health into a hostapp-update
+                commit
+
+                hook, where it now runs outside of a function.
+
+
+                Replace the invalid return statements with exits.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-6.0.24
+          title: ""
+          date: 2024-09-13T08:22:06.217Z
+  version: 6.0.25
+  title: ""
+  date: 2024-09-13T20:49:34.212Z
+- commits:
     - subject: Update balena-yocto-scripts to 0684ef25f676baddd6c55a504b575776269588de
       hash: 7d532fa4d9b5f986988c3161061d1c2d859fce9e
       body: Update balena-yocto-scripts
