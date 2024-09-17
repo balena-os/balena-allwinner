@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.0.27
+## (2024-09-17)
+
+
+<details>
+<summary> Update layers/meta-balena to 4beee6b7c22d2950e4d49c620c1a5fbea7a36f02 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.27
+> ### (2024-09-17)
+> 
+> * tests:os: Use writeConfigJsonProp helper function [Kyle Harding]
+> 
+
+</details>
+
 # v6.0.26
 ## (2024-09-16)
 

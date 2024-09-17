@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update layers/meta-balena to 4beee6b7c22d2950e4d49c620c1a5fbea7a36f02
+      hash: c9e3aad6dd146dd99fe16b40098952575123d2ab
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 4beee6b7c22d2950e4d49c620c1a5fbea7a36f02
+        changelog-entry: Update layers/meta-balena to 4beee6b7c22d2950e4d49c620c1a5fbea7a36f02
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests:os: Use writeConfigJsonProp helper function"
+              hash: b44642caa14c4fb791d99e5705499b710a98c3e9
+              body: >
+                Use the existing helper function to write changes to config.json.
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-6.0.27
+          title: ""
+          date: 2024-09-17T13:31:39.490Z
+  version: 6.0.27
+  title: ""
+  date: 2024-09-17T16:04:37.345Z
+- commits:
     - subject: Update layers/meta-balena to 466cedd7e77f1d63c2d9ec1595f73cd103495d16
       hash: 0e02adc05c9307458d9df0b0cefc7b96f840377c
       body: Update layers/meta-balena
