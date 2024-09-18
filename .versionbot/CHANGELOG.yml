@@ -1,4 +1,41 @@
 - commits:
+    - subject: Update layers/meta-balena to 7c61b0f1e4af295d412a00d7965b106f4922d4f0
+      hash: 3fab945e13581a3c99be7a441bd2aa7192009eda
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7c61b0f1e4af295d412a00d7965b106f4922d4f0
+        changelog-entry: Update layers/meta-balena to 7c61b0f1e4af295d412a00d7965b106f4922d4f0
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "initrdscripts: replace cut by awk for parsing lsblk in cryptsetup
+                hook"
+              hash: c9544aaf502943f3b492d0a5907f1c1e401c6ac7
+              body: >
+                cut is sensitive to the amount of delimiter characters when
+                parsing
+
+                output, so e.g. an additional space between two elements causes
+
+                every field shift by one index.
+
+
+                This patch replaces the use of cut by awk, which should be more
+                robust.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.0.28
+          title: ""
+          date: 2024-09-18T04:59:46.616Z
+  version: 6.0.28
+  title: ""
+  date: 2024-09-18T07:13:34.389Z
+- commits:
     - subject: Update layers/meta-balena to 4beee6b7c22d2950e4d49c620c1a5fbea7a36f02
       hash: c9e3aad6dd146dd99fe16b40098952575123d2ab
       body: Update layers/meta-balena
