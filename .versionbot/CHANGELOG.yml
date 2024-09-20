@@ -1,4 +1,44 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 0899d814aa7f25d48825ac701c61e066f7b0c4f5
+      hash: 609de7b058beae5afd023b977dac66c52ee2bab2
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 0899d814aa7f25d48825ac701c61e066f7b0c4f5
+        changelog-entry: Update balena-yocto-scripts to 0899d814aa7f25d48825ac701c61e066f7b0c4f5
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: fix check of finalize value
+              hash: 8d17204120d75bfc6aba1f793163e7deb2008a1f
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+            - subject: Improve checking of previous test results
+              hash: 71cae7e5434be7ee4e009343885c2c855c9d416b
+              body: >
+                The previous API command was limited to 20 results, and
+
+                did not correctly evaluate to false when no workflow runs were
+                found.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.25.45
+          title: ""
+          date: 2024-09-19T22:33:26.650Z
+  version: 6.0.30+rev1
+  title: ""
+  date: 2024-09-20T01:13:44.261Z
+- commits:
     - subject: Update layers/meta-balena to 9a9378bb245dbf1de3aca1fe69b92bb4d462e087
       hash: 1c56749c16ca8399d106d80233d586b71193a3f5
       body: Update layers/meta-balena

@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v6.0.30+rev1
+## (2024-09-20)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 0899d814aa7f25d48825ac701c61e066f7b0c4f5 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.45
+> ### (2024-09-19)
+> 
+> * fix check of finalize value [rcooke-warwick]
+> * Improve checking of previous test results [Kyle Harding]
+> 
+
+</details>
+
 # v6.0.30
 ## (2024-09-19)
 
