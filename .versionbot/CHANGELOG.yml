@@ -1,4 +1,74 @@
 - commits:
+    - subject: Update layers/meta-balena to 8786d755f72c35fb3b332c26b32c3de576d3d0ce
+      hash: 33d5727b1e62ca4c5afaee054925f701796af686
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 8786d755f72c35fb3b332c26b32c3de576d3d0ce
+        changelog-entry: Update layers/meta-balena to 8786d755f72c35fb3b332c26b32c3de576d3d0ce
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-headers-test: update dockerfile to bullseye"
+              hash: b1ba4caa955dc751d01e10e4159fde34dfb69f92
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.0.32
+          title: ""
+          date: 2024-09-21T17:20:33.365Z
+        - commits:
+            - subject: "mkfs-hostapp-native: update Dockerfile to using trixie"
+              hash: 61265dc52127a461b476c225268e3d6be6f9eabf
+              body: >-
+                This is required to be able to build in host distributions that
+                use
+
+                glibc v2.39 to avoid errors such as:
+
+
+                ```
+
+                | + hostapp-update -f /input -n
+
+                | Running hostapp update...
+
+                | touch: /lib/x86_64-linux-gnu/libc.so.6: version `GLIBC_2.38'
+                not found (required by touch)
+
+                ```
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "meta-balena-rust: rust-llvm: backport a fix for build with gcc-13"
+              hash: c8863a14595c7147a7072b21420eb803ef146779
+              body: |
+                * needed for rust-llvm-native on hosts with gcc-13
+
+                (backport from
+                335eb3a93e96 rust-llvm: backport a fix for build with gcc-13)
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.0.31
+          title: ""
+          date: 2024-09-20T21:32:01.568Z
+  version: 6.0.32
+  title: ""
+  date: 2024-09-21T20:31:11.545Z
+- commits:
     - subject: Update balena-yocto-scripts to 0899d814aa7f25d48825ac701c61e066f7b0c4f5
       hash: 609de7b058beae5afd023b977dac66c52ee2bab2
       body: Update balena-yocto-scripts
