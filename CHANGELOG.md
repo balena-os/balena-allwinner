@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.0.33+rev1
+## (2025-03-21)
+
+* Prepare linux-firmware for usrmerge feature [Florin Sarbu]
+
 # v6.0.33
 ## (2024-09-22)
 
