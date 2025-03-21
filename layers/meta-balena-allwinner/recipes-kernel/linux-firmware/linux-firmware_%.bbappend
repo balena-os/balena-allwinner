@@ -15,13 +15,13 @@ SRC_URI_append = " \
     "
 
 do_install_append() {
-    cp ${WORKDIR}/bcm4329.hcd ${D}/lib/firmware/brcm/bcm4329.hcd
-    cp ${WORKDIR}/bcm4330.hcd ${D}/lib/firmware/brcm/bcm4330.hcd
-    cp ${WORKDIR}/bcm43438-sdio.hcd ${D}/lib/firmware/brcm/bcm43438-sdio.hcd
-    cp ${WORKDIR}/brcmfmac43430a0-sdio.bin ${D}/lib/firmware/brcm/brcmfmac43430a0-sdio.bin
-    cp ${WORKDIR}/brcmfmac43430a0-sdio.txt ${D}/lib/firmware/brcm/brcmfmac43430a0-sdio.txt
-    cp ${WORKDIR}/config.txt ${D}/lib/firmware/brcm/config.txt
-    cp ${WORKDIR}/brcmfmac43362-sdio.txt ${D}/lib/firmware/brcm/brcmfmac43362-sdio.txt
+    cp ${WORKDIR}/bcm4329.hcd ${D}/${nonarch_base_libdir}/firmware/brcm/bcm4329.hcd
+    cp ${WORKDIR}/bcm4330.hcd ${D}/${nonarch_base_libdir}/firmware/brcm/bcm4330.hcd
+    cp ${WORKDIR}/bcm43438-sdio.hcd ${D}/${nonarch_base_libdir}/firmware/brcm/bcm43438-sdio.hcd
+    cp ${WORKDIR}/brcmfmac43430a0-sdio.bin ${D}/${nonarch_base_libdir}/firmware/brcm/brcmfmac43430a0-sdio.bin
+    cp ${WORKDIR}/brcmfmac43430a0-sdio.txt ${D}/${nonarch_base_libdir}/firmware/brcm/brcmfmac43430a0-sdio.txt
+    cp ${WORKDIR}/config.txt ${D}/${nonarch_base_libdir}/firmware/brcm/config.txt
+    cp ${WORKDIR}/brcmfmac43362-sdio.txt ${D}/${nonarch_base_libdir}/firmware/brcm/brcmfmac43362-sdio.txt
 }
 
 do_install_append_nanopi-neo-air() {
