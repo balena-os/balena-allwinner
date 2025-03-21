@@ -34,14 +34,14 @@ do_install_append_nanopi-neo-air() {
 PACKAGES =+ "${PN}-ap6212"
 
 FILES_${PN}-ap6212 = " \
-  /lib/firmware/brcm/bcm4329.hcd \
-  /lib/firmware/brcm/bcm4330.hcd \
-  /lib/firmware/brcm/bcm43438-sdio.hcd \
-  /lib/firmware/brcm/brcmfmac43430a0-sdio.bin \
-  /lib/firmware/brcm/brcmfmac43430a0-sdio.txt \
-  /lib/firmware/brcm/config.txt \
-  /lib/firmware/brcm/bcm43438a0.hcd \
-  /lib/firmware/brcm/bcm43438a1.hcd \
+  ${nonarch_base_libdir}/firmware/brcm/bcm4329.hcd \
+  ${nonarch_base_libdir}/firmware/brcm/bcm4330.hcd \
+  ${nonarch_base_libdir}/firmware/brcm/bcm43438-sdio.hcd \
+  ${nonarch_base_libdir}/firmware/brcm/brcmfmac43430a0-sdio.bin \
+  ${nonarch_base_libdir}/firmware/brcm/brcmfmac43430a0-sdio.txt \
+  ${nonarch_base_libdir}/firmware/brcm/config.txt \
+  ${nonarch_base_libdir}/firmware/brcm/bcm43438a0.hcd \
+  ${nonarch_base_libdir}/firmware/brcm/bcm43438a1.hcd \
 "
 
 FILES_${PN}-bcm43430_append_nanopi-neo-air = " \
