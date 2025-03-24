@@ -1,4 +1,25 @@
 - commits:
+    - subject: Use nonarch_base_libdir variable when packaging files for
+        linux-firmware recipe
+      hash: 964bece1f1f6b12007bbfd883151e1232e9228f1
+      body: >
+        Using the nonarch_base_libdir variable instead of hardcoding directly
+        the path
+
+        will help us when we enable the usrmerge feature.
+      footer:
+        Changelog-entry: Use nonarch_base_libdir variable when packaging files for
+          linux-firmware recipe
+        changelog-entry: Use nonarch_base_libdir variable when packaging files for
+          linux-firmware recipe
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 6.5.2+rev1
+  title: ""
+  date: 2025-03-24T08:40:42.377Z
+- commits:
     - subject: Update layers/meta-balena to aa785e72071c7291797312d8800a4a9d8a441450
       hash: c14dc7fd040ed962a8bd24d557ce72a93138f1f7
       body: Update layers/meta-balena

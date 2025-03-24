@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.5.2+rev1
+## (2025-03-24)
+
+* Use nonarch_base_libdir variable when packaging files for linux-firmware recipe [Florin Sarbu]
+
 # v6.5.2
 ## (2025-03-21)
 
