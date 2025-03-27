@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.4
+## (2025-03-27)
+
+
+<details>
+<summary> Update layers/meta-balena to 5393bc5f097a6e03e605abf7211625a02d11133c [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.4
+> ### (2025-03-27)
+> 
+> * classes: kernel-balena: enable CONFIG_MEMCG_V1 when needed [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.5.3
 ## (2025-03-27)
 
