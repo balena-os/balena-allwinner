@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.5
+## (2025-03-31)
+
+
+<details>
+<summary> Update layers/meta-balena to 0c657af51fe6209c35447ed13870dfca4e38b19b [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.5
+> ### (Invalid date)
+> 
+> * initrdscripts: Force migration with secure boot enabled [Michal Toman]
+> 
+
+</details>
+
 # v6.5.4
 ## (2025-03-27)
 
