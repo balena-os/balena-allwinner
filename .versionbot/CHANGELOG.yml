@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to 116c4ecdae65da21061650c6177d35a62e9d7da9
+      hash: 6c77115faab94dd8878f6592e8f786900f550f15
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 116c4ecdae65da21061650c6177d35a62e9d7da9
+        changelog-entry: Update layers/meta-balena to 116c4ecdae65da21061650c6177d35a62e9d7da9
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: os: modem: Skip modem test if no SIM detected"
+              hash: d2881bf9c6ef8f94e134362fbf786bd89e841bc1
+              body: >
+                This is to allow for the use case of a test device having a hard
+                wired modem, that won't work in the region the test device is
+                hosted in - e.g NA modem soldered on but test device in the EU.
+                In that case we can remove the SIM, and the test will skip
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.5.6
+          title: ""
+          date: 2025-04-01T10:45:56.026Z
+  version: 6.5.6
+  title: ""
+  date: 2025-04-01T14:18:01.043Z
+- commits:
     - subject: Update layers/meta-balena to 0c657af51fe6209c35447ed13870dfca4e38b19b
       hash: dd206e2fc71faafddc5947aeaec9416abdcbb682
       body: Update layers/meta-balena

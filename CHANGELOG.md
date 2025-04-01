@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.6
+## (2025-04-01)
+
+
+<details>
+<summary> Update layers/meta-balena to 116c4ecdae65da21061650c6177d35a62e9d7da9 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.6
+> ### (2025-04-01)
+> 
+> * tests: os: modem: Skip modem test if no SIM detected [Ryan Cooke]
+> 
+
+</details>
+
 # v6.5.5
 ## (2025-03-31)
 
