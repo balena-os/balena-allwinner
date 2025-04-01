@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.7
+## (2025-04-01)
+
+
+<details>
+<summary> Update layers/meta-balena to c9903d7b93fd1c9db7c565031145834f61153dbe [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.7
+> ### (2025-04-01)
+> 
+> * kernel-balena.bbclass: enable multipath TCP [Joseph Kogut]
+> 
+
+</details>
+
 # v6.5.6
 ## (2025-04-01)
 
