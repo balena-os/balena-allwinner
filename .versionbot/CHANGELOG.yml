@@ -1,4 +1,54 @@
 - commits:
+    - subject: Update layers/meta-balena to ee5b04a6e0a2d1d8dafd1f66489508b346e2ae7f
+      hash: 8ced38f3148e3f4e038951be5378a53daab75b7d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ee5b04a6e0a2d1d8dafd1f66489508b346e2ae7f
+        changelog-entry: Update layers/meta-balena to ee5b04a6e0a2d1d8dafd1f66489508b346e2ae7f
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "resin-init-flasher: Sleep before SysRq to let shutdown properly
+                execute if need be"
+              hash: a059180c9ae5dd4551fd977871fa5a54981b53f2
+              body: >
+                There are cases when at the end of the flashing procedure the
+                board will execute
+
+                "shutdown -h now" but sometimes the shutdown procedure is not
+                immediate and the script will
+
+                continue with the next instruction which is to use SysRq and on
+                some hardware this can happen
+
+                right when the previous shutdown command is still running in the
+                background and the effect will
+
+                be that the board does not actually power off in the end (eth
+                carrier is still on, the power
+
+                circuitry is still online and so on.)
+
+
+                To fix this we sleep for 5 seconds to give the system a chance
+                to properly shutdown. If it has
+
+                not been shutdown in 5 seconds then most likely shutdown is
+                broken so we force it via SysRq.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.5.10
+          title: ""
+          date: 2025-04-08T07:44:56.710Z
+  version: 6.5.10
+  title: ""
+  date: 2025-04-08T12:47:26.279Z
+- commits:
     - subject: Update layers/meta-balena to 538b193865ffd18d7a2becce76cccc962945813d
       hash: 0c2a0b6a513a400f0cd9b9534fd023148c670043
       body: Update layers/meta-balena
