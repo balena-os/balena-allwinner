@@ -15,8 +15,8 @@ SRC_URI = "file://99-nanopi-air-bt.rules \
 
 do_install() {
     mkdir -p ${D}/usr/bin
-    mkdir -p ${D}/lib/udev/rules.d
-    install -m 0644 99-nanopi-air-bt.rules ${D}/lib/udev/rules.d
+    mkdir -p ${D}/${nonarch_base_libdir}/udev/rules.d
+    install -m 0644 99-nanopi-air-bt.rules ${D}/${nonarch_base_libdir}/udev/rules.d
     install -m 0744 nanopi-air-bt-start ${D}/usr/bin
 
     if ${@bb.utils.contains('DISTRO_FEATURES', 'systemd', 'true', 'false', d)}; then
@@ -26,7 +26,7 @@ do_install() {
 }
 
 FILES_${PN} = " \
-  /lib/udev/rules.d/99-nanopi-air-bt.rules \
-  /lib/systemd/system/nanopi-air-bt@.service \
+  ${nonarch_base_libdir}/udev/rules.d/99-nanopi-air-bt.rules \
+  ${nonarch_base_libdir}/systemd/system/nanopi-air-bt@.service \
   /usr/bin/nanopi-air-bt-start \
 "
