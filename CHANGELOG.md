@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.15
+## (2025-04-09)
+
+
+<details>
+<summary> Update layers/meta-balena to 499703f41326f57debff7b98479ebb55c862a759 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.15
+> ### (2025-04-09)
+> 
+> * initrdscripts: mount securityfs in migrate script [Michal Toman]
+> 
+
+</details>
+
 # v6.5.14
 ## (2025-04-09)
 
