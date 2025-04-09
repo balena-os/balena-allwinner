@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.16
+## (2025-04-09)
+
+
+<details>
+<summary> Update layers/meta-balena to 908a989d9cd5e71f03e6590d37b94a5b299f9397 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.16
+> ### (2025-04-09)
+> 
+> * os-helpers: tpm_nvram_store_passphrase: remove tpm2_shutdown [Joseph Kogut]
+> 
+
+</details>
+
 # v6.5.15
 ## (2025-04-09)
 
