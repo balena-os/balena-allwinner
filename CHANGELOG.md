@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.14
+## (2025-04-09)
+
+
+<details>
+<summary> Update layers/meta-balena to 27b703a828bae52a01fa2a5bc0ddc24ab1aefeeb [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.14
+> ### (2025-04-09)
+> 
+> * tests: whitelist extra PCR2 events by default [Michal Toman]
+> 
+
+</details>
+
 # v6.5.13
 ## (2025-04-09)
 

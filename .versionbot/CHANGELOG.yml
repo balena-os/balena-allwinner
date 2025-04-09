@@ -1,4 +1,67 @@
 - commits:
+    - subject: Update layers/meta-balena to 27b703a828bae52a01fa2a5bc0ddc24ab1aefeeb
+      hash: 48be2c4f349a0f86f4abe89f79336f98a3a6eb5a
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 27b703a828bae52a01fa2a5bc0ddc24ab1aefeeb
+        changelog-entry: Update layers/meta-balena to 27b703a828bae52a01fa2a5bc0ddc24ab1aefeeb
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: whitelist extra PCR2 events by default"
+              hash: 0c8fe3a4e9d00a2b766677b1e43b30c586202126
+              body: >
+                By introducing the option to whitelist or ignore extra events in
+                PCR2,
+
+                we have changed the default behavior of the system. Instead of
+                copying
+
+                the contents of PCR2 during provisioning, we now expect no
+                drivers
+
+                to be loaded, unless there was an explicit opt-in through
+                config.json.
+
+                This is the behavior that we've seen on physical hardware,
+                however
+
+                qemu behaves differently - it loads the PXE driver for the
+                network card
+
+                unconditionally, even if secure boot is enabled and the driver
+
+                has not been whitelisted.
+
+
+                This patch makes all the testsuites opt-in for the PCR2
+                whitelist,
+
+                which is just a workaround to restore the previous behavior and
+                unblock
+
+                the automated testsuite.
+
+
+                A proper fix should either be in leviathan, or in QEMU, or
+                implementing
+
+                a proper test for the PCR2 feature, that checks all the possible
+                states.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.5.14
+          title: ""
+          date: 2025-04-09T09:23:44.803Z
+  version: 6.5.14
+  title: ""
+  date: 2025-04-09T11:49:44.773Z
+- commits:
     - subject: Update layers/meta-balena to 5dceb047406569a50bf74276362bbe167f576b7e
       hash: 97a97112d7971be4b2da5736e816122f94913d3e
       body: Update layers/meta-balena
