@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 4e6f14418996d814bcc2a9043a44887b508dfddd
+      hash: 0732ae5db231d09afd2db1d3a981361009239bfd
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 4e6f14418996d814bcc2a9043a44887b508dfddd
+        changelog-entry: Update balena-yocto-scripts to 4e6f14418996d814bcc2a9043a44887b508dfddd
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update aws/aws-cli to v2.26.0
+              hash: f1b120e795bb0efbb298e2a0acecf3cad0b6b4af
+              body: |
+                Update aws/aws-cli from 2.25.14 to 2.26.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.31.73
+          title: ""
+          date: 2025-04-10T21:20:23.089Z
+  version: 6.5.17+rev2
+  title: ""
+  date: 2025-04-10T22:39:11.402Z
+- commits:
     - subject: Use nonarch_base_libdir to install files in /usr/lib instead of /lib
         for the nanopi-air-bt recipe
       hash: c00f724f9cff719e5a060d7703c1b528fe24315e
