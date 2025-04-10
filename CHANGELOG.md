@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.5.17+rev1
+## (2025-04-10)
+
+* Use nonarch_base_libdir to install files in /usr/lib instead of /lib for the nanopi-air-bt recipe [Florin Sarbu]
+
 # v6.5.17
 ## (2025-04-10)
 

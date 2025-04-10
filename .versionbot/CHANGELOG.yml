@@ -1,4 +1,26 @@
 - commits:
+    - subject: Use nonarch_base_libdir to install files in /usr/lib instead of /lib
+        for the nanopi-air-bt recipe
+      hash: c00f724f9cff719e5a060d7703c1b528fe24315e
+      body: >
+        Using the nonarch_base_libdir variable to change the install path to
+        /usr/lib instead
+
+        of hardcoding directly to /lib will help us when we enable the usrmerge
+        feature.
+      footer:
+        Changelog-entry: Use nonarch_base_libdir to install files in /usr/lib instead of
+          /lib for the nanopi-air-bt recipe
+        changelog-entry: Use nonarch_base_libdir to install files in /usr/lib instead of
+          /lib for the nanopi-air-bt recipe
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 6.5.17+rev1
+  title: ""
+  date: 2025-04-10T12:12:41.681Z
+- commits:
     - subject: Update layers/meta-balena to c2846896f832365bb2205d75d509fe69e034385f
       hash: 25abfa73d08c0b8a96604adf54b30182da2d568d
       body: Update layers/meta-balena
