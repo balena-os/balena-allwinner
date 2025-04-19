@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.20
+## (2025-04-19)
+
+
+<details>
+<summary> Update layers/meta-balena to 506616fc1e9ab4cb54148a0bed38303312c796dc [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.20
+> ### (2025-04-19)
+> 
+> * kernel-balena: add aufs commit for v6.6.84 [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.5.19+rev1
 ## (2025-04-18)
 

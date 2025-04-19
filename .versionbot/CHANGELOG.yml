@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to 506616fc1e9ab4cb54148a0bed38303312c796dc
+      hash: 84a929188e80812e0202239f629fc593e53f77bc
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 506616fc1e9ab4cb54148a0bed38303312c796dc
+        changelog-entry: Update layers/meta-balena to 506616fc1e9ab4cb54148a0bed38303312c796dc
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-balena: add aufs commit for v6.6.84"
+              hash: 6a63c9f2e9e064be591e4e29d6c50f86393c752f
+              body: >
+                We will continue to update to the stable head of v6.6 until
+                v6.12 is
+
+                officially deployed.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.5.20
+          title: ""
+          date: 2025-04-19T06:11:53.850Z
+  version: 6.5.20
+  title: ""
+  date: 2025-04-19T11:11:19.970Z
+- commits:
     - subject: Update balena-yocto-scripts to 5e33bdd77f207ccf64016feb3a30f4af05e57e96
       hash: a1b0f60a230d8cb2caace552dcba1c46f0c5a21f
       body: Update balena-yocto-scripts
