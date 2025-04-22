@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.22
+## (2025-04-22)
+
+
+<details>
+<summary> Update layers/meta-balena to ff1b4cc06eb027b8f5d51384b32cbcb01bcab6d8 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.22
+> ### (2025-04-21)
+> 
+> * Use workflow_call for balena-generic device type tests [Kyle Harding]
+> 
+
+</details>
+
 # v6.5.21
 ## (2025-04-19)
 
