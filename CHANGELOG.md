@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.24+rev4
+## (2025-04-30)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 253323fe40f0047619ef197482956d79a87e56af [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.31.85
+> ### (Invalid date)
+> 
+> * Update actions/download-artifact digest to d3f86a1 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.24+rev3
 ## (2025-04-30)
 
