@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.26
+## (2025-05-05)
+
+
+<details>
+<summary> Update layers/meta-balena to 9d323d974c5ffd53e359d69f17fd899983aa4b54 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.26
+> ### (2025-05-05)
+> 
+> * tests/os: Add regdb load failure test [Alexandru Costache]
+> 
+
+</details>
+
 # v6.5.25
 ## (2025-05-04)
 

@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 9d323d974c5ffd53e359d69f17fd899983aa4b54
+      hash: 26ed89d88731379e1d0cff07952c9d56e0c3f77d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9d323d974c5ffd53e359d69f17fd899983aa4b54
+        changelog-entry: Update layers/meta-balena to 9d323d974c5ffd53e359d69f17fd899983aa4b54
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests/os: Add regdb load failure test"
+              hash: 545214b5e3a19bda78254bf1f9e01de34f3c8df1
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.5.26
+          title: ""
+          date: 2025-05-05T18:46:13.539Z
+  version: 6.5.26
+  title: ""
+  date: 2025-05-05T22:19:27.064Z
+- commits:
     - subject: Update layers/meta-balena to 1846975cb70489cdf3fcaff507355b0eb45fd77a
       hash: 69f5310a9b22cdf69613867d575f09cf59fceef1
       body: Update layers/meta-balena
