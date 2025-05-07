@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.28
+## (2025-05-07)
+
+
+<details>
+<summary> Update layers/meta-balena to 5fdd86b4ff4fbaedf08ce545b33df191c932294d [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.28
+> ### (2025-05-07)
+> 
+> * Do not include in the rootfs the test binaries from the nss package [Florin Sarbu]
+> 
+
+</details>
+
 # v6.5.27+rev4
 ## (2025-05-07)
 

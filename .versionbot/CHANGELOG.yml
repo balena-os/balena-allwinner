@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update layers/meta-balena to 5fdd86b4ff4fbaedf08ce545b33df191c932294d
+      hash: b9f607b6774a67f53a488436140123b56559ef99
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5fdd86b4ff4fbaedf08ce545b33df191c932294d
+        changelog-entry: Update layers/meta-balena to 5fdd86b4ff4fbaedf08ce545b33df191c932294d
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Do not include in the rootfs the test binaries from the nss package
+              hash: 045f1061526a95857b8d27f69b87383ddcba5b51
+              body: |
+                In order to free up space in the rootfs we remove the following binaries:
+                bltest  chktest  crmftest  dbtest  dertimetest  encodeinttest  fbectest  fipstest  pk11ectest  pk11gcmtest  pk11importtest  remtest  sdrtest  secmodtest
+              footer:
+                Changelog-entry: Do not include in the rootfs the test binaries from the nss
+                  package
+                changelog-entry: Do not include in the rootfs the test binaries from the nss
+                  package
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.5.28
+          title: ""
+          date: 2025-05-07T19:45:20.413Z
+  version: 6.5.28
+  title: ""
+  date: 2025-05-07T21:56:36.712Z
+- commits:
     - subject: Update balena-yocto-scripts to fe5debadae75e2b9cda9bd40aa2d0aced777860a
       hash: 75786833e1e89518810e363a92e634b79cc02f71
       body: Update balena-yocto-scripts
