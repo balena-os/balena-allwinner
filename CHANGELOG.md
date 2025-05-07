@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.28+rev1
+## (2025-05-07)
+
+
+<details>
+<summary> Update balena-yocto-scripts to def3e3d7db9209bc0c3a382167a91090a626ae13 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.32.0
+> ### (2025-05-07)
+> 
+> * Remove legacy Jenkins deploy scripts [Kyle Harding]
+> 
+
+</details>
+
 # v6.5.28
 ## (2025-05-07)
 
