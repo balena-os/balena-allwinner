@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.29
+## (2025-05-08)
+
+
+<details>
+<summary> Update layers/meta-balena to 72bb35f5fa5b006033f2e360f7464abaed48e2c3 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.29
+> ### (2025-05-08)
+> 
+> * tests: cloud: Don't disable DUT internet access if secureboot enabled [Ryan Cooke]
+> 
+
+</details>
+
 # v6.5.28+rev2
 ## (2025-05-08)
 
