@@ -1,6 +1,24 @@
 Change log
 -----------
 
+# v6.5.29+rev1
+## (2025-05-09)
+
+
+<details>
+<summary> Update balena-yocto-scripts to e4e343b93f18f5a6e668e86ae7acdf628c279365 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.32.2
+> ### (2025-05-09)
+> 
+> * Use GH CLI to download build artifacts [Kyle Harding]
+> * Disable GHA compression for build artifacts [Kyle Harding]
+> * Provide yocto scripts ref to test build pipeline [Kyle Harding]
+> * Remove leviathan test suites from build artifacts [Kyle Harding]
+> 
+
+</details>
+
 # v6.5.29
 ## (2025-05-08)
 
