@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.31+rev2
+## (2025-05-16)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 056e79d73c7c64247bbfbc2c21d0b6fc2a2709b8 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.32.10
+> ### (2025-05-16)
+> 
+> * Remove the old grep for build errors [Kyle Harding]
+> 
+
+</details>
+
 # v6.5.31+rev1
 ## (2025-05-16)
 

@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 056e79d73c7c64247bbfbc2c21d0b6fc2a2709b8
+      hash: 44ee5b144a0efdd23580b6d01c7ec15379e50f13
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 056e79d73c7c64247bbfbc2c21d0b6fc2a2709b8
+        changelog-entry: Update balena-yocto-scripts to 056e79d73c7c64247bbfbc2c21d0b6fc2a2709b8
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Remove the old grep for build errors
+              hash: d3fdb6474c7efb10c8b92dedd1584dac428e0ca8
+              body: >
+                This grep has started to catch file strings in the cooker logs,
+                even on success, so instead just rely on the success message in
+                the second grep of balena build logs.
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.32.10
+          title: ""
+          date: 2025-05-16T18:13:50.676Z
+  version: 6.5.31+rev2
+  title: ""
+  date: 2025-05-16T20:39:49.004Z
+- commits:
     - subject: Update balena-yocto-scripts to 11c3960c6936f32befde95e86d4415f12ab6db27
       hash: 08f17b7e7078415b920ebe90f4b503f435dd298c
       body: Update balena-yocto-scripts
