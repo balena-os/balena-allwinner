@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.32
+## (2025-05-17)
+
+
+<details>
+<summary> Update layers/meta-balena to ea86709a93ff8615c3b28cfccedba7546ae6ba3a [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.32
+> ### (2025-05-17)
+> 
+> * kernel-balena.bbclass: Include 802.1q VLAN driver [Michal Toman]
+> 
+
+</details>
+
 # v6.5.31+rev4
 ## (2025-05-17)
 
