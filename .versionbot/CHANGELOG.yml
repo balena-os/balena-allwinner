@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 653a61f905528381db2a7f893bba6c7cd19c64a0
+      hash: 6918f735f29b261aa6c5e238d036fbac4cefefd5
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 653a61f905528381db2a7f893bba6c7cd19c64a0
+        changelog-entry: Update balena-yocto-scripts to 653a61f905528381db2a7f893bba6c7cd19c64a0
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tespkg/actions-cache action to v1.9.0
+              hash: 8cfe2d2358dad7224cfeb28174ef02008a33cf7b
+              body: |
+                Update tespkg/actions-cache from 1.8.0 to 1.9.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.32.16
+          title: ""
+          date: 2025-05-20T12:04:27.146Z
+  version: 6.5.32+rev3
+  title: ""
+  date: 2025-05-20T13:45:16.556Z
+- commits:
     - subject: Update balena-yocto-scripts to fcdb99d91f490ae7f304da24145f0386bfa4b722
       hash: c8f46d0e33d2677e8d921c84ac07aeaf8ea372ae
       body: Update balena-yocto-scripts

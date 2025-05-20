@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.32+rev3
+## (2025-05-20)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 653a61f905528381db2a7f893bba6c7cd19c64a0 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.32.16
+> ### (2025-05-20)
+> 
+> * Update tespkg/actions-cache action to v1.9.0 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.32+rev2
 ## (2025-05-19)
 
