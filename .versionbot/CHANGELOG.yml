@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 8ac612e8067ccf04a437a4213e9d0d8704c094b9
+      hash: c4b23fd5098d7846734c80d877bfddf3f8f157e3
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 8ac612e8067ccf04a437a4213e9d0d8704c094b9
+        changelog-entry: Update layers/meta-balena to 8ac612e8067ccf04a437a4213e9d0d8704c094b9
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Increases persistent logs size to 128M
+              hash: ffe62ab787a0d50bf48fea0d9a9c28fb9f163221
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.5.34
+          title: ""
+          date: 2025-05-23T08:18:21.963Z
+  version: 6.5.34
+  title: ""
+  date: 2025-05-23T12:08:28.562Z
+- commits:
     - subject: Update balena-yocto-scripts to daf7b30838848a5072a4ee76abcc86887e0f775f
       hash: 1906a7a974bc25e9d060fc2cbb35ff8bd90b7f0b
       body: Update balena-yocto-scripts
