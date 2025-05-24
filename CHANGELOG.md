@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.34+rev2
+## (2025-05-24)
+
+
+<details>
+<summary> Update balena-yocto-scripts to a63b6341b2830ddd045dce37070f4f6e34265a8f [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.32.21
+> ### (2025-05-24)
+> 
+> * Update balena-os/leviathan action to v2.31.111 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.34+rev1
 ## (2025-05-23)
 
