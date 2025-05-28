@@ -1,4 +1,39 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 4e3439795f4cad6905beb051e8897ef2350dfc69
+      hash: 9058ec531f121aaef06bd3e02b0f97b225845238
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 4e3439795f4cad6905beb051e8897ef2350dfc69
+        changelog-entry: Update balena-yocto-scripts to 4e3439795f4cad6905beb051e8897ef2350dfc69
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Make hostapp-deploy depend on a successful s3-deploy
+              hash: 7e5c501cb45943353472c98764d8ba43a29ef48c
+              body: >
+                If something failed on S3 upload, we do not want to deploy the
+
+                hostapp as it will likely need to be invalidated.
+
+
+                This order will change when we move to web resources, and
+                uploads
+
+                depend on the hostapp creation.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.33.0
+          title: ""
+          date: 2025-05-28T14:02:02.653Z
+  version: 6.5.34+rev12
+  title: ""
+  date: 2025-05-28T14:46:44.025Z
+- commits:
     - subject: Update balena-yocto-scripts to 474c4d804d8278dd10d4506278a8d656e53775fe
       hash: ca28f1c8047504aee106eb1749c861d8a762ff31
       body: Update balena-yocto-scripts

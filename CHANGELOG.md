@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.34+rev12
+## (2025-05-28)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 4e3439795f4cad6905beb051e8897ef2350dfc69 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.33.0
+> ### (2025-05-28)
+> 
+> * Make hostapp-deploy depend on a successful s3-deploy [Kyle Harding]
+> 
+
+</details>
+
 # v6.5.34+rev11
 ## (2025-05-28)
 
