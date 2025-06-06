@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.36+rev5
+## (2025-06-06)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 27a875eedfce1dc97f1f58acae8c878f8975b7d5 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.33.17
+> ### (2025-06-06)
+> 
+> * Leviathan: Configure image type for hup suite [Ryan Cooke]
+> 
+
+</details>
+
 # v6.5.36+rev4
 ## (2025-06-05)
 

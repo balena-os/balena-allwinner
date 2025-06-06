@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 27a875eedfce1dc97f1f58acae8c878f8975b7d5
+      hash: ec9f012f7436547c2beaffa2eb68ff7f45a3ee9e
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 27a875eedfce1dc97f1f58acae8c878f8975b7d5
+        changelog-entry: Update balena-yocto-scripts to 27a875eedfce1dc97f1f58acae8c878f8975b7d5
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "Leviathan: Configure image type for hup suite"
+              hash: f7c0ba950665e14c56aab1d93da6c8cca9b70e3b
+              body: >
+                This is needed to pass the image type to the hup suite, so in
+                teh cases where the non-default image is used, the correct type
+                is downloaded from balena cloud
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: balena-yocto-scripts-1.33.17
+          title: ""
+          date: 2025-06-06T13:20:55.980Z
+  version: 6.5.36+rev5
+  title: ""
+  date: 2025-06-06T14:35:34.959Z
+- commits:
     - subject: Update balena-yocto-scripts to a6a270257ff9a0c7fd119de2848490a26419def0
       hash: 4ee43fc480eb9d6ef28644c8d89c3f6b9b4d1b84
       body: Update balena-yocto-scripts
