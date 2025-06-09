@@ -1,4 +1,56 @@
 - commits:
+    - subject: Update balena-yocto-scripts to e5c7085d5cd7f4162cb87ac0a1b77a0f85358f0f
+      hash: eeff9a5a62dc0d30ab4e45857f6c4be2ca28e240
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to e5c7085d5cd7f4162cb87ac0a1b77a0f85358f0f
+        changelog-entry: Update balena-yocto-scripts to e5c7085d5cd7f4162cb87ac0a1b77a0f85358f0f
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Remove deprecated poll-interval input from review-commit-action
+              hash: 185bf9342daf06809f83c10d0aa57928308b4490
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.33.20
+          title: ""
+          date: 2025-06-09T19:43:26.314Z
+        - commits:
+            - subject: Update balena-os/leviathan action to v2.32.8
+              hash: 950bd24c2801c575a21f460279434c8f8fd35881
+              body: |
+                Update balena-os/leviathan from 2.32.6 to 2.32.8
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.33.19
+          title: ""
+          date: 2025-06-09T14:23:54.773Z
+        - commits:
+            - subject: Update aws/aws-cli to v2.27.31
+              hash: bc57af45e3ad57db7c1f8a4f5e6715e7c04f552a
+              body: |
+                Update aws/aws-cli from 2.27.30 to 2.27.31
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.33.18
+          title: ""
+          date: 2025-06-06T21:03:06.224Z
+  version: 6.5.36+rev6
+  title: ""
+  date: 2025-06-09T22:09:08.915Z
+- commits:
     - subject: Update balena-yocto-scripts to 27a875eedfce1dc97f1f58acae8c878f8975b7d5
       hash: ec9f012f7436547c2beaffa2eb68ff7f45a3ee9e
       body: Update balena-yocto-scripts

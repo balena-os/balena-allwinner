@@ -1,6 +1,31 @@
 Change log
 -----------
 
+# v6.5.36+rev6
+## (2025-06-09)
+
+
+<details>
+<summary> Update balena-yocto-scripts to e5c7085d5cd7f4162cb87ac0a1b77a0f85358f0f [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.33.20
+> ### (2025-06-09)
+> 
+> * Remove deprecated poll-interval input from review-commit-action [Kyle Harding]
+> 
+> ## balena-yocto-scripts-1.33.19
+> ### (2025-06-09)
+> 
+> * Update balena-os/leviathan action to v2.32.8 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.33.18
+> ### (2025-06-06)
+> 
+> * Update aws/aws-cli to v2.27.31 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.36+rev5
 ## (2025-06-06)
 
