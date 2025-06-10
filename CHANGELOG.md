@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.37+rev2
+## (2025-06-10)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 48c2802ffd165f96a82e8ad8f9d96bc1ad0f17a5 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.33.22
+> ### (2025-06-10)
+> 
+> * Update aws/aws-cli to v2.27.33 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.37+rev1
 ## (2025-06-10)
 
