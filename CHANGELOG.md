@@ -1,6 +1,30 @@
 Change log
 -----------
 
+# v6.5.38+rev1
+## (2025-06-13)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 63d8277e363468c468a88012949e8d38e1d5b5d4 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.34.1
+> ### (2025-06-12)
+> 
+> * Update aws/aws-cli to v2.27.35 [balena-renovate[bot]]
+> 
+> ## balena-yocto-scripts-1.34.0
+> ### (2025-06-12)
+> 
+> * Remove docker-image deploy type and only upload artifacts when needed [Kyle Harding]
+> * Update all jobs to use new artifact format and paths [Kyle Harding]
+> * Split artifact uploads into hostapp and testing artifacts [Kyle Harding]
+> * Refactor artifact preparation and encryption [Kyle Harding]
+> * Add S3_DEPLOY_PATH environment variable [Kyle Harding]
+> 
+
+</details>
+
 # v6.5.38
 ## (2025-06-12)
 
