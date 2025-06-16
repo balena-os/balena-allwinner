@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to f3a61f951205e7c0cfe5e60a07012d4e16b3ac96
+      hash: fafe4f9f90382b2dcd300bc3108ba739b701b331
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to f3a61f951205e7c0cfe5e60a07012d4e16b3ac96
+        changelog-entry: Update balena-yocto-scripts to f3a61f951205e7c0cfe5e60a07012d4e16b3ac96
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-os/leviathan action to v2.33.3
+              hash: b0e45e562528d56dd44c8d817331c1eb74f13dec
+              body: |
+                Update balena-os/leviathan from 2.33.1 to 2.33.3
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.34.2
+          title: ""
+          date: 2025-06-16T06:44:55.583Z
+  version: 6.5.38+rev2
+  title: ""
+  date: 2025-06-16T10:06:57.867Z
+- commits:
     - subject: Update balena-yocto-scripts to 63d8277e363468c468a88012949e8d38e1d5b5d4
       hash: d5d2fc1dc173d86825706be89605942b498a04c8
       body: Update balena-yocto-scripts
