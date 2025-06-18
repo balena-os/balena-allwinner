@@ -1,6 +1,26 @@
 Change log
 -----------
 
+# v6.5.38+rev3
+## (2025-06-18)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 137906a06beca7bf54684be79b7e891ead6090de [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.34.4
+> ### (2025-06-18)
+> 
+> * prepare deflate artifacts even on PRs [Ryan Cooke]
+> 
+> ## balena-yocto-scripts-1.34.3
+> ### (2025-06-17)
+> 
+> * Update aws/aws-cli to v2.27.37 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.38+rev2
 ## (2025-06-16)
 
