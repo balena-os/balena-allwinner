@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v6.5.41+rev2
+## (2025-07-02)
+
+
+<details>
+<summary> Update balena-yocto-scripts to fe84fecc16b4461a562f6987f8f00d700e9800a8 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.35.0
+> ### (2025-07-02)
+> 
+> * Remove .img and .img.zip files from hostapp artifacts [Kyle Harding]
+> * Remove old manual uploads of licenses and changelog [Kyle Harding]
+> * Upload release assets to hostapp on merge [Kyle Harding]
+> 
+
+</details>
+
 # v6.5.41+rev1
 ## (2025-07-02)
 

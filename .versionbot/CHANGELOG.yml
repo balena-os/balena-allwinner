@@ -1,4 +1,58 @@
 - commits:
+    - subject: Update balena-yocto-scripts to fe84fecc16b4461a562f6987f8f00d700e9800a8
+      hash: 1b315308ccb7018d0d8322ea435a960b0a4cd16b
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to fe84fecc16b4461a562f6987f8f00d700e9800a8
+        changelog-entry: Update balena-yocto-scripts to fe84fecc16b4461a562f6987f8f00d700e9800a8
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Remove .img and .img.zip files from hostapp artifacts
+              hash: d71961bc5e83d44199abc059ffa9a7ab06eba02d
+              body: |
+                These artifacts are no longer used by any of the download
+                endpoints of backend, so we can stop uploading them to save time
+                and S3 costs.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Remove old manual uploads of licenses and changelog
+              hash: bd42aab51cf4cc3e4744c60e071ed40d660ceb61
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Upload release assets to hostapp on merge
+              hash: 1fefde01ecce8d7210acc18285773197f1754d55
+              body: |
+                Release assets will replace the manual S3 deploy job
+                once we have the rest of the pipline in place.
+
+                For now we are uploading in duplicate to test workflow
+                under load, and start developing the client changes.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.35.0
+          title: ""
+          date: 2025-07-02T15:53:44.684Z
+  version: 6.5.41+rev2
+  title: ""
+  date: 2025-07-02T17:06:53.461Z
+- commits:
     - subject: Update contracts to fc76558c384c10bf228b10909eca346ee9d6b564
       hash: f3b071d8ea4b24709bf34650357045def5ea5bb3
       body: Update contracts
