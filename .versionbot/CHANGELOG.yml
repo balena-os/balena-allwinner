@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to ed8866d6a0b4de8bb40dfd35fbdd465c8814bb57
+      hash: b09744d9663942007e921acccd7a589115a265fe
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ed8866d6a0b4de8bb40dfd35fbdd465c8814bb57
+        changelog-entry: Update layers/meta-balena to ed8866d6a0b4de8bb40dfd35fbdd465c8814bb57
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update outdated context of efitools patches
+              hash: de30667d5b7548ea6381978c45d7ae3bdeb3b10c
+              body: >
+                Patches with outdated context will trigger fatal build errors in
+                Yocto Scarthgap
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: Update outdated context of efitools patches
+                changelog-entry: Update outdated context of efitools patches
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.5.41
+          title: ""
+          date: 2025-07-02T00:16:55.553Z
+  version: 6.5.41
+  title: ""
+  date: 2025-07-02T03:40:59.363Z
+- commits:
     - subject: Update balena-yocto-scripts to 654190bb76676ef6cd25f50791ec6ce678eae789
       hash: a4b9849c79925a6c7c4d5a12cc04cf7b250246fe
       body: Update balena-yocto-scripts
