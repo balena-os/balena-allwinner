@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v6.5.41+rev3
+## (2025-07-02)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 8d43b5b5bec783ee6e65d6e784e83023139f8147 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.35.1
+> ### (2025-07-02)
+> 
+> * workflows: yocto-build-deploy: pass RSA key if available [Alex Gonzalez]
+> * workflows: yocto-build-deploy: deploy RPI locking artifacts as assets if available [Alex Gonzalez]
+> * balena-deploy: compress RPI secure boot locking artifacts [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.5.41+rev2
 ## (2025-07-02)
 
