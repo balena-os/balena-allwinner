@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 598619c6eba6296f69dacf2f66eb9b7bcc9539c2
+      hash: f583ed7193224e2fa74ef2870811151b758ea272
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 598619c6eba6296f69dacf2f66eb9b7bcc9539c2
+        changelog-entry: Update balena-yocto-scripts to 598619c6eba6296f69dacf2f66eb9b7bcc9539c2
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update Pin balena-io/upload-balena-release-asset action to ad48340
+              hash: d982b942ed18465825eb06dce6060078a6b7b500
+              body: |
+                Update balena-io/upload-balena-release-asset
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.35.3
+          title: ""
+          date: 2025-07-03T05:53:43.594Z
+  version: 6.5.41+rev5
+  title: ""
+  date: 2025-07-03T07:18:30.792Z
+- commits:
     - subject: Update balena-yocto-scripts to 18462571a18f554d6003ef43f3abfe4564edace0
       hash: cb40ac7ccfd9f210291d3de71f4d9b2fb2525d2c
       body: Update balena-yocto-scripts

@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.41+rev5
+## (2025-07-03)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 598619c6eba6296f69dacf2f66eb9b7bcc9539c2 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.35.3
+> ### (2025-07-03)
+> 
+> * Update Pin balena-io/upload-balena-release-asset action to ad48340 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.41+rev4
 ## (2025-07-03)
 
