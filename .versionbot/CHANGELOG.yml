@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update layers/meta-balena to 6a98d389b14082f43e6078deed2aaec990f0222e
+      hash: e082fb89e62ff21485175843e64404402df1c536
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6a98d389b14082f43e6078deed2aaec990f0222e
+        changelog-entry: Update layers/meta-balena to 6a98d389b14082f43e6078deed2aaec990f0222e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "meta-balena-esr: fall back to current minor"
+              hash: b04c4769fdffb61e65c365aad7cea8907991cb2d
+              body: >
+                If an esr branch for a previous minor already exists, then fall
+                back to the current minor
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.5.43
+          title: ""
+          date: 2025-07-07T10:43:40.599Z
+  version: 6.5.43
+  title: ""
+  date: 2025-07-07T14:10:53.593Z
+- commits:
     - subject: Update balena-yocto-scripts to 76b9918f23e4b100bef64a2ce4ecb3bca70ee5fa
       hash: 5d5addcb3b6b9802db815e2ac6cf6b549d2bbf51
       body: Update balena-yocto-scripts
