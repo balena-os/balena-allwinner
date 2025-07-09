@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.44
+## (2025-07-09)
+
+
+<details>
+<summary> Update layers/meta-balena to 4e67673a7d7d67b5fc4b6d87065b900b00d72341 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.44
+> ### (2025-07-09)
+> 
+> * meta-balena-YOCTO_RELEASE: update bmap-tools branch name [Ryan Cooke]
+> 
+
+</details>
+
 # v6.5.43+rev1
 ## (2025-07-09)
 
