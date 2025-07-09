@@ -1,4 +1,39 @@
 - commits:
+    - subject: Update balena-yocto-scripts to ccb8899d87c181fa3198a496fe1a514a93de90e5
+      hash: 783b7bd88920f3fe1f3ca01c36a1d1544a207f8b
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to ccb8899d87c181fa3198a496fe1a514a93de90e5
+        changelog-entry: Update balena-yocto-scripts to ccb8899d87c181fa3198a496fe1a514a93de90e5
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "minor: upload cyclonedx bom.json and vex.json as independend files"
+              hash: f0302f4e650d917c71b846014e4fed65a7916c3a
+              body: ""
+              footer: {}
+              author: Edwin Joassart
+              nested: []
+            - subject: Generate SBOM and VEX (cycloneDX)
+              hash: a534b99e565c2854af0a790c96706f7a348df447
+              body: |
+                https://balena.fibery.io/Work/Project/balenaos-SBOM-as-release-asset-1515
+              footer:
+                Change-type: minor
+                change-type: minor
+                Changelog-entry: Generate SBOM and VEX (cycloneDX)
+                changelog-entry: Generate SBOM and VEX (cycloneDX)
+                Signed-off-by: Edwin Joassart <edwin.joassart@balena.io>
+                signed-off-by: Edwin Joassart <edwin.joassart@balena.io>
+              author: Edwin Joassart
+              nested: []
+          version: balena-yocto-scripts-1.36.0
+          title: ""
+          date: 2025-07-09T18:11:19.397Z
+  version: 6.5.43+rev1
+  title: ""
+  date: 2025-07-09T21:17:49.280Z
+- commits:
     - subject: Update layers/meta-balena to 6a98d389b14082f43e6078deed2aaec990f0222e
       hash: e082fb89e62ff21485175843e64404402df1c536
       body: Update layers/meta-balena
