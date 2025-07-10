@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to a2ebb959fd117c97a6b131adbb524560429eafab
+      hash: 487edb6c03f01cf8a06d1a44484d094c1411c825
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to a2ebb959fd117c97a6b131adbb524560429eafab
+        changelog-entry: Update balena-yocto-scripts to a2ebb959fd117c97a6b131adbb524560429eafab
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-io/upload-balena-release-asset action to v0.1.4
+              hash: 8c86439772badada857f6c982a77d9ce0ae6b8fc
+              body: |
+                Update balena-io/upload-balena-release-asset from 0.1.3 to 0.1.4
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.36.1
+          title: ""
+          date: 2025-07-10T18:37:30.402Z
+  version: 6.5.44+rev1
+  title: ""
+  date: 2025-07-10T21:49:46.986Z
+- commits:
     - subject: Update layers/meta-balena to 4e67673a7d7d67b5fc4b6d87065b900b00d72341
       hash: 43fed0ed952eedbba5ec497ff4cbb9392393d1ed
       body: Update layers/meta-balena
