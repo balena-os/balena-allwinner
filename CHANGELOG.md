@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.44+rev9
+## (2025-07-21)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 91e8f9506150d9a944717d4d7b77e382c9d4e8ca [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.36.11
+> ### (2025-07-21)
+> 
+> * Update Lock file maintenance [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.5.44+rev8
 ## (2025-07-19)
 
