@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.45
+## (2025-07-24)
+
+
+<details>
+<summary> Update layers/meta-balena to 5f7be9b1ce225e8dba13c08bb862cacf376e9424 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.45
+> ### (2025-07-23)
+> 
+> * grub-conf: Don't sign non-luks grub.cfg [Michal Toman]
+> 
+
+</details>
+
 # v6.5.44+rev16
 ## (2025-07-23)
 
