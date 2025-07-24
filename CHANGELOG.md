@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.45+rev4
+## (2025-07-24)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 31279c7fb29974fd2238f2ad78649acf8c3ab082 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.37.0
+> ### (2025-07-24)
+> 
+> * Use the leviathan action from the submodule in meta-balena [Kyle Harding]
+> 
+
+</details>
+
 # v6.5.45+rev3
 ## (2025-07-24)
 
