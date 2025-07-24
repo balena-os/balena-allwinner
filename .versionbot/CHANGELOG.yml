@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 3c836948e9b2ff8a8391c56262fef245282df761
+      hash: dbc347c3b960765c6164cc6e382c16dc3e4eea17
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 3c836948e9b2ff8a8391c56262fef245282df761
+        changelog-entry: Update balena-yocto-scripts to 3c836948e9b2ff8a8391c56262fef245282df761
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "upload hostapp artifacts: include encrypted manifest"
+              hash: eb5b915a8ff6d23aa207732519829fd0850fffea
+              body: >
+                We encrypt the manifest if its private/signed, but don't look
+                for the encrypted version to upload - fixes that
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: balena-yocto-scripts-1.36.21
+          title: ""
+          date: 2025-07-24T18:14:26.067Z
+  version: 6.5.45+rev3
+  title: ""
+  date: 2025-07-24T21:10:51.620Z
+- commits:
     - subject: Update balena-yocto-scripts to dfc70e70fb6758de592d3cad7531d2f1241cfdcf
       hash: e360fcf1b9b828a4331e88772fc53b635bc9b54f
       body: Update balena-yocto-scripts

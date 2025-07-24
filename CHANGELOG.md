@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.45+rev3
+## (2025-07-24)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 3c836948e9b2ff8a8391c56262fef245282df761 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.36.21
+> ### (2025-07-24)
+> 
+> * upload hostapp artifacts: include encrypted manifest [Ryan Cooke]
+> 
+
+</details>
+
 # v6.5.45+rev2
 ## (2025-07-24)
 
