@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to ac701544938e51b95c1858d76211d93a6d2ef2eb
+      hash: 6ac2b091023e4fa284b0b8c648cb765cd7a83a28
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to ac701544938e51b95c1858d76211d93a6d2ef2eb
+        changelog-entry: Update balena-yocto-scripts to ac701544938e51b95c1858d76211d93a6d2ef2eb
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update aws-actions/configure-aws-credentials action to v4.3.1
+              hash: fbd912e3d4bc7e4a5d33aa1455acb5e23669e8c9
+              body: |
+                Update aws-actions/configure-aws-credentials from 4.2.1 to 4.3.1
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.37.7
+          title: ""
+          date: 2025-08-05T01:38:57.517Z
+  version: 6.5.48+rev2
+  title: ""
+  date: 2025-08-05T04:59:03.102Z
+- commits:
     - subject: Update balena-yocto-scripts to bb0a3f5a47cbf6d4ab844a0f7e79e8e592ec4add
       hash: c9639c935056881ae358c7f64d982726da6137ac
       body: Update balena-yocto-scripts
