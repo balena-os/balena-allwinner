@@ -1,4 +1,43 @@
 - commits:
+    - subject: Update layers/meta-balena to 1977d99e2bde7837606c3962a7f0620cb0297a95
+      hash: dd4222881f46c793bf3b969fe567972d65b193ff
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1977d99e2bde7837606c3962a7f0620cb0297a95
+        changelog-entry: Update layers/meta-balena to 1977d99e2bde7837606c3962a7f0620cb0297a95
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "wpa_supplicant: Enable SAE to support WPA3 personal"
+              hash: f293e606129ba9f9f9a67ce0cd1cad208973bd8d
+              body: >
+                At this moment we completely lack WPA3 support in
+                wpa_supplicant.
+
+                Mixed WPA2/WPA3 networks will sometimes fall back to WPA2 and
+                sometimes
+
+                won't work. WPA3-only networks never work.
+
+
+                This patch enables SAE in the config, which should allow
+                networks
+
+                secured with WPA3 personal to work.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.5.50
+          title: ""
+          date: 2025-08-13T13:41:27.493Z
+  version: 6.5.50
+  title: ""
+  date: 2025-08-13T20:52:39.761Z
+- commits:
     - subject: Update balena-yocto-scripts to 75df416fd02fe21ec54ae5ddeae9fdee8f13ca76
       hash: a295c469f7d58fc343da72bedff27ae467ad0775
       body: Update balena-yocto-scripts
