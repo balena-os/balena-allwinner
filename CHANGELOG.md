@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.51
+## (2025-08-15)
+
+
+<details>
+<summary> Update layers/meta-balena to 5a73334fc661f78a2163d3c520b804f80890d480 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.51
+> ### (2025-08-15)
+> 
+> * Updated contributing-device-support.md Part of https://balena.fibery.io/Work/Project/Update-Device-Support-Docs-1641 [Ryan]
+> 
+
+</details>
+
 # v6.5.50+rev4
 ## (2025-08-15)
 
