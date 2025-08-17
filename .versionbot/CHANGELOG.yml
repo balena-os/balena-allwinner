@@ -1,4 +1,39 @@
 - commits:
+    - subject: Update layers/meta-balena to b733ec53d2848f43056fe344498fad8349ce6c02
+      hash: f98141a78a2cdea423ecac27a500b1fd45836b22
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b733ec53d2848f43056fe344498fad8349ce6c02
+        changelog-entry: Update layers/meta-balena to b733ec53d2848f43056fe344498fad8349ce6c02
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "recipes-core/packagegroup-resin: Set PACKAGE_ARCH"
+              hash: b267e7b5e6309cac4418929be270ab5a57d1d438
+              body: |
+                Packages with dinamically changed names cannot be included
+                in allarch package groups. This package was set to allarch
+                because it inherits packagegroup class, which sets PACKAGE_ARCH
+                to "all" by default.
+
+                This fixes the following error:
+                    packagegroup-resin-1.0-r1 do_package_write_ipk: An allarch packagegroup shouldn't depend on packages which are dynamically renamed (kernel-modules to kernel-modules-6.6.3-g284172f37508)
+
+                See https://github.com/openembedded/meta-openembedded/commit/112cca9f474
+              footer:
+                Change-type: Patch
+                change-type: Patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.5.53
+          title: ""
+          date: 2025-08-17T10:21:23.988Z
+  version: 6.5.53
+  title: ""
+  date: 2025-08-17T14:43:09.088Z
+- commits:
     - subject: Update layers/meta-balena to 3c6079a21f5134f57922728b869766035e4793a0
       hash: e530ad0dcc108f44158d5b266d73ae3bbe433da0
       body: Update layers/meta-balena

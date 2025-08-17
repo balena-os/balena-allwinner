@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.53
+## (2025-08-17)
+
+
+<details>
+<summary> Update layers/meta-balena to b733ec53d2848f43056fe344498fad8349ce6c02 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.53
+> ### (2025-08-17)
+> 
+> * recipes-core/packagegroup-resin: Set PACKAGE_ARCH [Alexandru Costache]
+> 
+
+</details>
+
 # v6.5.52
 ## (2025-08-16)
 
