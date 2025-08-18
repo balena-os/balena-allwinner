@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.53+rev2
+## (2025-08-18)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 8621547e6855b99d63471cb66fce8cc943f64553 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.38.0
+> ### (2025-08-18)
+> 
+> * Split testing artifacts into individual files [Kyle Harding]
+> 
+
+</details>
+
 # v6.5.53+rev1
 ## (2025-08-18)
 
