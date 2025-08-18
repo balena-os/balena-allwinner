@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 4e7e0f646eb42e00ccb540a092b6086e26be5e00
+      hash: 5d6227519115e9b234e20afb130960a58a9f7913
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 4e7e0f646eb42e00ccb540a092b6086e26be5e00
+        changelog-entry: Update balena-yocto-scripts to 4e7e0f646eb42e00ccb540a092b6086e26be5e00
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "barys: default to highest priority layers for template paths"
+              hash: ed52c9ec2bf0e3727e019103abc272bfaf806eb4
+              body: >
+                When different layers contains template files and no
+                --template-path is
+
+                provided, use the highest priority layer.
+
+
+                This provides a default which is better for automation.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.37.20
+          title: ""
+          date: 2025-08-18T09:22:08.388Z
+  version: 6.5.53+rev1
+  title: ""
+  date: 2025-08-18T11:42:50.878Z
+- commits:
     - subject: Update layers/meta-balena to b733ec53d2848f43056fe344498fad8349ce6c02
       hash: f98141a78a2cdea423ecac27a500b1fd45836b22
       body: Update layers/meta-balena
