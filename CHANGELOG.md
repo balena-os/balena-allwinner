@@ -1,6 +1,33 @@
 Change log
 -----------
 
+# v6.5.54
+## (2025-08-21)
+
+
+<details>
+<summary> Update layers/meta-balena to 5486f64f0f557e2968c198d32cdbf225123798ea [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.54
+> ### (2025-08-21)
+> 
+> * recipes-connectivity/balena-proxy-config: Clean-up redsocks rules by index [Alexandru Costache]
+> 
+
+</details>
+
+
+<details>
+<summary> Update layers/meta-balena to 8a6475ced55ae0ead3647fb779574c5dc5b1cf70 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.54
+> ### (2025-08-21)
+> 
+> * recipes-connectivity/balena-proxy-config: Clean-up redsocks rules by index [Alexandru Costache]
+> 
+
+</details>
+
 # v6.5.53+rev5
 ## (2025-08-20)
 
