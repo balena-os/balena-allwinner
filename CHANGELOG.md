@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.5.55
+## (2025-08-22)
+
+
+<details>
+<summary> Update layers/meta-balena to 1f56b4f65c8d1ea00b1b1541d86ed0ba50d833cd [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.5.55
+> ### (2025-08-22)
+> 
+> * patch: add metadata to improve balena-engine cve tracking [Edwin Joassart]
+> 
+
+</details>
+
 # v6.5.54
 ## (2025-08-21)
 
