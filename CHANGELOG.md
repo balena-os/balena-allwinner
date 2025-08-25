@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.6.1
+## (2025-08-25)
+
+
+<details>
+<summary> Update layers/meta-balena to 2768e974381299086254e6199991bdc8be26dee4 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.6.1
+> ### (2025-08-25)
+> 
+> * Remove the AX102 requirement for secure boot tests [Kyle Harding]
+> 
+
+</details>
+
 # v6.6.0+rev1
 ## (2025-08-25)
 
