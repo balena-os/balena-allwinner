@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update layers/meta-balena to cc3c504c6b804787854d20af021650b11ab87c13
+      hash: 1618f3a6a568745705903f26334b5ee9e4902683
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to cc3c504c6b804787854d20af021650b11ab87c13
+        changelog-entry: Update layers/meta-balena to cc3c504c6b804787854d20af021650b11ab87c13
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "recipes-connectivity/libnss-ato: Do not hardcode the homedir for user
+                root"
+              hash: b5457ab54bcd354b01adcc001ee02afe76785f65
+              body: |
+                Starting with Scarthgap the homedir of user root is /root
+                instead of /home/root like in previous Yocto releases.
+
+                See https://github.com/balena-os/poky/commit/74f0fd144f73cf658f5018ab8f4140a4a2dc99b7
+                for details on why the home directory of user root has changed for systemd based distros
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.6.3
+          title: ""
+          date: 2025-08-29T13:49:39.497Z
+  version: 6.6.3
+  title: ""
+  date: 2025-08-29T18:21:02.245Z
+- commits:
     - subject: Update layers/meta-balena to c9e34938a2e82ae75002592388725d1eb68c1393
       hash: b41f22aa7215601ea51efeb2430989f8d40a52a4
       body: Update layers/meta-balena
