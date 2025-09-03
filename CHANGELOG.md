@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.6.4
+## (2025-09-03)
+
+
+<details>
+<summary> Update layers/meta-balena to c5f4f2f4b7f7b9987479a4bc4346277d20b7ff1c [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.6.4
+> ### (2025-09-03)
+> 
+> * Fail if IOMMU is disabled on secure boot systems [Michal Toman]
+> 
+
+</details>
+
 # v6.6.3+rev7
 ## (2025-09-03)
 
