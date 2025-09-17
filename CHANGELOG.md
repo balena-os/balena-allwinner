@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.6.6
+## (2025-09-17)
+
+
+<details>
+<summary> Update layers/meta-balena to df95d0ce9fe722cde7c478e8c9e4b33fdda0999c [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.6.6
+> ### (2025-09-17)
+> 
+> * Condition the start of update-balena-supervisor.service after internet connectivity [Florin Sarbu]
+> 
+
+</details>
+
 # v6.6.5+rev3
 ## (2025-09-17)
 
