@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update layers/meta-balena to 3a3fa5f6be255506a45d7a98328e0b5f32e4cac4
+      hash: 5dc8cdf2f62dea59203c25cc6873ebb3f72cea82
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3a3fa5f6be255506a45d7a98328e0b5f32e4cac4
+        changelog-entry: Update layers/meta-balena to 3a3fa5f6be255506a45d7a98328e0b5f32e4cac4
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "meta-balena-common: Consistently prepend spaces when using append"
+              hash: d40e75d6a53dbbeced901bec555f33e10f1c22c8
+              body: >
+                The '+=' operator ensures a space is inserted before appending a
+                value,
+
+                however ':append' does not. So let's prepend a space
+                consistently
+
+                where ':append' is used.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.6.10
+          title: ""
+          date: 2025-10-03T09:17:11.161Z
+  version: 6.6.10
+  title: ""
+  date: 2025-10-03T13:02:17.767Z
+- commits:
     - subject: Update layers/meta-balena to 4ca5da53bb356173523513f0903aadda54d2b23d
       hash: 4a660fe47df860c510a88c3f55c526357963d0b1
       body: Update layers/meta-balena
