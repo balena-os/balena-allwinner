@@ -41,7 +41,7 @@ permissions:
 jobs:
   yocto:
     name: Yocto
-    uses: balena-os/balena-yocto-scripts/.github/workflows/yocto-build-deploy.yml@92ddd91d4b6c5b431dfab42ad76ab639f05a9311
+    uses: balena-os/balena-yocto-scripts/.github/workflows/yocto-build-deploy.yml@9664fd5cd9042a86b28054958f906210c4e951ea
     # Prevent duplicate workflow executions for pull_request (PR) and pull_request_target (PRT) events.
     # Both PR and PRT will be triggered for the same pull request, whether it is internal or from a fork.
     # This condition will prevent the workflow from running twice for the same pull request while
