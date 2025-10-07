@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 92ddd91d4b6c5b431dfab42ad76ab639f05a9311
+      hash: f9892f9a15b97dafd0d3f7055340da4a9eea951f
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 92ddd91d4b6c5b431dfab42ad76ab639f05a9311
+        changelog-entry: Update balena-yocto-scripts to 92ddd91d4b6c5b431dfab42ad76ab639f05a9311
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Fix check for present test matrix when checking test results
+              hash: 0518df044f76b0fcab1b1e5613d78489a7d68e3b
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: balena-yocto-scripts-1.38.36
+          title: ""
+          date: 2025-10-07T17:35:13.137Z
+  version: 6.6.10+rev1
+  title: ""
+  date: 2025-10-07T19:52:05.145Z
+- commits:
     - subject: Update layers/meta-balena to 3a3fa5f6be255506a45d7a98328e0b5f32e4cac4
       hash: 5dc8cdf2f62dea59203c25cc6873ebb3f72cea82
       body: Update layers/meta-balena
