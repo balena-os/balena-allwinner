@@ -1,4 +1,67 @@
 - commits:
+    - subject: Update layers/meta-balena to f1e627e3a1c38bff16e0f67de112e2c24b29dfe8
+      hash: 5532f587f9c0556d780f4acbfee50d2404729ad3
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f1e627e3a1c38bff16e0f67de112e2c24b29dfe8
+        changelog-entry: Update layers/meta-balena to f1e627e3a1c38bff16e0f67de112e2c24b29dfe8
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 19c382d
+              hash: 7049d36cc9302a3bfb2918643d5668ea6fdbb869
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Update Lock file maintenance
+                      hash: ffe44154a6f98b06324b18dfe9de24bbe3b39752
+                      body: |
+                        Update 
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.36.54
+                  title: ""
+                  date: 2025-10-20T01:06:24.485Z
+                - commits:
+                    - subject: Update balena-io/balena-cli to v22.4.14
+                      hash: 7a5ef964fb8ca00e80690144c0ff59c6d55fdd01
+                      body: |
+                        Update balena-io/balena-cli from 22.4.13 to 22.4.14
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.36.53
+                  title: ""
+                  date: 2025-10-17T18:55:11.552Z
+                - commits:
+                    - subject: Update balena-io/balena-cli to v22.4.13
+                      hash: e41a4514e4851cd3476108072b5930a8b3bb4ea6
+                      body: |
+                        Update balena-io/balena-cli from 22.4.12 to 22.4.13
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.36.52
+                  title: ""
+                  date: 2025-10-14T15:09:42.204Z
+          version: meta-balena-6.6.14
+          title: ""
+          date: 2025-10-20T07:06:29.629Z
+  version: 6.6.14
+  title: ""
+  date: 2025-10-21T01:02:18.803Z
+- commits:
     - subject: Update balena-yocto-scripts to 91589af4968ec5a482ac6ee8315d45607a89b828
       hash: 1a8c43accc56ad199f0c4c8a84640ed468b94289
       body: Update balena-yocto-scripts
