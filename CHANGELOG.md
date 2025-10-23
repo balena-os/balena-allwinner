@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.6.14+rev3
+## (2025-10-23)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 2b9aeef2c735d83d69ad4e8c6720c32f5869926e [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.38.57
+> ### (2025-10-23)
+> 
+> * Check test_matrix is non-null before transforming as JSON [Kyle Harding]
+> 
+
+</details>
+
 # v6.6.14+rev2
 ## (2025-10-22)
 
