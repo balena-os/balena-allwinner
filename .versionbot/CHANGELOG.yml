@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update layers/meta-balena to 725a906541aa6e1aab192015ad541362a72b59c6
+      hash: 57d8c55aa1d8c1620a672c1ff337133ef941283a
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 725a906541aa6e1aab192015ad541362a72b59c6
+        changelog-entry: Update layers/meta-balena to 725a906541aa6e1aab192015ad541362a72b59c6
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Remove non-autokit DTs from build list
+              hash: 45e7c8c715168f16fea4eb8b52914da71116c7c1
+              body: >
+                These DT's are currently not tested, so are not getting new
+                releases - no value added in having them built as part of
+                meta-balena PRs
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.6.15
+          title: ""
+          date: 2025-10-28T15:05:49.954Z
+  version: 6.6.15
+  title: ""
+  date: 2025-10-28T20:55:31.296Z
+- commits:
     - subject: Update balena-yocto-scripts to aa7f0cab380e7f58c861ecfb135b379e62da3afa
       hash: 9109c558c9d8ca833cb49ed8ab4086194183e0b8
       body: Update balena-yocto-scripts
