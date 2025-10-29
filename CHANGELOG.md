@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.6.15+rev1
+## (2025-10-29)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 157ae82bf37b6258655a9a3a30c2bfee884cbb72 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.38.64
+> ### (2025-10-29)
+> 
+> * Use the target deploy env to preload the supervisor [Kyle Harding]
+> 
+
+</details>
+
 # v6.6.15
 ## (2025-10-28)
 
