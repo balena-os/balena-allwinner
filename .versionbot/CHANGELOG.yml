@@ -1,4 +1,46 @@
 - commits:
+    - subject: Update layers/meta-balena to 74730286dcb409eebcf490061cc37bf1c5b4de83
+      hash: a138130e15ca2dcf5b07ee50d44521f77c92331c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 74730286dcb409eebcf490061cc37bf1c5b4de83
+        changelog-entry: Update layers/meta-balena to 74730286dcb409eebcf490061cc37bf1c5b4de83
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "recipes-support/balena-config-vars: Avoid failure caused by race in
+                cache file creation"
+              hash: 6ec251e48f3eaae6e3fded5b003d11f2fae2d418
+              body: >
+                Services like os-fan-profile or os-power-mode may fail
+
+                at startup due to a race in the creation of the
+                balena-config-vars
+
+                cache:
+
+                    mv: cannot create regular file '/var/cache/balena-config-vars': File exists
+
+                The cache file may bee generated at the same time by another
+
+                instance of the same helper function. To avoid that,
+
+                we now introduce the lock file
+                /var/cache/balena-config-vars.lock
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.6.16
+          title: ""
+          date: 2025-10-29T12:52:25.561Z
+  version: 6.6.16
+  title: ""
+  date: 2025-10-29T21:14:53.556Z
+- commits:
     - subject: Update balena-yocto-scripts to 8dfdc96ade4aaa7f53d60bad487bc6d2e62ffc0d
       hash: 141f4069f656b169d8d7f043d03239bac9478e46
       body: Update balena-yocto-scripts

@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.6.16
+## (2025-10-29)
+
+
+<details>
+<summary> Update layers/meta-balena to 74730286dcb409eebcf490061cc37bf1c5b4de83 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.6.16
+> ### (2025-10-29)
+> 
+> * recipes-support/balena-config-vars: Avoid failure caused by race in cache file creation [Alexandru Costache]
+> 
+
+</details>
+
 # v6.6.15+rev2
 ## (2025-10-29)
 
