@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update layers/meta-balena to 56deec9ca6730486bd759cdac710d7622e78f05f
+      hash: fbaefdea2e711c3fcc9c478a86a4002581f32432
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 56deec9ca6730486bd759cdac710d7622e78f05f
+        changelog-entry: Update layers/meta-balena to 56deec9ca6730486bd759cdac710d7622e78f05f
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: add disk-watchdog daemon
+              hash: fa725ce23e93d918d0eafaf9fa7b15549b0f8b7f
+              body: >
+                This service helps in detecting io errors and try to solve them
+                by issuing a reboot. It avoids reboot loops by tracking boot
+                with a timestamp.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+                signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+              author: Yann CARDAILLAC
+              nested: []
+          version: meta-balena-6.7.0
+          title: ""
+          date: 2025-11-05T10:29:49.790Z
+  version: 6.7.0
+  title: ""
+  date: 2025-11-05T16:08:05.125Z
+- commits:
     - subject: Update balena-yocto-scripts to 399199715d579cdb47cfcb7f0cc50d7515704907
       hash: 2478abb94a2135face7c067a43bad6582411a858
       body: Update balena-yocto-scripts
