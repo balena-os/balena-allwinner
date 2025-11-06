@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v6.7.1
+## (2025-11-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 451a47866e669dd35a9598f6275b50a90972dbe9 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.7.1
+> ### (2025-11-06)
+> 
+> * packagegroups/packagegroup-resin-flasher: Set PACKAGE_ARCH [Alexandru Costache]
+> * tests/suites: Use USB relay to toggle boot switch on certain devices [Alexandru Costache]
+> 
+
+</details>
+
 # v6.7.0
 ## (2025-11-05)
 
