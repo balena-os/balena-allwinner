@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.7.2
+## (2025-11-07)
+
+
+<details>
+<summary> Update layers/meta-balena to 5259b3b2318d36f270eab0a14588f4125ba413da [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.7.2
+> ### (2025-11-07)
+> 
+> * balena-os.inc: Enforce PACKAGE_CLASSES to package_ipk [Florin Sarbu]
+> 
+
+</details>
+
 # v6.7.1+rev1
 ## (2025-11-07)
 

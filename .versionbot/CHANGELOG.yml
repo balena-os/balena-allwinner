@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update layers/meta-balena to 5259b3b2318d36f270eab0a14588f4125ba413da
+      hash: d46879f488469c370409bb7684086f99e1f99b48
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5259b3b2318d36f270eab0a14588f4125ba413da
+        changelog-entry: Update layers/meta-balena to 5259b3b2318d36f270eab0a14588f4125ba413da
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-os.inc: Enforce PACKAGE_CLASSES to package_ipk"
+              hash: 5c530095011bba2935b3dcac374a415b6710d7ec
+              body: >
+                We used to have the PACKAGE_CLASSES default to package_ipk by
+                using the soft ?= assignment.
+
+                However, starting with Scarthgap poky.conf also does a soft
+                assignment to package_rpm so we
+
+                end up with that instead.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.7.2
+          title: ""
+          date: 2025-11-07T10:28:02.622Z
+  version: 6.7.2
+  title: ""
+  date: 2025-11-07T15:53:56.748Z
+- commits:
     - subject: Update balena-yocto-scripts to 59b2fdf6877cab30725bf57e04c307648a1bcb20
       hash: 85461fcc820a8e9530d4a02dc6fa3786d0c6690c
       body: Update balena-yocto-scripts
