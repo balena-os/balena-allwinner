@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.7.4
+## (2025-11-08)
+
+
+<details>
+<summary> Update layers/meta-balena to 79cd1386d3b8319708a10c46153d0af3087fcf80 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.7.4
+> ### (2025-11-08)
+> 
+> * add CONFIG_DM_FLAKEY for disk-watchdog testing [Yann CARDAILLAC]
+> 
+
+</details>
+
 # v6.7.3+rev1
 ## (2025-11-08)
 

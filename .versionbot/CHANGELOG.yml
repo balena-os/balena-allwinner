@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 79cd1386d3b8319708a10c46153d0af3087fcf80
+      hash: 5b83e224d514a8a7cbbb522a4455b27de3befb87
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 79cd1386d3b8319708a10c46153d0af3087fcf80
+        changelog-entry: Update layers/meta-balena to 79cd1386d3b8319708a10c46153d0af3087fcf80
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: add CONFIG_DM_FLAKEY for disk-watchdog testing
+              hash: f523f9cde68a93b770f47f6cc2522b1a96284eea
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+                signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+              author: Yann CARDAILLAC
+              nested: []
+          version: meta-balena-6.7.4
+          title: ""
+          date: 2025-11-08T09:10:11.321Z
+  version: 6.7.4
+  title: ""
+  date: 2025-11-08T12:11:27.898Z
+- commits:
     - subject: Update balena-yocto-scripts to 946384c0e56c4a900f46a7743352d742182fd543
       hash: 80bd545e240e5dc2f661c7672d3afed1d081cf4a
       body: Update balena-yocto-scripts
