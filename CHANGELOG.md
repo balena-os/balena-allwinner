@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.7.5
+## (2025-11-13)
+
+
+<details>
+<summary> Update layers/meta-balena to 79d40cae6a10b5c7e5b3788b541bbfd2eb979648 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.7.5
+> ### (2025-11-12)
+> 
+> * kernel-balena.bbclass: Enable required CONFIG_CGROUP_BPF [Florin Sarbu]
+> 
+
+</details>
+
 # v6.7.4+rev1
 ## (2025-11-12)
 
