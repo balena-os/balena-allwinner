@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.7.7
+## (2025-11-18)
+
+
+<details>
+<summary> Update layers/meta-balena to 3655901b8a00af49ac09037f45f17227628eefc5 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.7.7
+> ### (2025-11-18)
+> 
+> * simplify disk watchdog tests [Yann CARDAILLAC]
+> 
+
+</details>
+
 # v6.7.6+rev11
 ## (2025-11-18)
 
