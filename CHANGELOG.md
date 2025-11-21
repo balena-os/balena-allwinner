@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v6.8.0
+## (2025-11-21)
+
+
+<details>
+<summary> Update layers/meta-balena to 37b7e9efbdbcab4bc487993f5736ec4fe6974f1c [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.8.0
+> ### (2025-11-21)
+> 
+> * balena: disable buildkit and dependencies with no_buildkit tag [Kyle Harding]
+> * balena: Rebase patches onto upstream Moby v20.10.27 [Kyle Harding]
+> * go: Update to 1.22.12 for compatibility with balena v20.10.27 [Kyle Harding]
+> 
+
+</details>
+
 # v6.7.8
 ## (2025-11-21)
 
