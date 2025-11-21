@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v6.7.8
+## (2025-11-21)
+
+
+<details>
+<summary> Update layers/meta-balena to 16de5fd0be3b8c6617df3f3322436356e7fbe8ac [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.7.8
+> ### (2025-11-21)
+> 
+> * os-helpers: generalize get_sector_size [Alex Gonzalez]
+> * tests: secureboot: generalize U-boot binary naming [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.7.7+rev3
 ## (2025-11-21)
 
