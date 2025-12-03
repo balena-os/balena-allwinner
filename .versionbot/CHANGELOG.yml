@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to 67f46c9f74b3f9a5ffec8ea155071a11f6dd3acf
+      hash: 0d225e540242cecd3aa773895ba51f620622ef60
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 67f46c9f74b3f9a5ffec8ea155071a11f6dd3acf
+        changelog-entry: Update layers/meta-balena to 67f46c9f74b3f9a5ffec8ea155071a11f6dd3acf
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "recipes-support/os-extra-firmware: Add service for configuring extra
+                fw search path"
+              hash: cbfff3d75adb1be30f98cb8b54bf3fa2c88703fd
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.8.5
+          title: ""
+          date: 2025-12-03T15:29:59.247Z
+  version: 6.8.5
+  title: ""
+  date: 2025-12-03T18:39:25.712Z
+- commits:
     - subject: Update balena-yocto-scripts to 2c9a51d7ad90ba4625e859aefd503dff0ff6b678
       hash: f6649b0c46c00befcc89d8333e3ad7fbb8c84e95
       body: Update balena-yocto-scripts

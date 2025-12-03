@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.8.5
+## (2025-12-03)
+
+
+<details>
+<summary> Update layers/meta-balena to 67f46c9f74b3f9a5ffec8ea155071a11f6dd3acf [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.8.5
+> ### (2025-12-03)
+> 
+> * recipes-support/os-extra-firmware: Add service for configuring extra fw search path [Alexandru Costache]
+> 
+
+</details>
+
 # v6.8.4+rev1
 ## (2025-12-03)
 
