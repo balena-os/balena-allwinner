@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 25fc45e074426146d2038aa652189da7e7f55a6e
+      hash: 255ee94aab9cbe21bd79af9ad997671a8fed5ae4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 25fc45e074426146d2038aa652189da7e7f55a6e
+        changelog-entry: Update layers/meta-balena to 25fc45e074426146d2038aa652189da7e7f55a6e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "peak: Update to version 8.20.0"
+              hash: 5a9dc4f0d52b0164784275cfd500e5dfc080810c
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.9.1
+          title: ""
+          date: 2025-12-08T10:06:41.959Z
+  version: 6.9.1
+  title: ""
+  date: 2025-12-08T10:28:50.386Z
+- commits:
     - subject: Update layers/meta-balena to e0d5ffd55a6dbfee857cdd4455bc37c3f70e7681
       hash: 678316f115e0a8d9393e1e64d9919189eb8e8f95
       body: Update layers/meta-balena
