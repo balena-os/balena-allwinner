@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.9.4
+## (2025-12-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 2e6f430bd9727edef17e6a268e461bca3a2bdb0e [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.9.4
+> ### (2025-12-10)
+> 
+> * Update actions/checkout action to v6 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.9.3
 ## (2025-12-09)
 
