@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to f8542a3b92f2c76f7051477d298422f7cdd5238b
+      hash: 2cb8608059ab7c1539db538de029c0d29328cd23
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f8542a3b92f2c76f7051477d298422f7cdd5238b
+        changelog-entry: Update layers/meta-balena to f8542a3b92f2c76f7051477d298422f7cdd5238b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-os.inc: Enable firmware compression by default"
+              hash: 67b37d3f74c4e589a195774fb15f5534dc648bae
+              body: >
+                The only requirement is kernel >= 5.3, we should default to
+                compressed
+
+                and opt-out on devices with older kernels.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.10.1
+          title: ""
+          date: 2025-12-11T21:36:10.715Z
+  version: 6.10.1
+  title: ""
+  date: 2025-12-12T03:05:55.635Z
+- commits:
     - subject: Update balena-yocto-scripts to 8cbefeedbc99bb8a29a28e9540dee75e216b172f
       hash: a5ec6374171b31eedae99332dac222276f82ff2e
       body: Update balena-yocto-scripts
