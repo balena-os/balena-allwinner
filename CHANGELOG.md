@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.10.5
+## (2025-12-23)
+
+
+<details>
+<summary> Update layers/meta-balena to 3c4875e4136989285a784656bfc6614dd379a913 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.10.5
+> ### (2025-12-23)
+> 
+> * classes/kernel-balena: Enable support for xz firmware compression [Alexandru]
+> 
+
+</details>
+
 # v6.10.4
 ## (2025-12-20)
 
