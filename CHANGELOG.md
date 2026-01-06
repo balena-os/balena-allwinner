@@ -1,6 +1,32 @@
 Change log
 -----------
 
+# v6.10.10
+## (2026-01-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 7054e72ec48b6e64ad89547b1a4ed44602348efb [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.10.10
+> ### (2026-01-06)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v17.4.1 [balena-renovate[bot]] </summary>
+> 
+>> ### balena-supervisor-17.4.1
+>> #### (2026-01-05)
+>> 
+>> * backends: Enable configurable power modes and fan profiles for all Jetson Orin devices [Alexandru Costache]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v6.10.9
 ## (2026-01-04)
 
