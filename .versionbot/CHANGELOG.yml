@@ -1,4 +1,43 @@
 - commits:
+    - subject: Update layers/meta-balena to 5d184563c8edc5aeb6815c0e49859fb5259013d4
+      hash: 73fa8674aac44de7fb4ed3350f68a90eac390671
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5d184563c8edc5aeb6815c0e49859fb5259013d4
+        changelog-entry: Update layers/meta-balena to 5d184563c8edc5aeb6815c0e49859fb5259013d4
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v17.4.2
+              hash: 7fb52fa3483857556bababd4b5d8d2b20b13fa41
+              body: |
+                Update balena-supervisor from 17.4.1 to 17.4.2
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Parse multiple child contracts listed under an `or` clause
+                      hash: 5560744c8061bc2e008b4d5a1816fea04b611fd3
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Christina Ying Wang <christina@balena.io>
+                        signed-off-by: Christina Ying Wang <christina@balena.io>
+                      author: Christina Ying Wang
+                      nested: []
+                  version: balena-supervisor-17.4.2
+                  title: ""
+                  date: 2026-01-06T19:34:23.699Z
+          version: meta-balena-6.10.11
+          title: ""
+          date: 2026-01-07T11:00:48.232Z
+  version: 6.10.11
+  title: ""
+  date: 2026-01-07T12:31:21.899Z
+- commits:
     - subject: Update layers/meta-balena to 7054e72ec48b6e64ad89547b1a4ed44602348efb
       hash: 28681cc6e5cc72240d58b4d08050bd35fcb83f29
       body: Update layers/meta-balena
