@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update layers/meta-balena to ddde29d03054dd90b92b95062c4d8021e1570edc
+      hash: b8d254e15ccaf251f8854381387989bfcd533f56
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ddde29d03054dd90b92b95062c4d8021e1570edc
+        changelog-entry: Update layers/meta-balena to ddde29d03054dd90b92b95062c4d8021e1570edc
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Reduce the size of the balena bootloader by removing unused
+                functionality
+              hash: e658d4b92cb1622009fc5529d573345a426ff09b
+              body: >
+                Newer meta-balena updates are failing for iot-gate-imx8plus-sb
+                with the error:
+
+                ERROR: balena-image-flasher-1.0-r0
+                do_resin_boot_dirgen_and_deploy: resin-boot: Not enough space
+                for atomic copy operations.
+
+
+                In order to have the size reduction available for all
+                balena-bootloader users we do these changes
+
+                directly here in the balena-bootloader class.
+              footer:
+                Changelog-entry: Reduce the size of the balena bootloader by removing unused
+                  functionality
+                changelog-entry: Reduce the size of the balena bootloader by removing unused
+                  functionality
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.10.12
+          title: ""
+          date: 2026-01-08T09:48:14.494Z
+  version: 6.10.12
+  title: ""
+  date: 2026-01-08T10:27:54.703Z
+- commits:
     - subject: Update layers/meta-balena to 5d184563c8edc5aeb6815c0e49859fb5259013d4
       hash: 73fa8674aac44de7fb4ed3350f68a90eac390671
       body: Update layers/meta-balena

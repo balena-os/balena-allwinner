@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.10.12
+## (2026-01-08)
+
+
+<details>
+<summary> Update layers/meta-balena to ddde29d03054dd90b92b95062c4d8021e1570edc [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.10.12
+> ### (2026-01-08)
+> 
+> * Reduce the size of the balena bootloader by removing unused functionality [Florin Sarbu]
+> 
+
+</details>
+
 # v6.10.11
 ## (2026-01-07)
 
