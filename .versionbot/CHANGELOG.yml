@@ -1,4 +1,41 @@
 - commits:
+    - subject: Update layers/meta-balena to d8e6c3344e1befd254005d7f10bdaba1faec3581
+      hash: 9fd88cd71cf7c8923ace2e879fd6685449ac4af6
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to d8e6c3344e1befd254005d7f10bdaba1faec3581
+        changelog-entry: Update layers/meta-balena to d8e6c3344e1befd254005d7f10bdaba1faec3581
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests/extra-firmware: Skip post-reboot extra-firmware check for a
+                specific device"
+              hash: 7c45dfe5f71004108f8873653ae345a20a9d123e
+              body: >
+                ... on which the cboot bootloader does not have FAT support to
+                access
+
+                the extra_uEnv.txt environment file.
+
+
+                This device-type uses an old version of Jetpack 4.0 which does
+                not
+
+                have uboot / grub / UEFI EDK2 / balena-bootloader support.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.10.13
+          title: ""
+          date: 2026-01-08T19:53:44.644Z
+  version: 6.10.13
+  title: ""
+  date: 2026-01-08T20:25:12.869Z
+- commits:
     - subject: Update layers/meta-balena to ddde29d03054dd90b92b95062c4d8021e1570edc
       hash: b8d254e15ccaf251f8854381387989bfcd533f56
       body: Update layers/meta-balena
