@@ -1,4 +1,53 @@
 - commits:
+    - subject: Update layers/meta-balena to 26357df251e2f5212058b3c69bde358d0fe54277
+      hash: 36e9096aeb2eec967d56a2fbf4d114e475855b3d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 26357df251e2f5212058b3c69bde358d0fe54277
+        changelog-entry: Update layers/meta-balena to 26357df251e2f5212058b3c69bde358d0fe54277
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "initrdscripts: Unlock mutex if regenerate_uuid fails in fsuuidsinit"
+              hash: 62657c7ccdb690015405804c8d3df00fa814bd87
+              body: >
+                In commit 3f6a302bf53c6c0a609015c92ff927c7575412d9 we've
+                introduced
+
+                a mutex that prevents a race condition between the fsuuidsinit
+                script
+
+                changing FS UUIDs and udev creating the by-state symlinks. This
+                mutex
+
+                is never unlocked if the FS UUID change fails and leaks out
+
+                from the initrd into the final system, where it blocks
+
+                the 65-resin-update-state udev rule from properly executing. The
+                system
+
+                will usually somewhat come up, but fail in weird ways, e.g.
+                automounts
+
+                not working.
+
+
+                This patch unlocks the mutex on failure.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.10.14
+          title: ""
+          date: 2026-01-09T13:35:21.220Z
+  version: 6.10.14
+  title: ""
+  date: 2026-01-09T14:34:18.114Z
+- commits:
     - subject: Update layers/meta-balena to d8e6c3344e1befd254005d7f10bdaba1faec3581
       hash: 9fd88cd71cf7c8923ace2e879fd6685449ac4af6
       body: Update layers/meta-balena
