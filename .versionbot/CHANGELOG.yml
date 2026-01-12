@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update layers/meta-balena to 45031eb688e478a90151d1d48e79ad86c0b27b19
+      hash: d707edbb44c69935265710974a51cf18a9762cf1
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 45031eb688e478a90151d1d48e79ad86c0b27b19
+        changelog-entry: Update layers/meta-balena to 45031eb688e478a90151d1d48e79ad86c0b27b19
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "os-helpers/os-helpers-bootloader-config: Add support for whitelisted
+                cmdline args"
+              hash: 549db4c8ead797a28243d8b99329aa17524dbdb9
+              body: >
+                ... and use grub-editenv where applicable. We also attempt to
+                save
+
+                any existing environment variables from grub_extra env if it was
+
+                created or edited with any tool other than grub-editenv.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.10.15
+          title: ""
+          date: 2026-01-12T10:42:48.677Z
+  version: 6.10.15
+  title: ""
+  date: 2026-01-12T12:32:59.443Z
+- commits:
     - subject: Update layers/meta-balena to 26357df251e2f5212058b3c69bde358d0fe54277
       hash: 36e9096aeb2eec967d56a2fbf4d114e475855b3d
       body: Update layers/meta-balena
