@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update balena-yocto-scripts to d3e228e92b3c9f714f4514206f085fa76c2f6629
+      hash: dd29d1bd8dc7e950def4ca607badfd97d1eaccbb
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to d3e228e92b3c9f714f4514206f085fa76c2f6629
+        changelog-entry: Update balena-yocto-scripts to d3e228e92b3c9f714f4514206f085fa76c2f6629
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "yocto-build-deploy.yml: Search for build logs only in the location
+                where they are produced"
+              hash: 41e750de0d3e3467bcb84b2e82da795873e8873d
+              body: |
+                Fixes the following error when uploading the build logs:
+
+                Error: ELOOP: too many symbolic links encountered, stat '/home/runner/_work/balena-tm3/balena-tm3/build/tmp/work/cortexa53-crypto-poky-linux/libtool-cross/2.4.7-r0/image/false'
+
+                The logs are creatd only in specific directories so there is no point in searching for them in the entire workspace
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: balena-yocto-scripts-1.39.10
+          title: ""
+          date: 2026-01-13T20:45:13.135Z
+  version: 6.10.15+rev1
+  title: ""
+  date: 2026-01-13T22:24:39.962Z
+- commits:
     - subject: Update layers/meta-balena to 45031eb688e478a90151d1d48e79ad86c0b27b19
       hash: d707edbb44c69935265710974a51cf18a9762cf1
       body: Update layers/meta-balena
