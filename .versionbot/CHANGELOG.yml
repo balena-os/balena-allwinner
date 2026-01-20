@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 2d0365852ca8d8378afb7379e63da4bff8a5559e
+      hash: b32d2517f1d8e11f5fe0706385eb3c7dd4d3ea36
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 2d0365852ca8d8378afb7379e63da4bff8a5559e
+        changelog-entry: Update layers/meta-balena to 2d0365852ca8d8378afb7379e63da4bff8a5559e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "os-helpers: safe-reboot: always sync filesystem before reboot"
+              hash: 69066785bef32cf64471f4e999d771dfd4d009fb
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.10.16
+          title: ""
+          date: 2026-01-20T11:56:13.550Z
+  version: 6.10.16
+  title: ""
+  date: 2026-01-20T14:41:10.937Z
+- commits:
     - subject: Update balena-yocto-scripts to a64a7325c164749c5fcdd46468d29b43f232c733
       hash: d66bb1f27dc0fe38a2090d7d3696aadb52ec0b4c
       body: Update balena-yocto-scripts
