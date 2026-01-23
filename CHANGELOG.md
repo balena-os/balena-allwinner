@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.10.19
+## (2026-01-23)
+
+
+<details>
+<summary> Update layers/meta-balena to e512a0e8408220005e47cc1f7eec5411e034efc4 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.10.19
+> ### (2026-01-23)
+> 
+> * Further reduce the size of the balena bootloader by removing PTP clock support [Florin Sarbu]
+> 
+
+</details>
+
 # v6.10.18+rev1
 ## (2026-01-23)
 
