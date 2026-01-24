@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.10.19+rev1
+## (2026-01-24)
+
+
+<details>
+<summary> Update balena-yocto-scripts to c512c72fb79574c4a51e4295d5d5c70d25f601ee [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.39.18
+> ### (2026-01-24)
+> 
+> * Update actions/checkout action to v6.0.2 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.10.19
 ## (2026-01-23)
 
