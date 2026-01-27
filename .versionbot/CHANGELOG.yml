@@ -1,4 +1,38 @@
 - commits:
+    - subject: Update layers/meta-balena to 01d4419d2bfec3463905464776e17b90dc9e417d
+      hash: 397789ee3cf199bd9cfdbda7f306b7ebc15cdcad
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 01d4419d2bfec3463905464776e17b90dc9e417d
+        changelog-entry: Update layers/meta-balena to 01d4419d2bfec3463905464776e17b90dc9e417d
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: Update kernel-module-build submodule"
+              hash: 36ca85a57312b0187cd6f74fe5542017a61b7ee5
+              body: |
+                ... in the extra-firmware and secure-boot tests.
+
+                The kernel-module-build used a Ubuntu base image,
+                which no longer works for the RaspberryPi because
+                arm32v6 is no longer provided for Ubuntu base images.
+
+                Therefore we're updating the submodule to make use of
+                an Alpine base image.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.10.22
+          title: ""
+          date: 2026-01-27T19:02:51.427Z
+  version: 6.10.22
+  title: ""
+  date: 2026-01-27T20:37:23.431Z
+- commits:
     - subject: Update balena-yocto-scripts to d4705f993634d478dac6b2dedcc0dad87b97f43f
       hash: 04b7a5c95f21b18ee45bba8f340a1746d0e8c9a9
       body: Update balena-yocto-scripts
