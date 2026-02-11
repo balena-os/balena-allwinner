@@ -1,4 +1,51 @@
 - commits:
+    - subject: Update layers/meta-balena to 36cacf6af4faff31c3ce58f21fd781bdb45eba6e
+      hash: 73aad186d542aa201611dd91e07276685197de91
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 36cacf6af4faff31c3ce58f21fd781bdb45eba6e
+        changelog-entry: Update layers/meta-balena to 36cacf6af4faff31c3ce58f21fd781bdb45eba6e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "openssh: Add sshd.socket burst protection recovery timer"
+              hash: 4ddde103fb870b36943f01fb0544c76617eef3d8
+              body: >
+                Devices with public-facing SSH ports can lose SSH access
+                permanently
+
+                when systemd's trigger rate limiting stops sshd.socket due to
+
+                connection floods from automated scanners. Since there is no
+                built-in
+
+                recovery, headless devices remain unreachable until manual
+                intervention.
+
+
+                Add a systemd timer that checks sshd.socket every 15 minutes and
+
+                restarts it only if Result=trigger-limit-hit — the specific
+                state
+
+                systemd sets when TriggerLimitBurst is exceeded. Manual stops
+                and
+
+                other failure states are left alone.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-6.11.0
+          title: ""
+          date: 2026-02-11T18:34:06.783Z
+  version: 6.11.0
+  title: ""
+  date: 2026-02-11T18:50:16.126Z
+- commits:
     - subject: Update layers/meta-balena to 4e641880ccacff9e6bd93183affa53ca7767f5f3
       hash: 114b76a2e8cc44923ab4a4422efaa50f54f1b136
       body: Update layers/meta-balena
