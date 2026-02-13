@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update balena-yocto-scripts to c6e9aac2a209790c00790d57b44fdce91a678159
+      hash: 06ed2832d1e08f89dcd0da168f4ec9f4da352c86
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to c6e9aac2a209790c00790d57b44fdce91a678159
+        changelog-entry: Update balena-yocto-scripts to c6e9aac2a209790c00790d57b44fdce91a678159
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Remove dead AMI script and its Dockerfile dependencies
+              hash: c1f8c608d4d72c45e5a311523f7d69a1b9e4174a
+              body: |
+                The workflow inlines all AMI logic directly and never calls
+                balena-generate-ami.sh. Remove the script along with its
+                Dockerfile COPY and the awscli/udev/python3-pip packages
+                that only existed to support it.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Replace deprecated `balena key add` with `balena ssh-key add`
+              hash: ae66932650c91e6f5f3c61c6a4540961d1fa20e4
+              body: |
+                balena CLI v23.0.0 removed the `key add` alias. The AMI test
+                setup step still used it while the cleanup step already used
+                the new `ssh-key list`/`ssh-key rm` names.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.39.27
+          title: ""
+          date: 2026-02-13T11:14:39.619Z
+  version: 6.11.0+rev1
+  title: ""
+  date: 2026-02-13T12:44:20.748Z
+- commits:
     - subject: Update layers/meta-balena to 36cacf6af4faff31c3ce58f21fd781bdb45eba6e
       hash: 73aad186d542aa201611dd91e07276685197de91
       body: Update layers/meta-balena
