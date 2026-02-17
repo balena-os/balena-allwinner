@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to f37c4fd776dfcec74405e137fe79e24a7a92a924
+      hash: 5965952df3716d21133b148d8482bbbd36f077d3
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f37c4fd776dfcec74405e137fe79e24a7a92a924
+        changelog-entry: Update layers/meta-balena to f37c4fd776dfcec74405e137fe79e24a7a92a924
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "peak: Update to version 9.0"
+              hash: 37ab4aef27be7c9042757b3f3d2b91080a5b4259
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.11.1
+          title: ""
+          date: 2026-02-17T13:05:12.004Z
+  version: 6.11.1
+  title: ""
+  date: 2026-02-17T14:55:35.360Z
+- commits:
     - subject: Update balena-yocto-scripts to c6e9aac2a209790c00790d57b44fdce91a678159
       hash: 06ed2832d1e08f89dcd0da168f4ec9f4da352c86
       body: Update balena-yocto-scripts
