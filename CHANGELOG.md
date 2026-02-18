@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.11.2
+## (2026-02-18)
+
+
+<details>
+<summary> Update layers/meta-balena to dcb45126741d9f454c1e98d4cf47cd37b46e2a2d [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.11.2
+> ### (2026-02-18)
+> 
+> * tests:modem: Disable for kontron-come-xelx [Florin Sarbu]
+> 
+
+</details>
+
 # v6.11.1
 ## (2026-02-17)
 

@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to dcb45126741d9f454c1e98d4cf47cd37b46e2a2d
+      hash: 13cdbb8a403dd7a9dd7489e904c18e24e90f395f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to dcb45126741d9f454c1e98d4cf47cd37b46e2a2d
+        changelog-entry: Update layers/meta-balena to dcb45126741d9f454c1e98d4cf47cd37b46e2a2d
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests:modem: Disable for kontron-come-xelx"
+              hash: ee77d4f792c0a4eb397b4ee084bce9fd64398fcd
+              body: |
+                Currently the modem is not used on this device type
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.11.2
+          title: ""
+          date: 2026-02-18T14:52:33.063Z
+  version: 6.11.2
+  title: ""
+  date: 2026-02-18T17:08:43.579Z
+- commits:
     - subject: Update layers/meta-balena to f37c4fd776dfcec74405e137fe79e24a7a92a924
       hash: 5965952df3716d21133b148d8482bbbd36f077d3
       body: Update layers/meta-balena
