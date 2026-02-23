@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.11.4
+## (2026-02-23)
+
+
+<details>
+<summary> Update layers/meta-balena to a8ba7eef5da57d5e740ca2c4d7e58132ca9076e5 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.11.4
+> ### (2026-02-23)
+> 
+> * tests/modem: Skip modem test on unsupported Orin device-type [Alexandru]
+> 
+
+</details>
+
 # v6.11.3
 ## (2026-02-20)
 
