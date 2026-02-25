@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update layers/meta-balena to a1d617fd820c2d90a97f49e9fc14364204740c6e
+      hash: e4a8c947e3c671831f41dbf9b100f7d8006b44cc
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to a1d617fd820c2d90a97f49e9fc14364204740c6e
+        changelog-entry: Update layers/meta-balena to a1d617fd820c2d90a97f49e9fc14364204740c6e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-balena.bbclass: Enable support for traditional iptables
+                backends for newer kernels"
+              hash: 01a6a81809341086d153f94dc38234b4bbcf855b
+              body: >
+                This is required to also work on newer kernels (i.e. 6.18) which
+                use primarily nftables.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.11.5
+          title: ""
+          date: 2026-02-25T03:10:51.056Z
+  version: 6.11.5
+  title: ""
+  date: 2026-02-25T03:29:26.421Z
+- commits:
     - subject: Update layers/meta-balena to a8ba7eef5da57d5e740ca2c4d7e58132ca9076e5
       hash: bd059da79ce08be2de7e193960f66cfd8cf8a2fb
       body: Update layers/meta-balena
