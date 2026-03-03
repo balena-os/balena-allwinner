@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.11.8
+## (2026-03-03)
+
+
+<details>
+<summary> Update layers/meta-balena to 76525829a7ce8811faf20a1b6f20fef77c53b8c8 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.11.8
+> ### (2026-03-03)
+> 
+> * hostapp-update-hooks: allow GRUB downgrade during secure boot rollbacks [Michal Toman]
+> 
+
+</details>
+
 # v6.11.7
 ## (2026-03-02)
 
