@@ -1,4 +1,38 @@
 - commits:
+    - subject: Update layers/meta-balena to e5c7317e52522f2051e3f5034de857bb1a1625c9
+      hash: 8e40054461083356bf55c4b4c519e6235f02941f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e5c7317e52522f2051e3f5034de857bb1a1625c9
+        changelog-entry: Update layers/meta-balena to e5c7317e52522f2051e3f5034de857bb1a1625c9
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "recipes-support/hostapp-update-hooks: Deploy blacklisted bootloader
+                files"
+              hash: 539bf3638f5ecab05c587b1a97f15b6f4b526405
+              body: >
+                ... only if they don't already exist. This way, devices which
+                are updated
+
+                from a version in which these files did not exist, will have
+                them from
+
+                now on.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.11.9
+          title: ""
+          date: 2026-03-04T12:56:26.148Z
+  version: 6.11.9
+  title: ""
+  date: 2026-03-04T14:42:41.666Z
+- commits:
     - subject: Update layers/meta-balena to 76525829a7ce8811faf20a1b6f20fef77c53b8c8
       hash: 413aea3904016ce2bd0816c00f1912bb713ece88
       body: Update layers/meta-balena
