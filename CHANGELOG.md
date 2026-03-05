@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.11.10
+## (2026-03-05)
+
+
+<details>
+<summary> Update layers/meta-balena to 1c606f58f07b6746f6548bcc7c9301482cdced64 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.11.10
+> ### (2026-03-05)
+> 
+> * efitools: update to master [Michal Toman]
+> 
+
+</details>
+
 # v6.11.9
 ## (2026-03-04)
 

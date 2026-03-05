@@ -1,4 +1,50 @@
 - commits:
+    - subject: Update layers/meta-balena to 1c606f58f07b6746f6548bcc7c9301482cdced64
+      hash: 7c5baedc7f33b3c283b0bbaffe903e945575639f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 1c606f58f07b6746f6548bcc7c9301482cdced64
+        changelog-entry: Update layers/meta-balena to 1c606f58f07b6746f6548bcc7c9301482cdced64
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "efitools: update to master"
+              hash: 474f4bde4ff49250568628e1c88b622a1b433259
+              body: >
+                At this moment hash-to-efi-sig-list works fine on <= 6.12 kernel
+
+                binaries, but fails to get the hash of a kernel 6.18 binary,
+                reporting
+
+                a PECOFF error.
+
+
+                The latest released efitools is v1.9.2 from 2019, which we're
+                currently
+
+                using. In master, there are 4 extra commits from 2020 on top of
+                it, one
+
+                of which (namely 449cfc99c9453d6321116c12a19f7ceba0bd7fec) fixes
+
+                the issue.
+
+
+                This bumps efitools to follow master and include the 4 commits.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-6.11.10
+          title: ""
+          date: 2026-03-05T09:43:10.899Z
+  version: 6.11.10
+  title: ""
+  date: 2026-03-05T10:54:07.366Z
+- commits:
     - subject: Update layers/meta-balena to e5c7317e52522f2051e3f5034de857bb1a1625c9
       hash: 8e40054461083356bf55c4b4c519e6235f02941f
       body: Update layers/meta-balena
