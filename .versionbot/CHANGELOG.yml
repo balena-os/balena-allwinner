@@ -1,4 +1,48 @@
 - commits:
+    - subject: Update contracts to ab2042b50e075fa27e16e23bb413adac7700c132
+      hash: fd76cdca201c164d22ee69eced82e6a4fd6da770
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to ab2042b50e075fa27e16e23bb413adac7700c132
+        changelog-entry: Update contracts to ab2042b50e075fa27e16e23bb413adac7700c132
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "iot-gate-imx8plus-d1d8: Enable bluetooth and wifi"
+              hash: 51c4c60e2b39798d8155a5bb732d8b119c2b9bcd
+              body: >
+                We attached the official IFM-WB Bluetooth and WiFi module to the
+                DUT in autokit
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+          version: contracts-2.0.140
+          title: ""
+          date: 2026-03-11T07:59:21.304Z
+        - commits:
+            - subject: "ucm-imx93: Set wifi and bt to false"
+              hash: 56818a46726b814a475d60152dffaf56f701cdb8
+              body: >
+                The SoM we have is a Lite variant (which lacks bluetooth and
+                wifi) so we set
+
+                these to false until we get another SoM that has them.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+          version: contracts-2.0.139
+          title: ""
+          date: 2026-03-11T07:23:06.723Z
+  version: 6.11.10+rev2
+  title: ""
+  date: 2026-03-11T08:37:50.438Z
+- commits:
     - subject: Update contracts to 73054ac4debf63ab177d662ece5d43deb11364c6
       hash: 6d661a17e0962e3d445076565cd68d139a14c9dd
       body: Update contracts
