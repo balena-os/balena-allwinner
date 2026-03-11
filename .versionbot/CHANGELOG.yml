@@ -1,4 +1,45 @@
 - commits:
+    - subject: Update layers/meta-balena to db20cbc5a2111924ec896c183539400d81d29e4c
+      hash: a2a8720c947b6cf9d59bfe2be3fb672f7b5ebd11
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to db20cbc5a2111924ec896c183539400d81d29e4c
+        changelog-entry: Update layers/meta-balena to db20cbc5a2111924ec896c183539400d81d29e4c
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update balena-supervisor to v17.6.3
+              hash: 2db60e91dec0cbde8bf5c6133b5ce001edad16ea
+              body: |
+                Update balena-supervisor from 17.6.2 to 17.6.3
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Only report download progress if service status is `Downloading`
+                      hash: 1c3efc9316405aa81e9ace790f62202e068e7204
+                      body: >
+                        The value is useless for the backend otherwise and this
+                        also prevents
+
+                        calculating the wrong update status for reporting.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: Felipe Lalanne
+                      nested: []
+                  version: balena-supervisor-17.6.3
+                  title: ""
+                  date: 2026-03-10T08:08:26.569Z
+          version: meta-balena-6.11.11
+          title: ""
+          date: 2026-03-10T12:46:02.038Z
+  version: 6.11.11
+  title: ""
+  date: 2026-03-11T10:50:06.306Z
+- commits:
     - subject: Update contracts to ab2042b50e075fa27e16e23bb413adac7700c132
       hash: fd76cdca201c164d22ee69eced82e6a4fd6da770
       body: Update contracts
