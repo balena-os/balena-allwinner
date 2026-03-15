@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.11.13
+## (2026-03-15)
+
+
+<details>
+<summary> Update layers/meta-balena to 3163559db59c23c55f81a18b5caabf422ee55499 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.11.13
+> ### (2026-03-14)
+> 
+> * tcgtool: update to v0.1.4 [Michal Toman]
+> 
+
+</details>
+
 # v6.11.12
 ## (2026-03-14)
 
