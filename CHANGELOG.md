@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.11.14
+## (2026-03-16)
+
+
+<details>
+<summary> Update layers/meta-balena to bb0a239a4af553121713ddbb527cf445105c197d [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.11.14
+> ### (2026-03-16)
+> 
+> * wpa-supplicant: Align to recipe from Scarthgap [Florin Sarbu]
+> 
+
+</details>
+
 # v6.11.13
 ## (2026-03-15)
 

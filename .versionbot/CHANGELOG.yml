@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update layers/meta-balena to bb0a239a4af553121713ddbb527cf445105c197d
+      hash: 053fc245121f052526dfb92ff9c03026050ac6a6
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to bb0a239a4af553121713ddbb527cf445105c197d
+        changelog-entry: Update layers/meta-balena to bb0a239a4af553121713ddbb527cf445105c197d
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "wpa-supplicant: Align to recipe from Scarthgap"
+              hash: bd8979799b88c68b40892af469d0fe1da5a7d791
+              body: >
+                We add the recipe with the patches from Scarthgap revision
+                97f732ce9b914ea4022c9425611c16d333c2787b
+
+
+                This is the same package version but adds additional CVE
+                patches.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.11.14
+          title: ""
+          date: 2026-03-16T13:02:38.469Z
+  version: 6.11.14
+  title: ""
+  date: 2026-03-16T15:05:26.743Z
+- commits:
     - subject: Update layers/meta-balena to 3163559db59c23c55f81a18b5caabf422ee55499
       hash: bb66904d59d7b46659906cf4e2d2f0011ad174a6
       body: Update layers/meta-balena
