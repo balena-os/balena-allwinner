@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.12.0
+## (2026-03-17)
+
+
+<details>
+<summary> Update layers/meta-balena to fac181a337cfca547ebc14dbdccabe055c78b2de [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.12.0
+> ### (2026-03-17)
+> 
+> * add flock and lockfile documentation [Yann CARDAILLAC]
+> 
+
+</details>
+
 # v6.11.14+rev1
 ## (2026-03-16)
 
