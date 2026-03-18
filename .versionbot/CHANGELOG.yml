@@ -1,4 +1,63 @@
 - commits:
+    - subject: Update layers/meta-balena to a41a740681e9ce082f7fe1b5775eb2c3e834b371
+      hash: 591c824f03c7fc972f2cb97b4a81662eed2089a1
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to a41a740681e9ce082f7fe1b5775eb2c3e834b371
+        changelog-entry: Update layers/meta-balena to a41a740681e9ce082f7fe1b5775eb2c3e834b371
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "os/tests: Fix sporadic failure in recover-sshd-socket"
+              hash: 093e3cbd633e418aa00665e13d9b591310c5bb56
+              body: >
+                Occasionally the recover-sshd-socket test may fail if
+
+                the exit reason for sshd.socket is 'success' instead
+
+                of 'trigger-limit-hit'. This seems to be a race which could
+
+                be caused by factors like the speed of the hardware, the way
+
+                systemd calculates time, as well as to how it determines "bad"
+
+                connections. For example if the first connection is fully
+
+                handed off before the next one arrived, the burst counter may
+
+                not reach the limit.
+
+
+                Also, if the socket unit is restarted while the script sleeps
+
+                for two seconds, the Result property would show 'success' as the
+
+                unit is now healthy again.
+
+
+                We switch to a lower burst limit and keep each connection
+
+                active for a period of time longer than the systemd's sliding
+                window,
+
+                to ensure that the connection limit is always exceeded in the
+                defined
+
+                interval.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-6.12.1
+          title: ""
+          date: 2026-03-18T09:34:00.113Z
+  version: 6.12.1
+  title: ""
+  date: 2026-03-18T10:44:47.671Z
+- commits:
     - subject: Update layers/meta-balena to fac181a337cfca547ebc14dbdccabe055c78b2de
       hash: 475fe1fa36c17557cdc9103102c9e5301300fe07
       body: Update layers/meta-balena
