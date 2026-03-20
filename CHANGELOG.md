@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v6.12.2
+## (2026-03-20)
+
+
+<details>
+<summary> Update layers/meta-balena to 0cc73f5481ae9ac26369e78806fd7c907a6a4aeb [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.12.2
+> ### (2026-03-20)
+> 
+> * balena-supervisor: remove redundant bind mounts and DOCKER_ROOT [Alex Gonzalez]
+> * balena-supervisor: remove apps.json initialization from start script [Alex Gonzalez]
+> * balena-supervisor: remove restart from engine run command [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.12.1
 ## (2026-03-18)
 

@@ -1,4 +1,87 @@
 - commits:
+    - subject: Update layers/meta-balena to 0cc73f5481ae9ac26369e78806fd7c907a6a4aeb
+      hash: 47681a0147803902727a53868b7e3801d25f57f9
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 0cc73f5481ae9ac26369e78806fd7c907a6a4aeb
+        changelog-entry: Update layers/meta-balena to 0cc73f5481ae9ac26369e78806fd7c907a6a4aeb
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-supervisor: remove redundant bind mounts and DOCKER_ROOT"
+              hash: f89a663ce8fa379176f935a45ff6340c8e700f9e
+              body: >
+                The supervisor runs mount-partitions.sh on startup to discover
+                and
+
+                mount boot, state, and data partitions internally via DBus,
+                making
+
+                several host-provided bind mounts redundant:
+
+
+                - config.json: overridden by mount-partitions.sh (documented as
+                  legacy host mount)
+                - apps.json: target path /boot/apps.json has zero references;
+                  supervisor reads from /mnt/data/apps.json via its own mount
+                - fib_trie: zero references in the supervisor codebase
+
+                - ssl/certs and ca-certificates: container image includes
+                  ca-certificates, and the read-only mounts conflict with entry.sh
+                  which writes to these paths
+
+                Also remove DOCKER_ROOT env var as entry.sh defaults to the same
+
+                value (/mnt/root/var/lib/docker).
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "balena-supervisor: remove apps.json initialization from start script"
+              hash: be4807563191d94d14045542912fc146da16c3e9
+              body: >
+                The supervisor's preload logic handles a missing or empty
+                apps.json
+
+                gracefully and continuing normally. The host-side initialization
+                that creates
+
+                an empty apps.json is redundant.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "balena-supervisor: remove restart from engine run command"
+              hash: 373a600002fe1078ec9fdc83f5db983afb604c06
+              body: >
+                The supervisor service already specifies a restart - this
+                duplicity
+
+                causes race conditions that on occasions fail to boot the
+                supervisor.
+
+
+                See https://balena.zendesk.com/agent/tickets/5754
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.12.2
+          title: ""
+          date: 2026-03-20T19:35:25.556Z
+  version: 6.12.2
+  title: ""
+  date: 2026-03-20T20:37:36.336Z
+- commits:
     - subject: Update layers/meta-balena to a41a740681e9ce082f7fe1b5775eb2c3e834b371
       hash: 591c824f03c7fc972f2cb97b4a81662eed2089a1
       body: Update layers/meta-balena
