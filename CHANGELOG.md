@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v6.12.3+rev2
+## (2026-03-28)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 8774b8f641bd002becca624e213e0dba330205c8 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.39.29
+> ### (2026-03-28)
+> 
+> * stop running AMI delete on failure step if no AMI created, and stop AMI deploy on non-finalised workflow-dispatch [Ryan Cooke]
+> * workflows: simplify esr check to tag comparison [Alex Gonzalez]
+> 
+
+</details>
+
 # v6.12.3+rev1
 ## (2026-03-28)
 
