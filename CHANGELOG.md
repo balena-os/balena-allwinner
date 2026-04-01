@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.12.3+rev3
+## (2026-04-01)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 108f3c8fd68bcc4c09b015cafab1db722fdf71d5 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.39.30
+> ### (2026-04-01)
+> 
+> * Update balena-io/balena-cli to v24 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.12.3+rev2
 ## (2026-03-28)
 
