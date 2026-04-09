@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.12.5
+## (2026-04-09)
+
+
+<details>
+<summary> Update layers/meta-balena to 47c5ec10e0a27cc1f25e96f679482b7e717177e4 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.12.5
+> ### (2026-04-09)
+> 
+> * .github/workflows: Remove discontinued machines [Florin Sarbu]
+> 
+
+</details>
+
 # v6.12.4+rev2
 ## (2026-04-04)
 
