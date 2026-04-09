@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.12.5+rev1
+## (2026-04-09)
+
+
+<details>
+<summary> Update contracts to 9f5b551e773cd8143cf5d4e86407238c2a1a20e9 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.142
+> ### (2026-04-09)
+> 
+> * Update iot-gate-imx8plus-d1d8 to remove Wifi and BT [Alexandru Costache]
+> 
+
+</details>
+
 # v6.12.5
 ## (2026-04-09)
 
