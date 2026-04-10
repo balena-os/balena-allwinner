@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.12.6
+## (2026-04-10)
+
+
+<details>
+<summary> Update layers/meta-balena to 28c9591e69a47f17f0827980b33d5bfc567eeb0c [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.12.6
+> ### (2026-04-10)
+> 
+> * Update actions/checkout digest to de0fac2 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v6.12.5+rev1
 ## (2026-04-09)
 
