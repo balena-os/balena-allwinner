@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.12.9
+## (2026-04-16)
+
+
+<details>
+<summary> Update layers/meta-balena to b02004692e11591badd7e15fd6d03b8bc3f03b56 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.12.9
+> ### (2026-04-16)
+> 
+> * Fix modemmanager build on dunfell [Florin Sarbu]
+> 
+
+</details>
+
 # v6.12.8
 ## (2026-04-13)
 
