@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to f4d9e15128f217e6fe2963b89bd8f9069a4cd2a5
+      hash: b7e51853d8123dafab9870800c6fd7428ab66039
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f4d9e15128f217e6fe2963b89bd8f9069a4cd2a5
+        changelog-entry: Update layers/meta-balena to f4d9e15128f217e6fe2963b89bd8f9069a4cd2a5
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-bootloader.bbclass: Add required CONFIG_NLS_ISO8859_1 as
+                built-in"
+              hash: 59ff5ba6b5583e14d7d05548930ccfa4a1f3ef92
+              body: |
+                Without this config the boot fails with:
+
+                FAT-fs (mmcblk0p1): IO charset iso8859-1 not found
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-6.12.10
+          title: ""
+          date: 2026-04-21T21:38:05.157Z
+  version: 6.12.10
+  title: ""
+  date: 2026-04-21T22:47:21.255Z
+- commits:
     - subject: Update layers/meta-balena to b02004692e11591badd7e15fd6d03b8bc3f03b56
       hash: 657eb71cc3f4568826e22d472137e6a97c608601
       body: Update layers/meta-balena
