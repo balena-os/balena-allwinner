@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v6.12.10+rev1
+## (2026-04-22)
+
+
+<details>
+<summary> Update contracts to 7c3bf64c92a839dcbf02cfd69367392e7728fcde [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.143
+> ### (2026-04-22)
+> 
+> * hw.device-type: Add new device-type Compulab IOT-LINK Gateway [Florin Sarbu]
+> 
+
+</details>
+
 # v6.12.10
 ## (2026-04-21)
 

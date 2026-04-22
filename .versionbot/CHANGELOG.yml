@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 7c3bf64c92a839dcbf02cfd69367392e7728fcde
+      hash: d1893e3ebc6ef80157a659db66bd619506f9800a
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 7c3bf64c92a839dcbf02cfd69367392e7728fcde
+        changelog-entry: Update contracts to 7c3bf64c92a839dcbf02cfd69367392e7728fcde
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: Add new device-type Compulab IOT-LINK Gateway"
+              hash: 9f8168327bc4393d5fe00aca5cb263003d76de7b
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+          version: contracts-2.0.143
+          title: ""
+          date: 2026-04-22T07:37:35.352Z
+  version: 6.12.10+rev1
+  title: ""
+  date: 2026-04-22T09:04:38.778Z
+- commits:
     - subject: Update layers/meta-balena to f4d9e15128f217e6fe2963b89bd8f9069a4cd2a5
       hash: b7e51853d8123dafab9870800c6fd7428ab66039
       body: Update layers/meta-balena
