@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update layers/meta-balena to cc6d368d0efde0552b2cab398ea005848cc51d6c
+      hash: 2df46fd6b62c589e716b5caf000534ae0ac4a6a4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to cc6d368d0efde0552b2cab398ea005848cc51d6c
+        changelog-entry: Update layers/meta-balena to cc6d368d0efde0552b2cab398ea005848cc51d6c
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: cloud: Stop waiting for healthy supervisor in cloud suite
+                before preload test"
+              hash: 6afa76bd2f4cd1a342a3dd2339976a380e40b607
+              body: >
+                In the cloud suite we provision the device with no internet - to
+                test that the prloaded app starts on first boot without api
+                access. Supervisor 17.6.26 fixed a supervisor connectivity
+                healthcheck, that causes the supervisor to now correctly report
+                as non healthy if there is no connectivity. This caused a
+                failure in the cloud suite where we were waiting for a healthy
+                supervisor to continue to the preloaded app test, but as the
+                internet is disabled until we complete that test, we were
+                waiting until the test timed out.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-6.12.11
+          title: ""
+          date: 2026-04-23T05:56:40.348Z
+  version: 6.12.11
+  title: ""
+  date: 2026-04-23T07:14:33.736Z
+- commits:
     - subject: Update contracts to 7c3bf64c92a839dcbf02cfd69367392e7728fcde
       hash: d1893e3ebc6ef80157a659db66bd619506f9800a
       body: Update contracts
