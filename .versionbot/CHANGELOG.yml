@@ -1,4 +1,61 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 9d43ce8ff3b292419deb7f9a87f9bd2780b1047d
+      hash: 27f0555467ca5f393c944842a4818755dd91bac8
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 9d43ce8ff3b292419deb7f9a87f9bd2780b1047d
+        changelog-entry: Update balena-yocto-scripts to 9d43ce8ff3b292419deb7f9a87f9bd2780b1047d
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Set the default source-mirror environment to
+                balena-production.us-east-1
+              hash: fd1aeffff07c05339cc928e9a87595c9e7c9bd47
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Backup shared-downloads to S3 on build failure
+              hash: 0457daafd362362857bd8c4498cce3f0aa70dbe2
+              body: |
+                Avoid losing new downloaded files if the build
+                failed for unrelated reasons.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: ".github/workflows/yocto-build-deploy.yml: Add the rust crates to
+                MIRRORS"
+              hash: 9a9ee2ebc6140bf90ef87b5de937bea092a3b6b0
+              body: >
+                Lately fetching the rust crates has been rate limited so let's
+                make sure we
+
+                add our shared downloaded rust crates to MIRRORS in case we get
+                fetching errors
+
+                from upstream.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: balena-yocto-scripts-1.39.32
+          title: ""
+          date: 2026-04-30T00:59:39.473Z
+  version: 7.0.0+rev1
+  title: ""
+  date: 2026-04-30T01:24:24.076Z
+- commits:
     - subject: Update layers/meta-balena to 40263171117a11d10fcf1469214588e65a77b8d0
       hash: 1e83fef0165d70bf41e3ef86803aff44c7af8066
       body: Update layers/meta-balena
