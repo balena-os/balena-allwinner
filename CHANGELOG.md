@@ -1,6 +1,23 @@
 Change log
 -----------
 
+# v7.0.0+rev2
+## (2026-05-01)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 23eb6005eba2a46be19a28a8e94d382257966b52 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.39.33
+> ### (2026-05-01)
+> 
+> * yocto-build-deploy.yml: Wait for self-CI helper image before Build [Kyle Harding]
+> * yocto-build-deploy.yml: Override helper image tag for self-CI [Kyle Harding]
+> * Dockerfile_yocto-build-env: Pin docker.io to 27.x [Kyle Harding]
+> 
+
+</details>
+
 # v7.0.0+rev1
 ## (2026-04-30)
 
