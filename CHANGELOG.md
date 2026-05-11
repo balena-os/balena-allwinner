@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.0.2
+## (2026-05-11)
+
+
+<details>
+<summary> Update layers/meta-balena to 3f363dc14666d0d39b8f039b194198b5f5cf81f7 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.0.2
+> ### (2026-05-11)
+> 
+> * kernel-balena: address CVE-2026-43284 [Alex Gonzalez]
+> 
+
+</details>
+
 # v7.0.1+rev1
 ## (2026-05-09)
 
