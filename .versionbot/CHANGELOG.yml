@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 1df9bbe8d72fff7b71c71151d74dd64094971b30
+      hash: b0c36905cef356abaf8dd593775cbc489435f9d0
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 1df9bbe8d72fff7b71c71151d74dd64094971b30
+        changelog-entry: Update balena-yocto-scripts to 1df9bbe8d72fff7b71c71151d74dd64094971b30
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "build/barys: Add Wrynose build support"
+              hash: 4c079e100c23f13adf3826fc68cc928a9aaef9e2
+              body: |
+                When building with Poky Wrynose,
+                the oe-init-build-env script needs
+                to be called from the openembedded-core
+                layer, instead of poky.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: balena-yocto-scripts-1.39.35
+          title: ""
+          date: 2026-05-16T15:06:07.890Z
+  version: 7.0.3+rev3
+  title: ""
+  date: 2026-05-16T16:44:59.648Z
+- commits:
     - subject: Update balena-os/github-workflows to
         25e5b0d2d7bdd26b714368c326c939f5e5692d89
       hash: 17f32f5f54de5656da533b1f487dc47fdc6d87c7
