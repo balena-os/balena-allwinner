@@ -1,4 +1,46 @@
 - commits:
+    - subject: Update layers/meta-balena to 79cfd47b693b7b2109db29d78b6d0ec516ae5f94
+      hash: 633ec1d0afbe5240c6324d90f68eec75c4d6b5c4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 79cfd47b693b7b2109db29d78b6d0ec516ae5f94
+        changelog-entry: Update layers/meta-balena to 79cfd47b693b7b2109db29d78b6d0ec516ae5f94
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "wpa_supplicant: enable OWE networks"
+              hash: 0e38fdbb14224c7ab537055ae8beef809617f84c
+              body: >
+                This patch adds two config options necessary to enable
+                Opportunistic
+
+                Wireless Encryption (open networks with client isolation). The
+                main
+
+                thing is CONFIG_OWE, which enables the feature.
+                CONFIG_IEEE80211W adds
+
+                management frame protection, which is optional in OWE, but we
+                expect
+
+                it to be necessary on most networks. It's also mandatory for
+                other WPA3
+
+                family protocols such as SAE.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-7.0.6
+          title: ""
+          date: 2026-05-25T06:22:47.338Z
+  version: 7.0.6
+  title: ""
+  date: 2026-05-25T08:19:14.774Z
+- commits:
     - subject: Update product-os/flowzone
       hash: ef24627e22bf3917c9c93953b1e515b517dea641
       body: Update product-os/flowzone
