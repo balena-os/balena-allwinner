@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.1.0
+## (2026-05-27)
+
+
+<details>
+<summary> Update layers/meta-balena to b5497e219f307a9dadf3ec6c51b4f07f42c7bddc [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.1.0
+> ### (2026-05-27)
+> 
+> * remove all bins from nss to save some place [Yann CARDAILLAC]
+> 
+
+</details>
+
 # v7.0.7
 ## (2026-05-26)
 
