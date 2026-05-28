@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.1.1
+## (2026-05-28)
+
+
+<details>
+<summary> Update layers/meta-balena to d9e900a0a9141b112436c1780377579593277ee0 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.1.1
+> ### (2026-05-28)
+> 
+> * Remove some docs in favor of moving them directly to the product docs [Matthew Yarmolinsky]
+> 
+
+</details>
+
 # v7.1.0
 ## (2026-05-27)
 
