@@ -1,4 +1,38 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 6417d4093c8ef651c06ca1134cb4396e80deedff
+      hash: 0cf297eb4d887307c3dc3958c08478c494c681c6
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 6417d4093c8ef651c06ca1134cb4396e80deedff
+        changelog-entry: Update balena-yocto-scripts to 6417d4093c8ef651c06ca1134cb4396e80deedff
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Add hostapp composition build pipeline
+              hash: 2ad1221c707874f7ed85dc69f62125384d62ccef
+              body: |
+                Build a balenaOS hostapp from a Docker Compose composition declared by
+                the device repo. Services declaring x-build are built in parallel via
+                a matrix job; outputs and registry images are assembled into a single
+                release at deploy time.
+
+                See docs/specs/hostapp-composition.md for the contract.
+
+                Connects to https://balena.fibery.io/Work/Improvement/POC-Build-Pipeline-4069
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.41.0
+          title: ""
+          date: 2026-06-03T17:11:50.990Z
+  version: 7.2.0+rev3
+  title: ""
+  date: 2026-06-03T18:20:02.277Z
+- commits:
     - subject: Update balena-yocto-scripts to d73fe53b5bcd894a8d9bb8794233484432e30115
       hash: 89cc47b237c9f07f4be1e62af49345eb52f58009
       body: Update balena-yocto-scripts

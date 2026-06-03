@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.2.0+rev3
+## (2026-06-03)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 6417d4093c8ef651c06ca1134cb4396e80deedff [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.41.0
+> ### (2026-06-03)
+> 
+> * Add hostapp composition build pipeline [Kyle Harding]
+> 
+
+</details>
+
 # v7.2.0+rev2
 ## (2026-06-02)
 
