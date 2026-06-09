@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to da9190fabf525a37eb1ac781e4a1664b386066d4
+      hash: 6edd29b6b2102a174cc2145b9253118929846587
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to da9190fabf525a37eb1ac781e4a1664b386066d4
+        changelog-entry: Update layers/meta-balena to da9190fabf525a37eb1ac781e4a1664b386066d4
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: pieeprom test raspberrypi4 and CM4"
+              hash: c4589cf31d1d245a2fc19ad8809c2ae35c88c927
+              body: ""
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+                signed-off-by: Yann CARDAILLAC <yann.cardaillac@balena.io>
+              author: Yann CARDAILLAC
+              nested: []
+          version: meta-balena-7.3.0
+          title: ""
+          date: 2026-06-09T11:50:41.226Z
+  version: 7.3.0
+  title: ""
+  date: 2026-06-09T13:36:36.286Z
+- commits:
     - subject: Update product-os/flowzone to 99a7dbf42e96d488da1a8c98e4303c6de7368f0c
       hash: 89b04f6947a66fef630b574e782ef72991543866
       body: Update product-os/flowzone
