@@ -1,4 +1,48 @@
 - commits:
+    - subject: Update layers/meta-balena to b34a017a1cccfccd19ae871a767f9f21a4eb7f94
+      hash: 682d624d8fe3812892725233de37e5979cde4e15
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to b34a017a1cccfccd19ae871a767f9f21a4eb7f94
+        changelog-entry: Update layers/meta-balena to b34a017a1cccfccd19ae871a767f9f21a4eb7f94
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to a310841
+              hash: 2cdf1c6d12225dd6aee87db808482744cd3c2b8b
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: "core/lib: Make Protected Management Frames (PMF) support optional /
+                        disabled when creating the wifi connection profile"
+                      hash: 2f56cc2c38b830a81492ddec574b91644953e16e
+                      body: >
+                        We have a case where not setting this to optional will
+                        cause issues
+
+                        when authenticating to an AP created by the worker (a
+                        RPi 4 worker).
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Florin Sarbu <florin@balena.io>
+                        signed-off-by: Florin Sarbu <florin@balena.io>
+                      author: Florin Sarbu
+                      nested: []
+                  version: leviathan-2.36.112
+                  title: ""
+                  date: 2026-06-10T14:29:15.175Z
+          version: meta-balena-7.4.1
+          title: ""
+          date: 2026-06-11T06:12:09.908Z
+  version: 7.4.1
+  title: ""
+  date: 2026-06-11T08:15:37.564Z
+- commits:
     - subject: Update balena-yocto-scripts to 28481193eb5a8748685099096e148bb8cf3b54fc
       hash: 98d2125428e3553e9a0b7db229e2e0c23e03b9cc
       body: Update balena-yocto-scripts
