@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.5.0
+## (2026-06-12)
+
+
+<details>
+<summary> Update layers/meta-balena to 41e0a2b58347b68c322346cbfe3513e7858dce6f [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.5.0
+> ### (2026-06-12)
+> 
+> * conf/layer.conf: Specify Wrynose compatibility [Alexandru Costache]
+> 
+
+</details>
+
 # v7.4.1
 ## (2026-06-11)
 
