@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to 02273a709f119a093c4958cb6d0deed49df893eb
+      hash: 1d8d4fbf66a38cbcf1674ea3e44d5c7fa7cb37ba
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 02273a709f119a093c4958cb6d0deed49df893eb
+        changelog-entry: Update layers/meta-balena to 02273a709f119a093c4958cb6d0deed49df893eb
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: Define imx8mmebcrs16a1 as flasherConfig type"
+              hash: 16c56bacdccd9e1a58aa32b0169d05302ebbd4e1
+              body: >
+                This allows us to boot the flasher image from microSD even when
+                the
+
+                bootswitch is set to eMMC boot. This is needed for automated
+                testing.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-7.5.1
+          title: ""
+          date: 2026-06-15T18:09:10.587Z
+  version: 7.5.1
+  title: ""
+  date: 2026-06-15T19:50:05.849Z
+- commits:
     - subject: Update product-os/flowzone to 7db3b3261f71eb086ce6ce7cc623d63517926f07
       hash: 3c87111a330637433c64f0940a1f61902a59178b
       body: Update product-os/flowzone
