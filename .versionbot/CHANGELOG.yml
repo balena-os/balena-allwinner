@@ -1,4 +1,37 @@
 - commits:
+    - subject: Update layers/meta-balena to 374d8c8f8303362f71338de1cf68f0033335968e
+      hash: f9fbe0f895f743c4f81c7ceb268043c1c23ed56a
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 374d8c8f8303362f71338de1cf68f0033335968e
+        changelog-entry: Update layers/meta-balena to 374d8c8f8303362f71338de1cf68f0033335968e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "recipes-core/systemd: Fix building with Wrynose"
+              hash: 4ea508b6986a811fadad7ae753ce06f9a5e0f002
+              body: >
+                A PR which uses WORKDIR was merged before the Wrynose PR, and
+                the automated re-base did not catch this because WORKDIR can be
+                used in all Yocto versions pre-Wrynose.
+
+
+                We thus update the recipe to make it compatible with all Yocto
+                versions again.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru
+              nested: []
+          version: meta-balena-7.5.2
+          title: ""
+          date: 2026-06-17T16:07:07.932Z
+  version: 7.5.2
+  title: ""
+  date: 2026-06-17T17:30:57.876Z
+- commits:
     - subject: Update layers/meta-balena to 02273a709f119a093c4958cb6d0deed49df893eb
       hash: 1d8d4fbf66a38cbcf1674ea3e44d5c7fa7cb37ba
       body: Update layers/meta-balena
