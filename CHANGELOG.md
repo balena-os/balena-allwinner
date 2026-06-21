@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.5.4
+## (2026-06-21)
+
+
+<details>
+<summary> Update layers/meta-balena to 509f39187ffe70e7bb45ee0b8b052b3b58ae56b0 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.5.4
+> ### (2026-06-21)
+> 
+> * balena: bump balena-engine to restore 1777 default for bare tmpfs mounts [Kyle Harding]
+> 
+
+</details>
+
 # v7.5.3+rev1
 ## (2026-06-20)
 

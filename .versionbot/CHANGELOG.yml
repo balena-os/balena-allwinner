@@ -1,4 +1,31 @@
 - commits:
+    - subject: Update layers/meta-balena to 509f39187ffe70e7bb45ee0b8b052b3b58ae56b0
+      hash: 238771ed50c543bc5043074d50f91a51dd51d00d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 509f39187ffe70e7bb45ee0b8b052b3b58ae56b0
+        changelog-entry: Update layers/meta-balena to 509f39187ffe70e7bb45ee0b8b052b3b58ae56b0
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena: bump balena-engine to restore 1777 default for bare tmpfs
+                mounts"
+              hash: 94d798cdc879b302f5fc481f63e0be8f12e8175c
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-7.5.4
+          title: ""
+          date: 2026-06-21T20:25:17.143Z
+  version: 7.5.4
+  title: ""
+  date: 2026-06-21T21:00:28.528Z
+- commits:
     - subject: Update product-os/flowzone to d26b0aa30be4bbe2f04a83a0e6d70b7cc2878244
       hash: 9a3b9c9c9482a6d0a6b75ac18edaa79e30909524
       body: Update product-os/flowzone
