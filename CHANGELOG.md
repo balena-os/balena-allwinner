@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.5.5
+## (2026-06-22)
+
+
+<details>
+<summary> Update layers/meta-balena to a6fd36592adaa52d4bd54116285ce05fbf3d9d14 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.5.5
+> ### (2026-06-22)
+> 
+> * meta-balena-esr: Use GitHub REST API for verified commits [Kyle Harding]
+> 
+
+</details>
+
 # v7.5.4
 ## (2026-06-21)
 
