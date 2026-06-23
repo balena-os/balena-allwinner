@@ -1,4 +1,57 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 2302959db55d04e9112e75d04f10ec4b4e5268ed
+      hash: 2364504b3ca6a3d15f9e4e661eaa2f31fe2c3246
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 2302959db55d04e9112e75d04f10ec4b4e5268ed
+        changelog-entry: Update balena-yocto-scripts to 2302959db55d04e9112e75d04f10ec4b4e5268ed
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Decode base64-encoded GitHub App private key before token generation
+              hash: dd490e2aa8ec393f4b0d3fd97cb2f68568234ad8
+              body: >
+                The BALENAOS_CI_APP_PRIVATE_KEY secret can now be stored raw or
+
+                base64-encoded. base64 avoids the newline mangling that
+                multi-line PEM
+
+                secrets are prone to in GitHub secret storage.
+
+
+                Each job gets a decode step that passes the key through
+                unchanged if it
+
+                already looks like a PEM (-----BEGIN), otherwise base64-decodes
+                it and
+
+                masks the decoded lines. The six create-github-app-token steps
+                now read
+
+                the decoded output instead of the secret directly.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+            - subject: Update actions/create-github-app-token action to v3
+              hash: 87341be50b5fabca1c3c42499c49c30b0ed40ea7
+              body: |
+                Update actions/create-github-app-token from 2.2.2 to 3.2.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: balena-yocto-scripts-1.41.4
+          title: ""
+          date: 2026-06-23T13:27:23.760Z
+  version: 7.5.6+rev1
+  title: ""
+  date: 2026-06-23T17:14:37.601Z
+- commits:
     - subject: Update layers/meta-balena to 41e6fc31b605eea5a1754290dac2b9b4a529c424
       hash: 6439051516d238beaf02d5f6f0a947242e56dcc0
       body: Update layers/meta-balena
