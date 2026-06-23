@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v7.5.6
+## (2026-06-23)
+
+
+<details>
+<summary> Update layers/meta-balena to 41e6fc31b605eea5a1754290dac2b9b4a529c424 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.5.6
+> ### (2026-06-23)
+> 
+> * tests: Add uptime regression test to the os suite [Kyle Harding]
+> * coreutils: Restore /proc/uptime read so uptime works on scarthgap [Kyle Harding]
+> 
+
+</details>
+
 # v7.5.5
 ## (2026-06-22)
 
