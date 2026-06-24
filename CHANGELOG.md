@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.5.7
+## (2026-06-24)
+
+
+<details>
+<summary> Update layers/meta-balena to 940bdd4cd47f199544a8980807320b2528fc1abe [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.5.7
+> ### (2026-06-24)
+> 
+> * classes/image-balena: Cleanup issue file in Wrynose [Alexandru Costache]
+> 
+
+</details>
+
 # v7.5.6+rev1
 ## (2026-06-23)
 
