@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.5.9
+## (2026-07-08)
+
+
+<details>
+<summary> Update layers/meta-balena to 8f9636e6cb58d13738c7d36c7b99a15b80d40ada [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.5.9
+> ### (2026-07-08)
+> 
+> * renovate: Append major/minor/patch updates with change-type footer [Kyle Harding]
+> 
+
+</details>
+
 # v7.5.8
 ## (2026-07-07)
 
