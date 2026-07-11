@@ -1,6 +1,24 @@
 Change log
 -----------
 
+# v7.5.10
+## (2026-07-11)
+
+
+<details>
+<summary> Update layers/meta-balena to 3bed17c681e6fcc33bb656517e61b652b0a4beee [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.5.10
+> ### (2026-07-09)
+> 
+> * kernel-image-initramfs: multi-kernel support [Alex Gonzalez]
+> * kernel-balena-noimage: remove upstream rrecommends [Alex Gonzalez]
+> * kernel-balena-override: add config fragment support [Alex Gonzalez]
+> * kernel-balena: add multi kernel support [Alex Gonzalez]
+> 
+
+</details>
+
 # v7.5.9+rev1
 ## (2026-07-11)
 

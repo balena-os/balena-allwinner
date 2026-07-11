@@ -1,4 +1,92 @@
 - commits:
+    - subject: Update layers/meta-balena to 3bed17c681e6fcc33bb656517e61b652b0a4beee
+      hash: ee9e2837b100c41041b40e2fb7df31675f664582
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 3bed17c681e6fcc33bb656517e61b652b0a4beee
+        changelog-entry: Update layers/meta-balena to 3bed17c681e6fcc33bb656517e61b652b0a4beee
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-image-initramfs: multi-kernel support"
+              hash: b867868f36008b78f4c80491659c51a9394ddca4
+              body: >
+                Generalize the recipe so it can be re-used on different kernel
+                builds.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "kernel-balena-noimage: remove upstream rrecommends"
+              hash: 83873f45a68f1f031bd257573a901e07afef7215
+              body: >
+                The upstream RRECOMMENDS that drags in via kernel-base
+                overwrites
+
+                /boot/<type> with the no-initramfs binary.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "kernel-balena-override: add config fragment support"
+              hash: ff42195a77fa045eabc6477f78d504d440fbf6b7
+              body: >
+                Auto-merge kconfig fragments found in FILESEXTRAPATHS.
+
+
+                Yocto's stock kernel-yocto.bbclass already merges *.cfg
+                fragments listed in
+
+                SRC_URI through do_kernel_configme. This step complements
+                discovering
+
+                every *.cfg file reachable via FILESEXTRAPATHS and merging them
+                into
+
+                ${B}/.config, then runs olddefconfig to resolve dependencies.
+
+
+                - It lets recipes ship fragments by dropping them in
+                ${THISDIR}/files/ (or any
+                  FILESEXTRAPATHS-reachable dir) without touching SRC_URI.
+                - Allows sharing of kernel fragments across kernel siblings
+
+                - Allow fragments to override BALENA_CONFIGS-injected values
+                when needed.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "kernel-balena: add multi kernel support"
+              hash: 99058c43b1981d025d0556ca2931ac093fff52b3
+              body: >
+                Different kernel recipes might declare different deploy
+                directories
+
+                not to clash between them.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-7.5.10
+          title: ""
+          date: 2026-07-09T17:44:56.012Z
+  version: 7.5.10
+  title: ""
+  date: 2026-07-11T03:29:58.894Z
+- commits:
     - subject: Update product-os/flowzone to 3d5381de5deb60bd7c293b1f9d012aa6f1e5e1d1
       hash: 4d474d4c812c8a3e9e471c434d43bed484f08900
       body: Update product-os/flowzone
