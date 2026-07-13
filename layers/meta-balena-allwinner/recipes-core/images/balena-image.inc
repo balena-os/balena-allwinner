@@ -1,4 +1,22 @@
 #
+# Pine A64+
+#
+
+IMAGE_FSTYPES_append_pine64-plus = " balenaos-img"
+
+# Customize balenaos-img
+BALENA_IMAGE_BOOTLOADER_pine64-plus = "u-boot"
+BALENA_BOOT_PARTITION_FILES_pine64-plus = " \
+    ${KERNEL_IMAGETYPE}${KERNEL_INITRAMFS}-${MACHINE}.bin:/${KERNEL_IMAGETYPE} \
+    sun50i-a64-pine64-plus.dtb:/dtb/sun50i-a64-pine64-plus.dtb \
+    u-boot-pine64-plus.bin: \
+"
+IMAGE_CMD_balenaos-img_append_pine64-plus () {
+    # Pine64 needs uboot written at a specific location
+    dd if=${DEPLOY_DIR_IMAGE}/u-boot-pine64-plus.bin of=${BALENA_RAW_IMG} conv=notrunc seek=8 bs=1024
+}
+
+#
 # Orange Pi Plus2
 #
 
