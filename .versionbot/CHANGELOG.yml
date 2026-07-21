@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to 39c491e9d0a69b17cbb27e4305affa4ed8174618
+      hash: 2a6a76268a0f54766c42eea10c760fb1f4548153
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 39c491e9d0a69b17cbb27e4305affa4ed8174618
+        changelog-entry: Update layers/meta-balena to 39c491e9d0a69b17cbb27e4305affa4ed8174618
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: os: led: check LED_FILE exists on device, and stop counting
+                sdterr"
+              hash: 9bc353dc5121c6df9785a4201910bcf3a8f7f949
+              body: >
+                If the LED_FILE didn't exist on the device, the checking of the
+                file returned an error message, which was being evaluated as a
+                toggling file.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-7.7.1
+          title: ""
+          date: 2026-07-21T18:47:26.730Z
+  version: 7.7.1
+  title: ""
+  date: 2026-07-21T21:02:20.422Z
+- commits:
     - subject: Update product-os/flowzone to 23272ea32abe5fdd9d257c908fbdaf6d75aef036
       hash: 82615ecf172bb1ccf89212524f8322f7887a8c16
       body: Update product-os/flowzone

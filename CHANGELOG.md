@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.7.1
+## (2026-07-21)
+
+
+<details>
+<summary> Update layers/meta-balena to 39c491e9d0a69b17cbb27e4305affa4ed8174618 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.7.1
+> ### (2026-07-21)
+> 
+> * tests: os: led: check LED_FILE exists on device, and stop counting sdterr [Ryan Cooke]
+> 
+
+</details>
+
 # v7.7.0+rev3
 ## (2026-07-18)
 
