@@ -1,4 +1,34 @@
 - commits:
+    - subject: remove linux-firmware-ap6212
+      hash: 808a657a31cf19678661daca46eca6d3af265172
+      body: >
+        Remove linux-firmware-ap6212 as it is provided by
+        linux-firmware-bcm43430, which
+
+        is only used by nanopi-neo-air and is already added.
+      footer:
+        Changelog-entry: remove linux-firmware-ap6212
+        changelog-entry: remove linux-firmware-ap6212
+        Signed-off-by: guille-vega <guillermo.vega@balena.io>
+        signed-off-by: guille-vega <guillermo.vega@balena.io>
+      author: guille-vega
+      nested: []
+    - subject: Set explicit partition size overrides for each machine
+      hash: 025551191448424a8491d473da64224eca22774c
+      body: |
+        Ensure IMAGE_ROOTFS_SIZE, BALENA_BOOT_SIZE, and BALENA_STATE_SIZE are
+        explicitly defined for every machine target
+      footer:
+        Changelog-entry: Set explicit partition size overrides for each machine
+        changelog-entry: Set explicit partition size overrides for each machine
+        Signed-off-by: guille-vega <guillermo.vega@balena.io>
+        signed-off-by: guille-vega <guillermo.vega@balena.io>
+      author: guille-vega
+      nested: []
+  version: 7.7.1+rev1
+  title: ""
+  date: 2026-07-23T15:12:49.669Z
+- commits:
     - subject: Update layers/meta-balena to 39c491e9d0a69b17cbb27e4305affa4ed8174618
       hash: 2a6a76268a0f54766c42eea10c760fb1f4548153
       body: Update layers/meta-balena

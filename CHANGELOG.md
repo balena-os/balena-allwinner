@@ -1,6 +1,12 @@
 Change log
 -----------
 
+# v7.7.1+rev1
+## (2026-07-23)
+
+* remove linux-firmware-ap6212 [guille-vega]
+* Set explicit partition size overrides for each machine [guille-vega]
+
 # v7.7.1
 ## (2026-07-21)
 
