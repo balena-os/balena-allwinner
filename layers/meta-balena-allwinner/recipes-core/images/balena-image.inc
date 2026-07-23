@@ -149,3 +149,22 @@ IMAGE_CMD_balenaos-img_append_nanopi-neo-air () {
     # nanopi-neo-air needs uboot written at a specific location
     dd if=${DEPLOY_DIR_IMAGE}/u-boot-sunxi-with-spl.bin of=${BALENA_RAW_IMG} conv=notrunc seek=8 bs=1024
 }
+
+IMAGE_ROOTFS_SIZE_bananapi-m1-plus = "327680"
+BALENA_BOOT_SIZE_bananapi-m1-plus = "40960"
+BALENA_STATE_SIZE_bananapi-m1-plus = "20480"
+IMAGE_ROOTFS_SIZE_nanopi-neo-air = "327680"
+BALENA_BOOT_SIZE_nanopi-neo-air = "40960"
+BALENA_STATE_SIZE_nanopi-neo-air = "20480"
+IMAGE_ROOTFS_SIZE_orange-pi-lite = "327680"
+BALENA_BOOT_SIZE_orange-pi-lite = "40960"
+BALENA_STATE_SIZE_orange-pi-lite = "20480"
+IMAGE_ROOTFS_SIZE_orange-pi-one = "327680"
+BALENA_BOOT_SIZE_orange-pi-one = "40960"
+BALENA_STATE_SIZE_orange-pi-one = "20480"
+IMAGE_ROOTFS_SIZE_orange-pi-zero = "327680"
+BALENA_BOOT_SIZE_orange-pi-zero = "40960"
+BALENA_STATE_SIZE_orange-pi-zero = "20480"
+IMAGE_ROOTFS_SIZE_orangepi-plus2 = "327680"
+BALENA_BOOT_SIZE_orangepi-plus2 = "40960"
+BALENA_STATE_SIZE_orangepi-plus2 = "20480"
