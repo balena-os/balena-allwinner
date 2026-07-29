@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.8.0
+## (2026-07-29)
+
+
+<details>
+<summary> Update layers/meta-balena to 05f71c5607f293a7bc162db6570f40bd5522393f [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.8.0
+> ### (2026-07-29)
+> 
+> * mobynit: update to v1.1.0 [Alex Gonzalez]
+> 
+
+</details>
+
 # v7.7.2+rev2
 ## (2026-07-25)
 
