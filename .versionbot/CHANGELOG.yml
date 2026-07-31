@@ -1,4 +1,60 @@
 - commits:
+    - subject: Update layers/meta-balena to e5daefeadc0626b726c822413c86ac0cb259ee91
+      hash: b08750fbc256fd5c542a1bc0e432110b74a9728e
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to e5daefeadc0626b726c822413c86ac0cb259ee91
+        changelog-entry: Update layers/meta-balena to e5daefeadc0626b726c822413c86ac0cb259ee91
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "initrdscripts: check alignment of data partition in resindataexpander"
+              hash: 42450da183032bdc557b8f551bade040345c5e76
+              body: >
+                We have seen an SSD that reports physical sector size 4KB and
+                logical
+
+                sector size 512B. The total length of the disk is not a multiple
+
+                of 4KB, but the parted command that we're currently using
+
+                in the resindataexpander script aligns to 512B and ends the
+                partition
+
+                in the middle of a physical sector.
+
+
+                This is not a problem for regular devices that just format
+
+                the partition as ext4, but devices that use disk encryption with
+                LUKS
+
+                always align to physical sector size - in this case 4KB. When
+                trying
+
+                to access the partition after resizing, LUKS complains about
+
+                the misalignment and refuses to unlock the partition.
+
+
+                This patch adds a check that makes sure the partition is
+                properly
+
+                aligned after resizing and trims the extra space if necessary.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-7.8.1
+          title: ""
+          date: 2026-07-31T19:50:09.114Z
+  version: 7.8.1
+  title: ""
+  date: 2026-07-31T21:00:12.159Z
+- commits:
     - subject: Update layers/meta-balena to 05f71c5607f293a7bc162db6570f40bd5522393f
       hash: f6e8f29ef25e009a107c2f48f25c3a92dab3aac1
       body: Update layers/meta-balena
