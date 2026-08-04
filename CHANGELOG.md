@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.8.1+rev3
+## (2026-08-04)
+
+
+<details>
+<summary> Update contracts to 410a252de768cef05e71bde5417361819dda50e1 [balena-renovate[bot]] </summary>
+
+> ## contracts-2.0.147
+> ### (2026-08-04)
+> 
+> * Add device family and manufacturer metadata [Pranas Ziaukas]
+> 
+
+</details>
+
 # v7.8.1+rev2
 ## (2026-08-01)
 
