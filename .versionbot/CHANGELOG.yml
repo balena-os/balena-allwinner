@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to f388c39586de4919dfa25d37eb0a85198932d148
+      hash: 7200c7ba8e72a9cd148686239c3518c8cf7a7ba4
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f388c39586de4919dfa25d37eb0a85198932d148
+        changelog-entry: Update layers/meta-balena to f388c39586de4919dfa25d37eb0a85198932d148
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "recipes-containers/balena-extension-runtime: Enable Wrynose builds"
+              hash: d38072b13557d64193319620b78fb4be55a19da2
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-7.9.1
+          title: ""
+          date: 2026-08-07T06:18:34.160Z
+  version: 7.9.1
+  title: ""
+  date: 2026-08-07T06:50:24.894Z
+- commits:
     - subject: Update layers/meta-balena to baae0ef03631452b132d9a4cf88bf1b191387d67
       hash: ae68778e65ddd4331394388ce7b0aad9b3636bb0
       body: Update layers/meta-balena
