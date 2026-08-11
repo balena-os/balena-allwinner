@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.9.4
+## (2026-08-11)
+
+
+<details>
+<summary> Update layers/meta-balena to 5463b02b0ad994f9823194c7be374580ff632958 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.9.4
+> ### (2026-08-11)
+> 
+> * hostapp: Add deploy assets to hostapp composition [Kyle Harding]
+> 
+
+</details>
+
 # v7.9.3+rev2
 ## (2026-08-11)
 

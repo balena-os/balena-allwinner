@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update layers/meta-balena to 5463b02b0ad994f9823194c7be374580ff632958
+      hash: 572e2183a4a30976b2036f25588949f681c00443
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 5463b02b0ad994f9823194c7be374580ff632958
+        changelog-entry: Update layers/meta-balena to 5463b02b0ad994f9823194c7be374580ff632958
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hostapp: Add deploy assets to hostapp composition"
+              hash: 5b522aebe5d66c0da950d6fd3543c0d1c34333b4
+              body: >
+                These assets must exist relative to the build/tmp/deploy path
+
+                and will be deployed as resources on the release.
+
+
+                For the hostapp only, some of these resources get
+                transformations
+
+                before being uploaded:
+
+                - cyclonedx-export/ is renamed to cyclonedx/
+
+                - licenses/ is tarred
+
+                - secure-boot-lock/ is tarred
+
+                - images/__MACHINE__/ subdirs are flattened
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-7.9.4
+          title: ""
+          date: 2026-08-11T19:07:41.208Z
+  version: 7.9.4
+  title: ""
+  date: 2026-08-11T20:42:51.570Z
+- commits:
     - subject: Update balena-yocto-scripts to 41fe121711c72f671c4b756f3e19f89f0d9561cc
       hash: bcc8e28153e39ced0b69a16261eeefb8ce3f860d
       body: Update balena-yocto-scripts
