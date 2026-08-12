@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.9.4+rev3
+## (2026-08-12)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 4b858287c2b8eb6ffb7bedb66908ddde47525605 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.42.4
+> ### (2026-08-12)
+> 
+> * Deploy the hostApp with `os-profiles` draft release channel [Christina Ying Wang]
+> 
+
+</details>
+
 # v7.9.4+rev2
 ## (2026-08-12)
 

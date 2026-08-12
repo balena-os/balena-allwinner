@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 4b858287c2b8eb6ffb7bedb66908ddde47525605
+      hash: a7bfb2742d15b703cfea4334c58c17efdced216f
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 4b858287c2b8eb6ffb7bedb66908ddde47525605
+        changelog-entry: Update balena-yocto-scripts to 4b858287c2b8eb6ffb7bedb66908ddde47525605
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Deploy the hostApp with `os-profiles` draft release channel
+              hash: 772f3cc8b5203605857dd148a3cd9c556004c170
+              body: |
+                Bump setup-balena-action to v0.1.0, which adds `cli-channel`.
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Christina Ying Wang
+              nested: []
+          version: balena-yocto-scripts-1.42.4
+          title: ""
+          date: 2026-08-12T18:12:59.907Z
+  version: 7.9.4+rev3
+  title: ""
+  date: 2026-08-12T18:48:29.386Z
+- commits:
     - subject: Update balena-yocto-scripts to 325619779b25b2bec08c597375a65c016f799cae
       hash: 7b28ac90f87d570f5f73aec87145c6d142d4fba6
       body: Update balena-yocto-scripts
