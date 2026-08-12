@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.9.4+rev1
+## (2026-08-12)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 26e9cb3412bf98631343dc2594875b4c96149f5d [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.42.2
+> ### (2026-08-12)
+> 
+> * Add source-mirror-setup dependency to All Jobs [Kyle Harding]
+> 
+
+</details>
+
 # v7.9.4
 ## (2026-08-11)
 

@@ -1,4 +1,28 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 26e9cb3412bf98631343dc2594875b4c96149f5d
+      hash: 8d90dec23e0a65878d58cc851eccb11a48223567
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 26e9cb3412bf98631343dc2594875b4c96149f5d
+        changelog-entry: Update balena-yocto-scripts to 26e9cb3412bf98631343dc2594875b4c96149f5d
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Add source-mirror-setup dependency to All Jobs
+              hash: cfd9b04da5abda6e8495ded8796b27b22eed9626
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.42.2
+          title: ""
+          date: 2026-08-12T00:49:58.776Z
+  version: 7.9.4+rev1
+  title: ""
+  date: 2026-08-12T03:24:59.952Z
+- commits:
     - subject: Update layers/meta-balena to 5463b02b0ad994f9823194c7be374580ff632958
       hash: 572e2183a4a30976b2036f25588949f681c00443
       body: Update layers/meta-balena
