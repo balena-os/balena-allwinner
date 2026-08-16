@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v7.9.5
+## (2026-08-16)
+
+
+<details>
+<summary> Update layers/meta-balena to 194937b6aad270584f4be32ceb13c3b0454907e8 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-7.9.5
+> ### (2026-08-16)
+> 
+> * workflows: Pin yocto-scripts submodule to master [Kyle Harding]
+> 
+
+</details>
+
 # v7.9.4+rev6
 ## (2026-08-15)
 

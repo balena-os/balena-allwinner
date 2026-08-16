@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to 194937b6aad270584f4be32ceb13c3b0454907e8
+      hash: a0c88d08c6d3a3e4b4cc478a57c110252a5c3291
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 194937b6aad270584f4be32ceb13c3b0454907e8
+        changelog-entry: Update layers/meta-balena to 194937b6aad270584f4be32ceb13c3b0454907e8
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "workflows: Pin yocto-scripts submodule to master"
+              hash: 259a2085fd44d313007071cedbf4876ac6672746
+              body: |
+                Release v1.42.0 has a dependency on the yocto-scripts submodule
+                being updated in the device repo to match.
+
+                Fixes "prepare-image.py: No such file or directory"
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: meta-balena-7.9.5
+          title: ""
+          date: 2026-08-16T16:28:57.591Z
+  version: 7.9.5
+  title: ""
+  date: 2026-08-16T18:36:29.299Z
+- commits:
     - subject: Update product-os/flowzone to 866cb343f30483b8bbf15ba0ce30727f81d93062
       hash: 2a2c43d115d3fae1182996a664e70fa9d88c0d63
       body: Update product-os/flowzone
