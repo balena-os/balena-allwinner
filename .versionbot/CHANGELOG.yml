@@ -1,4 +1,66 @@
 - commits:
+    - subject: Update layers/meta-balena to 9c83231c087d0ff78b943765551e2f061e0e9f72
+      hash: 402479fe6a8e005625b6508fde58c681556c4c2d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 9c83231c087d0ff78b943765551e2f061e0e9f72
+        changelog-entry: Update layers/meta-balena to 9c83231c087d0ff78b943765551e2f061e0e9f72
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "image_types_balena: force 4K block size for resin-state ext4"
+              hash: f7006438a12450fe579aa2a53b1c926ee1a78409
+              body: >
+                mkfs.ext4 defaults to 1K blocks for small filesystems like
+                resin-state
+
+                (~40 MiB). When the partition is later LUKS2-formatted for
+                secure
+
+                boot, dm-crypt exposes a hard 4096-byte block size with no
+                legacy 512e
+
+                compatibility, and the kernel refuses to mount an ext4
+                filesystem
+
+                whose block size is smaller than the underlying device's. Force
+                4K
+
+                blocks to match.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: guille-vega <guillermo.vega@balena.io>
+                signed-off-by: guille-vega <guillermo.vega@balena.io>
+              author: guille-vega
+              nested: []
+            - subject: Increase default boot, root and state partition sizes
+              hash: 1712a927ff527235c15410c02efb438da1c3b64e
+              body: >
+                Double the default root A/B partition size (320 MiB -> 640 MiB)
+                and
+
+                grow the boot (40 MiB -> 100 MiB) and state (20 MiB -> 80 MiB)
+
+                partitions, keeping the total raw image budget in sync
+
+                (700 MiB -> 1460 MiB) in balena_rootfs_size().
+              footer:
+                Change-type: major
+                change-type: major
+                Changelog-entry: Increase default boot, root and state partition sizes
+                changelog-entry: Increase default boot, root and state partition sizes
+                Signed-off-by: guille-vega <guillermo.vega@balena.io>
+                signed-off-by: guille-vega <guillermo.vega@balena.io>
+              author: guille-vega
+              nested: []
+          version: meta-balena-8.0.0
+          title: ""
+          date: 2026-08-17T20:28:57.966Z
+  version: 8.0.0
+  title: ""
+  date: 2026-08-17T22:33:02.004Z
+- commits:
     - subject: Update layers/meta-balena to 212305a6be2a8a448a4069cf83a57bfcdf654772
       hash: 505ca232561677b8a4e21eb5a6386729b599d0d2
       body: Update layers/meta-balena
