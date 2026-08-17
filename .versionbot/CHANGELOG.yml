@@ -1,4 +1,81 @@
 - commits:
+    - subject: Update layers/meta-balena to 212305a6be2a8a448a4069cf83a57bfcdf654772
+      hash: 505ca232561677b8a4e21eb5a6386729b599d0d2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 212305a6be2a8a448a4069cf83a57bfcdf654772
+        changelog-entry: Update layers/meta-balena to 212305a6be2a8a448a4069cf83a57bfcdf654772
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 4ae6a0e
+              hash: af2f3adea6d73d7ae36d205de78e78f90fc31ff8
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested:
+                - commits:
+                    - subject: Update debian:bullseye-slim Docker digest to f313b4b
+                      hash: 6f3ff3ca4c85254bb08941b74b1e91953f4a9f7e
+                      body: |
+                        Update debian
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.36.124
+                  title: ""
+                  date: 2026-08-15T03:01:13.603Z
+                - commits:
+                    - subject: Update core/contracts digest to 410a252
+                      hash: 8a21458fb5fd4dafdb707807dbf8c280e639abe9
+                      body: |
+                        Update core/contracts
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.36.123
+                  title: ""
+                  date: 2026-08-15T01:41:19.777Z
+                - commits:
+                    - subject: Update alpine Docker tag to v3.24.1
+                      hash: 4f2b145b0cfeede1cc8711015794b6c9cccd390a
+                      body: |
+                        Update alpine from 3.18.12 to 3.24.1
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                      author: balena-renovate[bot]
+                      nested: []
+                  version: leviathan-2.36.122
+                  title: ""
+                  date: 2026-08-15T00:05:18.689Z
+                - commits:
+                    - subject: "Core: worker: fix error with custom DT"
+                      hash: 0c91241eb7be4a12fec38d5922d0b872977b143c
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Ryan Cooke <ryan@balena.io>
+                        signed-off-by: Ryan Cooke <ryan@balena.io>
+                      author: Ryan Cooke
+                      nested: []
+                  version: leviathan-2.36.121
+                  title: ""
+                  date: 2026-08-14T22:12:01.578Z
+          version: meta-balena-7.9.6
+          title: ""
+          date: 2026-08-17T07:43:58.900Z
+  version: 7.9.6
+  title: ""
+  date: 2026-08-17T08:44:54.800Z
+- commits:
     - subject: Update layers/meta-balena to 194937b6aad270584f4be32ceb13c3b0454907e8
       hash: a0c88d08c6d3a3e4b4cc478a57c110252a5c3291
       body: Update layers/meta-balena
