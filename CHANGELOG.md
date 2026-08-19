@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.0+rev2
+## (2026-08-19)
+
+
+<details>
+<summary> Update balena-yocto-scripts to 41b2a508561040cf5d36cdc8c4d5a225cfc73b4d [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.42.6
+> ### (2026-08-19)
+> 
+> * Update actions/github-script action to v9 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v8.0.0+rev1
 ## (2026-08-19)
 
