@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.0+rev1
+## (2026-08-19)
+
+
+<details>
+<summary> Update balena-yocto-scripts to dcbc28ed192aa7517cfabd5f80daf09bdeb0bba6 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.42.5
+> ### (2026-08-19)
+> 
+> * yocto-build-deploy: Drop container-path license symlinks before upload [Kyle Harding]
+> 
+
+</details>
+
 # v8.0.0
 ## (2026-08-17)
 

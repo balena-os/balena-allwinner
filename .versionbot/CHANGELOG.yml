@@ -1,4 +1,69 @@
 - commits:
+    - subject: Update balena-yocto-scripts to dcbc28ed192aa7517cfabd5f80daf09bdeb0bba6
+      hash: 504df06850c5027026e21b195659ee42cfad76a8
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to dcbc28ed192aa7517cfabd5f80daf09bdeb0bba6
+        changelog-entry: Update balena-yocto-scripts to dcbc28ed192aa7517cfabd5f80daf09bdeb0bba6
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "yocto-build-deploy: Drop container-path license symlinks before
+                upload"
+              hash: 5d93f21159fafb8867189e797ec5356743b9b94a
+              body: >
+                license_image.bbclass writes licenses/<arch>/<IMAGE_LINK_NAME>
+                as an absolute
+
+                symlink under the build container's /work mount, so the link
+                text is
+
+                /work/build/tmp/deploy/... on every build. Whether it resolves
+                on the runner
+
+                depends on the /work -> workspace symlink, which is created as a
+                side effect of
+
+                "Sync shared downloads to S3" and is skipped for private device
+                types.
+
+
+                Both outcomes are wrong for "Upload release assets", which
+                archives licenses/**
+
+                with tar --dereference. Without /work the link dangles, GNU tar
+                exits 1 ("File
+
+                removed before we read it") and the composite action's pipefail
+                fails the step
+
+                even though 7-Zip wrote a complete archive. With /work present
+                tar follows the
+
+                link and stores every license manifest twice.
+
+
+                Match on the link text rather than on reachability, so public
+                and private device
+
+                types produce the same archive. The links only alias the
+                timestamped manifest
+
+                directories, which are archived in their own right.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.42.5
+          title: ""
+          date: 2026-08-19T08:33:45.321Z
+  version: 8.0.0+rev1
+  title: ""
+  date: 2026-08-19T10:36:15.878Z
+- commits:
     - subject: Update layers/meta-balena to 9c83231c087d0ff78b943765551e2f061e0e9f72
       hash: 402479fe6a8e005625b6508fde58c681556c4c2d
       body: Update layers/meta-balena
