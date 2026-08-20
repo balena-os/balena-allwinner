@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.1
+## (2026-08-20)
+
+
+<details>
+<summary> Update layers/meta-balena to 362e27ca6a40dacf7a696456136e1fe52b29a7c1 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.1
+> ### (2026-08-20)
+> 
+> * balena: use AtomicWriteFile to save volume options [Kyle Harding]
+> 
+
+</details>
+
 # v8.0.0+rev4
 ## (2026-08-20)
 
