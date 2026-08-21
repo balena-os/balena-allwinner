@@ -1,4 +1,35 @@
 - commits:
+    - subject: Update layers/meta-balena to f3ee62082eb6ff27aeb4638456209cb13518a82e
+      hash: 313406b2089eba9ffa30534628670b1c6b8d95eb
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to f3ee62082eb6ff27aeb4638456209cb13518a82e
+        changelog-entry: Update layers/meta-balena to f3ee62082eb6ff27aeb4638456209cb13518a82e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "distro:balena-os.inc: Remove gobject-introspection-data from
+                DISTRO_FEATURES"
+              hash: 049d1a5bf38786fa1d2d50ac563234d4aa742645
+              body: >
+                We do not use GObject Introspection typelib files in the hostOS
+                so let's
+
+                remove them in order to help shrink the rootfs.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-8.0.2
+          title: ""
+          date: 2026-08-21T20:43:55.785Z
+  version: 8.0.2
+  title: ""
+  date: 2026-08-21T22:34:12.888Z
+- commits:
     - subject: Update layers/meta-balena to 362e27ca6a40dacf7a696456136e1fe52b29a7c1
       hash: c11dc21d847f99cbdd3d6dc3e81592c2a9cfde70
       body: Update layers/meta-balena
