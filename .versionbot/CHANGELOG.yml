@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update contracts to 7314bbfc3bf44b0499093f04bdab21d22e46cc5e
+      hash: a8ba1a0bf4913932905b33bd7ccb29b1bcd33a7b
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 7314bbfc3bf44b0499093f04bdab21d22e46cc5e
+        changelog-entry: Update contracts to 7314bbfc3bf44b0499093f04bdab21d22e46cc5e
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hw.device-type: Update Orin boards L4T version to 39.2.0"
+              hash: ebae4da834d1e4efe16b41718189ae26005af527
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.148
+          title: ""
+          date: 2026-08-24T18:52:54.835Z
+  version: 8.0.3+rev1
+  title: ""
+  date: 2026-08-24T22:40:55.269Z
+- commits:
     - subject: Update layers/meta-balena to 7dbf3fe8ce198bc7b88be72bb30791223716c39c
       hash: bf34d20c5dc648c24c7853f4b5dcc5d50dda8bac
       body: Update layers/meta-balena
