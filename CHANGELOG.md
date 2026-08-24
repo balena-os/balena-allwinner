@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.3
+## (2026-08-24)
+
+
+<details>
+<summary> Update layers/meta-balena to 7dbf3fe8ce198bc7b88be72bb30791223716c39c [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.3
+> ### (2026-08-24)
+> 
+> * balena-bootloader.bbclass: Move common bits from devices to class [Michal Toman]
+> 
+
+</details>
+
 # v8.0.2+rev1
 ## (2026-08-22)
 
