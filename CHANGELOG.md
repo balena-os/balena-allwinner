@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.4
+## (2026-08-26)
+
+
+<details>
+<summary> Update layers/meta-balena to ffa8bb2d616eeca2d95de130933b1177268686ec [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.4
+> ### (2026-08-26)
+> 
+> * hostapp.yml: Set network_mode none on the hostapp service [Christina Ying Wang]
+> 
+
+</details>
+
 # v8.0.3+rev1
 ## (2026-08-24)
 
