@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4
+      hash: 10e15d2b64e3a9ef5005a38af8f1687a59f34439
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4
+        changelog-entry: Update contracts to 93b30010e7441051d361fa319a6e395f5a3c94f4
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "revpi-connect-4: remove led"
+              hash: a6cc5e7131ccc62e886d95f16001d98a59ad3303
+              body: |
+                This device type has no LED.
+              footer:
+                Relates-to: https://balena.zulipchat.com/#narrow/channel/345889-balena-io.2Fos/topic/raspberrypi.20pipeline/near/619759972
+                relates-to: https://balena.zulipchat.com/#narrow/channel/345889-balena-io.2Fos/topic/raspberrypi.20pipeline/near/619759972
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+          version: contracts-2.0.149
+          title: ""
+          date: 2026-08-28T11:23:48.697Z
+  version: 8.0.4+rev1
+  title: ""
+  date: 2026-08-28T12:26:19.043Z
+- commits:
     - subject: Update layers/meta-balena to ffa8bb2d616eeca2d95de130933b1177268686ec
       hash: c821de7898e348365ff7a415a3498db49f73faf2
       body: Update layers/meta-balena
