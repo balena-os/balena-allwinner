@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.4+rev2
+## (2026-08-28)
+
+
+<details>
+<summary> Update balena-yocto-scripts to fc3a49a7957b21a8a4f1f419b2d047c502080cd9 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.42.9
+> ### (2026-08-28)
+> 
+> * Update flowzonify to v0.4.2 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v8.0.4+rev1
 ## (2026-08-28)
 
