@@ -4,10 +4,12 @@ This repo builds support for balenaOS on the Allwinner SoCs.
 
 Currently Supported SoC versions:
 * H3
+* A64 (based on Cortex A53)
 
 Currently Supported Boards:
 * [NanoPi Neo Air](http://www.friendlyarm.com/index.php?route=product/product&product_id=151)
 * [Orange Pi Lite](http://www.orangepi.org/orangepilite/)
+* [Pine A64+](https://www.pine64.org/devices/single-board-computers/pine-a64/)
 
 ## TODO:
 * add integration with resinHUP in u-boot
