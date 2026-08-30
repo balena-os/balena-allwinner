@@ -98,6 +98,11 @@ BALENA_CONFIGS[hciuart] = " \
     CONFIG_BT_HCIUART_H4=y \
 "
 
+RESIN_CONFIGS_append = " module_unload"
+RESIN_CONFIGS[module_unload] = " \
+    CONFIG_MODULE_UNLOAD=y \
+"
+
 FILES_${PN}-fixup-scr = " \
     /boot/sun8i-h3-fixup.scr \
 "
