@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.5
+## (2026-08-31)
+
+
+<details>
+<summary> Update layers/meta-balena to 179cf40b4211e358b5daa3703112d7034cffbc23 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.5
+> ### (2026-09-01)
+> 
+> * Update flowzonify to v0.4.2 [balena-renovate[bot]]
+> 
+
+</details>
+
 # v8.0.4+rev6
 ## (2026-08-30)
 

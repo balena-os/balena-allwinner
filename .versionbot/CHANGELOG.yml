@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update layers/meta-balena to 179cf40b4211e358b5daa3703112d7034cffbc23
+      hash: d5a057d6dbe1ffea98b2e8fc857c342371beff9f
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 179cf40b4211e358b5daa3703112d7034cffbc23
+        changelog-entry: Update layers/meta-balena to 179cf40b4211e358b5daa3703112d7034cffbc23
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update flowzonify to v0.4.2
+              hash: 96c841e02785a6c15ee37fb672b316542315ad27
+              body: |
+                Update flowzonify from 0.0.0 to 0.4.2
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: meta-balena-8.0.5
+          title: ""
+          date: 2026-08-31T19:52:43.673Z
+  version: 8.0.5
+  title: ""
+  date: 2026-08-31T20:38:01.397Z
+- commits:
     - subject: Update balena-yocto-scripts to 8010de2389711c1358480d87ca5b5540b6e60501
       hash: ab253de458131e0ee62c4c4c2a65456279510a34
       body: Update balena-yocto-scripts
