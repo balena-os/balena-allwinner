@@ -1,4 +1,42 @@
 - commits:
+    - subject: Update layers/meta-balena to bbcd3913050a44c7271906cbc3550146ed2ecb2c
+      hash: a8d663fc871fb3e2668afc258c812316f734e878
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to bbcd3913050a44c7271906cbc3550146ed2ecb2c
+        changelog-entry: Update layers/meta-balena to bbcd3913050a44c7271906cbc3550146ed2ecb2c
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "initrdscripts: more robustness looking for active root"
+              hash: 35dc9967e1e23d36e422e07ba17c0cafdcdf6faf
+              body: >
+                This patch addresses two problems that we have discovered during
+
+                automated QEMU tests:
+
+                1. regenerating UUIDs sometimes makes the by-state symlinks
+                disappear
+
+                2. get_state_path_from_label sometimes picks wrong on encrypted
+                devices
+
+
+                Both fixes have details explained in the comments.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: meta-balena-8.0.7
+          title: ""
+          date: 2026-09-03T14:14:28.030Z
+  version: 8.0.7
+  title: ""
+  date: 2026-09-03T14:45:52.085Z
+- commits:
     - subject: Update balena-yocto-scripts to 6a583881607c2cfef77e09274ae13eb59c52d257
       hash: 71213ab63495832d5e073be8afffca318bf4318e
       body: Update balena-yocto-scripts

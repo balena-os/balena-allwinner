@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.7
+## (2026-09-03)
+
+
+<details>
+<summary> Update layers/meta-balena to bbcd3913050a44c7271906cbc3550146ed2ecb2c [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.7
+> ### (2026-09-03)
+> 
+> * initrdscripts: more robustness looking for active root [Michal Toman]
+> 
+
+</details>
+
 # v8.0.6+rev1
 ## (2026-09-02)
 
