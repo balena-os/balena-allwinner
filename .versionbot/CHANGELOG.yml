@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update balena-yocto-scripts to e040066f030e2ba6577fe9bc481c22e614ec336a
+      hash: 5547f0a7d79852f44f4c08871e87bf592f2f1196
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to e040066f030e2ba6577fe9bc481c22e614ec336a
+        changelog-entry: Update balena-yocto-scripts to e040066f030e2ba6577fe9bc481c22e614ec336a
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "yocto-build-deploy: Use authenticated user to update submodules"
+              hash: 2d810521a03200ae0ef9c4e61419ac408be32592
+              body: >
+                Avoid GitHub rate-limiting of self-hosted runners by using an
+                authenticated
+
+                user when updating submodules.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.42.13
+          title: ""
+          date: 2026-09-03T20:30:42.658Z
+  version: 8.0.7+rev1
+  title: ""
+  date: 2026-09-03T22:46:29.399Z
+- commits:
     - subject: Update layers/meta-balena to bbcd3913050a44c7271906cbc3550146ed2ecb2c
       hash: a8d663fc871fb3e2668afc258c812316f734e878
       body: Update layers/meta-balena
