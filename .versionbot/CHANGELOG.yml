@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to bacf9c06d38ce0747f0b7f7ef75f6e4cfd445d66
+      hash: 23219bb8d5082ca2f440bfa29716451c504bde25
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to bacf9c06d38ce0747f0b7f7ef75f6e4cfd445d66
+        changelog-entry: Update layers/meta-balena to bacf9c06d38ce0747f0b7f7ef75f6e4cfd445d66
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "docs: Fix obsolete link to application update locking documentation"
+              hash: 7331c93c62095217cbe9924a655e04215235f853
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ken Bannister <kb2ma@runbox.com>
+                signed-off-by: Ken Bannister <kb2ma@runbox.com>
+              author: Ken Bannister
+              nested: []
+          version: meta-balena-8.0.8
+          title: ""
+          date: 2026-09-03T22:55:02.129Z
+  version: 8.0.8
+  title: ""
+  date: 2026-09-04T01:12:46.809Z
+- commits:
     - subject: Update balena-yocto-scripts to e040066f030e2ba6577fe9bc481c22e614ec336a
       hash: 5547f0a7d79852f44f4c08871e87bf592f2f1196
       body: Update balena-yocto-scripts

@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.8
+## (2026-09-04)
+
+
+<details>
+<summary> Update layers/meta-balena to bacf9c06d38ce0747f0b7f7ef75f6e4cfd445d66 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.8
+> ### (2026-09-03)
+> 
+> * docs: Fix obsolete link to application update locking documentation [Ken Bannister]
+> 
+
+</details>
+
 # v8.0.7+rev1
 ## (2026-09-03)
 
