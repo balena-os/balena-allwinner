@@ -1,6 +1,32 @@
 Change log
 -----------
 
+# v8.0.10
+## (2026-09-11)
+
+
+<details>
+<summary> Update layers/meta-balena to 84a61cce6adbcb6bfe05cf08a96f6fe415359104 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.10
+> ### (2026-09-11)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 466e576 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.132
+>> #### (2026-09-02)
+>> 
+>> * Update Node.js [balena-renovate[bot]]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v8.0.9
 ## (2026-09-07)
 
