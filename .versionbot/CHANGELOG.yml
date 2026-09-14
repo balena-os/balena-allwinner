@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update balena-yocto-scripts to cfcaee3d08296635a74f3841839401afa0298e01
+      hash: 90d5db9d16d9a90595448808ce3432acf338150c
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to cfcaee3d08296635a74f3841839401afa0298e01
+        changelog-entry: Update balena-yocto-scripts to cfcaee3d08296635a74f3841839401afa0298e01
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Fix ESR tagging step
+              hash: f2c61d1131f1e65491cc00970f669b742121295e
+              body: >
+                THere was a flaw in the ESR tagging logic that would tag the
+                most recently published ESR release as next etc. even if it was
+                an older base version - this could happen in the case of
+                backports
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: balena-yocto-scripts-1.42.14
+          title: ""
+          date: 2026-09-14T19:03:42.788Z
+  version: 8.0.10+rev3
+  title: ""
+  date: 2026-09-14T20:41:45.614Z
+- commits:
     - subject: Update product-os/flowzone to 072baab6e8aacb8145de181a97ef6948e9d8b188
       hash: 0c80a399a9c6bd1094a0d5ed1ea10ef04f2efad8
       body: Update product-os/flowzone
