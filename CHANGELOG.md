@@ -1,6 +1,32 @@
 Change log
 -----------
 
+# v8.0.11
+## (2026-09-22)
+
+
+<details>
+<summary> Update layers/meta-balena to f4c04af13a62af042062c35ed6f4c84534d82cf8 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.11
+> ### (2026-09-22)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to bac9173 [balena-renovate[bot]] </summary>
+> 
+>> ### leviathan-2.36.133
+>> #### (2026-09-22)
+>> 
+>> * core/contracts: Update to v2.0.150 [Alexandru Costache]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v8.0.10+rev6
 ## (2026-09-19)
 
