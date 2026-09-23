@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 42faaf80c787ecc9e680c413a285224261b42f23
+      hash: 88e719dea5d722237af0a306658320a393bb2ee7
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 42faaf80c787ecc9e680c413a285224261b42f23
+        changelog-entry: Update layers/meta-balena to 42faaf80c787ecc9e680c413a285224261b42f23
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-balena.bbclass: Add aufs patches for 6.18 kernels"
+              hash: 3988f3f5073d2db5ffa9e84c2767061655836e84
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-8.0.12
+          title: ""
+          date: 2026-09-23T15:36:16.716Z
+  version: 8.0.12
+  title: ""
+  date: 2026-09-23T16:50:27.690Z
+- commits:
     - subject: Update layers/meta-balena to f4c04af13a62af042062c35ed6f4c84534d82cf8
       hash: eda2a7ce08908e70a3e3c400df55cdaa5a62f514
       body: Update layers/meta-balena

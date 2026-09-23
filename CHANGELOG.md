@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.12
+## (2026-09-23)
+
+
+<details>
+<summary> Update layers/meta-balena to 42faaf80c787ecc9e680c413a285224261b42f23 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.12
+> ### (2026-09-23)
+> 
+> * kernel-balena.bbclass: Add aufs patches for 6.18 kernels [Florin Sarbu]
+> 
+
+</details>
+
 # v8.0.11
 ## (2026-09-22)
 
