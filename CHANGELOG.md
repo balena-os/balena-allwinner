@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v8.0.13
+## (2026-09-25)
+
+
+<details>
+<summary> Update layers/meta-balena to cb154545ef42d3f53209032a3228d64403ef0b5f [balena-renovate[bot]] </summary>
+
+> ## meta-balena-8.0.13
+> ### (2026-09-25)
+> 
+> * renovate: Use minor change-type for supervisor major updates [Kyle Harding]
+> 
+
+</details>
+
 # v8.0.12
 ## (2026-09-23)
 
