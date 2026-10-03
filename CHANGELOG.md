@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v8.0.14+rev2
+## (2026-10-03)
+
+* Update product-os/flowzone to 0c600099ebfbcd63c26a52232243895d2d92b556 [balena-renovate[bot]]
+
 # v8.0.14+rev1
 ## (2026-10-02)
 
