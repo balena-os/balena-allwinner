@@ -1,4 +1,33 @@
 - commits:
+    - subject: Update layers/meta-balena to 52f083b4e98caa4d6ed35ec75c6bfc20fe84a466
+      hash: c3a7e76f215c02ad12977706520d468a26707de2
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 52f083b4e98caa4d6ed35ec75c6bfc20fe84a466
+        changelog-entry: Update layers/meta-balena to 52f083b4e98caa4d6ed35ec75c6bfc20fe84a466
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "classes/balena-bootloader: Don't include SDMA driver"
+              hash: 79bd493aa399cbdeb99c8000b1f8466ec6f4bf0a
+              body: |
+                ... because this causes uart transfers to fail on
+                the iot-gate-imx8plus devices after kexec. We thus
+                leave loading of this module to the kernel.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+              nested: []
+          version: meta-balena-8.0.15
+          title: ""
+          date: 2026-10-15T09:08:13.459Z
+  version: 8.0.15
+  title: ""
+  date: 2026-10-15T10:43:38.993Z
+- commits:
     - subject: Update balena-yocto-scripts to 436cae1eb39b15b2c74bac1450162eba0855eb0d
       hash: c479a14686438290c64059f142bdd45a5deb0df1
       body: Update balena-yocto-scripts
