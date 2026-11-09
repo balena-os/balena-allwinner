@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v9.0.6
+## (2026-11-09)
+
+
+<details>
+<summary> Update layers/meta-balena to 48184b689a43b762c5eea6efbc16b018eed70839 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-9.0.6
+> ### (2026-11-09)
+> 
+> * tests: os: config-json: use the shared journal helper [Alex Gonzalez]
+> * dnsmasq: move the settings to a conf.d drop-in [Alex Gonzalez]
+> 
+
+</details>
+
 # v9.0.5+rev1
 ## (2026-11-07)
 

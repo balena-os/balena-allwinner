@@ -1,4 +1,61 @@
 - commits:
+    - subject: Update layers/meta-balena to 48184b689a43b762c5eea6efbc16b018eed70839
+      hash: a688cb5a20d87f7fb96eabb3d27d11ca3e08ba98
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 48184b689a43b762c5eea6efbc16b018eed70839
+        changelog-entry: Update layers/meta-balena to 48184b689a43b762c5eea6efbc16b018eed70839
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: os: config-json: use the shared journal helper"
+              hash: 1d5b4bc2985617007bb62d5179683467b85e290a
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "dnsmasq: move the settings to a conf.d drop-in"
+              hash: 37dde807ac5e7494c1b38a50acbb05f4b2df038b
+              body: >
+                The v2.92 update stopped installing file://dnsmasq.conf, which
+                carried
+
+                enable-dbus, domain-needed and bogus-priv.
+
+
+                enable-dbus lets any container with io.balena.features.dbus set
+                the
+
+                upstream servers. That is the documented contract of the label.
+
+
+                This commit moves  them into a balena-files directory so they
+                can not be missed
+
+                again.
+
+
+                Devices running without these options forwarded plain names and
+
+                private reverse lookups upstream.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-9.0.6
+          title: ""
+          date: 2026-11-09T12:21:03.299Z
+  version: 9.0.6
+  title: ""
+  date: 2026-11-09T12:39:18.445Z
+- commits:
     - subject: Update product-os/flowzone to 5145c5d24942e80fd061596df54aeedf7b7f9e18
       hash: 8d29c2bf08f935e93dee7a7531451441c430fa74
       body: Update product-os/flowzone
