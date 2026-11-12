@@ -1,6 +1,22 @@
 Change log
 -----------
 
+# v9.0.7
+## (2026-11-12)
+
+
+<details>
+<summary> Update layers/meta-balena to 61d294761aaafe47398d4a4be5001577c29e2ac2 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-9.0.7
+> ### (2026-11-12)
+> 
+> * systemd: break unit ordering loop cycle [Alex Gonzalez]
+> * test: add systemd unit ordering check [Alex Gonzalez]
+> 
+
+</details>
+
 # v9.0.6
 ## (2026-11-09)
 
