@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update contracts to d3c1db43a35fd33802623d0f30acfb2f0bf095e2
+      hash: 5d1d38e1a5fbd0bc1eeb9a07cd862cf40c910423
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to d3c1db43a35fd33802623d0f30acfb2f0bf095e2
+        changelog-entry: Update contracts to d3c1db43a35fd33802623d0f30acfb2f0bf095e2
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Mark revpi-connect-4 and revpi-connect-s as legacy
+              hash: f88d15f5128228e7247c48d6bfcbf5ebbbb9c4b9
+              body: >
+                New RevPi devices will be supported by a single device type
+                based on
+
+                meta-revolutionpi. Signal that these are not meant for new
+                deployments.
+
+                The Connect S device type covers the Connect SE as well.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Nicolai Buchwitz <n.buchwitz@kunbus.com>
+                signed-off-by: Nicolai Buchwitz <n.buchwitz@kunbus.com>
+              author: Nicolai Buchwitz
+          version: contracts-2.0.152
+          title: ""
+          date: 2026-11-17T09:08:39.748Z
+  version: 9.1.0+rev4
+  title: ""
+  date: 2026-11-17T10:37:20.292Z
+- commits:
     - subject: Update product-os/flowzone to 416f1aa300cde3e08d82a10b9b11cdfb45143d60
       hash: 4d602e5d59136855ac891bf8e50b31c4a00f2e43
       body: Update product-os/flowzone
