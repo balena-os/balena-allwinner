@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update balena-yocto-scripts to d2ffdf35ad27c2e97c53ea54b301543cc97b3763
+      hash: be241ad703afbc636be7b06c4594bebc29ab6075
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to d2ffdf35ad27c2e97c53ea54b301543cc97b3763
+        changelog-entry: Update balena-yocto-scripts to d2ffdf35ad27c2e97c53ea54b301543cc97b3763
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "hostapp-deploy: Stop depending on s3-deploy"
+              hash: 667d2aad52da867ba651c5169ac7e0e410e5e309
+              body: >
+                web-artifacts are now the required release artifact and fail the
+
+                deploy if missing. S3 is legacy and slated for deprecation, so
+                an S3
+
+                failure should no longer block the hostapp release.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.42.19
+          title: ""
+          date: 2026-11-18T17:07:59.256Z
+  version: 9.1.1+rev1
+  title: ""
+  date: 2026-11-18T18:36:08.485Z
+- commits:
     - subject: Update layers/meta-balena to e5ab77289dba2ed27e48b92958c0fd323916d697
       hash: 9b7aae42b0454a0bb3d28ccc5516c95b148bd081
       body: Update layers/meta-balena
