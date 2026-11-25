@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v9.1.2
+## (2026-11-25)
+
+
+<details>
+<summary> Update layers/meta-balena to 2c5bb6e19fb0b26a962e9a0a4b662345cb38e89d [balena-renovate[bot]] </summary>
+
+> ## meta-balena-9.1.2
+> ### (2026-11-25)
+> 
+> * tests: chrony: Check sync status via chronyc instead of timedatectl [Florin Sarbu]
+> 
+
+</details>
+
 # v9.1.1+rev8
 ## (2026-11-24)
 
