@@ -1,4 +1,111 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 6fb8bd255436e8e4d330e78bbce67fd08363558b
+      hash: 2940f56ec96ef75a45849c8ce10f15d91eff2b4c
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 6fb8bd255436e8e4d330e78bbce67fd08363558b
+        changelog-entry: Update balena-yocto-scripts to 6fb8bd255436e8e4d330e78bbce67fd08363558b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "yocto-build-deploy: fail when the hostapp release lookup finds
+                nothing"
+              hash: 14d8f6a7fe9368de35441bd47df69303e2736067
+              body: >
+                jq prints "null" and exits 0 for an empty result set and for an
+                error
+
+                body, so a failed lookup exported release_id=null. The ESR tag
+                step and
+
+                the cloud suite both consume that id.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "yocto-build-deploy: stage kernel headers in the extension suites"
+              hash: 8dd0418cb39e9a82abae1b9d67fa4102cad4792a
+              body: >
+                The hup and cloud module probes build test modules against the
+                base and
+
+                the extension kernels, but only the os suite received headers.
+                The cloud
+
+                suite needs no images, because helios pulls them from the
+                release.
+
+
+                Release asset keys drop the service name, so the build job maps
+                each
+
+                extension to its headers. Until extensions publish headers, it
+                logs a
+
+                skip. The hostapp headers are base.tar.gz, so an extension named
+                base
+
+                fails the step.
+
+
+                Checkout does not clean the meta-balena submodule, so each leg
+                removes
+
+                the inputs that an earlier run staged before it stages its own.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "yocto-build-deploy: pass the hostapp release ids to the cloud suite"
+              hash: 33423c72d3920127e73bf2cafd9d704362bfad37
+              body: >
+                The cloud extension tests need the hostapp release that this run
+
+                deployed and a supervisor release that carries helios. Leviathan
+                passes
+
+                no workflow values to a suite, so the test job stages both ids
+                in it.
+
+
+                A release id is only valid on the cloud that deployed it. A leg
+                that
+
+                tests on another cloud skips the ids and logs a warning.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+            - subject: "yocto-build-deploy: stage extension images for the hup suite"
+              hash: a1f26fbee9792495e5464baaf5f20ca250d39012
+              body: >
+                The hup extension tests install the extensions that this run
+                built, but
+
+                the suite had no way to receive their images.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.44.1
+          title: ""
+          date: 2026-11-26T18:09:23.594Z
+  version: 9.1.2+rev1
+  title: ""
+  date: 2026-11-26T18:35:24.448Z
+- commits:
     - subject: Update layers/meta-balena to 2c5bb6e19fb0b26a962e9a0a4b662345cb38e89d
       hash: c446cd86698b878ae84cb7ea41257b10b7535db9
       body: Update layers/meta-balena
