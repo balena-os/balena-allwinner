@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update layers/meta-balena to 6be8de835e4262e4cc81d7d95bee76813810f413
+      hash: e704231a38a70942e0f2a866cb192302ba91ae00
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 6be8de835e4262e4cc81d7d95bee76813810f413
+        changelog-entry: Update layers/meta-balena to 6be8de835e4262e4cc81d7d95bee76813810f413
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "tests: cloud: wait for supervisor to be stable"
+              hash: c42eda5e186f2b80762f284e66eaa52e1b5c0c91
+              body: >
+                Wait for supervisor to be stable before proceeding during tests
+                to avoid races
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: Ryan Cooke
+              nested: []
+          version: meta-balena-9.1.3
+          title: ""
+          date: 2026-11-27T17:36:34.718Z
+  version: 9.1.3
+  title: ""
+  date: 2026-11-27T20:38:17.614Z
+- commits:
     - subject: Update balena-yocto-scripts to d747b3b055f7db08aca18af0ad0eed9a3443e9f8
       hash: d9ce0b4968aeafec8c3b483fb0e7e09fc9e777c1
       body: Update balena-yocto-scripts
