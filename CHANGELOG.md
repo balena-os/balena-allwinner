@@ -1,6 +1,21 @@
 Change log
 -----------
 
+# v9.1.4
+## (2026-11-28)
+
+
+<details>
+<summary> Update layers/meta-balena to 543e70556c9adc2b71e3fbbb815482d46ae95330 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-9.1.4
+> ### (2026-11-28)
+> 
+> * balena-image-initramfs: Double the size of the initramfs [Florin Sarbu]
+> 
+
+</details>
+
 # v9.1.3+rev1
 ## (2026-11-28)
 

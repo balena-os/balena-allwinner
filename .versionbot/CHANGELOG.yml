@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update layers/meta-balena to 543e70556c9adc2b71e3fbbb815482d46ae95330
+      hash: caa1572062d1dc56677d12a3fc07ac9bc3cc4ed6
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 543e70556c9adc2b71e3fbbb815482d46ae95330
+        changelog-entry: Update layers/meta-balena to 543e70556c9adc2b71e3fbbb815482d46ae95330
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-image-initramfs: Double the size of the initramfs"
+              hash: 073f02e8b569cae6d060bcc1ba59c5ba6e260f9d
+              body: >
+                We now have more than doubled the boot partition size, from 40
+                MiB to 100 MiB,
+
+                so we can follow suite and increase the default initramfs size.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Florin Sarbu <florin@balena.io>
+                signed-off-by: Florin Sarbu <florin@balena.io>
+              author: Florin Sarbu
+              nested: []
+          version: meta-balena-9.1.4
+          title: ""
+          date: 2026-11-28T04:59:07.226Z
+  version: 9.1.4
+  title: ""
+  date: 2026-11-28T06:38:42.084Z
+- commits:
     - subject: Update product-os/flowzone to 3ee4ebae02811ad081a100aa5a6ad4f1f8a96759
       hash: 708ba9b3ea041fa4cb47c68d67336d39dfca3524
       body: Update product-os/flowzone
